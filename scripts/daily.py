@@ -17,6 +17,11 @@ from email.utils import formataddr
 
 import requests
 
+def env(key, default=""):
+    """读取环境变量并去掉首尾空白和 BOM 等不可见字符（Windows 记事本粘贴常见）。"""
+    return re.sub(r"[\s\ufeff\u200b\u00a0]+", "", os.environ.get(key) or default)
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 UA = {"User-Agent": "Mozilla/5.0 (compatible; catti-trainer/1.0)"}
@@ -138,7 +143,7 @@ def deepseek(messages, api_key):
     r = requests.post(
         "https://api.deepseek.com/chat/completions",
         headers={"Authorization": "Bearer " + api_key},
-        json={"model": os.environ.get("DS_MODEL", "deepseek-chat"),
+        json={"model": env("DS_MODEL", "deepseek-chat"),
               "messages": messages,
               "response_format": {"type": "json_object"},
               "temperature": 0.6, "max_tokens": 6000},
@@ -217,14 +222,14 @@ def build_day(date_str, theme, api_key):
 # ---------------------------------------------------------------- email
 
 def send_mail(day, site_url):
-    host = os.environ.get("SMTP_HOST")
-    user = os.environ.get("SMTP_USER")
-    pw = os.environ.get("SMTP_PASS")
-    to = os.environ.get("MAIL_TO")
+    host = env("SMTP_HOST")
+    user = env("SMTP_USER")
+    pw = env("SMTP_PASS")
+    to = env("MAIL_TO")
     if not all([host, user, pw, to]):
         print("SMTP not configured, skip mail")
         return
-    port = int(os.environ.get("SMTP_PORT", "465"))
+    port = int(env("SMTP_PORT", "465"))
     d = day["de2zh"]
     body = f"""<div style="max-width:640px;margin:auto;font-family:sans-serif;line-height:1.7">
 <h2 style="border-bottom:3px double #235789;padding-bottom:8px">Übersetzungswerkstatt · {day['date']}</h2>
@@ -251,10 +256,10 @@ def send_mail(day, site_url):
 # ---------------------------------------------------------------- main
 
 def main():
-    api_key = os.environ.get("DEEPSEEK_API_KEY")
+    api_key = env("DEEPSEEK_API_KEY")
     if not api_key:
         sys.exit("DEEPSEEK_API_KEY missing")
-    site_url = os.environ.get("SITE_URL", "")
+    site_url = env("SITE_URL")
 
     now_bj = datetime.now(timezone.utc) + timedelta(hours=8)
     date_str = now_bj.strftime("%Y-%m-%d")
