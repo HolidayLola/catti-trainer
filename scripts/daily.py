@@ -146,10 +146,14 @@ def deepseek(messages, api_key):
         json={"model": env("DS_MODEL", "deepseek-v4-pro"),
               "messages": messages,
               "response_format": {"type": "json_object"},
-              "temperature": 0.6, "max_tokens": 6000},
-        timeout=300)
+              "temperature": 0.6, "max_tokens": 16000},
+        timeout=600)
     r.raise_for_status()
-    return json.loads(r.json()["choices"][0]["message"]["content"])
+    content = r.json()["choices"][0]["message"]["content"] or ""
+    m = re.search(r"\{.*\}", content, re.S)
+    if not m:
+        raise RuntimeError("model returned no JSON, first 300 chars: " + content[:300])
+    return json.loads(m.group(0))
 
 
 PROMPT = """你是 CATTI 德语二级笔译备考出题人。今天的主题是「{theme}」。下面给你 {n} 篇真实德语新闻（JSON），请完成四项任务，只输出一个 JSON 对象：
