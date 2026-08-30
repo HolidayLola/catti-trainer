@@ -10,7 +10,7 @@ function lsGet(k, d) { try { const v = localStorage.getItem(k); return v == null
 function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 
 /* ============ 配置与进度 ============ */
-let cfg = Object.assign({ base: "https://api.deepseek.com", key: "", model: "deepseek-v4-pro", gistToken: "", gistId: "" }, lsGet("catti.cfg", {}));
+let cfg = Object.assign({ base: "https://api.deepseek.com", key: "", model: "deepseek-v4-pro", fast: "deepseek-v4-flash", gistToken: "", gistId: "" }, lsGet("catti.cfg", {}));
 let progress = Object.assign({ vocab: [], results: {}, drills: {}, updatedAt: 0 }, lsGet("catti.progress", {}));
 function saveCfg() { lsSet("catti.cfg", cfg); }
 let syncTimer = null;
@@ -52,14 +52,14 @@ async function createGist() {
 }
 
 /* ============ LLM 调用（OpenAI 兼容接口） ============ */
-async function llm(messages, { json = true, maxTokens = 8000 } = {}) {
+async function llm(messages, { json = true, maxTokens = 8000, model = null } = {}) {
   if (!cfg.key) { toast("请先在「设置」中填入 API Key"); switchTab("settings"); throw new Error("no key"); }
   let r;
   try {
     r = await fetch(cfg.base.replace(/\/$/, "") + "/chat/completions", {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: "Bearer " + cfg.key },
-      body: JSON.stringify(Object.assign({ model: cfg.model, messages, temperature: 0.3, max_tokens: maxTokens },
+      body: JSON.stringify(Object.assign({ model: model || cfg.model, messages, temperature: 0.3, max_tokens: maxTokens },
         json ? { response_format: { type: "json_object" } } : {}))
     });
   } catch (e) {
@@ -88,14 +88,20 @@ async function showEtym(word, sentence) {
   panel.innerHTML = '<button class="close">×</button><h2>' + esc(word) + '</h2><p><span class="spin"></span> 正在查询词源…</p>';
   panel.querySelector(".close").onclick = closePanel;
   let d;
-  try {
+  const cacheKey = word.toLowerCase();
+  const cache = lsGet("catti.etym", {});
+  if (cache[cacheKey]) d = cache[cacheKey];
+  else try {
     d = await llm([
       { role: "system", content: "你是德语词源学专家，面向中国德语学习者，只输出合法 JSON。" },
       { role: "user", content: `讲解德语单词「${word}」（上下文：${sentence}）。输出 JSON：
 {"lemma":"原形","art":"冠词(名词才有,否则空)","zh":"中文释义(含此语境义)","origin":"词源讲解：来自什么语言什么词根，演变路径，2-4句，中文",
 "roots":"核心词根/词干及其含义","family":[{"w":"同根词","zh":"释义"}](5-10个，按常用度排),
 "colloc":["常用搭配1","搭配2","搭配3"],"cognate":"与英语同源词的对应(若有)","mnem":"一句记忆提示"}` }
-    ]);
+    ], { model: cfg.fast, maxTokens: 3000 });
+    cache[cacheKey] = d;
+    if (Object.keys(cache).length > 800) delete cache[Object.keys(cache)[0]];
+    lsSet("catti.etym", cache);
   } catch (e) { panel.innerHTML = '<button class="close">×</button><p>' + esc(e.message) + "</p>"; panel.querySelector(".close").onclick = closePanel; return; }
   const famHtml = (d.family || []).map(f => `<span title="${esc(f.zh)}">${esc(f.w)} <small style="color:var(--muted)">${esc(f.zh)}</small></span>`).join("");
   panel.innerHTML = `<button class="close">×</button>
@@ -233,7 +239,7 @@ function partCard(part) {
         const q = row.querySelector("input").value.trim(); if (!q) return;
         out.hidden = false; out.innerHTML = '<span class="spin"></span>';
         try {
-          out.textContent = await llm([{ role: "user", content: `中文表达「${q}」在正式德语（新闻/政府文体）中怎么说？给1-2个译法并各配一个例句，简短回答。` }], { json: false, maxTokens: 500 });
+          out.textContent = await llm([{ role: "user", content: `中文表达「${q}」在正式德语（新闻/政府文体）中怎么说？给1-2个译法并各配一个例句，简短回答。` }], { json: false, maxTokens: 1500, model: cfg.fast });
         } catch (e) { out.textContent = e.message; }
       };
       ask.appendChild(row); ask.appendChild(out); card.appendChild(ask);
@@ -435,7 +441,8 @@ function renderSettings() {
     <div class="part-label"><span class="kicker">API</span><h2>大模型接口（OpenAI 兼容）</h2></div>
     <div class="field"><label>API 地址</label><input type="text" id="s-base" value="${esc(cfg.base)}" placeholder="https://api.deepseek.com"></div>
     <div class="field"><label>API Key</label><input type="password" id="s-key" value="${esc(cfg.key)}" placeholder="sk-…"></div>
-    <div class="field"><label>模型名</label><input type="text" id="s-model" value="${esc(cfg.model)}" placeholder="deepseek-v4-pro"></div>
+    <div class="field"><label>模型名（批改，建议用强模型）</label><input type="text" id="s-model" value="${esc(cfg.model)}" placeholder="deepseek-v4-pro"></div>
+    <div class="field"><label>快速模型（词源/查表达，建议用轻量模型）</label><input type="text" id="s-fast" value="${esc(cfg.fast)}" placeholder="deepseek-v4-flash"></div>
     <button class="btn" id="s-save">保存</button> <button class="btn ghost" id="s-test">测试连接</button>
     <div class="hint">Key 只保存在本机浏览器，不会上传到任何仓库。换模型只需改地址和模型名（如通义/月之暗面/硅基流动均兼容）。</div>`;
   root.appendChild(card);
@@ -452,7 +459,8 @@ function renderSettings() {
   card.querySelector("#s-save").onclick = () => {
     cfg.base = card.querySelector("#s-base").value.trim() || "https://api.deepseek.com";
     cfg.key = card.querySelector("#s-key").value.trim();
-    cfg.model = card.querySelector("#s-model").value.trim() || "deepseek-chat";
+    cfg.model = card.querySelector("#s-model").value.trim() || "deepseek-v4-pro";
+    cfg.fast = card.querySelector("#s-fast").value.trim() || cfg.model;
     saveCfg(); toast("已保存");
   };
   card.querySelector("#s-test").onclick = async () => {
