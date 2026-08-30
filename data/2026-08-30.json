@@ -1,0 +1,167 @@
+{
+ "date": "2026-08-30",
+ "theme": "Panorama",
+ "de2zh": {
+  "title": "Isländer stimmen gegen EU-Beitrittsverhandlungen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/island-referendum-eu-beitritt-100.html",
+  "text": "Die Menschen in Island haben sich gegen die Wiederaufnahme von EU-Beitrittsverhandlungen entschieden. Das Ergebnis des Referendums fiel mit 52,8 zu 47,2 Prozent der Stimmen allerdings knapp aus.\nDie Einwohnerinnen und Einwohner Islands haben mehrheitlich gegen eine Wiederaufnahme der Gespräche über einen EU-Beitritt ihres Landes gestimmt. Das Ergebnis des Referendums fiel mit 52,8 zu 47,2 Prozent der Stimmen knapp aus, wie die Auszählung ergab. Gegen die Fortsetzung der vor 13 Jahren unterbrochenen Verhandlungen stimmten rund 12.000 Menschen mehr als dafür.\nZur Abstimmung aufgerufen waren gut 270.000 Isländerinnen und Isländer. Ein Fünftel von ihnen hatte nach Angaben des isländischen Fernsehens bereits vorab abgestimmt.\nDie sozialdemokratische Regierungschefin Kristrún Frostadóttir hatte vorab angekündigt, sie werde sich an das Ergebnis der Volksabstimmung halten.\nBereits während der Finanzkrise 2009 hatte das gerade einmal rund 400.000 Einwohner zählende Land einen Antrag auf EU-Mitgliedschaft gestellt. Doch nach der Parlamentswahl 2013 legte die neue EU-skeptische Regierung die Beitrittspläne auf Eis.\nDie Drohungen von US-Präsident Donald Trump, das benachbarte Grönland zu annektieren, der Ukraine-Krieg sowie wachsende Inflation und hohe Zinsen führten bei einigen Isländern zu einem Umdenken.\nAuch Frostadóttir hatte sich erhofft, durch die Wiederaufnahme der Gespräche Risiken für die Insel reduzieren zu können. \"Wir sehen um uns herum, dass Länder in unserer Nachbarschaft durch die Europäische Union geschützt wurden\", so die Regierungschefin. Diese Aussagen wurden vor allem als Anspielung auf den Grönland-Konflikt verstanden."
+ },
+ "zh2de": {
+  "title": "中欧经贸合作稳步发展",
+  "text": "据中国海关总署统计，2025年中国与欧盟货物贸易总额达8473亿美元，同比增长4.2%。中国继续保持欧盟第二大贸易伙伴地位。中国商务部新闻发言人表示，中方始终从战略高度看待中欧关系，愿同欧方一道，坚持相互尊重、互利共赢，加强在绿色经济、数字转型、气候变化等领域的务实合作。中国已与欧盟建立多个高层对话机制，涵盖经贸、科技、人文等领域。中方强调，中欧双方应妥善处理分歧，反对“脱钩断链”，共同维护全球产业链供应链稳定。近年来，中国不断扩大市场准入，已对欧盟多个国家实施单方面免签政策，促进人员往来与投资便利化。中国愿与欧盟携手推动多边主义，为世界和平与发展作出更大贡献。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Regierung hat die Beitrittspläne vorerst ___.",
+    "opts": [
+     "aufgegeben",
+     "verschoben",
+     "auf Eis gelegt",
+     "zurückgezogen"
+    ],
+    "ans": 2,
+    "why": "同义替换/固定搭配，auf Eis legen 表示暂时搁置，与 verschieben 近义但更正式。"
+   },
+   {
+    "q": "Die Drohungen führten bei einigen Isländern zu einem ___.",
+    "opts": [
+     "Wandel",
+     "Umdenken",
+     "Rückschritt",
+     "Stillstand"
+    ],
+    "ans": 1,
+    "why": "同义替换，Umdenken 与 Wandel 近义，但更强调思想转变，符合语境。"
+   },
+   {
+    "q": "Die Beitrittspläne wurden auf Eis gelegt, das heißt, sie wurden ___.",
+    "opts": [
+     "beschleunigt",
+     "ausgesetzt",
+     "umgesetzt",
+     "abgeschlossen"
+    ],
+    "ans": 1,
+    "why": "同义替换，auf Eis legen 与 aussetzen 同义，表示暂时中止。"
+   },
+   {
+    "q": "Die Bevölkerung stimmte mehrheitlich ___ die Wiederaufnahme der Verhandlungen.",
+    "opts": [
+     "für",
+     "gegen",
+     "über",
+     "auf"
+    ],
+    "ans": 1,
+    "why": "介词搭配，stimmen gegen/für etw. 投票反对/赞成，此处语境为反对。"
+   },
+   {
+    "q": "Die Gegner verwiesen ___ das bestehende Verteidigungsabkommen.",
+    "opts": [
+     "auf",
+     "an",
+     "über",
+     "von"
+    ],
+    "ans": 0,
+    "why": "介词搭配，verweisen auf etw.(Akk.) 表示提及、援引。"
+   },
+   {
+    "q": "Die Regierung ___ die Beitrittspläne auf Eis.",
+    "opts": [
+     "legte",
+     "machte",
+     "stellte",
+     "setzte"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 etw. auf Eis legen，动词 legte。"
+   },
+   {
+    "q": "Die Drohungen ___ bei einigen Isländern zu einem Umdenken.",
+    "opts": [
+     "führten",
+     "brachten",
+     "machten",
+     "gaben"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 führen zu etw. 导致，引起。"
+   },
+   {
+    "q": "___ Ergebnis des Referendums fiel knapp aus.",
+    "opts": [
+     "Das",
+     "Dem",
+     "Des",
+     "Den"
+    ],
+    "ans": 0,
+    "why": "语法辨析，中性名词 Ergebnis 第一格作主语，冠词 das。"
+   },
+   {
+    "q": "Die Regierungschefin kündigte an, sie ___ sich an das Ergebnis halten.",
+    "opts": [
+     "werde",
+     "wird",
+     "würde",
+     "wolle"
+    ],
+    "ans": 0,
+    "why": "语法辨析，间接引语/预告用第一将来时，主语 sie 对应 werde。"
+   },
+   {
+    "q": "Island ist zwar Gründungsmitglied der NATO, hat aber keine ___ Armee.",
+    "opts": [
+     "eigene",
+     "eigener",
+     "eigenen",
+     "eigenes"
+    ],
+    "ans": 0,
+    "why": "语法辨析，否定冠词 keine + 阴性名词，形容词弱变化词尾 -e。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung hat die Beitrittspläne auf ___ gelegt.",
+    "ans": "Eis",
+    "hint": "将入盟计划搁置",
+    "why": "固定搭配 etw. auf Eis legen，表示暂时搁置、冻结。"
+   },
+   {
+    "q": "Die Bevölkerung stimmte mehrheitlich ___ die Wiederaufnahme der Verhandlungen.",
+    "ans": "gegen",
+    "hint": "投票反对恢复谈判",
+    "why": "介词搭配 stimmen gegen/für，表示投票反对/赞成。"
+   },
+   {
+    "q": "Die Regierungschefin kündigte an, sich an das Ergebnis der ___ zu halten.",
+    "ans": "Volksabstimmung",
+    "hint": "全民公决结果",
+    "why": "名动搭配 sich an etw.(Akk.) halten，表示遵守、信守；此处 das Ergebnis der Volksabstimmung。"
+   },
+   {
+    "q": "Die Drohungen führten bei einigen Isländern zu einem ___.",
+    "ans": "Umdenken",
+    "hint": "思想转变",
+    "why": "功能动词结构 führen zu etw.，表示导致；Umdenken 为名词化动词。"
+   },
+   {
+    "q": "Die Insel hatte 1951 mit den USA ein bilaterales ___ abgeschlossen.",
+    "ans": "Verteidigungsabkommen",
+    "hint": "双边防御协定",
+    "why": "固定搭配 ein Abkommen abschließen，签订协定；此处 Verteidigungsabkommen。"
+   },
+   {
+    "q": "Die Gegner verwiesen darauf, dass das US-Abkommen und die NATO für die eigene Sicherheit ___ seien.",
+    "ans": "ausreichend",
+    "hint": "足够的",
+    "why": "形容词表语，此处与 seien 构成从句；ausreichend 表示足够，常与 für 搭配。"
+   }
+  ]
+ },
+ "issue": 1
+}
