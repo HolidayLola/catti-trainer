@@ -1,5 +1,5 @@
-﻿"use strict";
-/* ============ 鍩虹宸ュ叿 ============ */
+"use strict";
+/* ============ 基础工具 ============ */
 const $ = s => document.querySelector(s);
 const root = $("#root");
 function el(tag, cls, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
@@ -9,7 +9,7 @@ function todayStr() { return new Date(Date.now() - new Date().getTimezoneOffset(
 function lsGet(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
 function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 
-/* ============ 閰嶇疆涓庤繘搴?============ */
+/* ============ 配置与进度 ============ */
 let cfg = Object.assign({ base: "https://api.deepseek.com", key: "", model: "deepseek-v4-pro", gistToken: "", gistId: "" }, lsGet("catti.cfg", {}));
 let progress = Object.assign({ vocab: [], results: {}, drills: {}, updatedAt: 0 }, lsGet("catti.progress", {}));
 function saveCfg() { lsSet("catti.cfg", cfg); }
@@ -21,7 +21,7 @@ function saveProgress() {
   updateDueDot();
 }
 
-/* ============ GitHub Gist 浜戝悓姝ワ紙鍙€夛級 ============ */
+/* ============ GitHub Gist 云同步（可选） ============ */
 const GIST_FILE = "catti-progress.json";
 async function gistApi(method, path, body) {
   const r = await fetch("https://api.github.com" + path, {
@@ -33,7 +33,7 @@ async function gistApi(method, path, body) {
 }
 async function pushGist() {
   try { await gistApi("PATCH", "/gists/" + cfg.gistId, { files: { [GIST_FILE]: { content: JSON.stringify(progress) } } }); }
-  catch (e) { console.warn(e); toast("浜戝悓姝ュけ璐ワ細" + e.message); }
+  catch (e) { console.warn(e); toast("云同步失败：" + e.message); }
 }
 async function pullGist() {
   const g = await gistApi("GET", "/gists/" + cfg.gistId);
@@ -43,7 +43,7 @@ async function pullGist() {
   if ((remote.updatedAt || 0) > (progress.updatedAt || 0)) {
     progress = Object.assign({ vocab: [], results: {}, drills: {} }, remote);
     lsSet("catti.progress", progress);
-    toast("宸蹭粠浜戠鎷夊彇鏈€鏂板涔犺褰?);
+    toast("已从云端拉取最新学习记录");
   }
 }
 async function createGist() {
@@ -51,9 +51,9 @@ async function createGist() {
   cfg.gistId = g.id; saveCfg();
 }
 
-/* ============ LLM 璋冪敤锛圤penAI 鍏煎鎺ュ彛锛?============ */
+/* ============ LLM 调用（OpenAI 兼容接口） ============ */
 async function llm(messages, { json = true, maxTokens = 4000 } = {}) {
-  if (!cfg.key) { toast("璇峰厛鍦ㄣ€岃缃€嶄腑濉叆 API Key"); switchTab("settings"); throw new Error("no key"); }
+  if (!cfg.key) { toast("请先在「设置」中填入 API Key"); switchTab("settings"); throw new Error("no key"); }
   let r;
   try {
     r = await fetch(cfg.base.replace(/\/$/, "") + "/chat/completions", {
@@ -63,87 +63,94 @@ async function llm(messages, { json = true, maxTokens = 4000 } = {}) {
         json ? { response_format: { type: "json_object" } } : {}))
     });
   } catch (e) {
-    throw new Error("缃戠粶璇锋眰澶辫触鈥斺€斿彲鑳芥槸缃戠粶涓嶉€氭垨璇?API 涓嶅厑璁告祻瑙堝櫒鐩磋繛锛圕ORS锛夈€傚彲鍦ㄨ缃腑鏀圭敤浠ｇ悊鍦板潃銆?);
+    throw new Error("网络请求失败——可能是网络不通或该 API 不允许浏览器直连（CORS）。可在设置中改用代理地址。");
   }
-  if (r.status === 401) throw new Error("API Key 鏃犳晥锛?01锛?);
-  if (!r.ok) throw new Error("API 閿欒 " + r.status + "锛? + (await r.text()).slice(0, 200));
+  if (r.status === 401) throw new Error("API Key 无效（401）");
+  if (!r.ok) throw new Error("API 错误 " + r.status + "：" + (await r.text()).slice(0, 200));
   const content = (await r.json()).choices[0].message.content;
   if (!json) return content;
   try { return JSON.parse(content.replace(/^```(json)?|```$/g, "").trim()); }
-  catch (e) { throw new Error("妯″瀷鏈繑鍥炲悎娉?JSON锛岃閲嶈瘯"); }
+  catch (e) { throw new Error("模型未返回合法 JSON，请重试"); }
 }
 
-/* ============ 鏁版嵁鍔犺浇 ============ */
+/* ============ 数据加载 ============ */
 let index = null, day = null, viewDate = null, curTab = "today";
 async function fetchJson(path) { const r = await fetch(path + "?t=" + Date.now()); if (!r.ok) throw new Error(path + " " + r.status); return r.json(); }
 async function loadIndex() { index = await fetchJson("data/index.json"); }
 async function loadDay(date) { day = await fetchJson("data/" + date + ".json"); viewDate = date; }
 
-/* ============ 璇嶆簮鏌ヨ ============ */
+/* ============ 词源查询 ============ */
 const panel = $("#panel");
 function closePanel() { panel.hidden = true; }
 async function showEtym(word, sentence) {
   panel.hidden = false;
-  panel.innerHTML = '<button class="close">脳</button><h2>' + esc(word) + '</h2><p><span class="spin"></span> 姝ｅ湪鏌ヨ璇嶆簮鈥?/p>';
+  panel.innerHTML = '<button class="close">×</button><h2>' + esc(word) + '</h2><p><span class="spin"></span> 正在查询词源…</p>';
   panel.querySelector(".close").onclick = closePanel;
   let d;
   try {
     d = await llm([
-      { role: "system", content: "浣犳槸寰疯璇嶆簮瀛︿笓瀹讹紝闈㈠悜涓浗寰疯瀛︿範鑰咃紝鍙緭鍑哄悎娉?JSON銆? },
-      { role: "user", content: `璁茶В寰疯鍗曡瘝銆?{word}銆嶏紙涓婁笅鏂囷細${sentence}锛夈€傝緭鍑?JSON锛?{"lemma":"鍘熷舰","art":"鍐犺瘝(鍚嶈瘝鎵嶆湁,鍚﹀垯绌?","zh":"涓枃閲婁箟(鍚璇涔?","origin":"璇嶆簮璁茶В锛氭潵鑷粈涔堣瑷€浠€涔堣瘝鏍癸紝婕斿彉璺緞锛?-4鍙ワ紝涓枃",
-"roots":"鏍稿績璇嶆牴/璇嶅共鍙婂叾鍚箟","family":[{"w":"鍚屾牴璇?,"zh":"閲婁箟"}](5-10涓紝鎸夊父鐢ㄥ害鎺?,
-"colloc":["甯哥敤鎼厤1","鎼厤2","鎼厤3"],"cognate":"涓庤嫳璇悓婧愯瘝鐨勫搴?鑻ユ湁)","mnem":"涓€鍙ヨ蹇嗘彁绀?}` }
+      { role: "system", content: "你是德语词源学专家，面向中国德语学习者，只输出合法 JSON。" },
+      { role: "user", content: `讲解德语单词「${word}」（上下文：${sentence}）。输出 JSON：
+{"lemma":"原形","art":"冠词(名词才有,否则空)","zh":"中文释义(含此语境义)","origin":"词源讲解：来自什么语言什么词根，演变路径，2-4句，中文",
+"roots":"核心词根/词干及其含义","family":[{"w":"同根词","zh":"释义"}](5-10个，按常用度排),
+"colloc":["常用搭配1","搭配2","搭配3"],"cognate":"与英语同源词的对应(若有)","mnem":"一句记忆提示"}` }
     ]);
-  } catch (e) { panel.innerHTML = '<button class="close">脳</button><p>' + esc(e.message) + "</p>"; panel.querySelector(".close").onclick = closePanel; return; }
+  } catch (e) { panel.innerHTML = '<button class="close">×</button><p>' + esc(e.message) + "</p>"; panel.querySelector(".close").onclick = closePanel; return; }
   const famHtml = (d.family || []).map(f => `<span title="${esc(f.zh)}">${esc(f.w)} <small style="color:var(--muted)">${esc(f.zh)}</small></span>`).join("");
-  panel.innerHTML = `<button class="close">脳</button>
+  panel.innerHTML = `<button class="close">×</button>
     <h2>${esc(d.art ? d.art + " " : "")}${esc(d.lemma || word)}</h2>
     <div>${esc(d.zh || "")}</div>
-    <div class="etyk">璇嶆簮 Herkunft</div><div>${esc(d.origin || "")}</div>
-    <div class="etyk">璇嶆牴 Wurzel</div><div>${esc(d.roots || "")}</div>
-    <div class="etyk">鍚屾牴璇嶆棌 Wortfamilie</div><div class="fam">${famHtml}</div>
-    <div class="etyk">鎼厤 Kollokationen</div><div>${(d.colloc || []).map(esc).join("锛?)}</div>
-    ${d.cognate ? '<div class="etyk">鑻辫鍚屾簮</div><div>' + esc(d.cognate) + "</div>" : ""}
-    ${d.mnem ? '<div class="etyk">璁板繂鎻愮ず</div><div>' + esc(d.mnem) + "</div>" : ""}
-    <button class="btn" id="add-vocab">锛?鏀跺叆鐢熻瘝鏈?/button>
-    <div class="hint">鍚屾牴璇嶆棌閲岀殑璇嶄篃鍊煎緱涓€璧疯鈥斺€旂偣鍑讳笅鏂规寜閽彧鏀跺綍鏈瘝锛岃瘝鏃忎俊鎭細瀛樿繘澶囨敞銆?/div>`;
+    <div class="etyk">词源 Herkunft</div><div>${esc(d.origin || "")}</div>
+    <div class="etyk">词根 Wurzel</div><div>${esc(d.roots || "")}</div>
+    <div class="etyk">同根词族 Wortfamilie</div><div class="fam">${famHtml}</div>
+    <div class="etyk">搭配 Kollokationen</div><div>${(d.colloc || []).map(esc).join("；")}</div>
+    ${d.cognate ? '<div class="etyk">英语同源</div><div>' + esc(d.cognate) + "</div>" : ""}
+    ${d.mnem ? '<div class="etyk">记忆提示</div><div>' + esc(d.mnem) + "</div>" : ""}
+    <button class="btn" id="add-vocab">＋ 收入生词本</button>
+    <div class="hint">同根词族里的词也值得一起记——点击下方按钮只收录本词，词族信息会存进备注。</div>`;
   panel.querySelector(".close").onclick = closePanel;
   panel.querySelector("#add-vocab").onclick = () => {
     addVocab({
       de: (d.art ? d.art + " " : "") + (d.lemma || word), zh: d.zh || "",
-      root: d.roots || "", note: "璇嶆棌: " + (d.family || []).map(f => f.w).join(", ") + (d.colloc && d.colloc.length ? "锝滄惌閰? " + d.colloc.join("; ") : "")
+      root: d.roots || "", note: "词族: " + (d.family || []).map(f => f.w).join(", ") + (d.colloc && d.colloc.length ? "｜搭配: " + d.colloc.join("; ") : "")
     });
-    panel.querySelector("#add-vocab").textContent = "鉁?宸叉敹鍏ョ敓璇嶆湰";
+    panel.querySelector("#add-vocab").textContent = "✓ 已收入生词本";
     panel.querySelector("#add-vocab").disabled = true;
   };
 }
 function addVocab(v) {
   const lemma = v.de.replace(/^(der|die|das)\s+/i, "").toLowerCase();
-  if (progress.vocab.some(x => x.de.replace(/^(der|die|das)\s+/i, "").toLowerCase() === lemma)) { toast("宸插湪鐢熻瘝鏈腑"); return; }
+  if (progress.vocab.some(x => x.de.replace(/^(der|die|das)\s+/i, "").toLowerCase() === lemma)) { toast("已在生词本中"); return; }
   progress.vocab.push(Object.assign({ addedAt: todayStr(), srs: { due: todayStr(), iv: 0, ease: 2.5, reps: 0 } }, v));
-  saveProgress(); toast("宸插姞鍏ョ敓璇嶆湰锛? + v.de);
+  saveProgress(); toast("已加入生词本：" + v.de);
   document.querySelectorAll('.passage .w').forEach(w => { if (w.textContent.toLowerCase() === lemma) w.classList.add("saved"); });
 }
 
-/* ============ 鎵规敼 ============ */
+/* ============ 批改 ============ */
 function gradePrompt(dir, source, mine) {
   const rubric = dir === "de2zh"
-    ? "鎵ｅ垎绫诲瀷锛氶敊璇?-1~-3)銆佹紡璇?-1~-2)銆佺悊瑙?-1~-2)銆佽〃杈?-0.5~-1)銆侀敊鍒瓧/鏍囩偣(-0.5)"
-    : "鎵ｅ垎绫诲瀷锛氳娉?-1~-2锛屾牸/鍔ㄨ瘝鍙樹綅/妗嗘灦缁撴瀯/鎬ф暟涓€鑷撮』鍗曠嫭鎸囧嚭)銆侀敊璇?-1~-3)銆佹紡璇?-1~-2)銆佺敤璇嶆惌閰?-0.5~-1.5)銆佸彞寮?-0.5~-1)";
-  return `浣犳槸 CATTI 寰疯浜岀骇绗旇瘧闃呭嵎涓撳銆傝鎸夋墸鍒嗗埗鎵规敼涓嬮潰杩欑瘒${dir === "de2zh" ? "寰疯瘧姹? : "姹夎瘧寰?}锛堟弧鍒?5锛屽強鏍肩嚎15锛夈€?{rubric}銆?璇勫垎瀵规爣鐪熷疄 CATTI 闃呭嵎涓ユ牸搴︼紝涓嶉€佷汉鎯呭垎锛屼絾姣忓鎵ｅ垎閮借鏈変緷鎹紱q 绮剧‘寮曠敤鍑洪敊鏂囧瓧锛寈 鐢ㄤ腑鏂囪娓呴敊鍦ㄥ摢銆佽€冪偣鏄粈涔堬紝fix 缁欐纭瘧娉曪紱deductions 鎸夊師鏂囬『搴忋€?ref 缁欏嚭楂樿川閲忓弬鑰冭瘧鏂?{dir === "zh2de" ? "锛堝痉璇弬鑰冭瘧鏂囧繀椤昏娉曢浂閿欒銆佺敤璇嶆寮忓湴閬擄級" : ""}銆俿um 鍐?-4鍙ユ€昏瘎锛堜富瑕佸け鍒嗘ā寮?閽堝鎬у缓璁級銆?vocab 鎸?3-6 涓湰绡囧€煎緱绉疮鐨勮瘝姹?鎼厤锛坉e 涓哄痉璇師褰㈠甫鍐犺瘝锛夈€?鍙緭鍑?JSON锛歿"score":鏁板瓧,"max":25,"deductions":[{"q":"","t":"","p":-1,"x":"","fix":""}],"ref":"","sum":"","vocab":[{"de":"","zh":"","note":""}]}
+    ? "扣分类型：错译(-1~-3)、漏译(-1~-2)、理解(-1~-2)、表达(-0.5~-1)、错别字/标点(-0.5)"
+    : "扣分类型：语法(-1~-2，格/动词变位/框架结构/性数一致须单独指出)、错译(-1~-3)、漏译(-1~-2)、用词搭配(-0.5~-1.5)、句式(-0.5~-1)";
+  return `你是 CATTI 德语二级笔译阅卷专家。请按扣分制批改下面这篇${dir === "de2zh" ? "德译汉" : "汉译德"}（满分25，及格线15）。${rubric}。
+评分对标真实 CATTI 阅卷严格度，不送人情分，但每处扣分都要有依据；q 精确引用出错文字，x 用中文讲清错在哪、考点是什么，fix 给正确译法；deductions 按原文顺序。
+ref 给出高质量参考译文${dir === "zh2de" ? "（德语参考译文必须语法零错误、用词正式地道）" : ""}。sum 写2-4句总评（主要失分模式+针对性建议）。
+vocab 挑 3-6 个本篇值得积累的词汇/搭配（de 为德语原形带冠词）。
+只输出 JSON：{"score":数字,"max":25,"deductions":[{"q":"","t":"","p":-1,"x":"","fix":""}],"ref":"","sum":"","vocab":[{"de":"","zh":"","note":""}]}
 
-銆愬師鏂囥€?${source}
+【原文】
+${source}
 
-銆愯€冪敓璇戞枃銆?${mine}`;
+【考生译文】
+${mine}`;
 }
 async function grade(part, mineText, card) {
   const p = day[part];
   const btn = card.querySelector(".btn");
-  btn.disabled = true; btn.innerHTML = '<span class="spin"></span> AI 鎵规敼涓€?;
+  btn.disabled = true; btn.innerHTML = '<span class="spin"></span> AI 批改中…';
   let fb;
   try {
     fb = await llm([{ role: "user", content: gradePrompt(part, p.text, mineText) }], { maxTokens: 5000 });
-  } catch (e) { toast(e.message); btn.disabled = false; btn.textContent = "鎻愪氦鎵规敼"; return; }
+  } catch (e) { toast(e.message); btn.disabled = false; btn.textContent = "提交批改"; return; }
   fb.mine = mineText; fb.at = new Date().toISOString();
   if (!progress.results[viewDate]) progress.results[viewDate] = {};
   progress.results[viewDate][part] = fb;
@@ -152,22 +159,22 @@ async function grade(part, mineText, card) {
   render();
 }
 
-/* ============ 浠婃棩缁冧範 ============ */
+/* ============ 今日练习 ============ */
 function renderToday() {
   root.innerHTML = "";
   const due = dueVocab().length;
   if (due) {
-    const b = el("div", "banner", `馃摎 鏈?<b>${due}</b> 涓敓璇嶅埌鏈熷緟澶嶄範鈥斺€斿厛澶嶄範鍐嶅仛鏂伴鏁堟灉鏈€濂姐€?<a href="#" id="go-rev">鍘诲涔?鈫?/a>`);
+    const b = el("div", "banner", `📚 有 <b>${due}</b> 个生词到期待复习——先复习再做新题效果最好。 <a href="#" id="go-rev">去复习 →</a>`);
     b.querySelector("#go-rev").onclick = e => { e.preventDefault(); switchTab("review"); };
     root.appendChild(b);
   }
   if (!day) {
-    root.appendChild(el("div", "empty", "浠婃棩鏉愭枡灏氭湭鐢熸垚銆?br>GitHub Actions 姣忓ぉ鏃╀笂绾?6:45 鑷姩鎶撳彇鏂伴椈骞舵洿鏂帮紱<br>涔熷彲浠ュ埌浠撳簱 Actions 椤垫墜鍔ㄨЕ鍙?daily-material 宸ヤ綔娴併€?));
+    root.appendChild(el("div", "empty", "今日材料尚未生成。<br>GitHub Actions 每天早上约 6:45 自动抓取新闻并更新；<br>也可以到仓库 Actions 页手动触发 daily-material 工作流。"));
     return;
   }
-  $("#issue-line").textContent = `Ausgabe Nr. ${day.issue || "?"} 路 ${day.date} 路 涓婚锛?{day.theme}`;
+  $("#issue-line").textContent = `Ausgabe Nr. ${day.issue || "?"} · ${day.date} · 主题：${day.theme}`;
   if (viewDate !== (index.days && index.days[0])) {
-    const back = el("div", "", '<button class="btn ghost">鈫?鍥炲埌鏈€鏂颁竴鏈?/button>');
+    const back = el("div", "", '<button class="btn ghost">← 回到最新一期</button>');
     back.querySelector("button").onclick = async () => { await loadDay(index.days[0]); render(); };
     root.appendChild(back);
   }
@@ -175,23 +182,23 @@ function renderToday() {
   root.appendChild(partCard("zh2de"));
 }
 function tokenizeDe(text) {
-  return esc(text).replace(/[A-Za-z脛脰脺盲枚眉脽]{3,}/g, m => `<span class="w">${m}</span>`);
+  return esc(text).replace(/[A-Za-zÄÖÜäöüß]{3,}/g, m => `<span class="w">${m}</span>`);
 }
 function partCard(part) {
   const p = day[part], isDe = part === "de2zh";
   const card = el("div", "card");
   const res = (progress.results[viewDate] || {})[part];
   const head = el("div", "part-label",
-    `<span class="kicker">${isDe ? "Teil 1 路 Deutsch 鈫?Chinesisch" : "Teil 2 路 Chinesisch 鈫?Deutsch"}</span><h2>${isDe ? "寰疯瘧姹? : "姹夎瘧寰?}</h2>`);
+    `<span class="kicker">${isDe ? "Teil 1 · Deutsch → Chinesisch" : "Teil 2 · Chinesisch → Deutsch"}</span><h2>${isDe ? "德译汉" : "汉译德"}</h2>`);
   head.appendChild(res
-    ? el("span", "badge " + (res.score >= 15 ? "done" : "fail"), res.score >= 15 ? "宸叉壒鏀?路 杈炬爣" : "宸叉壒鏀?路 鏈揪鏍?)
-    : el("span", "badge wait", "寰呬綔绛?));
+    ? el("span", "badge " + (res.score >= 15 ? "done" : "fail"), res.score >= 15 ? "已批改 · 达标" : "已批改 · 未达标")
+    : el("span", "badge wait", "待作答"));
   card.appendChild(head);
   if (p.title) card.appendChild(el("h3", "p-title", esc(p.title)));
   const src = [];
   if (p.source) src.push(esc(p.source));
-  if (p.url) src.push(`<a href="${esc(p.url)}" target="_blank" rel="noopener">鍘熸枃閾炬帴</a>`);
-  if (src.length) card.appendChild(el("div", "src", "鏉ユ簮锛? + src.join(" 路 ")));
+  if (p.url) src.push(`<a href="${esc(p.url)}" target="_blank" rel="noopener">原文链接</a>`);
+  if (src.length) card.appendChild(el("div", "src", "来源：" + src.join(" · ")));
   const passage = el("div", "passage");
   passage.innerHTML = isDe ? tokenizeDe(p.text) : esc(p.text);
   if (isDe) passage.addEventListener("click", e => {
@@ -200,32 +207,32 @@ function partCard(part) {
     showEtym(w.textContent, sent.trim().slice(0, 300));
   });
   card.appendChild(passage);
-  if (isDe) card.appendChild(el("div", "hint", "馃挕 鐐逛换浣曞崟璇嶆煡璇嶆簮璇嶆牴銆佸悓鏍硅瘝鏃忥紝涓€閿敹鍏ョ敓璇嶆湰銆?));
+  if (isDe) card.appendChild(el("div", "hint", "💡 点任何单词查词源词根、同根词族，一键收入生词本。"));
 
   if (res) renderFeedback(card, res, part);
   else {
     const draftKey = "draft:" + viewDate + ":" + part;
     const ta = document.createElement("textarea");
-    ta.placeholder = isDe ? "鍦ㄦ杈撳叆浣犵殑姹夎璇戞枃鈥? : "Geben Sie hier Ihre deutsche 脺bersetzung ein 鈥?;
+    ta.placeholder = isDe ? "在此输入你的汉语译文…" : "Geben Sie hier Ihre deutsche Übersetzung ein …";
     try { ta.value = localStorage.getItem(draftKey) || ""; } catch (e) {}
     ta.addEventListener("input", () => { try { localStorage.setItem(draftKey, ta.value); } catch (e) {} });
     card.appendChild(ta);
-    const btn = el("button", "btn", "鎻愪氦鎵规敼");
+    const btn = el("button", "btn", "提交批改");
     btn.onclick = () => {
       const txt = ta.value.trim();
-      if (txt.length < 20) { toast("璇戞枃澶煭锛岃瀹屾垚鍚庡啀鎻愪氦"); return; }
+      if (txt.length < 20) { toast("译文太短，请完成后再提交"); return; }
       grade(part, txt, card);
     };
     card.appendChild(btn);
     if (!isDe) {
-      const ask = el("details", "", "<summary>缈昏瘧鍗′綇浜嗭紵闂竴涓嬫煇涓〃杈炬€庝箞璇?/summary>");
-      const row = el("div", "colloc-row", '<input type="text" placeholder="渚嬪锛氶潪鐗╄川鏂囧寲閬椾骇 / 鍚屾瘮澧為暱 8%"><button class="btn small">闂?AI</button>');
+      const ask = el("details", "", "<summary>翻译卡住了？问一下某个表达怎么说</summary>");
+      const row = el("div", "colloc-row", '<input type="text" placeholder="例如：非物质文化遗产 / 同比增长 8%"><button class="btn small">问 AI</button>');
       const out = el("div", "why"); out.hidden = true;
       row.querySelector("button").onclick = async () => {
         const q = row.querySelector("input").value.trim(); if (!q) return;
         out.hidden = false; out.innerHTML = '<span class="spin"></span>';
         try {
-          out.textContent = await llm([{ role: "user", content: `涓枃琛ㄨ揪銆?{q}銆嶅湪姝ｅ紡寰疯锛堟柊闂?鏀垮簻鏂囦綋锛変腑鎬庝箞璇达紵缁?-2涓瘧娉曞苟鍚勯厤涓€涓緥鍙ワ紝绠€鐭洖绛斻€俙 }], { json: false, maxTokens: 500 });
+          out.textContent = await llm([{ role: "user", content: `中文表达「${q}」在正式德语（新闻/政府文体）中怎么说？给1-2个译法并各配一个例句，简短回答。` }], { json: false, maxTokens: 500 });
         } catch (e) { out.textContent = e.message; }
       };
       ask.appendChild(row); ask.appendChild(out); card.appendChild(ask);
@@ -235,46 +242,46 @@ function partCard(part) {
 }
 function renderFeedback(card, fb, part) {
   const pass = fb.score >= 15;
-  card.appendChild(el("div", "", "<b>浣犵殑璇戞枃</b>"));
+  card.appendChild(el("div", "", "<b>你的译文</b>"));
   card.appendChild(el("div", "subtext", esc(fb.mine)));
   const sl = el("div", "score-line");
   sl.appendChild(el("span", "num " + (pass ? "pass" : "nopass"), fb.score + ' <span style="font-size:15px;font-weight:500">/ 25</span>'));
   card.appendChild(sl);
   (fb.deductions || []).forEach(d => {
-    let h = `<span class="p">${d.p}</span><span class="t">[${esc(d.t)}]</span><span class="q">鈥?{esc(d.q)}鈥?/span><br>${esc(d.x)}`;
-    if (d.fix) h += `<br><span class="fix">鉁?${esc(d.fix)}</span>`;
+    let h = `<span class="p">${d.p}</span><span class="t">[${esc(d.t)}]</span><span class="q">„${esc(d.q)}“</span><br>${esc(d.x)}`;
+    if (d.fix) h += `<br><span class="fix">✓ ${esc(d.fix)}</span>`;
     card.appendChild(el("div", "ded", h));
   });
-  if (!(fb.deductions || []).length) card.appendChild(el("p", "", "鏃犳墸鍒嗙偣锛岃瘧鏂囪川閲忓緢濂姐€?));
+  if (!(fb.deductions || []).length) card.appendChild(el("p", "", "无扣分点，译文质量很好。"));
   if (fb.ref) {
-    const det = el("details", "", "<summary>鍙傝€冭瘧鏂?/summary>");
+    const det = el("details", "", "<summary>参考译文</summary>");
     det.appendChild(el("div", "refbox", esc(fb.ref)));
     card.appendChild(det);
   }
-  if (fb.sum) card.appendChild(el("div", "sum", "<b>鎬昏瘎</b>銆€" + esc(fb.sum)));
+  if (fb.sum) card.appendChild(el("div", "sum", "<b>总评</b>　" + esc(fb.sum)));
   if (fb.vocab && fb.vocab.length) {
-    const vb = el("div", "sum", "<b>鏈瘒绉疮</b>銆€");
+    const vb = el("div", "sum", "<b>本篇积累</b>　");
     fb.vocab.forEach(v => {
-      const b = el("button", "btn small ghost", "锛?" + esc(v.de));
+      const b = el("button", "btn small ghost", "＋ " + esc(v.de));
       b.style.margin = "3px 4px 3px 0";
       b.title = v.zh;
-      b.onclick = () => { addVocab(v); b.disabled = true; b.textContent = "鉁?" + v.de; };
+      b.onclick = () => { addVocab(v); b.disabled = true; b.textContent = "✓ " + v.de; };
       vb.appendChild(b);
     });
     card.appendChild(vb);
   }
-  const redo = el("button", "btn ghost", "娓呴櫎缁撴灉锛岄噸鏂扮粌涔?);
+  const redo = el("button", "btn ghost", "清除结果，重新练习");
   redo.onclick = () => { delete progress.results[viewDate][part]; saveProgress(); render(); };
   card.appendChild(redo);
 }
 
-/* ============ 姣忔棩灏忓嵎 ============ */
+/* ============ 每日小卷 ============ */
 function renderDrills() {
   root.innerHTML = "";
-  if (!day || !day.drills || !(day.drills.mcq || []).length) { root.appendChild(el("div", "empty", "浠婃棩灏忓嵎灏氭湭鐢熸垚銆?)); return; }
+  if (!day || !day.drills || !(day.drills.mcq || []).length) { root.appendChild(el("div", "empty", "今日小卷尚未生成。")); return; }
   const stat = progress.drills[viewDate] || { answers: {}, colloc: {} };
   const card = el("div", "card");
-  card.appendChild(el("div", "part-label", '<span class="kicker">Wortschatz-Quiz</span><h2>缁煎悎椋庢牸鍗曢€?路 10 棰?/h2>'));
+  card.appendChild(el("div", "part-label", '<span class="kicker">Wortschatz-Quiz</span><h2>综合风格单选 · 10 题</h2>'));
   day.drills.mcq.forEach((q, i) => {
     const box = el("div", "mcq", `<div class="qtext">${i + 1}. ${esc(q.q)}</div>`);
     const opts = el("div", "opts");
@@ -297,14 +304,14 @@ function renderDrills() {
   root.appendChild(card);
 
   const card2 = el("div", "card");
-  card2.appendChild(el("div", "part-label", '<span class="kicker">Kollokationen</span><h2>鍥哄畾鎼厤濉┖ 路 ' + (day.drills.colloc || []).length + " 棰?/h2>"));
+  card2.appendChild(el("div", "part-label", '<span class="kicker">Kollokationen</span><h2>固定搭配填空 · ' + (day.drills.colloc || []).length + " 题</h2>"));
   (day.drills.colloc || []).forEach((q, i) => {
     const done = stat.colloc[i];
     const box = el("div", "mcq", `<div class="qtext">${i + 1}. ${esc(q.q)}</div><div class="hint">${esc(q.hint || "")}</div>`);
     if (done) {
-      box.appendChild(el("div", "why", (done.ok ? "鉁?姝ｇ‘ " : `鉁?浣犲～鐨勬槸銆?{esc(done.val)}銆嶏紝姝ｇ‘绛旀锛?b>${esc(q.ans)}</b>銆俙) + (q.why ? "<br>" + esc(q.why) : "")));
+      box.appendChild(el("div", "why", (done.ok ? "✓ 正确 " : `✗ 你填的是「${esc(done.val)}」，正确答案：<b>${esc(q.ans)}</b>。`) + (q.why ? "<br>" + esc(q.why) : "")));
     } else {
-      const row = el("div", "colloc-row", '<input type="text" placeholder="濉叆绛旀"><button class="btn small">妫€鏌?/button>');
+      const row = el("div", "colloc-row", '<input type="text" placeholder="填入答案"><button class="btn small">检查</button>');
       const check = () => {
         const val = row.querySelector("input").value.trim();
         if (!val) return;
@@ -319,31 +326,31 @@ function renderDrills() {
   });
   const total = day.drills.mcq.length, right = day.drills.mcq.filter((q, i) => stat.answers[i] === q.ans).length;
   const answeredN = Object.keys(stat.answers).length;
-  if (answeredN === total) card2.appendChild(el("div", "sum", `<b>鍗曢€夊緱鍒?${right}/${total}</b>銆€閿欓鑰冪偣寤鸿椤烘墜鏀跺叆鐢熻瘝鏈€俙));
+  if (answeredN === total) card2.appendChild(el("div", "sum", `<b>单选得分 ${right}/${total}</b>　错题考点建议顺手收入生词本。`));
   root.appendChild(card2);
 }
 
-/* ============ 澶嶄範锛堥棿闅旈噸澶嶏級 ============ */
+/* ============ 复习（间隔重复） ============ */
 function dueVocab() { const t = todayStr(); return progress.vocab.filter(v => (v.srs && v.srs.due || t) <= t); }
 function updateDueDot() { const n = dueVocab().length; const d = $("#due-dot"); d.hidden = !n; d.textContent = n; }
 function renderReview() {
   root.innerHTML = "";
   const queue = dueVocab();
-  if (!queue.length) { root.appendChild(el("div", "empty", "浠婂ぉ娌℃湁鍒版湡鐨勭敓璇?馃帀<br>鍘诲仛浠婃棩缁冧範锛岀偣閫夌敓璇嶇户缁Н绱€?)); return; }
+  if (!queue.length) { root.appendChild(el("div", "empty", "今天没有到期的生词 🎉<br>去做今日练习，点选生词继续积累。")); return; }
   let i = 0;
   const card = el("div", "card rev-card");
-  root.appendChild(el("div", "hint", "鍒版湡 " + queue.length + " 璇嶃€傛寜璁板繂鎯呭喌鑷瘎锛岀郴缁熸寜闂撮殧閲嶅瀹夋帓涓嬫澶嶄範銆?));
+  root.appendChild(el("div", "hint", "到期 " + queue.length + " 词。按记忆情况自评，系统按间隔重复安排下次复习。"));
   root.appendChild(card);
   function show() {
-    if (i >= queue.length) { card.innerHTML = "<h2>鉁?浠婃棩澶嶄範瀹屾垚</h2>"; updateDueDot(); return; }
+    if (i >= queue.length) { card.innerHTML = "<h2>✓ 今日复习完成</h2>"; updateDueDot(); return; }
     const v = queue[i];
     card.innerHTML = `<div class="hint">${i + 1} / ${queue.length}</div><div class="front">${esc(v.de)}</div>
-      <button class="btn" id="flip">鏄剧ず閲婁箟</button><div class="back" hidden></div>`;
+      <button class="btn" id="flip">显示释义</button><div class="back" hidden></div>`;
     card.querySelector("#flip").onclick = () => {
       const back = card.querySelector(".back");
       back.hidden = false;
-      back.innerHTML = `<div>${esc(v.zh)}</div>${v.root ? '<div class="hint">璇嶆牴锛? + esc(v.root) + "</div>" : ""}${v.note ? '<div class="hint">' + esc(v.note) + "</div>" : ""}
-        <div class="rev-btns"><button class="btn again">涓嶄細</button><button class="btn hard">妯＄硦</button><button class="btn good">浼?/button></div>`;
+      back.innerHTML = `<div>${esc(v.zh)}</div>${v.root ? '<div class="hint">词根：' + esc(v.root) + "</div>" : ""}${v.note ? '<div class="hint">' + esc(v.note) + "</div>" : ""}
+        <div class="rev-btns"><button class="btn again">不会</button><button class="btn hard">模糊</button><button class="btn good">会</button></div>`;
       card.querySelector("#flip").hidden = true;
       const s = v.srs || (v.srs = { due: todayStr(), iv: 0, ease: 2.5, reps: 0 });
       function next(days, dEase) {
@@ -359,26 +366,26 @@ function renderReview() {
   show();
 }
 
-/* ============ 鐢熻瘝鏈?============ */
+/* ============ 生词本 ============ */
 function renderVocab() {
   root.innerHTML = "";
-  const bar = el("div", "colloc-row", '<input type="text" id="vq" placeholder="鎼滅储鐢熻瘝 / 璇嶆牴 / 閲婁箟"><button class="btn small" id="vadd">锛?鎵嬪姩娣诲姞</button>');
+  const bar = el("div", "colloc-row", '<input type="text" id="vq" placeholder="搜索生词 / 词根 / 释义"><button class="btn small" id="vadd">＋ 手动添加</button>');
   root.appendChild(bar);
   const listBox = el("div", "card");
   root.appendChild(listBox);
   function draw(q) {
     listBox.innerHTML = "";
     const items = progress.vocab.filter(v => !q || (v.de + v.zh + (v.root || "") + (v.note || "")).toLowerCase().includes(q.toLowerCase()));
-    listBox.appendChild(el("div", "hint", "鍏?" + progress.vocab.length + " 璇? + (q ? "锛屽尮閰?" + items.length : "")));
-    if (!items.length) { listBox.appendChild(el("div", "empty", "鐢熻瘝鏈负绌恒€傚幓浠婃棩缁冧範閲岀偣閫夊崟璇嶆敹璇嶅惂銆?)); return; }
+    listBox.appendChild(el("div", "hint", "共 " + progress.vocab.length + " 词" + (q ? "，匹配 " + items.length : "")));
+    if (!items.length) { listBox.appendChild(el("div", "empty", "生词本为空。去今日练习里点选单词收词吧。")); return; }
     items.slice().reverse().forEach(v => {
       const r = el("div", "vrow",
         `<span class="de">${esc(v.de)}</span><span>${esc(v.zh)}</span>` +
         (v.root ? `<span class="root">${esc(v.root)}</span>` : "") +
-        `<span class="date">${esc(v.addedAt || "")}</span><button class="del" title="鍒犻櫎">鉁?/button>`);
+        `<span class="date">${esc(v.addedAt || "")}</span><button class="del" title="删除">✕</button>`);
       if (v.note) r.title = v.note;
       r.querySelector(".del").onclick = () => {
-        if (!confirm("鍒犻櫎銆? + v.de + "銆嶏紵")) return;
+        if (!confirm("删除「" + v.de + "」？")) return;
         progress.vocab = progress.vocab.filter(x => x !== v); saveProgress(); draw(q);
       };
       listBox.appendChild(r);
@@ -386,28 +393,28 @@ function renderVocab() {
   }
   bar.querySelector("#vq").addEventListener("input", e => draw(e.target.value.trim()));
   bar.querySelector("#vadd").onclick = () => {
-    const de = prompt("寰疯锛堝悕璇嶅甫鍐犺瘝锛屽 die Nachhaltigkeit锛?); if (!de) return;
-    const zh = prompt("涓枃閲婁箟") || "";
+    const de = prompt("德语（名词带冠词，如 die Nachhaltigkeit）"); if (!de) return;
+    const zh = prompt("中文释义") || "";
     addVocab({ de: de.trim(), zh: zh.trim(), root: "", note: "" }); draw("");
   };
   draw("");
 }
 
-/* ============ 鍘嗗彶 ============ */
+/* ============ 历史 ============ */
 function renderHistory() {
   root.innerHTML = "";
   const dates = (index && index.days) || [];
-  if (!dates.length) { root.appendChild(el("div", "empty", "杩樻病鏈夌粌涔犺褰曘€?)); return; }
+  if (!dates.length) { root.appendChild(el("div", "empty", "还没有练习记录。")); return; }
   const wrap = el("div", "tablewrap");
-  const t = el("table", "", "<thead><tr><th>鏃ユ湡</th><th>寰疯瘧姹?/th><th>姹夎瘧寰?/th><th>灏忓嵎</th></tr></thead>");
+  const t = el("table", "", "<thead><tr><th>日期</th><th>德译汉</th><th>汉译德</th><th>小卷</th></tr></thead>");
   const tb = document.createElement("tbody");
   dates.forEach(d => {
     const r = progress.results[d] || {}, dr = progress.drills[d];
-    const drillCell = dr && day ? Object.keys(dr.answers || {}).length + " 棰? : (dr ? Object.keys(dr.answers || {}).length + " 棰? : "鈥?);
+    const drillCell = dr && day ? Object.keys(dr.answers || {}).length + " 题" : (dr ? Object.keys(dr.answers || {}).length + " 题" : "—");
     const tr = el("tr", "clickable",
-      `<td class="n">${d}</td><td class="n">${r.de2zh ? r.de2zh.score + " / 25" : "鈥?}</td><td class="n">${r.zh2de ? r.zh2de.score + " / 25" : "鈥?}</td><td class="n">${drillCell}</td>`);
+      `<td class="n">${d}</td><td class="n">${r.de2zh ? r.de2zh.score + " / 25" : "—"}</td><td class="n">${r.zh2de ? r.zh2de.score + " / 25" : "—"}</td><td class="n">${drillCell}</td>`);
     tr.style.cursor = "pointer";
-    tr.onclick = async () => { try { await loadDay(d); switchTab("today"); } catch (e) { toast("鍔犺浇澶辫触"); } };
+    tr.onclick = async () => { try { await loadDay(d); switchTab("today"); } catch (e) { toast("加载失败"); } };
     tb.appendChild(tr);
   });
   t.appendChild(tb); wrap.appendChild(t); root.appendChild(wrap);
@@ -415,54 +422,54 @@ function renderHistory() {
   const scores = graded.flatMap(r => [r.de2zh, r.zh2de].filter(Boolean).map(f => f.score));
   if (scores.length) {
     const avg = (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(1);
-    root.appendChild(el("div", "hint", `宸叉壒鏀?${scores.length} 绡囷紝骞冲潎 ${avg} / 25锛堝強鏍肩嚎 15锛夈€俙));
+    root.appendChild(el("div", "hint", `已批改 ${scores.length} 篇，平均 ${avg} / 25（及格线 15）。`));
   }
 }
 
-/* ============ 璁剧疆 ============ */
+/* ============ 设置 ============ */
 function renderSettings() {
   root.innerHTML = "";
   const card = el("div", "card");
   card.innerHTML = `
-    <div class="part-label"><span class="kicker">API</span><h2>澶фā鍨嬫帴鍙ｏ紙OpenAI 鍏煎锛?/h2></div>
-    <div class="field"><label>API 鍦板潃</label><input type="text" id="s-base" value="${esc(cfg.base)}" placeholder="https://api.deepseek.com"></div>
-    <div class="field"><label>API Key</label><input type="password" id="s-key" value="${esc(cfg.key)}" placeholder="sk-鈥?></div>
-    <div class="field"><label>妯″瀷鍚?/label><input type="text" id="s-model" value="${esc(cfg.model)}" placeholder="deepseek-v4-pro"></div>
-    <button class="btn" id="s-save">淇濆瓨</button> <button class="btn ghost" id="s-test">娴嬭瘯杩炴帴</button>
-    <div class="hint">Key 鍙繚瀛樺湪鏈満娴忚鍣紝涓嶄細涓婁紶鍒颁换浣曚粨搴撱€傛崲妯″瀷鍙渶鏀瑰湴鍧€鍜屾ā鍨嬪悕锛堝閫氫箟/鏈堜箣鏆楅潰/纭呭熀娴佸姩鍧囧吋瀹癸級銆?/div>`;
+    <div class="part-label"><span class="kicker">API</span><h2>大模型接口（OpenAI 兼容）</h2></div>
+    <div class="field"><label>API 地址</label><input type="text" id="s-base" value="${esc(cfg.base)}" placeholder="https://api.deepseek.com"></div>
+    <div class="field"><label>API Key</label><input type="password" id="s-key" value="${esc(cfg.key)}" placeholder="sk-…"></div>
+    <div class="field"><label>模型名</label><input type="text" id="s-model" value="${esc(cfg.model)}" placeholder="deepseek-v4-pro"></div>
+    <button class="btn" id="s-save">保存</button> <button class="btn ghost" id="s-test">测试连接</button>
+    <div class="hint">Key 只保存在本机浏览器，不会上传到任何仓库。换模型只需改地址和模型名（如通义/月之暗面/硅基流动均兼容）。</div>`;
   root.appendChild(card);
   const card2 = el("div", "card");
   card2.innerHTML = `
-    <div class="part-label"><span class="kicker">Sync</span><h2>璺ㄨ澶囦簯鍚屾锛堝彲閫夛級</h2></div>
-    <p class="hint">鐢?GitHub 绉佸瘑 Gist 鍚屾鐢熻瘝鏈拰鎴愮哗锛堟墜鏈?鐢佃剳閫氱敤锛夈€傚埌 github.com/settings/tokens 鍒涘缓涓€涓彧鍕鹃€?<b>gist</b> 鏉冮檺鐨?token 濉叆鍗冲彲銆?/p>
-    <div class="field"><label>GitHub Token锛堜粎 gist 鏉冮檺锛?/label><input type="password" id="s-gt" value="${esc(cfg.gistToken)}"></div>
-    <div class="field"><label>Gist ID锛堢暀绌哄垯鑷姩鍒涘缓锛?/label><input type="text" id="s-gid" value="${esc(cfg.gistId)}"></div>
-    <button class="btn" id="s-sync">鍚敤骞剁珛鍗冲悓姝?/button>
+    <div class="part-label"><span class="kicker">Sync</span><h2>跨设备云同步（可选）</h2></div>
+    <p class="hint">用 GitHub 私密 Gist 同步生词本和成绩（手机/电脑通用）。到 github.com/settings/tokens 创建一个只勾选 <b>gist</b> 权限的 token 填入即可。</p>
+    <div class="field"><label>GitHub Token（仅 gist 权限）</label><input type="password" id="s-gt" value="${esc(cfg.gistToken)}"></div>
+    <div class="field"><label>Gist ID（留空则自动创建）</label><input type="text" id="s-gid" value="${esc(cfg.gistId)}"></div>
+    <button class="btn" id="s-sync">启用并立即同步</button>
     <hr style="border:none;border-top:1px solid var(--line);margin:18px 0">
-    <button class="btn ghost" id="s-exp">瀵煎嚭瀛︿範鏁版嵁</button> <button class="btn ghost" id="s-imp">瀵煎叆</button>`;
+    <button class="btn ghost" id="s-exp">导出学习数据</button> <button class="btn ghost" id="s-imp">导入</button>`;
   root.appendChild(card2);
   card.querySelector("#s-save").onclick = () => {
     cfg.base = card.querySelector("#s-base").value.trim() || "https://api.deepseek.com";
     cfg.key = card.querySelector("#s-key").value.trim();
     cfg.model = card.querySelector("#s-model").value.trim() || "deepseek-chat";
-    saveCfg(); toast("宸蹭繚瀛?);
+    saveCfg(); toast("已保存");
   };
   card.querySelector("#s-test").onclick = async () => {
     card.querySelector("#s-save").click();
     try {
-      const r = await llm([{ role: "user", content: '鍥炲 JSON {"ok":true}' }], { maxTokens: 20 });
-      toast(r.ok ? "鉁?杩炴帴鎴愬姛锛屾ā鍨嬪彲鐢? : "杩炴帴鎴愬姛");
-    } catch (e) { toast("鉁?" + e.message); }
+      const r = await llm([{ role: "user", content: '回复 JSON {"ok":true}' }], { maxTokens: 20 });
+      toast(r.ok ? "✓ 连接成功，模型可用" : "连接成功");
+    } catch (e) { toast("✗ " + e.message); }
   };
   card2.querySelector("#s-sync").onclick = async () => {
     cfg.gistToken = card2.querySelector("#s-gt").value.trim();
     cfg.gistId = card2.querySelector("#s-gid").value.trim();
-    if (!cfg.gistToken) { toast("璇峰厛濉叆 token"); return; }
+    if (!cfg.gistToken) { toast("请先填入 token"); return; }
     try {
-      if (!cfg.gistId) { await createGist(); toast("宸插垱寤虹瀵?Gist锛? + cfg.gistId); }
-      else { await pullGist(); await pushGist(); toast("鉁?鍚屾瀹屾垚"); }
+      if (!cfg.gistId) { await createGist(); toast("已创建私密 Gist：" + cfg.gistId); }
+      else { await pullGist(); await pushGist(); toast("✓ 同步完成"); }
       saveCfg(); renderSettings();
-    } catch (e) { toast("鉁?" + e.message); }
+    } catch (e) { toast("✗ " + e.message); }
   };
   card2.querySelector("#s-exp").onclick = () => {
     const a = document.createElement("a");
@@ -473,13 +480,13 @@ function renderSettings() {
     const inp = document.createElement("input"); inp.type = "file"; inp.accept = ".json";
     inp.onchange = () => {
       const f = inp.files[0]; if (!f) return;
-      f.text().then(t => { progress = JSON.parse(t); saveProgress(); toast("瀵煎叆鎴愬姛"); render(); }).catch(() => toast("鏂囦欢鏍煎紡閿欒"));
+      f.text().then(t => { progress = JSON.parse(t); saveProgress(); toast("导入成功"); render(); }).catch(() => toast("文件格式错误"));
     };
     inp.click();
   };
 }
 
-/* ============ 妗嗘灦 ============ */
+/* ============ 框架 ============ */
 function switchTab(tab) { curTab = tab; render(); }
 function render() {
   document.querySelectorAll("nav button").forEach(b => b.classList.toggle("on", b.dataset.tab === curTab));
@@ -489,7 +496,7 @@ function render() {
 }
 document.querySelectorAll("nav button").forEach(b => b.onclick = () => switchTab(b.dataset.tab));
 
-/* 杩炵画鎵撳崱锛氭湁浠绘剰鎵规敼鎴栧皬鍗疯褰曠殑鏃ユ湡绠楁墦鍗?*/
+/* 连续打卡：有任意批改或小卷记录的日期算打卡 */
 function calcStreak() {
   const set = new Set([...Object.keys(progress.results), ...Object.keys(progress.drills)]);
   let n = 0, d = new Date();
