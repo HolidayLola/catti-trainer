@@ -3,7 +3,12 @@ name: daily-material
 on:
   schedule:
     - cron: "45 22 * * *"   # UTC 22:45 = 北京时间 6:45（Actions 可能有几分钟延迟）
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_mail:
+        description: "resend today's mail even if material exists"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -29,6 +34,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/catti-trainer/
+          FORCE_MAIL: ${{ inputs.force_mail }}
         run: python scripts/daily.py
 
       - name: Commit data

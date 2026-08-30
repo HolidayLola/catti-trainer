@@ -269,7 +269,11 @@ def main():
     date_str = now_bj.strftime("%Y-%m-%d")
     out_path = os.path.join(DATA, date_str + ".json")
     if os.path.exists(out_path):
-        print("today already generated, nothing to do")
+        if env("FORCE_MAIL"):
+            with open(out_path, encoding="utf-8") as f:
+                send_mail(json.load(f), site_url)
+        else:
+            print("today already generated, nothing to do")
         return
 
     theme = THEMES[now_bj.weekday()]
