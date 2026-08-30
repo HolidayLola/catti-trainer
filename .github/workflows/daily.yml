@@ -1,0 +1,40 @@
+name: daily-material
+
+on:
+  schedule:
+    - cron: "45 22 * * *"   # UTC 22:45 = 北京时间 6:45（Actions 可能有几分钟延迟）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Generate today's material and send mail
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/catti-trainer/
+        run: python scripts/daily.py
+
+      - name: Commit data
+        run: |
+          git config user.name "catti-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "material $(TZ=Asia/Shanghai date +%F)"
+          git push
