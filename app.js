@@ -52,7 +52,7 @@ async function createGist() {
 }
 
 /* ============ LLM 调用（OpenAI 兼容接口） ============ */
-async function llm(messages, { json = true, maxTokens = 4000 } = {}) {
+async function llm(messages, { json = true, maxTokens = 8000 } = {}) {
   if (!cfg.key) { toast("请先在「设置」中填入 API Key"); switchTab("settings"); throw new Error("no key"); }
   let r;
   try {
@@ -69,8 +69,9 @@ async function llm(messages, { json = true, maxTokens = 4000 } = {}) {
   if (!r.ok) throw new Error("API 错误 " + r.status + "：" + (await r.text()).slice(0, 200));
   const content = (await r.json()).choices[0].message.content;
   if (!json) return content;
-  try { return JSON.parse(content.replace(/^```(json)?|```$/g, "").trim()); }
-  catch (e) { throw new Error("模型未返回合法 JSON，请重试"); }
+  const m = content.match(/\{[\s\S]*\}/);
+  try { return JSON.parse(m ? m[0] : content); }
+  catch (e) { throw new Error("模型未返回合法 JSON，请重试（可能是回答被截断）"); }
 }
 
 /* ============ 数据加载 ============ */
@@ -149,7 +150,7 @@ async function grade(part, mineText, card) {
   btn.disabled = true; btn.innerHTML = '<span class="spin"></span> AI 批改中…';
   let fb;
   try {
-    fb = await llm([{ role: "user", content: gradePrompt(part, p.text, mineText) }], { maxTokens: 5000 });
+    fb = await llm([{ role: "user", content: gradePrompt(part, p.text, mineText) }], { maxTokens: 12000 });
   } catch (e) { toast(e.message); btn.disabled = false; btn.textContent = "提交批改"; return; }
   fb.mine = mineText; fb.at = new Date().toISOString();
   if (!progress.results[viewDate]) progress.results[viewDate] = {};
@@ -457,7 +458,7 @@ function renderSettings() {
   card.querySelector("#s-test").onclick = async () => {
     card.querySelector("#s-save").click();
     try {
-      const r = await llm([{ role: "user", content: '回复 JSON {"ok":true}' }], { maxTokens: 20 });
+      const r = await llm([{ role: "user", content: '回复 JSON {"ok":true}' }], { maxTokens: 2000 });
       toast(r.ok ? "✓ 连接成功，模型可用" : "连接成功");
     } catch (e) { toast("✗ " + e.message); }
   };
