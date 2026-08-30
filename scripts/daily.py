@@ -143,7 +143,7 @@ def deepseek(messages, api_key):
     r = requests.post(
         "https://api.deepseek.com/chat/completions",
         headers={"Authorization": "Bearer " + api_key},
-        json={"model": env("DS_MODEL", "deepseek-chat"),
+        json={"model": env("DS_MODEL", "deepseek-v4-pro"),
               "messages": messages,
               "response_format": {"type": "json_object"},
               "temperature": 0.6, "max_tokens": 6000},
