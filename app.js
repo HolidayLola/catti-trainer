@@ -125,6 +125,46 @@ async function showEtym(word, sentence) {
     panel.querySelector("#add-vocab").disabled = true;
   };
 }
+async function showSentence(sent) {
+  panel.hidden = false;
+  panel.innerHTML = '<button class="close">×</button><h2 style="font-size:17px">句子解析</h2><div class="subtext">' + esc(sent) + '</div><p><span class="spin"></span> 正在解析（语法分析用强模型，约 10 秒）…</p>';
+  panel.querySelector(".close").onclick = closePanel;
+  let d;
+  const key = sent.slice(0, 90);
+  const cache = lsGet("catti.sent", {});
+  if (cache[key]) d = cache[key];
+  else try {
+    d = await llm([
+      { role: "system", content: "你是德语语法专家，面向备考 CATTI 二级笔译的中国学习者，只输出合法 JSON。" },
+      { role: "user", content: `深度解析这个德语句子：「${sent}」。输出 JSON：
+{"zh":"整句准确翻译","structure":"句子主干与层次讲解：主语/谓语/宾语、框架结构(Satzklammer)、从句类型与嵌套关系，中文，3-5句",
+"grammar":[{"point":"语法点名称(如 被动态/第二虚拟式/分词定语)","x":"结合本句的讲解"}](2-5个，挑重要的),
+"colloc":[{"de":"固定搭配或功能动词结构原形","zh":"意思","note":"用法说明"}](本句里值得积累的，0-4个),
+"trap":"本句最容易误译的地方及正确理解，1-2句"}` }
+    ], { maxTokens: 12000 });
+    cache[key] = d;
+    if (Object.keys(cache).length > 300) delete cache[Object.keys(cache)[0]];
+    lsSet("catti.sent", cache);
+  } catch (e) { panel.innerHTML = '<button class="close">×</button><p>' + esc(e.message) + "</p>"; panel.querySelector(".close").onclick = closePanel; return; }
+  let h = `<button class="close">×</button><h2 style="font-size:17px">句子解析</h2>
+    <div class="subtext" style="font-family:Georgia,serif">${esc(sent)}</div>
+    <div class="etyk">译文</div><div>${esc(d.zh || "")}</div>
+    <div class="etyk">句子结构</div><div>${esc(d.structure || "")}</div>
+    <div class="etyk">重点语法</div>`;
+  (d.grammar || []).forEach(g => { h += `<div style="margin:6px 0"><b>${esc(g.point)}</b>　${esc(g.x)}</div>`; });
+  if ((d.colloc || []).length) h += '<div class="etyk">固定搭配</div><div id="sent-colloc"></div>';
+  if (d.trap) h += `<div class="etyk">易误译点</div><div>${esc(d.trap)}</div>`;
+  panel.innerHTML = h;
+  panel.querySelector(".close").onclick = closePanel;
+  const cbox = panel.querySelector("#sent-colloc");
+  if (cbox) (d.colloc || []).forEach(c => {
+    const row = el("div", "", `<b>${esc(c.de)}</b>　${esc(c.zh)}${c.note ? '　<span class="hint">' + esc(c.note) + "</span>" : ""} `);
+    const b = el("button", "btn small ghost", "＋收入生词本");
+    b.onclick = () => { addVocab({ de: c.de, zh: c.zh, root: "", note: c.note || "" }); b.disabled = true; b.textContent = "✓"; };
+    row.appendChild(b); cbox.appendChild(row);
+  });
+}
+
 function addVocab(v) {
   const lemma = v.de.replace(/^(der|die|das)\s+/i, "").toLowerCase();
   if (progress.vocab.some(x => x.de.replace(/^(der|die|das)\s+/i, "").toLowerCase() === lemma)) { toast("已在生词本中"); return; }
@@ -207,14 +247,27 @@ function partCard(part) {
   if (p.url) src.push(`<a href="${esc(p.url)}" target="_blank" rel="noopener">原文链接</a>`);
   if (src.length) card.appendChild(el("div", "src", "来源：" + src.join(" · ")));
   const passage = el("div", "passage");
-  passage.innerHTML = isDe ? tokenizeDe(p.text) : esc(p.text);
-  if (isDe) passage.addEventListener("click", e => {
-    const w = e.target.closest(".w"); if (!w) return;
-    const sent = (w.parentNode.textContent.match(new RegExp("[^.!?]*" + w.textContent + "[^.!?]*[.!?]?")) || [""])[0];
-    showEtym(w.textContent, sent.trim().slice(0, 300));
-  });
+  if (isDe) {
+    const sents = p.text.split(/(?<=[.!?…])\s+(?=[A-ZÄÖÜ„“"»(0-9])/);
+    sents.forEach(s => {
+      const span = el("span", "sent", tokenizeDe(s));
+      const mark = el("button", "sent-btn", "¶");
+      mark.title = "解析整句：语法结构与固定搭配";
+      mark.onclick = e => { e.stopPropagation(); showSentence(s.trim()); };
+      span.appendChild(mark);
+      passage.appendChild(span);
+      passage.appendChild(document.createTextNode(" "));
+    });
+    passage.addEventListener("click", e => {
+      const w = e.target.closest(".w"); if (!w) return;
+      const sentEl = w.closest(".sent");
+      showEtym(w.textContent, (sentEl ? sentEl.textContent.replace(/¶$/, "") : "").trim().slice(0, 300));
+    });
+  } else {
+    passage.innerHTML = esc(p.text);
+  }
   card.appendChild(passage);
-  if (isDe) card.appendChild(el("div", "hint", "💡 点任何单词查词源词根、同根词族，一键收入生词本。"));
+  if (isDe) card.appendChild(el("div", "hint", "💡 点任何<b>单词</b>查词源词根、同根词族；点句末的 <b>¶</b> 解析<b>整句</b>语法结构和固定搭配。"));
 
   if (res) renderFeedback(card, res, part);
   else {
