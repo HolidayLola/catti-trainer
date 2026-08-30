@@ -156,25 +156,98 @@ def deepseek(messages, api_key):
     return json.loads(m.group(0))
 
 
-PROMPT = """你是 CATTI 德语二级笔译备考出题人。今天的主题是「{theme}」。下面给你 {n} 篇真实德语新闻（JSON），请完成四项任务，只输出一个 JSON 对象：
+PROMPT = """你是 CATTI 德语二级笔译备考辅导教练兼出题人。今天的主题是「{theme}」。下面给你 {n} 篇真实德语新闻（JSON）和学员档案，请完成五项任务，只输出一个 JSON 对象：
 
 1. pick: 选最适合做 CATTI 二笔德译汉练习的一篇，给出其下标（0 起）。
 2. passage: 从该篇原文中逐字摘取一个 150-250 词、语义完整的连续片段（可跨相邻段落）。必须与原文逐字一致，不得改写、增删任何词。
-3. zh2de: 围绕相近主题自拟一段 180-280 字汉语段落，文体对标 CATTI 汉译德真题（新闻通稿/政府工作报告/白皮书体，含数据或政策表述；若主题是 China-Themen 则写中国政治/经济/文化特色内容，如非遗、京剧、经贸数据等）。格式 {{"title": "...", "text": "..."}}。
-4. drills: 基于该新闻的语言点和主题词场，出当日词汇小卷：
+3. zh2de: 围绕相近主题自拟一段 180-280 字汉语段落，文体对标 CATTI 汉译德真题（新闻通稿/政府工作报告/白皮书体，含数据或政策表述；若主题是 China-Themen 则写中国政治/经济/文化特色内容，如非遗、京剧、经贸数据等）。若学员档案显示某类结构常错（如数字表达、被动、长定语），刻意在段落中埋入 1-2 处让学员再练。格式 {{"title": "...", "text": "..."}}。
+4. drills: 出当日词汇小卷。若有学员档案：mcq 中至少 4 道、colloc 中至少 2 道要针对档案里的薄弱词汇（换新语境重考）和高频错误类型；其余题目基于该新闻的语言点和主题词场。若无档案则全部按新闻出题。
    - mcq: 10 道 CATTI 综合风格单选（同义词替换 / 介词搭配 / 功能动词结构 / 语法辨析各若干），格式 [{{"q":"题干(德语句子，空缺用___)","opts":["A","B","C","D"],"ans":0,"why":"汉语解析，含考点"}}]
    - colloc: 6 道固定搭配填空（Funktionsverbgefüge、名动搭配、介词搭配），格式 [{{"q":"含___的德语短句","ans":"答案词","hint":"汉语意思","why":"搭配讲解"}}]
+5. coach: 今日教练提示，2-4 句汉语：基于档案点出当前最要紧的短板、今天的材料针对性练什么、给一条具体建议。无档案时写一句常规鼓励+今日重点即可。
+
+学员档案（近期表现，无数据则为"暂无"）：
+{profile}
 
 新闻列表：
 {articles}
 """
 
 
+def fetch_profile():
+    """从学员的私密 Gist 读取学习记录，生成给出题模型看的档案摘要。"""
+    gid = env("GIST_ID")
+    if not gid:
+        return None
+    try:
+        g = requests.get("https://api.github.com/gists/" + gid, headers=UA, timeout=30).json()
+        f = (g.get("files") or {}).get("catti-progress.json")
+        if not f:
+            return None
+        content = requests.get(f["raw_url"], headers=UA, timeout=30).text if f.get("truncated") else f["content"]
+        return json.loads(content)
+    except Exception as e:
+        print("profile fetch failed:", e)
+        return None
+
+
+def profile_summary(prog):
+    if not prog:
+        return "暂无（学员尚未开启云同步或还没有练习记录）"
+    lines = []
+    results = prog.get("results") or {}
+    recent = sorted(results.items())[-7:]
+    de = [r["de2zh"]["score"] for _, r in recent if r.get("de2zh")]
+    zh = [r["zh2de"]["score"] for _, r in recent if r.get("zh2de")]
+    if de:
+        lines.append("近%d次德译汉得分: %s（满分25）" % (len(de), ", ".join(str(x) for x in de)))
+    if zh:
+        lines.append("近%d次汉译德得分: %s（满分25）" % (len(zh), ", ".join(str(x) for x in zh)))
+    # 高频扣分类型
+    types = {}
+    for _, r in recent:
+        for part in ("de2zh", "zh2de"):
+            for d in (r.get(part) or {}).get("deductions", []) or []:
+                t = d.get("t", "?")
+                types[t] = types.get(t, 0) + 1
+    if types:
+        top = sorted(types.items(), key=lambda x: -x[1])[:5]
+        lines.append("高频扣分类型: " + ", ".join("%s×%d" % (t, c) for t, c in top))
+    # 小卷正确率（新版答题记录带 ok 标记）
+    ok = bad = 0
+    for _, st in sorted((prog.get("drills") or {}).items())[-7:]:
+        for a in (st.get("answers") or {}).values():
+            if isinstance(a, dict):
+                ok += 1 if a.get("ok") else 0
+                bad += 0 if a.get("ok") else 1
+        for c in (st.get("colloc") or {}).values():
+            if isinstance(c, dict):
+                ok += 1 if c.get("ok") else 0
+                bad += 0 if c.get("ok") else 1
+    if ok + bad:
+        lines.append("近7天小卷正确率: %d%%（%d/%d）" % (round(ok * 100 / (ok + bad)), ok, ok + bad))
+    # 反复记不住的词（间隔重复中 ease 低的）
+    weak = [v for v in (prog.get("vocab") or [])
+            if (v.get("srs") or {}).get("reps", 0) >= 2 and (v.get("srs") or {}).get("ease", 2.5) <= 2.2]
+    weak = sorted(weak, key=lambda v: v["srs"].get("ease", 2.5))[:15]
+    if weak:
+        lines.append("反复记不住的薄弱词汇: " + "; ".join("%s(%s)" % (v.get("de", ""), v.get("zh", "")) for v in weak))
+    hard_errors = []
+    for _, r in recent:
+        for part in ("de2zh", "zh2de"):
+            for d in (r.get(part) or {}).get("deductions", []) or []:
+                if d.get("p", 0) <= -1.5:
+                    hard_errors.append("[%s]%s" % (d.get("t", ""), (d.get("q") or "")[:40]))
+    if hard_errors:
+        lines.append("近期较重失分点举例: " + " | ".join(hard_errors[-6:]))
+    return "\n".join(lines) if lines else "暂无（记录为空）"
+
+
 def normalize(s):
     return re.sub(r"\s+", " ", s or "").strip().lower()
 
 
-def build_day(date_str, theme, api_key):
+def build_day(date_str, theme, api_key, profile_text):
     if theme == "China-Themen":
         articles = fetch_china_sources()
         if not articles:
@@ -192,9 +265,10 @@ def build_day(date_str, theme, api_key):
 
     slim = [{"title": a["title"], "text": a["text"][:6000]} for a in articles]
     res = deepseek([
-        {"role": "system", "content": "你是严谨的德语翻译考试出题人，只输出合法 JSON。"},
+        {"role": "system", "content": "你是严谨的德语翻译考试出题人兼辅导教练，只输出合法 JSON。"},
         {"role": "user", "content": PROMPT.format(
-            theme=theme, n=len(slim), articles=json.dumps(slim, ensure_ascii=False))},
+            theme=theme, n=len(slim), profile=profile_text,
+            articles=json.dumps(slim, ensure_ascii=False))},
     ], api_key)
 
     idx = min(int(res.get("pick", 0)), len(articles) - 1)
@@ -215,7 +289,7 @@ def build_day(date_str, theme, api_key):
     zh = res.get("zh2de") or {}
     drills = res.get("drills") or {}
     return {
-        "date": date_str, "theme": theme,
+        "date": date_str, "theme": theme, "coach": (res.get("coach") or "").strip(),
         "de2zh": {"title": chosen["title"], "source": chosen["source"],
                   "url": chosen["url"], "text": passage},
         "zh2de": {"title": zh.get("title", "汉译德练习"), "text": zh.get("text", "")},
@@ -238,6 +312,7 @@ def send_mail(day, site_url):
     body = f"""<div style="max-width:640px;margin:auto;font-family:sans-serif;line-height:1.7">
 <h2 style="border-bottom:3px double #235789;padding-bottom:8px">Übersetzungswerkstatt · {day['date']}</h2>
 <p><b>今日主题：</b>{day['theme']} ｜ <a href="{site_url}">打开练习页 →</a></p>
+{('<p style="background:#faf3e3;padding:10px 14px;border-radius:6px"><b>🎯 教练提示：</b>' + html.escape(day.get("coach", "")) + '</p>') if day.get("coach") else ''}
 <h3>Teil 1 · 德译汉（{word_count(d['text'])} 词）</h3>
 <p style="color:#666">{html.escape(d['title'])} — {d['source']}</p>
 <blockquote style="border-left:3px solid #235789;margin:0;padding:6px 14px;font-family:Georgia,serif">
@@ -277,7 +352,9 @@ def main():
         return
 
     theme = THEMES[now_bj.weekday()]
-    day = build_day(date_str, theme, api_key)
+    profile_text = profile_summary(fetch_profile())
+    print("learner profile:\n" + profile_text)
+    day = build_day(date_str, theme, api_key, profile_text)
 
     idx_path = os.path.join(DATA, "index.json")
     try:

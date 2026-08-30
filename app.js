@@ -231,6 +231,7 @@ function renderToday() {
     back.querySelector("button").onclick = async () => { await loadDay(index.days[0]); render(); };
     root.appendChild(back);
   }
+  if (day.coach) root.appendChild(el("div", "banner", "🎯 <b>教练提示</b>　" + esc(day.coach)));
   root.appendChild(partCard("de2zh"));
   root.appendChild(partCard("zh2de"));
 }
@@ -352,7 +353,8 @@ function renderDrills() {
   day.drills.mcq.forEach((q, i) => {
     const box = el("div", "mcq", `<div class="qtext">${i + 1}. ${esc(q.q)}</div>`);
     const opts = el("div", "opts");
-    const answered = stat.answers[i];
+    const raw = stat.answers[i];
+    const answered = raw == null ? null : (typeof raw === "object" ? raw.j : raw);
     q.opts.forEach((o, j) => {
       const b = el("button", "", "ABCD"[j] + ". " + esc(o));
       if (answered != null) {
@@ -360,7 +362,7 @@ function renderDrills() {
         else if (j === answered && answered !== q.ans) b.className = "wrong";
         b.disabled = true;
       } else b.onclick = () => {
-        stat.answers[i] = j; progress.drills[viewDate] = stat; saveProgress(); renderDrills();
+        stat.answers[i] = { j, ok: j === q.ans }; progress.drills[viewDate] = stat; saveProgress(); renderDrills();
       };
       opts.appendChild(b);
     });
@@ -391,7 +393,10 @@ function renderDrills() {
     }
     card2.appendChild(box);
   });
-  const total = day.drills.mcq.length, right = day.drills.mcq.filter((q, i) => stat.answers[i] === q.ans).length;
+  const total = day.drills.mcq.length, right = day.drills.mcq.filter((q, i) => {
+    const a = stat.answers[i];
+    return (typeof a === "object" ? a && a.j : a) === q.ans;
+  }).length;
   const answeredN = Object.keys(stat.answers).length;
   if (answeredN === total) card2.appendChild(el("div", "sum", `<b>单选得分 ${right}/${total}</b>　错题考点建议顺手收入生词本。`));
   root.appendChild(card2);

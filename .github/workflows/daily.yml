@@ -35,6 +35,7 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/catti-trainer/
           FORCE_MAIL: ${{ inputs.force_mail }}
+          GIST_ID: ${{ secrets.GIST_ID }}
         run: python scripts/daily.py
 
       - name: Commit data
