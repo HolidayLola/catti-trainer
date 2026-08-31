@@ -1,0 +1,168 @@
+{
+ "date": "2026-08-31",
+ "theme": "Politik",
+ "coach": "今日无学员档案，请按通用备考标准进行。本文涉及德国政治与经济话题，重点练习政治类文本的翻译准确性与长句拆分。建议先通读全文把握逻辑，再逐段翻译，注意虚拟式与功能动词结构的处理。",
+ "de2zh": {
+  "title": "\"Es wird am Ende zusammengezählt\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/sommerinterview-kanzler-merz-100.html",
+  "text": "Der Kanzler und seine Regierung stecken im Umfragetief. Dennoch zeigt sich Merz im ARD-Sommerinterview optimistisch. Die Wirtschaft erhole sich bereits - und wichtig sei vor allem, dass Deutschland langfristig gut aufgestellt sei.\nFür den Bundeskanzler sieht es gerade nicht besonders gut aus. Seine Zustimmungswerte sind mit nur 16 Prozent deutlich schlechter als die seiner Vorgänger nach einem Jahr im Amt. Mit der Arbeit der Bundesregierung als Ganzes ist dem ARD-DeutschlandTrend zufolge ebenfalls nur eine kleine Minderheit von 13 Prozent sehr zufrieden oder zufrieden - während die große Mehrheit (85 Prozent) sich unzufrieden äußert.\nDennoch zeigt sich Friedrich Merz im ARD-Sommerinterview optimistisch und kämpferisch. Zwar räumte er ein, seine Regierung sei \"noch längst nicht da, wo wir sein müssten\". Aber er habe bereits große Reformen angestoßen, und \"jemand, der dem Land Veränderungen zumutet, der ist natürlich zu Beginn nicht populär\".\nWichtiger sei für ihn aber, dass die richtigen Entscheidungen getroffen werden. \"Der Maßstab meiner Politik ist: Führen wir in dieser Bundesregierung das Land in eine stabile, friedliche, freiheitliche Zukunft, haben unsere Kinder in Deutschland noch die gleichen Chancen, wie wir sie in meiner Generation gehabt haben? Das ist der alleinige Maßstab, nach dem ich mich ausrichte. Und es wird am Ende zusammengezählt, nicht zwischendurch.\""
+ },
+ "zh2de": {
+  "title": "中国数字经济持续快速发展",
+  "text": "近年来，中国数字经济保持强劲增长势头。据国家互联网信息办公室统计，2025年我国数字经济核心产业增加值占国内生产总值比重达到10%左右，数字基础设施进一步夯实。截至2026年6月底，全国累计建成5G基站超过500万个，千兆光网具备覆盖超6亿户家庭的能力。政府工作报告提出，要加快数字中国建设，促进数字经济和实体经济深度融合。有关部门已出台一系列政策措施，包括支持平台经济规范健康发展、推动数据要素市场化配置改革、加强关键核心技术攻关等。下一步，中国将继续完善数字经济治理体系，积极参与数字经济国际合作，为世界经济增长注入新动力。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Kanzler ___ ein, seine Regierung sei noch längst nicht da, wo sie sein müsste.",
+    "opts": [
+     "gab auf",
+     "gab zu",
+     "gab an",
+     "gab ab"
+    ],
+    "ans": 1,
+    "why": "einräumen 意为承认，同义为 zugeben，此处用过去时 gab zu。考点：动词 einräumen 的同义替换。"
+   },
+   {
+    "q": "Die große Mehrheit ist mit der Arbeit der Bundesregierung ___.",
+    "opts": [
+     "zufrieden über",
+     "zufrieden mit",
+     "zufrieden",
+     "zufrieden auf"
+    ],
+    "ans": 2,
+    "why": "mit etwas zufrieden sein 是固定搭配，此处 zufrieden 作表语，无需再加介词。考点：形容词与介词的搭配。"
+   },
+   {
+    "q": "Die Regierung hat bereits große Reformen ___.",
+    "opts": [
+     "aufgestoßen",
+     "abgestoßen",
+     "angestoßen",
+     "verstoßen"
+    ],
+    "ans": 2,
+    "why": "eine Reform anstoßen 是固定搭配，意为启动改革。考点：功能动词结构。"
+   },
+   {
+    "q": "Er sagte, die Wirtschaft ___ sich bereits.",
+    "opts": [
+     "erholt",
+     "erhole",
+     "erholte",
+     "erholen würde"
+    ],
+    "ans": 1,
+    "why": "间接引语中表示转述，用第一虚拟式 erhole。考点：Konjunktiv I 的用法。"
+   },
+   {
+    "q": "Eine kleine ___ der Befragten ist sehr zufrieden.",
+    "opts": [
+     "Mehrheit",
+     "Anzahl",
+     "Minderheit",
+     "Gruppe"
+    ],
+    "ans": 2,
+    "why": "Minderheit 意为少数，与 kleine 搭配自然，其他选项意思不符。考点：名词词义辨析。"
+   },
+   {
+    "q": "Die Regierung hat mehrere Maßnahmen ___ den Weg gebracht.",
+    "opts": [
+     "an",
+     "in",
+     "zu",
+     "auf"
+    ],
+    "ans": 3,
+    "why": "auf den Weg bringen 是固定搭配，意为启动、实施。考点：介词与名词的固定搭配。"
+   },
+   {
+    "q": "Die hohen Verteidigungsausgaben werden ihre Wirkung erst nach und nach ___.",
+    "opts": [
+     "entwickeln",
+     "entstehen",
+     "entfalten",
+     "entziehen"
+    ],
+    "ans": 2,
+    "why": "Wirkung entfalten 是固定搭配，意为发挥作用。考点：功能动词结构。"
+   },
+   {
+    "q": "Die Verteidigungsausgaben werden zu einem großen Teil aus Schulden ___.",
+    "opts": [
+     "finanzieren",
+     "finanzierten",
+     "finanziert",
+     "finanzierend"
+    ],
+    "ans": 2,
+    "why": "被动态，werden + Partizip II: finanziert。考点：被动语态的构成。"
+   },
+   {
+    "q": "Die Wirtschaft ___ langsam Tritt.",
+    "opts": [
+     "nimmt",
+     "hält",
+     "fasst",
+     "greift"
+    ],
+    "ans": 2,
+    "why": "Tritt fassen 是固定搭配，意为站稳脚跟，逐渐恢复。考点：功能动词结构。"
+   },
+   {
+    "q": "Das ist der alleinige Maßstab, nach ___ ich mich ausrichte.",
+    "opts": [
+     "den",
+     "der",
+     "das",
+     "dem"
+    ],
+    "ans": 3,
+    "why": "介词 nach 支配第三格，关系代词用 dem，指代 der Maßstab。考点：关系代词与介词连用。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung hat große Reformen ___.",
+    "ans": "angestoßen",
+    "hint": "启动改革",
+    "why": "anstoßen + Reform 是固定搭配，表示启动、发起改革。"
+   },
+   {
+    "q": "Die Maßnahmen wurden auf den Weg ___.",
+    "ans": "gebracht",
+    "hint": "实施措施",
+    "why": "auf den Weg bringen 是固定搭配，意为使措施得以实施。"
+   },
+   {
+    "q": "Die Wirtschaft ___ langsam Tritt.",
+    "ans": "fasst",
+    "hint": "站稳脚跟",
+    "why": "Tritt fassen 是固定搭配，表示经济逐渐恢复、站稳。"
+   },
+   {
+    "q": "Die Wirkung wird sich erst nach und nach ___.",
+    "ans": "entfalten",
+    "hint": "发挥作用",
+    "why": "Wirkung entfalten 是固定搭配，表示效果逐渐显现。"
+   },
+   {
+    "q": "Er ___ sich optimistisch.",
+    "ans": "zeigt",
+    "hint": "表现出乐观",
+    "why": "sich optimistisch zeigen 是固定表达，表示展现出乐观态度。"
+   },
+   {
+    "q": "Die Probleme wurden von den Vorgängern ___.",
+    "ans": "geerbt",
+    "hint": "继承问题",
+    "why": "Probleme erben 表示继承（遗留）问题。"
+   }
+  ]
+ },
+ "issue": 2
+}
