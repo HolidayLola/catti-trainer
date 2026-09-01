@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-01",
+ "theme": "Wirtschaft",
+ "coach": "今日无学员档案，建议先通读全文，把握通胀数据与能源价格逻辑链，再逐段精译；注意德语中数字、百分比及功能动词结构的准确转换，特别是“in die Höhe treiben”等固定搭配的汉语表达要符合中文经济新闻习惯。",
+ "de2zh": {
+  "title": "Inflation steigt weiter - 2,9 Prozent im August",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
+  "text": "Das Leben in Deutschland hat sich im August weiter verteuert. Die Verbraucherpreise lagen zuletzt um 2,9 Prozent über dem Niveau des Vorjahresmonats. Der Grund sind gestiegene Ölpreise und auch das Rhein-Niedrigwasser.\nDie deutsche Inflation hat im August nach vorläufigen Daten erneut angezogen. Die Verbraucherpreise stiegen im Vergleich zum Vorjahresmonat um 2,9 Prozent, wie das Statistische Bundesamt in einer ersten Schätzung mitteilte. Im Juli hatte der Anstieg bei 2,8 Prozent gelegen. Die Preise ohne Nahrungsmittel und Energie, auch als Kerninflation bezeichnet, legten um 2,4 Prozent zu.\nVor allem die Energiepreise gingen zuletzt hoch. So ist der Ende Februar begonnene Krieg der USA und Israels gegen Iran in den vergangenen Wochen - nach ersten Entspannungssignalen - immer wieder aufgeflammt. Das hat vor allem die Ölpreise in die Höhe getrieben: Ein Barrel (159 Liter) Rohöl der Referenzsorte Brent aus der Nordsee kostet heute 90,77 Dollar.\n\"Aber selbst wenn das Öl wieder ungehindert durch die Straße von Hormus flösse und sich Energie verbilligte, dürfte die Inflation noch lange deutlich über dem EZB-Ziel von zwei Prozent liegen\", so die Einschätzung von Jörg Krämer, Chefvolkswirt der Commerzbank. \"Denn immer mehr Unternehmen sind gezwungen, den zurückliegenden Kostenschub bei der Energie an ihre Kunden weiterzugeben.\""
+ },
+ "zh2de": {
+  "title": "2026年上半年中国GDP同比增长5.2%",
+  "text": "国家统计局今日公布，初步核算，上半年国内生产总值616836亿元，按不变价格计算，同比增长5.2%。分产业看，第一产业增加值30660亿元，增长3.8%；第二产业增加值236530亿元，增长5.6%；第三产业增加值349646亿元，增长5.1%。全国居民消费价格同比上涨0.8%，涨幅比一季度扩大0.3个百分点。社会消费品零售总额235969亿元，同比增长4.7%。货物进出口总额201016亿元，同比增长2.1%，其中出口114588亿元，增长3.7%。全国固定资产投资同比增长3.9%，高技术产业投资增长10.6%。国民经济延续恢复态势，高质量发展取得新进展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Inflation hat im August erneut angezogen. Das unterstrichene Wort bedeutet am ehesten:",
+    "opts": [
+     "nachgelassen",
+     "zugenommen",
+     "stagniert",
+     "gesunken"
+    ],
+    "ans": 1,
+    "why": "anziehen 在此语境下表示“上升、增强”，与 zunehmen 同义，其他选项均为相反或中性含义。"
+   },
+   {
+    "q": "Vor allem die Energiepreise gingen zuletzt hoch. Welche Formulierung ist synonym?",
+    "opts": [
+     "fielen",
+     "stiegen",
+     "blieben stabil",
+     "sanken"
+    ],
+    "ans": 1,
+    "why": "hochgehen 是口语化表达，意为“上涨”，与 steigen 同义。"
+   },
+   {
+    "q": "Die Preise ohne Nahrungsmittel und Energie legten um 2,4 Prozent zu. Was bedeutet \"legten zu\"?",
+    "opts": [
+     "gingen zurück",
+     "nahmen ab",
+     "stiegen",
+     "verharrten"
+    ],
+    "ans": 2,
+    "why": "zulegen 在此表示“增加、上升”，与 steigen 同义。"
+   },
+   {
+    "q": "Die Verbraucherpreise lagen zuletzt um 2,9 Prozent ___ dem Niveau des Vorjahresmonats.",
+    "opts": [
+     "über",
+     "unter",
+     "auf",
+     "an"
+    ],
+    "ans": 0,
+    "why": "固定搭配 über dem Niveau liegen，表示“高于……水平”。"
+   },
+   {
+    "q": "Das hat vor allem die Ölpreise ___ die Höhe getrieben.",
+    "opts": [
+     "in",
+     "auf",
+     "zu",
+     "an"
+    ],
+    "ans": 0,
+    "why": "固定短语 in die Höhe treiben，表示“推高、使上涨”。"
+   },
+   {
+    "q": "Die Währungshüter könnten ihren Leitzins ___ 2,25 auf 2,50 Prozent anheben.",
+    "opts": [
+     "von",
+     "aus",
+     "seit",
+     "ab"
+    ],
+    "ans": 0,
+    "why": "介词搭配 von...auf... 表示变化范围，从……到……。"
+   },
+   {
+    "q": "Die EZB hat im Juni eine Zinserhöhung ___.",
+    "opts": [
+     "vorgenommen",
+     "geführt",
+     "ausgeübt",
+     "getroffen"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 eine Erhöhung vornehmen，意为“实施一次加息”。其他动词与 Erhöhung 不构成固定搭配。"
+   },
+   {
+    "q": "Die Inflation ___ weiterhin Druck auf die EZB aus.",
+    "opts": [
+     "übt",
+     "macht",
+     "legt",
+     "stellt"
+    ],
+    "ans": 0,
+    "why": "固定搭配 Druck ausüben，表示“施加压力”。"
+   },
+   {
+    "q": "Selbst wenn das Öl wieder ungehindert durch die Straße von Hormus flösse, ___ die Inflation noch lange deutlich über dem EZB-Ziel.",
+    "opts": [
+     "dürfte",
+     "konnte",
+     "musste",
+     "sollte"
+    ],
+    "ans": 0,
+    "why": "非现实条件句中，主句用 dürfte 表示推测，其他情态动词不表示推测或时态不符。"
+   },
+   {
+    "q": "Die Zentralbank hatte die Zinsen im Juni erstmals seit fast drei Jahren angehoben, ___ sie im Juli pausierte.",
+    "opts": [
+     "und",
+     "aber",
+     "dann",
+     "obwohl"
+    ],
+    "ans": 0,
+    "why": "两个主句之间是并列关系，用 und 连接，表示时间上的先后动作。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Verbraucherpreise lagen zuletzt um 2,9 Prozent ___ dem Niveau des Vorjahresmonats.",
+    "ans": "über",
+    "hint": "高于……水平",
+    "why": "介词搭配：über dem Niveau liegen，表示“高于……水平”。"
+   },
+   {
+    "q": "Das hat die Ölpreise in die Höhe ___.",
+    "ans": "getrieben",
+    "hint": "推高、使上涨",
+    "why": "动词搭配：in die Höhe treiben，treiben 的过去分词为 getrieben。"
+   },
+   {
+    "q": "Die Preise ohne Nahrungsmittel und Energie, auch als Kerninflation ___, legten um 2,4 Prozent zu.",
+    "ans": "bezeichnet",
+    "hint": "被称作",
+    "why": "名动搭配：als ... bezeichnen，此处为被动语态，用过去分词 bezeichnet。"
+   },
+   {
+    "q": "Die EZB hat im Juni eine Zinserhöhung ___.",
+    "ans": "vorgenommen",
+    "hint": "实施一次加息",
+    "why": "功能动词结构：eine Erhöhung vornehmen，过去分词为 vorgenommen。"
+   },
+   {
+    "q": "Die Inflation dürfte noch lange deutlich über dem EZB-Ziel ___ zwei Prozent liegen.",
+    "ans": "von",
+    "hint": "……的（连接目标与数值）",
+    "why": "介词搭配：das Ziel von zwei Prozent，表示“2%的目标”。"
+   },
+   {
+    "q": "Die Unternehmen sind gezwungen, den Kostenschub an ihre Kunden ___.",
+    "ans": "weiterzugeben",
+    "hint": "转嫁、传递",
+    "why": "动词搭配：etw. an jdn. weitergeben，可分动词，不定式为 weiterzugeben。"
+   }
+  ]
+ },
+ "issue": 3
+}
