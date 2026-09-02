@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-02",
+ "theme": "Gesellschaft",
+ "coach": "当前最要紧的短板是漏译严重，特别是数据密集句中的数字、百分比和单位经常丢失。今天的材料包含大量数字和税收细节，请逐项核对原文，确保每一个数字、百分比和专有名词都落实到译文中。建议采用回译检查法：完成翻译后，对照原文用笔勾画每个数字、年份、金额，确认未遗漏；同时在小卷中重点强化经济数据表达和税收相关词汇。",
+ "de2zh": {
+  "title": "Störfeuer aus der Union gegen Klingbeils Steuerreform",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-klingbeil-reiche-100.html",
+  "text": "Mehr als 600 Euro - das ist die Zahl, die Finanzminister Lars Klingbeil (SPD) und auch Kanzler Friedrich Merz (CDU) gebetsmühlenartig in den vergangenen Wochen immer wieder sagen: Mehr als 600 Euro weniger Steuern müsste eine Familie mit zwei Kindern und einem mittleren Einkommen ab dem Jahr 2028 bezahlen.\nAls Beispiel genannt wird dann gern der Busfahrer, der mit einer Pflegekraft verheiratet ist, jeweils mit einem monatlichen Brutto-Einkommen von 2.800 Euro. Wenn die beiden zwei Kinder haben, könnte die Familie 632 Euro weniger Steuern ab 2028 zahlen.\nDiese Entlastung klingt erst mal gut, eine einfache Botschaft will Klingbeil damit an die Familien in Deutschland senden. Doch innerhalb der Koalition gibt es nun Unmut.\nVon der Union gibt es seit Wochen Kritik beim Thema Ausgleich der kalten Progression. Damit ist der Effekt gemeint, dass, wenn jemand eine Gehaltserhöhung bekommt, er den zusätzlichen Verdienst mit einem höheren Satz versteuern muss. Erhöhen sich auch gleichzeitig die Verbraucherpreise, dann kann sich der Arbeitnehmer von seinem Einkommen trotz Lohnerhöhung nicht mehr, vielleicht sogar weniger kaufen als bisher. Klingbeils Vorgänger, wie zum Beispiel Finanzminister Christian Lindner (FDP), hatten die kalte Progression ausgeglichen. Im Steuerkonzept ist das nun nicht vorgesehen."
+ },
+ "zh2de": {
+  "title": "2024年减税降费政策成效显著",
+  "text": "国家税务总局最新数据显示，2024年前三季度，全国新增减税降费及退税缓税缓费达18235亿元，其中民营经济纳税人新增减税降费及退税缓税缓费12356亿元，占比67.8%。分行业看，制造业及与之相关的批发零售业累计新增减税降费及退税缓税缓费7996亿元，占比43.9%。小微企业普惠性减税政策持续发力，月销售额10万元以下的小规模纳税人免征增值税政策惠及超过3000万户纳税人。为进一步支持科技创新，国家将研发费用加计扣除比例由75%提高至100%，仅2024年上半年就为企业减免税额超过2800亿元。专家表示，减税降费政策有效降低了企业经营成本，激发了市场活力，为经济高质量发展提供了有力支撑。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Export ist im letzten Jahr um 8% ____.",
+    "opts": [
+     "gesunken",
+     "gestiegen",
+     "gefallen",
+     "geblieben"
+    ],
+    "ans": 1,
+    "why": "考点：同义词替换，区分上升/下降动词。gestiegen意为上升，与um 8%搭配合理；gesunken/gefallen表示下降，geblieben表示保持不变。针对经济数据中的趋势表达。"
+   },
+   {
+    "q": "Die Bundesregierung setzt sich ____ eine Reform der Einkommensteuer ein.",
+    "opts": [
+     "für",
+     "gegen",
+     "mit",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配，sich für etw. einsetzen 固定搭配，表示支持某事。"
+   },
+   {
+    "q": "Die Koalition hat die Steuerreform ____ Weg gebracht.",
+    "opts": [
+     "auf den",
+     "in den",
+     "an den",
+     "zu den"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构，etw. auf den Weg bringen 意为启动、推动某事。"
+   },
+   {
+    "q": "____ die Preise steigen, muss der Staat die kalte Progression ausgleichen.",
+    "opts": [
+     "Wenn",
+     "Weil",
+     "Obwohl",
+     "Damit"
+    ],
+    "ans": 1,
+    "why": "考点：原因从句连词辨析，weil表示原因，逻辑合理；wenn表示条件，obwohl让步，damit目的。针对因果关系逻辑。"
+   },
+   {
+    "q": "Die Zahl der Arbeitslosen hat sich verringert, sie ist ____.",
+    "opts": [
+     "zurückgegangen",
+     "gestiegen",
+     "gleich geblieben",
+     "explodiert"
+    ],
+    "ans": 0,
+    "why": "考点：同义词替换，zurückgehen与sich verringern同义，表示下降。"
+   },
+   {
+    "q": "Die Entlastung beträgt mehr ____ 600 Euro.",
+    "opts": [
+     "als",
+     "wie",
+     "denn",
+     "von"
+    ],
+    "ans": 0,
+    "why": "考点：比较级介词搭配，mehr als固定表达，意为超过。针对数字比较结构。"
+   },
+   {
+    "q": "Die Statistik ____ einen Anstieg von 3%.",
+    "opts": [
+     "verzeichnet",
+     "verursacht",
+     "verhindert",
+     "verlangt"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词/动词搭配，einen Anstieg verzeichnen 固定表达，意为记录到增长。针对经济数据报道常用语。"
+   },
+   {
+    "q": "____ die Einkommen steigen, desto höher ist die Steuerlast.",
+    "opts": [
+     "Je mehr",
+     "Wenn",
+     "Obwohl",
+     "Damit"
+    ],
+    "ans": 0,
+    "why": "考点：je...desto结构，表示越...越...，搭配比较级。针对数据关系表达。"
+   },
+   {
+    "q": "Das Bruttoinlandsprodukt ist um 5% ____.",
+    "opts": [
+     "gewachsen",
+     "geschrumpft",
+     "gesunken",
+     "gefallen"
+    ],
+    "ans": 0,
+    "why": "考点：同义词替换，wachsen表示增长，与um 5%搭配；schrumpfen/sinken/fallen均表示下降。针对经济数据动词。"
+   },
+   {
+    "q": "Der Gesamtumsatz belief sich ____ 2,3 Milliarden Euro.",
+    "opts": [
+     "auf",
+     "über",
+     "für",
+     "mit"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配，sich auf etw. belaufen 固定表达，表示总计为。针对数字表达。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Exporte ____ einen Anstieg von 3%.",
+    "ans": "verzeichnen",
+    "hint": "记录，显示",
+    "why": "固定搭配einen Anstieg verzeichnen，用于经济数据报道。"
+   },
+   {
+    "q": "Das neue Gesetz soll am 1. Januar in Kraft ____.",
+    "ans": "treten",
+    "hint": "生效",
+    "why": "功能动词结构in Kraft treten。"
+   },
+   {
+    "q": "Die Maßnahmen ____ zu einer Entlastung der Familien.",
+    "ans": "führen",
+    "hint": "导致",
+    "why": "固定搭配führen zu。"
+   },
+   {
+    "q": "Die kalte Progression muss ____ werden.",
+    "ans": "ausgeglichen",
+    "hint": "补偿，平衡",
+    "why": "动词ausgleichen的过去分词，用于税收语境。"
+   },
+   {
+    "q": "Die Steuerbelastung ____ zu.",
+    "ans": "nimmt",
+    "hint": "增加",
+    "why": "动词zunehmen，表示增加。"
+   },
+   {
+    "q": "Der Staat will die Steuern ____, um die Bürger zu entlasten.",
+    "ans": "senken",
+    "hint": "降低",
+    "why": "动词senken，与Steuern搭配表示减税。"
+   }
+  ]
+ },
+ "issue": 4
+}
