@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-03",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最突出的问题是德译汉时严重漏译数据（漏译×9），直接拉低得分。今天的新闻片段中含有大量数字、单位和专业术语，请逐字逐句对译，不得省略任何数据或限定语。汉译德段落也刻意埋入了多个经济数据，练习时需完整、准确地转换数字与单位。建议：第一遍通读时用笔圈出所有数字、百分比、单位，翻译后逐项核对，确保零遗漏。",
+ "de2zh": {
+  "title": "Ermittlungen wegen verfassungsfeindlicher Sabotage in NRW",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/nrw-umspannwerk-anfangsverdacht-100.html",
+  "text": "Ermittler in Nordrhein-Westfalen gehen nach dem Kurzschluss an einem Umspannwerk in Bergheim bei Köln von einer Straftat aus. \"Es besteht der Anfangsverdacht einer verfassungsfeindlichen Sabotage\", sagte Landesinnenminister Herbert Reul (CDU) auf einer Pressekonferenz. Geprüft wird demnach in zwei Richtungen - \"fremdstaatlich gelenkte Sabotage und Linksextremismus\". Nichts davon könne derzeit ausgeschlossen werden.\n\"Das war Absicht, das war eine Straftat\", betonte Reul. \"Wer da rangeht, greift unser Land an.\" Die Täter hätten mutmaßlich leitfähiges Material, möglicherweise Kabel, auf eine Oberleitung gebracht und damit den Kurzschluss ausgelöst. Genauere Angaben seien zunächst nicht möglich.\nWie die Ermittler inzwischen bekannt gaben, wurden sechs Abschussvorrichtungen in einem an das Umspannwerk grenzenden Maisfeld gefunden. Diese stehen demnach vermutlich mit der Tat in Zusammenhang. Es sei davon auszugehen, dass diese Vorrichtungen so gebaut waren, um mit pyrotechnischen Gegenständen einen Draht in die Höhe über die Stromleitungen zu führen, sagte der Leitende Kriminaldirektor Michael Esser. Er sprach von einem \"Anschlaggeschehen\".\nAus Sicht des ermittelnden Oberstaatsanwalts Ulrich Bremer sind die gefundenen Vorrichtungen ein \"ganz starkes Indiz für das Vorliegen einer vorsätzlichen Straftat\". In der Folge seien mehrere Kraftwerksblöcke abgeschaltet worden, die lebenswichtige Versorgung der Bevölkerung sei dadurch bedroht gewesen. Das Verfahren werde wegen des Anfangsverdachts der verfassungsfeindlichen Sabotage und wegen der Störung öffentlicher Betriebe geführt, so Bremer."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展取得新进展",
+  "text": "国家能源局近日发布数据显示，2025年我国可再生能源发展保持强劲势头。全年可再生能源新增装机3.7亿千瓦，占全部新增电力装机的比重达到86%，较上年提高3个百分点。截至2025年底，全国可再生能源装机容量达到19.4亿千瓦，同比增长16.9%，其中风电、太阳能发电装机分别达到5.3亿千瓦和8.1亿千瓦。随着大规模新能源并网，电网调峰能力持续增强，抽水蓄能电站建设加快推进，全年新开工规模创历史新高。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Exporte sind im Vergleich zum Vorjahr ___ 4,7% gestiegen.",
+    "opts": [
+     "um",
+     "auf",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "增长/下降幅度用介词 um；auf 表示增长到某一数值。注意德语中百分比变化搭配 um。"
+   },
+   {
+    "q": "Die Wertschöpfung des primären Sektors betrug 30.660 Milliarden Yuan. Welche Angabe ist gleichwertig?",
+    "opts": [
+     "3,066 Billionen Yuan",
+     "30,66 Billionen Yuan",
+     "306,6 Milliarden Yuan",
+     "3.066 Milliarden Yuan"
+    ],
+    "ans": 0,
+    "why": "1 亿 = 10^8 Yuan；30.660 亿 = 30.660×10^8 = 3.066×10^12 Yuan = 3,066 Billionen Yuan（德语 Million=10^6, Milliarde=10^9, Billion=10^12）。注意德语小数点用逗号。"
+   },
+   {
+    "q": "Die Exporte ___ im ersten Halbjahr 114.588 Milliarden Yuan.",
+    "opts": [
+     "beliefen sich auf",
+     "bestanden aus",
+     "gehörten zu",
+     "rechneten mit"
+    ],
+    "ans": 0,
+    "why": "sich belaufen auf 表示总计达到，用于数字总额；bestanden aus 表示由……组成。高频考点数字表达。"
+   },
+   {
+    "q": "Die Verbraucherpreise sind im Vergleich zum Vorjahr um 0,8% gestiegen. Der Anstieg ___ sich gegenüber dem ersten Quartal um 0,3 Prozentpunkte ___.",
+    "opts": [
+     "hat ... ausgeweitet",
+     "ist ... ausgeweitet worden",
+     "wurde ... erweitert",
+     "hat ... erweitert"
+    ],
+    "ans": 0,
+    "why": "反身动词 sich ausweiten 的现在完成时用 haben，结构 hat sich ausgeweitet；因此选 hat ... ausgeweitet。"
+   },
+   {
+    "q": "Die Ermittler gehen von einer vorsätzlichen Straftat aus. Was bedeutet \"vorsätzlich\" hier?",
+    "opts": [
+     "absichtlich",
+     "versehentlich",
+     "fahrlässig",
+     "zufällig"
+    ],
+    "ans": 0,
+    "why": "vorsätzlich = absichtlich 故意的；fahrlässig 疏忽的，versehentlich 无意的，zufällig 偶然的。"
+   },
+   {
+    "q": "Die Täter brachten leitfähiges Material ___ eine Oberleitung.",
+    "opts": [
+     "auf",
+     "an",
+     "über",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "动词 bringen + auf + Akkusativ 表示把……放到……上；原文 auf eine Oberleitung gebracht。注意介词 auf。"
+   },
+   {
+    "q": "Die Staatsanwaltschaft ___ Anklage wegen Sabotage.",
+    "opts": [
+     "erhebt",
+     "macht",
+     "stellt",
+     "führt"
+    ],
+    "ans": 0,
+    "why": "Anklage erheben 是固定功能动词结构，表示提起公诉；其他动词不搭配。"
+   },
+   {
+    "q": "In der Folge ___ mehrere Kraftwerksblöcke abgeschaltet.",
+    "opts": [
+     "wurden",
+     "waren",
+     "haben",
+     "sind"
+    ],
+    "ans": 0,
+    "why": "此处为过程被动（被关停）的过去时，用 wurden abgeschaltet；waren abgeschaltet 是状态被动，强调结果，且时态不完全对应。"
+   },
+   {
+    "q": "Die Vorrichtungen sollen auf DNA-Spuren hin ___ werden.",
+    "opts": [
+     "ausgewertet",
+     "bewertet",
+     "verwertet",
+     "abgewertet"
+    ],
+    "ans": 0,
+    "why": "auswerten 表示对数据/痕迹进行分析评估；bewerten 是评价价值，verwerten 是利用，abwerten 是贬值。"
+   },
+   {
+    "q": "Die Polizei ermittelt ___ Sabotage.",
+    "opts": [
+     "wegen",
+     "für",
+     "auf",
+     "über"
+    ],
+    "ans": 0,
+    "why": "wegen 加第二格表示原因，ermitteln wegen Sabotage 为固定搭配，表示因涉嫌破坏而调查。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Exporte ___ im ersten Halbjahr 114.588 Milliarden Yuan.",
+    "ans": "beliefen sich auf",
+    "hint": "总计达到",
+    "why": "sich belaufen auf 是固定搭配，表示总计达到，注意主语复数时动词用 beliefen。"
+   },
+   {
+    "q": "Der Verbraucherpreisindex ist gegenüber dem Vorjahr um 0,8% ___.",
+    "ans": "gestiegen",
+    "hint": "上涨",
+    "why": "价格上涨用 steigen，完成时 ist gestiegen；注意 um 表示差额，auf 表示达到值。"
+   },
+   {
+    "q": "Die Polizei hat die Ermittlungen ___.",
+    "ans": "aufgenommen",
+    "hint": "开始调查",
+    "why": "Ermittlungen aufnehmen 是功能动词结构，表示立案侦查；aufnehmen 在此意为开始进行。"
+   },
+   {
+    "q": "Die gefundenen Vorrichtungen stehen vermutlich mit der Tat ___.",
+    "ans": "in Zusammenhang",
+    "hint": "与……有关联",
+    "why": "in Zusammenhang stehen mit 是固定搭配，注意介词 in；也可用 im Zusammenhang stehen，但此处空格前有 mit der Tat，用 in 后接名词。"
+   },
+   {
+    "q": "Durch den Vorfall fielen fünf Kraftwerksblöcke ___.",
+    "ans": "aus",
+    "hint": "停止运转，退出运行",
+    "why": "ausfallen 表示（机器/系统）停止运转，此处指发电机组脱网。"
+   },
+   {
+    "q": "Drei der fünf Blöcke sind wieder ___ gegangen.",
+    "ans": "ans Netz",
+    "hint": "重新并网",
+    "why": "ans Netz gehen 是能源领域固定搭配，表示并入电网；反义为 vom Netz gehen。"
+   }
+  ]
+ },
+ "issue": 5
+}
