@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-04",
+ "theme": "Kultur",
+ "coach": "近期德译汉和汉译德得分均较低，错译、漏译现象严重，尤其涉及数字、单位和长句结构时容易失分。今天材料聚焦文化艺术话题，但包含政治表态和复杂从句，适合训练准确理解和完整表达。建议在翻译时先划分句子主干，数字和单位要逐字核对，长定语可拆分为短句，避免漏译。",
+ "de2zh": {
+  "title": "\"Musik ist Teil der Kunst - und die Kunst ist frei\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/kultur/kritik-alphaville-ausladung-100.html",
+  "text": "Zuvor hatte der Veranstalter Alphaville ausgeladen. Der Grund: Man habe sich mit der Band nicht darauf einigen können, \"politische Äußerungen auf unserer Bühne zu unterlassen\". Alphaville hatte sich mehrfach gegen rechts und für Demokratie ausgesprochen und insbesondere die AfD kritisiert. Sänger Gold kritisierte die Ausladung scharf - und erhielt dafür Unterstützung von etlichen Bands und Prominenten. Es folgte die Entschuldigung von Veranstalter Krampe und die Wiedereinladung bei der Bild . Krampe sagte: \"Meinungsfreiheit ist das höchste Gut, das wir in Deutschland haben, sie ist zu schützen.\" \"Musik ist Teil der Kunst - und die Kunst ist frei\", betonte Gold im Interview mit tagesschau24 . \"Wenn man sagt, politische Themen dürfen nicht verwendet werden, dann ist das eine Einschränkung der künstlerischen Freiheit und vollkommen inakzeptabel in einem Land wie Deutschland, das auf einer Demokratie und unserem Grundgesetz beruht. Das kann man so nicht hinnehmen.\""
+ },
+ "zh2de": {
+  "title": "中国非物质文化遗产保护成果显著",
+  "text": "中国政府高度重视非物质文化遗产保护，截至2025年底，已公布五批国家级非物质文化遗产代表性项目名录，共计1557项，涵盖民间文学、传统音乐、传统舞蹈等十大类别。全国已设立23个国家级文化生态保护区，投入专项资金超过100亿元人民币。近年来，通过实施“中国传统工艺振兴计划”，多项传统技艺得到有效传承，相关产业年产值突破3000亿元，带动就业超过500万人。文化自信显著增强，中华优秀传统文化影响力不断扩大。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Band wollte sich politische Äußerungen nicht verbieten lassen. Das unterstrichene Wort bedeutet am ehesten:",
+    "opts": [
+     "erlauben",
+     "untersagen",
+     "gestatten",
+     "ermöglichen"
+    ],
+    "ans": 1,
+    "why": "verbieten = untersagen，意为禁止，与erlauben/gestatten/ermöglichen相反。"
+   },
+   {
+    "q": "Die Band sprach sich mehrfach ______ rechts aus.",
+    "opts": [
+     "gegen",
+     "für",
+     "über",
+     "an"
+    ],
+    "ans": 0,
+    "why": "sich gegen etw. aussprechen 固定搭配，表示反对。"
+   },
+   {
+    "q": "Der Veranstalter nahm die Entschuldigung und Wiedereinladung ______ Kenntnis.",
+    "opts": [
+     "zur",
+     "in",
+     "zu",
+     "an"
+    ],
+    "ans": 0,
+    "why": "etw. zur Kenntnis nehmen 功能动词结构，意为注意到。"
+   },
+   {
+    "q": "Die im letzten Jahr ______ Anlage soll erweitert werden.",
+    "opts": [
+     "installierte",
+     "installiert",
+     "installierenden",
+     "installiertes"
+    ],
+    "ans": 0,
+    "why": "installierte 作定语修饰阴性名词Anlage，第一分词变位，针对学员 installiert e 错误。"
+   },
+   {
+    "q": "Die Gage des geplatzten Auftritts soll an eine gemeinnützige Organisation ______ werden.",
+    "opts": [
+     "gespendet",
+     "spenden",
+     "spendete",
+     "spendet"
+    ],
+    "ans": 0,
+    "why": "sollen + Partizip II 构成被动语态，选项A正确。"
+   },
+   {
+    "q": "Die Teilnehmerzahl wird ______ 200.000 geschätzt.",
+    "opts": [
+     "auf",
+     "in",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "etw. auf + Akk. schätzen 估计为，数字表达介词搭配。"
+   },
+   {
+    "q": "Er kritisierte die Ausladung scharf. Das unterstrichene Wort bedeutet am ehesten:",
+    "opts": [
+     "mild",
+     "heftig",
+     "freundlich",
+     "leise"
+    ],
+    "ans": 1,
+    "why": "scharf 此处意为激烈地、严厉地，同义heftig。"
+   },
+   {
+    "q": "Gold betonte, dass es Aufgabe der Künstler sei, die Menschen ______.",
+    "opts": [
+     "aufzuwecken",
+     "aufwachen",
+     "wecken auf",
+     "auf zu wecken"
+    ],
+    "ans": 0,
+    "why": "aufwecken 叫醒，带zu不定式：aufzuwecken。"
+   },
+   {
+    "q": "Er sagte, politische Themen ______ nicht verwendet werden dürften.",
+    "opts": [
+     "dürften",
+     "dürfen",
+     "dürfe",
+     "darf"
+    ],
+    "ans": 0,
+    "why": "间接引语第一虚拟式，主语为politische Themen复数，dürften。"
+   },
+   {
+    "q": "Die Band verortet ihre Ansichten im liberalen bis linken Spektrum. Das unterstrichene Wort bedeutet am ehesten:",
+    "opts": [
+     "einordnen",
+     "verlieren",
+     "verbergen",
+     "vermeiden"
+    ],
+    "ans": 0,
+    "why": "verorten = einordnen，定位、归类。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Kosten ______ sich auf 3 Millionen Euro.",
+    "ans": "belaufen",
+    "hint": "总计为",
+    "why": "sich auf etw. belaufen 固定搭配，数字表达，针对学员数字错误。"
+   },
+   {
+    "q": "Die Entscheidung wurde einstimmig ______.",
+    "ans": "getroffen",
+    "hint": "做出（决定）",
+    "why": "eine Entscheidung treffen，被动语态，针对语法。"
+   },
+   {
+    "q": "Die Band nimmt die Entschuldigung ______ Kenntnis.",
+    "ans": "zur",
+    "hint": "注意到",
+    "why": "zur Kenntnis nehmen 固定搭配。"
+   },
+   {
+    "q": "Er ______ von einem Auftritt ab.",
+    "ans": "sieht",
+    "hint": "放弃",
+    "why": "von etw. absehen 功能动词。"
+   },
+   {
+    "q": "Das Engagement ______ Kunst und Kultur ist wichtig.",
+    "ans": "für",
+    "hint": "对...的投入",
+    "why": "Engagement für etw. 介词搭配。"
+   },
+   {
+    "q": "Die Künstler wollen die Menschen ______.",
+    "ans": "aufwecken",
+    "hint": "唤醒",
+    "why": "jdn. aufwecken 动宾搭配。"
+   }
+  ]
+ },
+ "issue": 6
+}
