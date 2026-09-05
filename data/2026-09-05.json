@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-05",
+ "theme": "China-Themen",
+ "coach": "你的最大短板是数字与增减表达的准确转换，以及长句结构梳理，导致严重漏译错译。今天的材料为经贸数据类新闻，数字密集，正好集中训练逐项核对和句式拆分。建议翻译时先在草稿上列出所有数字及其单位、增减方向，再逐句翻译，完成后对照检查；遇到长定语或关系从句先拆成短句，确保不丢信息。",
+ "de2zh": {
+  "title": "Chinas Dienstleistungshandel wächst stabil – Reisen und Verkehr treiben Exportwachstum an",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/n3/2026/0904/c209053-20496134.html",
+  "text": "Chinas Dienstleistungshandel verzeichnete in den ersten sieben Monaten dieses Jahres ein stabiles Wachstum, wobei mehr als die Hälfte des gesamten Exportwachstums auf Reise- und Transportdienstleistungen entfiel, wie aus offiziellen Daten vom Donnerstag hervorgeht.\nNach Angaben des Handelsministeriums belief sich der Dienstleistungshandel des Landes im genannten Zeitraum auf insgesamt fast 4,45 Billionen Yuan (etwa 570 Milliarden Euro), ein Anstieg von 8,3 Prozent gegenüber dem Vorjahreszeitraum.\nDie Exporte legten im Vergleich zum Vorjahreszeitraum um 17,1 Prozent auf über 1,77 Billionen Yuan (etwa 227 Milliarden Euro) zu. Die Dienstleistungsimporte beliefen sich auf 2,67 Billionen Yuan (rund 342 Milliarden Euro), was einem Anstieg von 3,2 Prozent gegenüber dem Vorjahreszeitraum entspricht. Das chinesische Handelsdefizit bei Dienstleistungen verringerte sich damit gegenüber dem Vorjahr um 176,33 Milliarden Yuan auf 900,25 Milliarden Yuan (etwa 115 Milliarden Euro).\nEine Aufschlüsselung der Daten zeigt, dass Reise- und Transportdienstleistungen die beiden Wachstumsmotoren für den Export waren. Die Exporte von Reisedienstleistungen schnellten um 27,7 Prozent in die Höhe, während die Exporte von Transportdienstleistungen um 27,1 Prozent zunahmen. Diese beiden Kategorien trugen mit 22,1 Prozent bzw. 29,9 Prozent zum Gesamtwachstum der Dienstleistungsexporte bei."
+ },
+ "zh2de": {
+  "title": "2024年上半年我国服务贸易发展情况",
+  "text": "据商务部统计，2024年上半年，我国服务贸易继续保持快速增长态势，服务进出口总额达4.2万亿元人民币，同比增长9.1%。其中，出口1.9万亿元，增长13.5%；进口2.3万亿元，增长5.2%。知识密集型服务进出口占比提升至45.3%，电信、计算机和信息服务、金融服务等领域表现突出。旅行服务进出口大幅增长，成为拉动服务贸易增长的主要动力。此外，我国在服务贸易领域持续扩大开放，已与15个国家签署服务贸易合作备忘录，并推动数字贸易规则对接。中国政府出台的一系列支持政策，包括税收优惠、跨境支付便利化等措施，有效降低了企业成本，增强了服务贸易的国际竞争力。到2025年，全国服务贸易总额预计将突破5万亿元，为实现“十五五”良好开局奠定坚实基础。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Dienstleistungshandel ___ in den ersten sieben Monaten ein stabiles Wachstum.",
+    "opts": [
+     "verzeichnete",
+     "aufzeichnete",
+     "bemerkte",
+     "beobachtete"
+    ],
+    "ans": 0,
+    "why": "verzeichnen 表示“录得、取得”，是经贸报道中表示数据变化的固定搭配，其他选项不能与Wachstum搭配表示此义。"
+   },
+   {
+    "q": "Der Anteil der Reisedienstleistungen ___ Gesamtwachstum betrug 22,1 Prozent.",
+    "opts": [
+     "am",
+     "im",
+     "zum",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "固定搭配：der Anteil an etw. (Dativ)，表示“在……中所占份额”，需用an + Dativ，此处an dem = am。"
+   },
+   {
+    "q": "Der Staatsrat hat im April eine Leitlinie zur Förderung des Sektors ___.",
+    "opts": [
+     "verabschiedet",
+     "erlassen",
+     "angenommen",
+     "beschlossen"
+    ],
+    "ans": 0,
+    "why": "固定搭配：eine Leitlinie verabschieden 表示“通过一项指导方针”，是官方文件常用功能动词结构；erlassen多用于法律法令，annehmen/beschließen不与Leitlinie固定搭配。"
+   },
+   {
+    "q": "Die Exporte ___ im Vergleich zum Vorjahreszeitraum um 17,1 Prozent zu.",
+    "opts": [
+     "legten",
+     "wurden gelegt",
+     "haben gelegt",
+     "sind gelegt"
+    ],
+    "ans": 0,
+    "why": "zulegen 在此为不及物动词，意为“增加、增长”，主动语态，过去时形式legten zu；被动或完成时结构错误。"
+   },
+   {
+    "q": "Das Handelsdefizit verringerte sich um 176,33 Milliarden Yuan ___ 900,25 Milliarden Yuan.",
+    "opts": [
+     "auf",
+     "um",
+     "mit",
+     "von"
+    ],
+    "ans": 0,
+    "why": "verringern um + 差额表示“减少了……”，verringern auf + 数值表示“减少到……”，此处是最终数值，故用auf。"
+   },
+   {
+    "q": "Die Exporte von Reisedienstleistungen ___ um 27,7 Prozent in die Höhe.",
+    "opts": [
+     "schnellten",
+     "rannten",
+     "eilten",
+     "jagten"
+    ],
+    "ans": 0,
+    "why": "in die Höhe schnellen 是固定搭配，表示“急剧上升、飙升”，其他动词无此搭配含义。"
+   },
+   {
+    "q": "China hat seine politischen Bemühungen ___ Förderung des Dienstleistungssektors verstärkt.",
+    "opts": [
+     "zur",
+     "für die",
+     "an der",
+     "bei der"
+    ],
+    "ans": 0,
+    "why": "固定搭配：Bemühungen zur Förderung + Genitiv/Dativ，表示“为促进……所做的努力”，介词用zu。"
+   },
+   {
+    "q": "Der Gesamtwert des Dienstleistungshandels ___ auf fast 4,45 Billionen Yuan.",
+    "opts": [
+     "belief sich",
+     "belief",
+     "glaubte",
+     "schätzte"
+    ],
+    "ans": 0,
+    "why": "sich belaufen auf + Akkusativ 是固定功能动词结构，表示“总计为、达到”，主语为数值，belaufen为反身动词。"
+   },
+   {
+    "q": "Die wissensintensiven Dienstleistungen, ___ Telekommunikation und Finanzdienstleistungen zählen, stiegen um 6,6 Prozent.",
+    "opts": [
+     "zu denen",
+     "zu der",
+     "wozu",
+     "die"
+    ],
+    "ans": 0,
+    "why": "zählen zu + Dativ 表示“属于、算作”，关系代词需用复数第三格denen，并带介词zu，故为zu denen。"
+   },
+   {
+    "q": "Das Gesamtvolumen soll bis 2030 100 Billionen Yuan ___.",
+    "opts": [
+     "übersteigen",
+     "übertreffen",
+     "überschreiten",
+     "überholen"
+    ],
+    "ans": 0,
+    "why": "übersteigen 表示数值“超过、超出”，多用于数量、金额；原文使用übersteigen，übertreffen多指超越某人/纪录，überschreiten多指越过界限，überholen指超车或赶超。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Der Dienstleistungshandel verzeichnete einen ___ von 8,3 Prozent gegenüber dem Vorjahreszeitraum.",
+    "ans": "Anstieg",
+    "hint": "增长",
+    "why": "固定搭配：einen Anstieg verzeichnen 表示“录得增长”，Anstieg是动词ansteigen的名词形式。"
+   },
+   {
+    "q": "Die Exporte legten im Vergleich ___ Vorjahreszeitraum um 17,1 Prozent zu.",
+    "ans": "zum",
+    "hint": "与……相比",
+    "why": "固定搭配：im Vergleich zu + Dativ，表示“与……相比”，此处zu dem = zum。"
+   },
+   {
+    "q": "Die Regierung hat konkrete ___ für den Sektor festgelegt.",
+    "ans": "Maßnahmen",
+    "hint": "措施",
+    "why": "名动搭配：Maßnahmen festlegen/treffen/ergreifen 表示“制定/采取措施”，festlegen强调确定、规定。"
+   },
+   {
+    "q": "Das Handelsdefizit verringerte sich um 176,33 Milliarden Yuan ___ 900,25 Milliarden Yuan.",
+    "ans": "auf",
+    "hint": "减少到",
+    "why": "verringern auf + 数值表示“减少到……”，注意与um（减少了……）区分，这是数字表达的常见考点。"
+   },
+   {
+    "q": "Diese beiden Kategorien ___ mit 22,1 Prozent bzw. 29,9 Prozent zum Gesamtwachstum der Dienstleistungsexporte bei.",
+    "ans": "trugen",
+    "hint": "贡献",
+    "why": "固定搭配：beitragen zu + Dativ 表示“对……作出贡献”，可分动词beitragen，过去时trugen ... bei。"
+   },
+   {
+    "q": "Der Anteil der wissensintensiven Dienstleistungen ___ gesamten Dienstleistungshandel betrug 44,1 Prozent.",
+    "ans": "am",
+    "hint": "占……比例",
+    "why": "固定搭配：der Anteil an etw. (Dativ)，表示“在……中的份额”，an dem = am。"
+   }
+  ]
+ },
+ "issue": 7
+}
