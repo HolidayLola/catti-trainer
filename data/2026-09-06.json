@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-06",
+ "theme": "Panorama",
+ "coach": "当前最要紧的短板是德译汉错译漏译严重（近两次平均不到6分），汉译德基础为零，根源在于词汇量不足和长句结构把握不准。今天这篇能源安全新闻正好针对你的薄弱领域：请重点积累可再生能源、碳排放、装机容量等术语，并注意数字如 90 Prozent、drei Tanker 的准确转换。建议先逐句精读，划出主谓宾和被动结构，再翻译；汉译德部分先写简单句，再尝试合并，不要硬套长定语。",
+ "de2zh": {
+  "title": "USA greifen iranische Öltanker an",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/asien/usa-iran-angriffe-tanker-100.html",
+  "text": "Die US-Armee hat nach eigenen Angaben drei iranische Öltanker im Persischen Golf und im Golf von Oman attackiert. Zwei der Handelsschiffe seien \"dauerhaft außer Gefecht gesetzt\", der dritte sei leer gewesen und \"vollständig zerstört\" worden, teilte das für den Nahen Osten zuständige US-Regionalkommando CENTCOM mit.\n\nDen Angriffen waren laut CENTCOM Attacken der Iranischen Revolutionsgarde (IRGC) auf zwei US-Kriegsschiffe mit ballistischen Raketen vorausgegangen. Ein Flugzeugträger und ein Lenkwaffenzerstörer seien von den \"unprovozierten Attacken\" nicht getroffen worden, Soldaten seien nicht verletzt worden.\n\nDie angegriffenen Tanker gehörten nach US-Angaben zu einem Schattennetzwerk, das zur Finanzierung der Revolutionsgarden beiträgt. \"Die Botschaft an die IRGC muss unmissverständlich sein: Wenn ihr auf zwei unserer Schiffe schießt, werden wir euch noch höhere wirtschaftliche Kosten aufbürden, indem wir drei eurer Schiffe ausschalten\", zitierte das Militär den CENTCOM-Kommandeur, Admiral Brad Cooper. Die US-Streitkräfte seien bereit, die zahlenmäßig begrenzte und ungeschützte Ölflotte Irans zu zerstören.\n\nIranische Medien hatten zuvor von Explosionen in der Nähe der Insel Charg im Persischen Golf berichtet. Nach Informationen der Nachrichtenagentur Tasnim sollen vier US-Raketen einen iranischen Öltanker rund elf Kilometer vor der Küste der Insel getroffen haben. Demnach gab es keine Opfer.\n\nCharg ist der wichtigste Umschlagplatz für iranische Rohölexporte. Berichten zufolge werden dort mehr als 90 Prozent der iranischen Exporte abgewickelt. Die USA hatten die Insel bereits mehrfach angegriffen."
+ },
+ "zh2de": {
+  "title": "中国发布能源安全白皮书：非化石能源发电装机占比达55%",
+  "text": "国家能源局日前发布《中国能源安全白皮书》。数据显示，2025年我国原油产量达2.13亿吨，天然气产量达2460亿立方米，同比分别增长1.8%和5.2%。同时，全国非化石能源发电装机容量占比首次达到55%，风电、光伏发电总装机突破15亿千瓦。白皮书强调，我国正加快构建清洁低碳、安全高效的现代能源体系，单位国内生产总值二氧化碳排放比2020年下降18.5%。全国碳市场交易规模持续扩大，碳排放强度稳步降低，为如期实现碳达峰、碳中和目标提供有力支撑。新能源产业被国际社会视为推动全球能源转型的重要力量。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Herausforderung besteht darin, immer mehr Strom aus ___ Energien in das Netz zu integrieren.",
+    "opts": [
+     "erneuerbaren",
+     "erschöpflichen",
+     "fossilen",
+     "nuklearen"
+    ],
+    "ans": 0,
+    "why": "erneuerbare Energien 固定搭配，意为“可再生能源”；其他选项分别为可耗竭的、化石的、核能的，与语境不符。"
+   },
+   {
+    "q": "Um die Klimaziele zu erreichen, muss das Land seine CO2-Emissionen bis 2030 deutlich ___.",
+    "opts": [
+     "senken",
+     "erhöhen",
+     "stabilisieren",
+     "ignorieren"
+    ],
+    "ans": 0,
+    "why": "减排二氧化碳用 senken（降低），固定动宾搭配；其他动词不合逻辑。"
+   },
+   {
+    "q": "Die installierte Leistung von Windkraftanlagen erreichte im vergangenen Jahr 19,4 ___ Kilowatt.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionen von",
+     "Millionen der"
+    ],
+    "ans": 0,
+    "why": "德语中数词+量词：19,4 Millionen 后直接跟名词 Kilowatt，不加介词；Millionen 是复数形式。"
+   },
+   {
+    "q": "Das neue Kohlekraftwerk soll noch in diesem Jahr ___ genommen werden.",
+    "opts": [
+     "in Betrieb",
+     "in Gang",
+     "in Kraft",
+     "in Angriff"
+    ],
+    "ans": 0,
+    "why": "in Betrieb nehmen 是功能动词结构，意为“投入运行、启用”；其他搭配意思不对。"
+   },
+   {
+    "q": "Die US-Armee hat drei iranische Öltanker außer Gefecht gesetzt. Das bedeutet, sie wurden ___.",
+    "opts": [
+     "funktionsunfähig gemacht",
+     "zerstört",
+     "beschlagnahmt",
+     "versenkt"
+    ],
+    "ans": 0,
+    "why": "außer Gefecht setzen 意为使失去功能/战斗力，不一定完全摧毁，funktionsunfähig machen 同义；zerstört 过于绝对。"
+   },
+   {
+    "q": "Diese Maßnahmen tragen wesentlich ___ Stabilisierung der Energiepreise bei.",
+    "opts": [
+     "zur",
+     "für",
+     "an",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "beitragen zu + Dativ 是固定搭配，意为“有助于、促进”。"
+   },
+   {
+    "q": "Die Angriffe wurden als \"unprovoziert\" bezeichnet. Was bedeutet \"unprovoziert\"?",
+    "opts": [
+     "ohne vorherigen Anlass",
+     "besonders heftig",
+     "heimlich",
+     "gezielt"
+    ],
+    "ans": 0,
+    "why": "unprovoziert 意为“未受挑衅的、无端的”，即 ohne vorherigen Anlass。"
+   },
+   {
+    "q": "Die Tanker ___ von der US-Armee außer Gefecht gesetzt.",
+    "opts": [
+     "wurden",
+     "haben",
+     "sind",
+     "waren"
+    ],
+    "ans": 0,
+    "why": "过程被动用 werden + Partizip II，过去时 wurden；haben 不能构成被动，sein 表示状态被动。"
+   },
+   {
+    "q": "Über den Hafen werden über 90 Prozent der iranischen Rohölexporte ___.",
+    "opts": [
+     "abgewickelt",
+     "abgeschlossen",
+     "aufgegeben",
+     "angenommen"
+    ],
+    "ans": 0,
+    "why": "Exporte abwickeln 是固定搭配，意为“办理/处理出口业务”；其他动词搭配不当。"
+   },
+   {
+    "q": "Die Insel Charg ist der wichtigste Umschlagplatz für iranische Rohölexporte. \"Umschlagplatz\" bedeutet ___.",
+    "opts": [
+     "Verlade- und Handelszentrum",
+     "Lagerstätte",
+     "Raffinerie",
+     "Zollstation"
+    ],
+    "ans": 0,
+    "why": "Umschlagplatz 指货物转运、装卸的场所，即 Verlade- und Handelszentrum。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Um die Klimaziele zu erreichen, muss das Land seine Kohlenstoffemissionen deutlich ___.",
+    "ans": "senken",
+    "hint": "降低",
+    "why": "senken 与 Emissionen 构成固定动宾搭配，表示减排。"
+   },
+   {
+    "q": "Die installierte ___ der Windkraftanlagen hat sich verdoppelt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "installierte Leistung 是能源领域固定术语，指设备装机容量。"
+   },
+   {
+    "q": "Die Marine hat das feindliche Schiff außer ___ gesetzt.",
+    "ans": "Gefecht",
+    "hint": "使失去战斗力",
+    "why": "außer Gefecht setzen 是功能动词结构，固定搭配。"
+   },
+   {
+    "q": "Diese Maßnahmen tragen zur ___ der Energiepreise bei.",
+    "ans": "Stabilisierung",
+    "hint": "稳定",
+    "why": "beitragen zu + Dativ，后接名词化动词，表示有助于……。"
+   },
+   {
+    "q": "Über diesen Hafen werden 90 Prozent der Exporte ___.",
+    "ans": "abgewickelt",
+    "hint": "处理、办理",
+    "why": "Exporte abwickeln 是经济领域固定搭配，意为处理出口业务。"
+   },
+   {
+    "q": "In der ___ der Insel kam es zu Explosionen.",
+    "ans": "Nähe",
+    "hint": "附近",
+    "why": "in der Nähe + Genitiv 是固定介词短语，表示“在……附近”。"
+   }
+  ]
+ },
+ "issue": 8
+}
