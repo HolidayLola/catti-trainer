@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-07",
+ "theme": "Politik",
+ "coach": "当前最要紧的短板是基础语法不牢（分词定语、时间状语、数字单位）和德译汉时的严重错译漏译。今天的材料针对性强：德译汉段落训练政治数据（百分比、席位）的准确转换，汉译德段落重点练能源数据和单位表达。建议先逐句精读原文，用笔标出主谓宾和分词定语，再动笔翻译；译后必须逐项核对数字、单位、时间状语和功能动词结构，避免漏译。",
+ "de2zh": {
+  "title": "AfD mit Rekordergebnis - CDU stürzt ab",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/landtagswahl-sachsen-anhalt-172.html",
+  "text": "Die AfD hat die Landtagswahl in Sachsen-Anhalt klar gewonnen. Laut ARD -Hochrechnung von infratest dimap kommt sie auf 44,0 Prozent - bei der Wahl 2021 hatte sie 20,8 Prozent geholt. Die AfD erreicht damit ihr bisher bestes Ergebnis bei einer Landtagswahl überhaupt und wird stärkste Kraft im Landtag.\nMit großem Abstand dahinter folgt die CDU. Die Partei von Ministerpräsident Sven Schulze liegt bei historisch niedrigen 17,4 Prozent - ein erheblicher Verlust im Vergleich zur Landtagswahl 2021, die die Partei unter dem langjährigen Ministerpräsidenten Reiner Haseloff mit 37,1 Prozent deutlich gewonnen hatte.\nAuf den dritten Platz kommt laut Hochrechnung die SPD mit 9,2 Prozent. Die Sozialdemokraten liegen damit über ihrem Wert von 2021, als sie ihr historisch schlechtestes Ergebnis einfuhren (8,4 Prozent). Die Grünen kommen auf 8,9 Prozent (2021: 5,9 Prozent), es wäre das beste Ergebnis bei einer Landtagswahl in Sachsen-Anhalt.\nDarauf folgt die Partei Die Linke mit 8,6 Prozent - das ist ihr bisher schlechtestes Ergebnis in Sachsen-Anhalt (2021: 11,0 Prozent).\nDas BSW kommt auf 5,1 Prozent und könnte nach jetzigem Stand in den Landtag einziehen, die FDP scheitert laut Hochrechnung mit 2,5 Prozent an der Mandatsschwelle."
+ },
+ "zh2de": {
+  "title": "中国坚定不移推进绿色低碳发展",
+  "text": "近年来，中国坚定不移贯彻新发展理念，加快构建清洁低碳、安全高效的能源体系。截至2024年底，全国可再生能源新增装机容量达到3.7亿千瓦，占全国新增电力装机的86%以上；风电、太阳能发电合计装机容量首次超过14亿千瓦，提前六年实现2030年风电、太阳能总装机容量12亿千瓦以上的目标。全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。中国还积极参与全球气候治理，推动构建公平合理、合作共赢的全球环境治理体系。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die im letzten Jahr ___ Windkraftanlagen haben eine Gesamtleistung von 19,4 Millionen Kilowatt erreicht.",
+    "opts": [
+     "installierten",
+     "installierte",
+     "installiertem",
+     "installierter"
+    ],
+    "ans": 0,
+    "why": "考查分词作定语，die ... Anlagen 为复数第一格，分词词尾应为 -en，选 installierten。"
+   },
+   {
+    "q": "Bis ___ Ende von 2025 sollen alle neuen Windkraftanlagen in Betrieb genommen werden.",
+    "opts": [
+     "zum",
+     "beim",
+     "im",
+     "am"
+    ],
+    "ans": 0,
+    "why": "固定搭配 bis zum Ende，表示“到……底为止”。"
+   },
+   {
+    "q": "Die neu installierte Leistung beträgt 19,4 Millionen ___.",
+    "opts": [
+     "Kilowatt",
+     "Kilowatts",
+     "Kilowatten",
+     "Kilowattstunden"
+    ],
+    "ans": 0,
+    "why": "千瓦单位 Kilowatt 在德语中复数不加 s，且此处为功率单位，不是电能单位 Kilowattstunden。"
+   },
+   {
+    "q": "Die Windenergie ___ inzwischen 40 Prozent des Stromverbrauchs.",
+    "opts": [
+     "beträgt",
+     "betrügt",
+     "betragt",
+     "beträgt sich"
+    ],
+    "ans": 0,
+    "why": "betragen 意为“总计为，达到”，第三人称单数 beträgt，无自反用法。"
+   },
+   {
+    "q": "Mit der ___ erneuerbarer Energie in das Stromnetz sind neue Herausforderungen verbunden.",
+    "opts": [
+     "Integration",
+     "Integrierung",
+     "Integrieren",
+     "Integriertheit"
+    ],
+    "ans": 0,
+    "why": "名词 Integration 与介词 in 搭配，表示“融入、并入”。"
+   },
+   {
+    "q": "Das BSW könnte für die Wahl eines Ministerpräsidenten eine entscheidende ___ spielen.",
+    "opts": [
+     "Rolle",
+     "Funktion",
+     "Aufgabe",
+     "Bedeutung"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 eine Rolle spielen，意为“起作用”。"
+   },
+   {
+    "q": "Die CDU erteilte einer Koalition mit der AfD eine klare Absage. Das Wort Absage kann hier ersetzt werden durch ___.",
+    "opts": [
+     "Zusage",
+     "Ablehnung",
+     "Zustimmung",
+     "Einladung"
+    ],
+    "ans": 1,
+    "why": "Absage 此处意为“拒绝”，与 Ablehnung 同义。"
+   },
+   {
+    "q": "Die FDP scheiterte an der Fünf-Prozent-Hürde und zog nicht in den Landtag ___.",
+    "opts": [
+     "ein",
+     "an",
+     "auf",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "固定搭配 in den Landtag einziehen，表示“进入议会”。"
+   },
+   {
+    "q": "Die AfD hat die Wahl in Sachsen-Anhalt klar gewonnen. Das Wort klar bedeutet hier ___.",
+    "opts": [
+     "unklar",
+     "deutlich",
+     "knapp",
+     "umstritten"
+    ],
+    "ans": 1,
+    "why": "klar 与 deutlich 同义，表示“明显地”。"
+   },
+   {
+    "q": "Die Partei, ___ als rechtsextremistisch eingestuft wird, gewann die Wahl.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "den"
+    ],
+    "ans": 0,
+    "why": "关系代词代指 die Partei，在第一格作主语，用 die。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die neuen Windkraftanlagen sollen bis ___ Ende von 2025 in Betrieb genommen werden.",
+    "ans": "zum",
+    "hint": "到……底为止",
+    "why": "bis zum Ende 是固定搭配，表示时间终点。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energie in das Stromnetz ___ neue Herausforderungen mit sich.",
+    "ans": "bringt",
+    "hint": "带来",
+    "why": "etwas mit sich bringen 是固定搭配，表示“带来、引起”。主语 Integration，动词用第三人称单数 bringt。"
+   },
+   {
+    "q": "Das BSW könnte bei der Regierungsbildung eine wichtige ___ spielen.",
+    "ans": "Rolle",
+    "hint": "起作用",
+    "why": "eine Rolle spielen 功能动词结构。"
+   },
+   {
+    "q": "Die AfD hat bei der Wahl einen historischen Sieg ___.",
+    "ans": "errungen",
+    "hint": "取得",
+    "why": "einen Sieg erringen 是名动搭配，完成时用 errungen。"
+   },
+   {
+    "q": "Die CDU lehnt eine Zusammenarbeit ___ der AfD ab.",
+    "ans": "mit",
+    "hint": "与……合作",
+    "why": "Zusammenarbeit mit jmdm. 是固定介词搭配。"
+   },
+   {
+    "q": "Die installierte Leistung der neuen Anlagen ___ 19,4 Millionen Kilowatt.",
+    "ans": "beträgt",
+    "hint": "总计为",
+    "why": "betragen 表示“达到、总计为”，主语单数，变位 beträgt。"
+   }
+  ]
+ },
+ "issue": 9
+}
