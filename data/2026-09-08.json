@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-08",
+ "theme": "Wirtschaft",
+ "coach": "当前最要紧的短板是德译汉的错译和漏译，尤其是数字与专业术语的准确转换；汉译德基础薄弱，需要从简单句式开始训练。今天的德译汉材料包含大量数字（723.000、39.100等）和功能动词，正好集中练习信息不遗漏；汉译德段落已埋入数字和被动结构，请先逐句拆分主干，再处理定语和语态。建议：做完德译汉后对照原文逐词核对，统计漏译点；汉译德先写出简单主谓宾，再逐步添加修饰成分，切忌直接套用中文语序。",
+ "de2zh": {
+  "title": "Zehntausende Fachkräfte im Verkauf könnten bald fehlen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/fachverkauefermangel-iw-100.html",
+  "text": "Bis zum Jahr 2029 droht einer Studie zufolge ein gravierender Mangel an Verkäuferinnen und Verkäufern im deutschen Einzelhandel. Auch in anderen Berufen könnte der Fachkräftemangel stark zunehmen. Auf dem deutschen Arbeitsmarkt wird sich der Mangel an Fachkräften bis zum Ende des Jahrzehnts möglicherweise deutlich verschärfen. Insgesamt könnten 2029 rund 723.000 Fachkräfte fehlen, so eine aktuelle Untersuchung des arbeitgebernahen Instituts der deutschen Wirtschaft (IW) . Das wären ungefähr doppelt so viele wie 2025. Größe Gruppe sind danach Verkäuferinnen und Verkäufer. Bundesweit liege hier die Fachkräftelücke bei etwa 39.100 Verkäuferinnen und Verkäufern, die fehlen. In keiner anderen Berufsgruppe könnten dann so viele Stellen unbesetzt bleiben, sagte Studienautor Alexander Burstedde. Nach Verkäuferinnen und Verkäufern dürften die Berufsgruppen Kinderbetreuung und -erziehung (29.900), Sozialarbeit und -pädagogik (23.600), Gesundheits- und Krankenpflege (18.700) sowie Bauelektrik (17.400) am stärksten betroffen sein. \"Der Fachkräftemangel wird sich in vielen Bereichen verschärfen, und wir werden das täglich spüren, etwa bei der Suche nach einem Pflegeplatz oder einem Handwerker\", so Burstedde. Er rät der Politik, die Arbeitsanreize zu erhöhen und die qualifizierte Zuwanderung aus EU-Drittstaaten zu erleichtern. Die Berufsgruppe \"Fachkraft im Verkauf ohne Produktspezialisierung\" umfasst laut IW gut 870.000 Beschäftigte und ist damit die drittgrößte in Deutschland."
+ },
+ "zh2de": {
+  "title": "中国多措并举稳定就业与消费",
+  "text": "随着中国经济持续恢复，2025年社会消费品零售总额达到48.8万亿元，比上年增长3.5%，其中网上零售额占比进一步提高。直播电商等新业态带动就业效应显著，全国电子商务从业人员已超过7000万人。为缓解重点群体就业压力，政府出台了一系列被普遍认为针对性强的政策，包括对吸纳高校毕业生的小微企业给予社保补贴，并加大面向数字经济领域的职业技能培训力度。商务部表示，将继续推动线上线下深度融合，培育一批具有国际竞争力的数字商务企业，同时加强消费者权益保护，营造安全放心的消费环境。这些举措被认为将有效稳定就业市场、激发消费潜力。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Fachkräftemangel wird sich in vielen Bereichen ___.",
+    "opts": [
+     "abschwächen",
+     "verschlimmern",
+     "verbessern",
+     "stabilisieren"
+    ],
+    "ans": 1,
+    "why": "verschärfen 意为加剧，verschlimmern 为近义，表示恶化。abschwächen 减弱、verbessern 改善、stabilisieren 稳定均不符。"
+   },
+   {
+    "q": "Die Zahl der unbesetzten Stellen könnte bis 2029 auf rund 723.000 ___.",
+    "opts": [
+     "schrumpfen",
+     "steigen",
+     "sinken",
+     "stagnieren"
+    ],
+    "ans": 1,
+    "why": "anwachsen 意为增长，与 steigen 同义。schrumpfen 萎缩、sinken 下降、stagnieren 停滞。"
+   },
+   {
+    "q": "Der Experte rät der Politik, die Arbeitsanreize zu ___.",
+    "opts": [
+     "senken",
+     "steigern",
+     "reduzieren",
+     "vermindern"
+    ],
+    "ans": 1,
+    "why": "erhöhen 意为提高，steigern 为其近义词。senken、reduzieren、vermindern 均表示降低。"
+   },
+   {
+    "q": "Die Fachkräftelücke liegt ___ etwa 39.100 Verkäufern.",
+    "opts": [
+     "bei",
+     "an",
+     "auf",
+     "mit"
+    ],
+    "ans": 0,
+    "why": "liegen bei 是固定介词搭配，表示数值在……水平，后接数字或数量。"
+   },
+   {
+    "q": "Das Institut rechnet ___ einem deutlichen Anstieg der Lücke.",
+    "opts": [
+     "mit",
+     "auf",
+     "über",
+     "von"
+    ],
+    "ans": 0,
+    "why": "rechnen mit 是固定搭配，表示预计、预期某事发生。"
+   },
+   {
+    "q": "Viele Verkäufer arbeiten ___ direktem Kundenkontakt.",
+    "opts": [
+     "in",
+     "mit",
+     "bei",
+     "unter"
+    ],
+    "ans": 0,
+    "why": "in direktem Kundenkontakt 是固定搭配，意为在直接客户接触中工作。"
+   },
+   {
+    "q": "Die Studie hat die Situation unter die Lupe ___.",
+    "opts": [
+     "genommen",
+     "gebracht",
+     "gestellt",
+     "gesetzt"
+    ],
+    "ans": 0,
+    "why": "unter die Lupe nehmen 是 Funktionsverbgefüge，意为仔细审查、研究。"
+   },
+   {
+    "q": "Die Politik soll Maßnahmen ___, um den Mangel zu bekämpfen.",
+    "opts": [
+     "treffen",
+     "ergreifen",
+     "machen",
+     "tun"
+    ],
+    "ans": 1,
+    "why": "Maßnahmen ergreifen 是固定搭配，表示采取措施。treffen 可与 Entscheidungen 搭配，但不能与 Maßnahmen。"
+   },
+   {
+    "q": "Die ___ Zahl der offenen Stellen bereitet Sorgen.",
+    "opts": [
+     "steigende",
+     "gestiegene",
+     "gesteigerte",
+     "steigernde"
+    ],
+    "ans": 0,
+    "why": "第一分词 steigend 表示正在进行、主动，意为上升中的。gestiegen 是第二分词，表完成；gesteigerte 是 steigern 的第二分词，表示被提高的；steigernde 无此用法。"
+   },
+   {
+    "q": "Die von der Politik ___ Maßnahmen sollen den Fachkräftemangel verringern.",
+    "opts": [
+     "ergriffenen",
+     "ergreifenden",
+     "ergriffene",
+     "ergreifende"
+    ],
+    "ans": 0,
+    "why": "扩展分词定语：Die Maßnahmen, die von der Politik ergriffen wurden → die von der Politik ergriffenen Maßnahmen。因前面有定冠词 die 且为复数，形容词弱变化词尾为 -en。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Arbeitslosenquote ist im letzten Jahr um 0,5 Prozentpunkte ___.",
+    "ans": "gestiegen",
+    "hint": "上升",
+    "why": "表示数字上升用 steigen，搭配介词 um 表示差额。"
+   },
+   {
+    "q": "Die Zahl der offenen Stellen beläuft sich ___ rund 723.000.",
+    "ans": "auf",
+    "hint": "达到",
+    "why": "sich belaufen auf 是固定搭配，表示总计达到某数值。"
+   },
+   {
+    "q": "Die qualifizierte Zuwanderung ___ EU-Drittstaaten soll erleichtert werden.",
+    "ans": "aus",
+    "hint": "从……来",
+    "why": "aus 表示来源，Zuwanderung aus + 国家/地区。"
+   },
+   {
+    "q": "Viele Einzelhändler leiden ___ dem Fachkräftemangel.",
+    "ans": "unter",
+    "hint": "遭受",
+    "why": "leiden unter 是固定介词搭配，表示受……之苦。"
+   },
+   {
+    "q": "Die Regierung sollte Maßnahmen ___ den Fachkräftemangel ergreifen.",
+    "ans": "gegen",
+    "hint": "针对，反对",
+    "why": "Maßnahmen gegen etw. ergreifen 表示采取措施应对某事。"
+   },
+   {
+    "q": "Die Studie geht ___ einem Anstieg der Lücke aus.",
+    "ans": "von",
+    "hint": "从……出发，假定",
+    "why": "von etw. ausgehen 固定搭配，表示以……为出发点/假设。"
+   }
+  ]
+ },
+ "issue": 10
+}
