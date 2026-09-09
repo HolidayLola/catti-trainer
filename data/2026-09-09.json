@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-09",
+ "theme": "Gesellschaft",
+ "coach": "你的德译汉和汉译德近期得分极低，主要问题在于错译和漏译严重，数字、单位和介词搭配频频出错。今天的材料是法律政策分析文章，句子长、术语多，正好用来训练长句拆分和精准对应。建议翻译时先标出每个句子的主谓宾，再处理从句和分词结构；对数字和百分比务必按德语规范书写并核对，不要漏掉任何信息。",
+ "de2zh": {
+  "title": "Könnte die AfD ihre Migrationspolitik umsetzen?",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/afd-sachsen-anhalt-migration-100.html",
+  "text": "Eine \"migrationspolitische Kehrtwende\" und eine Vielzahl von Einzelmaßnahmen kündigt die AfD in Sachsen-Anhalt in ihrem Regierungsprogramm an. Doch zwei Drittel davon wären rechtlich überhaupt nicht umsetzbar.\nEine Analyse von Max Bauer, ARD-Rechtsredaktion\nHinter der Familienpolitik steht das Thema Migration gleich an zweiter Stelle im Regierungsprogramm der AfD in Sachsen-Anhalt. Die Partei verknüpft in dem Programm Migration unmittelbar mit Kriminalität und schweren Anschlägen. Sie fordert, \"kulturfremde Massenmigration\" zu beenden und zählt mehr als 50 Einzelmaßnahmen auf.\nDoch von denen sind zwei Drittel rechtlich nicht umsetzbar. Für ein Drittel der geforderten Maßnahmen wäre das Land Sachsen-Anhalt gar nicht zuständig. Ein weiteres Drittel ist rechtswidrig, verstößt gegen deutsches Recht, Europarecht oder Völkerrecht.\nSo kündigt die AfD an, in der Regierung würde sie jedem die Aufnahme verweigern, der aus einem sicheren Drittland kommt oder dessen Identität nicht geklärt werden kann. Nach EU-Recht hat jedoch jeder Schutzsuchende das Recht, an der Grenze eines EU-Mitgliedstaates einen Asylantrag zu stellen, der geprüft werden muss. Das gilt in jedem Fall und hängt nicht davon ab, ob jemand über einen sicheren Drittstaat nach Deutschland kommt.\nAußerdem muss jedes Bundesland die Schutzsuchenden aufnehmen, die der Bund ihm zuweist. Nach dem Königsteiner Schlüssel muss Sachsen-Anhalt derzeit rund 2,7 Prozent der Asylsuchenden aufnehmen."
+ },
+ "zh2de": {
+  "title": "我国移民管理服务持续优化",
+  "text": "近年来，我国不断完善移民管理服务体系，积极吸引国际人才。据国家移民管理局统计，2023年全国共签发普通护照1842.8万本，出入境人员达4.24亿人次，同比分别增长15.6%和30.1%。针对在华外国人，推出简化签证申请、扩大永久居留受理范围等多项措施。同时，在主要城市建成50个移民融入示范点，这些示范点被视为促进社会融合的重要平台。此外，法律法规体系进一步健全，外国人永久居留管理条例等法规相继修订。上述政策旨在为外国人才来华工作生活提供便利，推动经济社会高质量发展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Arbeitslosenquote lag im März bei 5,7 ______.",
+    "opts": [
+     "Prozent",
+     "Prozente",
+     "prozent",
+     "Prozenten"
+    ],
+    "ans": 0,
+    "why": "德语中百分比数字后直接用Prozent，无复数词尾；学员常将英语percent误写为prozent或加复数。"
+   },
+   {
+    "q": "Die Behörde ist ______ die Prüfung der Asylanträge zuständig.",
+    "opts": [
+     "für",
+     "über",
+     "auf",
+     "an"
+    ],
+    "ans": 0,
+    "why": "zuständig für 是固定搭配，表示“负责”，介词不可替换。"
+   },
+   {
+    "q": "Der Antrag auf Asyl wurde von dem Geflüchteten ______.",
+    "opts": [
+     "gestellt",
+     "genommen",
+     "gemacht",
+     "erhoben"
+    ],
+    "ans": 0,
+    "why": "功能动词结构“einen Antrag stellen”，被动语态中用gestellt。"
+   },
+   {
+    "q": "Die von der AfD ______ Maßnahmen sind teilweise rechtswidrig.",
+    "opts": [
+     "geplanten",
+     "geplante",
+     "geplant",
+     "planenden"
+    ],
+    "ans": 0,
+    "why": "分词作定语，Maßnahmen复数有定冠词die，形容词词尾弱变化为-en。"
+   },
+   {
+    "q": "Das Gesetz ______ gegen europäisches Recht.",
+    "opts": [
+     "widerspricht",
+     "entspricht",
+     "folgt",
+     "unterstützt"
+    ],
+    "ans": 0,
+    "why": "verstoßen gegen 相当于 widersprechen，表示“违反”；其他动词不与gegen搭配或意思不符。"
+   },
+   {
+    "q": "Die Integration von Geflüchteten ______ den Arbeitsmarkt ist eine große Herausforderung.",
+    "opts": [
+     "in",
+     "auf",
+     "an",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "Integration in + Akk. 是固定搭配，表示融入某个领域。"
+   },
+   {
+    "q": "Die Bundesregierung hat angekündigt, für die Unterbringung der Geflüchteten finanzielle Mittel ______.",
+    "opts": [
+     "zur Verfügung zu stellen",
+     "zu Verfügung zu stellen",
+     "zur Verfügung stehen",
+     "in Verfügung zu stellen"
+    ],
+    "ans": 0,
+    "why": "功能动词结构“etw. zur Verfügung stellen”，提供；注意zu与Verfügung连写。"
+   },
+   {
+    "q": "In dem Bericht wird darauf hingewiesen, dass viele Forderungen der AfD rechtlich nicht ______ können.",
+    "opts": [
+     "umgesetzt werden",
+     "umsetzen",
+     "umgesetzt",
+     "zu umsetzen"
+    ],
+    "ans": 0,
+    "why": "情态动词können与被动不定式连用，umgesetzt werden。"
+   },
+   {
+    "q": "Die Zahl der Asylanträge ist im vergangenen Jahr um ______ gestiegen.",
+    "opts": [
+     "250.000",
+     "250 tausend",
+     "250 Tausend",
+     "250 Tausende"
+    ],
+    "ans": 0,
+    "why": "德语数字书写用点作千位分隔符，不能用tausend作名词，且tausend小写。"
+   },
+   {
+    "q": "Viele Migranten fühlen sich vom deutschen Sozialstaat ______.",
+    "opts": [
+     "angezogen",
+     "abgestoßen",
+     "vertrieben",
+     "aufgenommen"
+    ],
+    "ans": 0,
+    "why": "angezogen意为“被吸引”，与Sozialstaat搭配表示福利吸引力；被动语态，其他词意思不符。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Behörde hat den Antrag auf Asyl ______.",
+    "ans": "gestellt",
+    "hint": "提出",
+    "why": "einen Antrag stellen 是固定功能动词结构。"
+   },
+   {
+    "q": "Die Maßnahmen verstoßen ______ geltendes Recht.",
+    "ans": "gegen",
+    "hint": "违反",
+    "why": "verstoßen gegen + Akk. 固定介词搭配。"
+   },
+   {
+    "q": "Die Verteilung der Asylbewerber erfolgt nach dem sogenannten Königsteiner ______.",
+    "ans": "Schlüssel",
+    "hint": "分配比例",
+    "why": "Königsteiner Schlüssel 是专有名词，德国分配难民的比例机制。"
+   },
+   {
+    "q": "Die Partei will für die Unterbringung von Geflüchteten den ______ zudrehen.",
+    "ans": "Geldhahn",
+    "hint": "停止拨款",
+    "why": "den Geldhahn zudrehen 是固定表达，意为停止提供资金。"
+   },
+   {
+    "q": "Die Zahl der Ausreisepflichtigen mit Duldung liegt bei ______ 80 Prozent.",
+    "ans": "rund",
+    "hint": "大约",
+    "why": "rund 80 Prozent 表示大约80%，数字前常用rund表示约数。"
+   },
+   {
+    "q": "Die Integration von Geflüchteten ______ den Arbeitsmarkt ist eine zentrale Aufgabe.",
+    "ans": "in",
+    "hint": "融入",
+    "why": "Integration in + Akk. 固定搭配，注意介词。"
+   }
+  ]
+ },
+ "issue": 11
+}
