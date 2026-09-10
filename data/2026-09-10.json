@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-10",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最要紧的短板是基础词汇和语法不牢，导致德译汉错译漏译大面积失分，数字和单位表达错误尤其突出。今天的材料聚焦能源政策辩论，适合练习长句拆分、批判性语言的理解，以及数字单位的准确转写。建议先逐句精读，标注主谓宾，遇到数字先换算并写清单位；汉译德时列一个数字单位对照表（亿千瓦→Millionen Kilowatt），并刻意练习被动句和长定语转换。",
+ "de2zh": {
+  "title": "\"Sie sind eine destruktive Kraft\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/generaldebatte-bundestag-weidel-merz-100.html",
+  "text": "Der Bundesregierung warf sie \"Totalversagen\" vor. Weidel sprach von verfehlter Haushaltspolitik und einer \"energiepolitischen Geisterfahrt\". Mit Blick auf die Migrationspolitik machte sie die Regierung verantwortlich für Kriminalität und Probleme der inneren Sicherheit im Land. Sie stellte einen Zusammenhang zwischen Migranten und angeblich fehlgeleiteten Sozialleistungen her. \"Derjenige, der jeden Morgen zur Arbeit fährt, blutet an der Tankstelle wegen der viel zu hohen Steuern an der Zapfsäule. Wer dagegen in die Sozialsysteme einwandert und auf Kosten der Allgemeinheit lebt, der wird verhätschelt.\" In der Außenpolitik warf sie der Bundesregierung \"Kriegspropaganda\" und eine Verschärfung der Konfrontation mit Russland vor. Die AfD-Chefin kritisierte erneut auch die Energiepolitik. Die Energiewende erdrücke die Wirtschaft. \"Die Energiewende ist verlorenes und verbranntes Geld.\" Zudem steuere die Regierung angesichts der niedrigen Füllstände der Gasspeicher auf eine \"existenzielle Gasversorgungskrise\" im Winter zu. Deutschland brauche wieder günstiges Gas aus Russland und auch eigene Atomkraftwerke. Auch müssten Subventionen für Klimaschutz und Entwicklungshilfe gestrichen werden, forderte sie."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成效显著",
+  "text": "近年来，中国持续推动能源绿色低碳转型。截至2025年6月底，全国可再生能源装机容量达到19.4亿千瓦，同比增长23%，其中风电、光伏发电装机合计超过12亿千瓦。全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。下一步，中国将加快构建新型电力系统，推进大型风电光伏基地建设，并完善绿色金融政策体系，引导更多社会资本投向清洁能源领域。同时，中国积极参与全球气候治理，推动共建绿色“一带一路”，在联合国气候变化框架公约等平台上发挥建设性作用。此外，中国将严格控制化石能源消费，实施可再生能源替代行动，确保“十四五”规划目标如期实现。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Bundesregierung hat den Ausbau der erneuerbaren Energien weiter ___.,60,320",
+    "opts": [
+     "vorangetrieben",
+     "behindert",
+     "gestoppt",
+     "verlangsamt"
+    ],
+    "ans": 0,
+    "why": "同义词替换：vorantreiben 与 fördern 近义，表示推进；学员对 erneuerbare Energien 不熟。"
+   },
+   {
+    "q": "___ Ende des Jahres 2025 wird die Anlage fertiggestellt sein.",
+    "opts": [
+     "Bis",
+     "Seit",
+     "Ab",
+     "Vor"
+    ],
+    "ans": 0,
+    "why": "介词搭配：bis zum Ende + Genitiv，学员曾错用 bis zum Ende von。"
+   },
+   {
+    "q": "Die Regierung hat Maßnahmen zur Reduzierung der CO2-Emissionen ___.",
+    "opts": [
+     "ergriffen",
+     "genommen",
+     "getroffen",
+     "gemacht"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：Maßnahmen ergreifen 是固定搭配，表示采取措施。"
+   },
+   {
+    "q": "Die Energiewende erdrückt die Wirtschaft, sagte die AfD-Chefin. Das Wort \"erdrückt\" bedeutet hier ___.",
+    "opts": [
+     "belastet",
+     "entlastet",
+     "fördert",
+     "unterstützt"
+    ],
+    "ans": 0,
+    "why": "同义词替换：erdrücken 此处意为沉重负担，belasten 符合语境。"
+   },
+   {
+    "q": "Die Bundesregierung, ___ seit 2021 im Amt ist, hat viele Reformen versprochen.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "welche"
+    ],
+    "ans": 0,
+    "why": "语法辨析：关系代词指代 die Bundesregierung（阴性），第一格用 die；学员频繁犯关系从句错误。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energie ___ das Stromnetz schreitet voran.",
+    "opts": [
+     "in",
+     "an",
+     "auf",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "介词搭配：Integration in + Akkusativ 是固定搭配，学员曾漏掉介词。"
+   },
+   {
+    "q": "Der Ausbau der erneuerbaren Energien spielt eine wichtige ___ bei der Energiewende.",
+    "opts": [
+     "Rolle",
+     "Aufgabe",
+     "Funktion",
+     "Bedeutung"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：eine Rolle spielen 是固定搭配，表示扮演角色、发挥作用。"
+   },
+   {
+    "q": "Die Subventionen für Klimaschutz sollen ___ werden.",
+    "opts": [
+     "gestrichen",
+     "erhöht",
+     "ausgeweitet",
+     "beibehalten"
+    ],
+    "ans": 0,
+    "why": "同义词替换：streichen 意为取消、删除，Subventionen streichen 是固定搭配。"
+   },
+   {
+    "q": "___ der niedrigen Füllstände der Gasspeicher droht eine Versorgungskrise.",
+    "opts": [
+     "Angesichts",
+     "Trotz",
+     "Wegen",
+     "Aufgrund"
+    ],
+    "ans": 0,
+    "why": "介词辨析：angesichts + Genitiv 表示“鉴于”，语义最贴合；trotz 表示尽管，wegen/aufgrund 也可接 Genitiv 但意思不合。"
+   },
+   {
+    "q": "Die Regierung steuert auf eine Gasversorgungskrise zu. Das bedeutet, sie ___.",
+    "opts": [
+     "bewegt sich darauf zu",
+     "vermeidet sie",
+     "löst sie",
+     "ignoriert sie"
+    ],
+    "ans": 0,
+    "why": "同义词替换：auf etw. zusteuern 意为朝着某方向发展，选项 A 准确。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte Leistung der Windenergie ___ inzwischen 19,4 Millionen Kilowatt.",
+    "ans": "beträgt",
+    "hint": "达到",
+    "why": "动词 betragen 表示总计为，注意变位 beträgt，学员曾错写 betraegt。"
+   },
+   {
+    "q": "Bis ___ Ende des Jahres 2025 sollen alle Anlagen in Betrieb genommen werden.",
+    "ans": "zum",
+    "hint": "到...底",
+    "why": "固定搭配 bis zum Ende + Genitiv，学员曾错误使用 von。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energie ___ das Stromnetz erfordert Investitionen.",
+    "ans": "in",
+    "hint": "融入",
+    "why": "Integration in + Akkusativ 是固定搭配。"
+   },
+   {
+    "q": "Die Regierung will die Subventionen für Klimaschutz ___.",
+    "ans": "streichen",
+    "hint": "取消",
+    "why": "Subventionen streichen 是固定搭配，意为取消补贴。"
+   },
+   {
+    "q": "Die Maßnahmen zur Reduzierung der CO2-Emissionen wurden endlich ___.",
+    "ans": "ergriffen",
+    "hint": "采取",
+    "why": "Maßnahmen ergreifen 是 Funktionsverbgefüge，过去分词 ergriffen。"
+   },
+   {
+    "q": "Der Ausbau der erneuerbaren Energien spielt eine entscheidende ___ bei der Energiewende.",
+    "ans": "Rolle",
+    "hint": "起重要作用",
+    "why": "eine Rolle spielen 固定搭配，介词 bei 表示在某方面。"
+   }
+  ]
+ },
+ "issue": 12
+}
