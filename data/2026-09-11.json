@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-11",
+ "theme": "Kultur",
+ "coach": "当前最要紧的短板是德译汉的错译和漏译，根源在于词汇量不足和长句理解不到位；汉译德得分极低说明基础语法和数字表达尚未过关。今天的材料为文化类叙事文本，重点训练专有名词、历史事件和长句拆分；汉译德段落刻意埋入数字、被动和长定语，针对性强化。建议：先逐句精读原文，标出所有不认识的词和结构，再动笔翻译；完成后对照参考译文，统计错译漏译并分析原因，数字和单位表达务必查证标准写法。",
+ "de2zh": {
+  "title": "Ein Teppich zieht die Massen an",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/london-british-museum-teppich-100.html",
+  "text": "Die Rede ist von einem 70 Meter langen Teppich aus weißem Leinen, 50 Zentimeter hoch, bestickt mit gefärbter Wolle. Motive, die die Vorgeschichte und die Eroberung Englands durch die Normannen illustrieren und die entscheidende Schlacht von 1066 - ein Schlüsseldatum der englischen Geschichte.\nEs geht um Macht, einen gebrochenen Eid und die Rivalität zweier Männer: Da ist der Normanne Wilhelm der Eroberer und der angelsächsische Edelmann Harold. \"In einer sehr berühmten Szene legt Harold den Eid ab in der Gegenwart von Wilhelm. Harold streckt die Hände aus und berührt zwei Reliquienschreine\", erklärt Kurator Lloyd de Beer.\nDoch der Schwur hält nicht lange. Zu sehen ist die Überfahrt der Soldaten aus dem heutigen Frankreich an die Südküste Englands - die Schlacht mit den fürchterlichen Details des Krieges. Und schließlich der Tod von Harold, der - wahrscheinlich - durch einen Pfeil ums Leben kam. Nun war der Weg frei für Wilhelm den Eroberer, den englischen Thron zu besteigen.\nIn der vergangenen Woche besuchte König Charles III. mit Frankreichs Präsidenten Emmanuel Macron die Ausstellung. Der Teppich ist eine Leihgabe des französischen Staates, erstmals in England ausgestellt.\nDer Teppich erzähle eine Geschichte, die die meisten Menschen in Großbritannien kennen, sagte der König. Und vor allem kennt er selbst diese Geschichte sehr gut. Immerhin ist er verwandt mit Wilhelm dem Eroberer."
+ },
+ "zh2de": {
+  "title": "我国非物质文化遗产保护取得新进展",
+  "text": "截至目前，我国共有各级非遗代表性项目10万余项，其中国家级项目1557项；各级代表性传承人9万余名，其中国家级传承人3068名，这些传承人已被认定为国家级非遗代表性传承人。2024年，中央财政安排的非遗保护资金达6.58亿元，重点支持非遗记录工程和传统工艺振兴。我国已设立23个国家级文化生态保护区，推动非遗与旅游融合发展。在联合国教科文组织非遗名录中，我国已有43个项目被列入，数量居世界第一。这些成绩的取得，离不开各级政府的政策支持和广大传承人的不懈努力。下一步，文化和旅游部将进一步完善非遗保护传承体系，加强非遗人才培养，推动非遗创造性转化、创新性发展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Wandteppich ist eine seltene ____ des französischen Staates.",
+    "opts": [
+     "Leihgabe",
+     "Geschenk",
+     "Ausstellung",
+     "Kopie"
+    ],
+    "ans": 0,
+    "why": "考查词汇辨析：Leihgabe 意为“借展品、出借物”，与上下文“法国国家出借”的逻辑一致。"
+   },
+   {
+    "q": "Die Besucher interessieren sich sehr ____ den Wandteppich.",
+    "opts": [
+     "für",
+     "an",
+     "über",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "固定搭配：sich interessieren für + Akk. 表示“对……感兴趣”。"
+   },
+   {
+    "q": "Die Ausstellung ____ großen Anklang bei den Museumsbesuchern.",
+    "opts": [
+     "findet",
+     "macht",
+     "leistet",
+     "gibt"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：Anklang finden 意为“受到好评、受欢迎”。"
+   },
+   {
+    "q": "Der Teppich erzählt die Geschichte der normannischen ____ Englands.",
+    "opts": [
+     "Invasion",
+     "Einwanderung",
+     "Auswanderung",
+     "Besiedlung"
+    ],
+    "ans": 0,
+    "why": "同义词替换：Invasion 意为“入侵、侵略”，与历史语境中诺曼征服相符。"
+   },
+   {
+    "q": "Die Künstlerin arbeitet seit fast zehn Jahren ____ einer Kopie des Teppichs.",
+    "opts": [
+     "an",
+     "auf",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "介词搭配：arbeiten an + Dat. 表示“从事、致力于”。"
+   },
+   {
+    "q": "Die Szene, ____ Harold den Eid ablegt, ist sehr berühmt.",
+    "opts": [
+     "in der",
+     "in dem",
+     "wo",
+     "dass"
+    ],
+    "ans": 0,
+    "why": "语法辨析：关系从句，先行词 die Szene 为阴性，介词 in 后接第三格，所以用 in der。"
+   },
+   {
+    "q": "Der Tod Harolds ____ den Weg für Wilhelm den Eroberer frei.",
+    "opts": [
+     "machte",
+     "tat",
+     "gab",
+     "stellte"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：den Weg frei machen 意为“扫清道路、铺平道路”。"
+   },
+   {
+    "q": "Der Teppich ist eine Leihgabe des französischen Staates und wird erstmals ____ England ausgestellt.",
+    "opts": [
+     "in",
+     "nach",
+     "bei",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "介词搭配：表示“在某个国家”用 in + 地名（无冠词国家名）。"
+   },
+   {
+    "q": "Der König sagte, der Teppich ____ eine Geschichte, die die meisten Menschen in Großbritannien kennen.",
+    "opts": [
+     "erzähle",
+     "erzählt",
+     "erzählte",
+     "würde erzählen"
+    ],
+    "ans": 0,
+    "why": "语法辨析：间接引语中用第一虚拟式，主语 der Teppich 的虚拟式为 erzähle。"
+   },
+   {
+    "q": "Die entscheidende Schlacht fand im Jahr ____ statt.",
+    "opts": [
+     "1066",
+     "1.066",
+     "10,66",
+     "1066."
+    ],
+    "ans": 0,
+    "why": "数字表达规范：德语年份直接写数字，不加千位分隔符，不加句点。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Ausstellung ____ großen Anklang.",
+    "ans": "findet",
+    "hint": "受到好评",
+    "why": "Anklang finden 是固定搭配，表示“受到欢迎/好评”。"
+   },
+   {
+    "q": "Die Künstlerin arbeitet ____ einer Kopie des Teppichs.",
+    "ans": "an",
+    "hint": "从事",
+    "why": "arbeiten an + Dat. 表示“致力于、从事”。"
+   },
+   {
+    "q": "Harold ____ den Eid in der Gegenwart von Wilhelm.",
+    "ans": "legt ab",
+    "hint": "宣誓",
+    "why": "einen Eid ablegen 是固定名动搭配，表示“宣誓”。"
+   },
+   {
+    "q": "Der Tod Harolds ____ den Weg für Wilhelm frei.",
+    "ans": "machte",
+    "hint": "扫清道路",
+    "why": "den Weg frei machen 是固定搭配，表示“扫除障碍”。"
+   },
+   {
+    "q": "Der Teppich besteht ____ weißem Leinen.",
+    "ans": "aus",
+    "hint": "由……组成",
+    "why": "bestehen aus + Dat. 表示“由……构成”。"
+   },
+   {
+    "q": "Die Ausstellung war ein Blockbuster; die ersten Wochen waren ____.",
+    "ans": "ausverkauft",
+    "hint": "售罄",
+    "why": "ausverkauft sein 是固定表达，表示“门票售罄”。"
+   }
+  ]
+ },
+ "issue": 13
+}
