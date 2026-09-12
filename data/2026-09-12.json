@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-12",
+ "theme": "China-Themen",
+ "coach": "当前最要命的短板是错译和漏译，尤其是数字、单位和能源环境术语，德译汉几乎拿不到分，汉译德更是空白。今天的德译汉材料包含精确数字和专名，必须逐词核对；汉译德段落特意埋了“新增装机容量”“碳排放强度”等表述，要求逐点覆盖，严禁跳译。建议：先精读原文，划出所有数字和单位，翻译后对照检查；汉译德先列信息点清单，用简单句确保不漏点，再考虑合并句子。",
+ "de2zh": {
+  "title": "Interviews--People's Daily Online",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/209050/index.html",
+  "text": "In der Nacht des 8. Januar fand in Pudong, Shanghai, ein stilles „Luftballett“ statt. Der durchgehende Träger der Chuansha-Großbrücke mit einem Gewicht von etwa 10.000 Tonnen vollführte unter der Zugkraft von vier intelligenten Hebevorrichtungen eine 60-Grad-Drehung mit millimetergenauer Präzision und überspannte erfolgreich die in Betrieb befindliche Magnetschwebebahnlinie und die Yingbin-Schnellstraße.\n„Michael One Shots Chaozhou“ ist eine Sonderausgabe der Reihe „Geschichten aus Städten“ von People's Daily Online. Diese Ein-Szene-Reise spielt in der antiken Stadt Chaozhou in der südchinesischen Provinz Guangdong und findet in Echtzeit statt. Keine Pausen, keine Wiederholungen, keine Schnitte. Nur ein Vorgeschmack auf den Rhythmus, das Essen und die Kultur der Stadt.\nHermann Simon, renommierter Ökonom und Begründer der Theorie der „Hidden Champions“, gab People´s Daily Online am Rande der Veranstaltung zur Investitionsförderung chinesischer und deutscher „Hidden Champions“ in der ostchinesischen Stadt Nanjing ein exklusives Interview. Im folgenden Text wurde das Interview zusammengefasst.\nFreundschaft zwischen den Menschen ist der Schlüssel zu guten Beziehungen zwischen Staaten."
+ },
+ "zh2de": {
+  "title": "我国可再生能源发展取得新成效",
+  "text": "2024年，我国可再生能源装机规模持续扩大，全国风电、光伏发电新增装机容量达到3.6亿千瓦，全年新开工规模创历史新高。与此同时，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。国家能源局数据显示，截至2024年底，我国可再生能源发电总装机容量已超过14亿千瓦，占全国发电总装机容量的比重超过50%。下一步，我国将加快构建新型电力系统，推动能源绿色低碳转型，确保如期实现2030年前碳达峰、2060年前碳中和的承诺。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix hat 2024 einen neuen Höchststand ______.",
+    "opts": [
+     "verfehlt",
+     "erzielt",
+     "gesenkt",
+     "gesteigert"
+    ],
+    "ans": 1,
+    "why": "同义词替换：erzielt 与 erreicht 同义，意为“达到”，固定搭配 einen Höchststand erzielen/erreichen。"
+   },
+   {
+    "q": "China will bis ______ Jahr 2030 den Höhepunkt der CO2-Emissionen erreichen.",
+    "opts": [
+     "zum",
+     "zu",
+     "an",
+     "im"
+    ],
+    "ans": 0,
+    "why": "介词搭配：bis zum Jahr + 年份，zum 是 zu dem 的缩合形式，表示“到……年为止”。"
+   },
+   {
+    "q": "Die Regierung hat konkrete ______ zur Emissionsreduzierung getroffen.",
+    "opts": [
+     "Maßnahmen",
+     "Entscheidungen",
+     "Pläne",
+     "Ziele"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：Maßnahmen treffen 是固定搭配，意为“采取措施”。"
+   },
+   {
+    "q": "Die neuen Windkraftanlagen ______ im vergangenen Jahr in Betrieb genommen.",
+    "opts": [
+     "haben",
+     "wurden",
+     "sind",
+     "werden"
+    ],
+    "ans": 1,
+    "why": "语法辨析：被动语态过去时，werden + Partizip II，主语为复数，故用 wurden。"
+   },
+   {
+    "q": "Die chinesische Regierung hat sich verpflichtet, bis 2060 CO2-Neutralität zu ______.",
+    "opts": [
+     "erreichen",
+     "erzielen",
+     "verwirklichen",
+     "schaffen"
+    ],
+    "ans": 0,
+    "why": "同义词替换/搭配：CO2-Neutralität erreichen 是固定表达，意为“实现碳中和”。"
+   },
+   {
+    "q": "Der CO2-Ausstoß pro Einheit des BIP ist im Vergleich zum Vorjahr um 3,8% ______.",
+    "opts": [
+     "gesunken",
+     "gestiegen",
+     "geblieben",
+     "erreicht"
+    ],
+    "ans": 0,
+    "why": "介词搭配+词义：um + 百分比表示变化幅度，碳排放强度下降用 sinken，完成时 ist gesunken。"
+   },
+   {
+    "q": "Erneuerbare Energien ______ eine immer wichtigere Rolle im chinesischen Energiemix.",
+    "opts": [
+     "spielen",
+     "machen",
+     "nehmen",
+     "halten"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：eine Rolle spielen 是固定搭配，意为“发挥作用”。"
+   },
+   {
+    "q": "Die von der Regierung ______ Ziele zur Emissionsreduzierung sind sehr ehrgeizig.",
+    "opts": [
+     "gesetzt",
+     "gesetzten",
+     "setzenden",
+     "zu setzenden"
+    ],
+    "ans": 1,
+    "why": "语法辨析：过去分词作定语，需与名词 Ziele 的复数词尾一致，故为 gesetzten。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien an der Stromerzeugung hat 2024 erstmals die 50%-Marke ______.",
+    "opts": [
+     "überschritten",
+     "unterboten",
+     "verfehlt",
+     "erreicht"
+    ],
+    "ans": 0,
+    "why": "同义替换/搭配：die Marke überschreiten 意为“突破大关”，符合“首次超过50%”的语境。"
+   },
+   {
+    "q": "Bis zum Ende des Jahres 2025 ______ die installierte Leistung der Windenergie in China voraussichtlich 1.500 Gigawatt erreichen.",
+    "opts": [
+     "wird",
+     "hat",
+     "ist",
+     "wurde"
+    ],
+    "ans": 0,
+    "why": "语法辨析：表示将来预计，用 werden + Infinitiv，主语为单数，故用 wird。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "China hat das Ziel, bis 2030 den Höhepunkt der CO2-Emissionen zu ______.",
+    "ans": "erreichen",
+    "hint": "达到（碳达峰）",
+    "why": "固定搭配 den Höhepunkt erreichen，注意区分 erzielen，后者多用于 Erfolg/Ergebnis。"
+   },
+   {
+    "q": "Die installierte ______ der erneuerbaren Energien in China beträgt inzwischen über 1.400 Gigawatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "installierte Leistung 是固定表达，学员曾误写为 installiert e，需强化记忆。"
+   },
+   {
+    "q": "Der CO2-Ausstoß pro Einheit des BIP soll bis 2025 deutlich ______ werden.",
+    "ans": "gesenkt",
+    "hint": "降低",
+    "why": "被动语态 werden + Partizip II，表示“碳排放强度下降”，用 senken。"
+   },
+   {
+    "q": "Die chinesische Regierung ______ eine Vorreiterrolle im globalen Klimaschutz.",
+    "ans": "spielt",
+    "hint": "扮演",
+    "why": "eine Rolle spielen 功能动词结构，此处主语单数，故用 spielt。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am gesamten Energieverbrauch ist ______ über 20% gestiegen.",
+    "ans": "auf",
+    "hint": "上升到",
+    "why": "steigen auf + Akkusativ 表示达到某个数值，注意介词 auf。"
+   },
+   {
+    "q": "Viele Länder haben sich verpflichtet, ihre Treibhausgasemissionen bis 2050 auf null zu ______.",
+    "ans": "reduzieren",
+    "hint": "减少到零",
+    "why": "auf null reduzieren 是常用搭配，也可用 senken，但 reduzieren 更正式。"
+   }
+  ]
+ },
+ "issue": 14
+}
