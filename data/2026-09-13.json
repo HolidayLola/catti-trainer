@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-13",
+ "theme": "Panorama",
+ "coach": "学员近期德译汉和汉译德得分极低，错译、漏译严重，尤其能源环境类数据文本几乎全军覆没。今日材料聚焦能源数据政策，德译汉需先抓主干再处理数字细节，避免漏译；汉译德段落已刻意包含数字表达、被动句和长定语，请重点练习德语数字格式、状态被动态及功能动词结构。建议每天对照小卷巩固固定搭配，翻译时逐句核对信息完整性，切勿跳过数据。",
+ "de2zh": {
+  "title": "Gasspeicher sind ausreichend gefüllt ",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/wirtschaft/verbraucher/gas-speicher-preise-102.html",
+  "text": "Im kommenden Winter brauchen Millionen Haushalte wieder Gas für ihre Heizung - und die Sorge ist groß, dass dieses Jahr nicht genug Gas eingespeichert wurde. Die Bundesnetzagentur gibt nun Entwarnung: Die Speicher seien voll genug. Doch die Preise könnten steigen.\nDeutschland hat nach Einschätzung der Bundesnetzagentur genügend Gas für den kommenden Winter in den Speichern. Die Agentur trat damit Bedenken entgegen, dass die Gasspeicher nicht für die Versorgung in der kalten Jahreszeit ausreichen könnten.\n\"Wir haben jetzt schon etwas mehr Gas in den Speichern, als wir im gesamten letzten Winterhalbjahr aus den Speichern entnommen haben\", sagte Behördenchef Klaus Müller der Deutschen Presse-Agentur. \"Und in den nächsten Wochen bleibt Zeit für weitere Einspeicherungen.\"\nIm Vergleich zu den Vorjahren ist der Gasspeicher-Füllstand niedrig. Deswegen sind in den vergangenen Tagen Bedenken geäußert worden, dass die eingespeicherte Gasmenge möglicherweise nicht bis zum Frühjahr reicht.\nDie Füllmengen lassen sich allerdings nicht direkt mit denen der Vergangenheit vergleichen, da es an Deutschlands Küsten inzwischen Schiffsterminals für Flüssigerdgas (LNG) gibt und dadurch Extrakapazitäten recht schnell vom Weltmarkt importiert werden können. Außerdem gibt es noch Pipelines, etwa aus Norwegen."
+ },
+ "zh2de": {
+  "title": "我国可再生能源装机容量持续增长 推动能源绿色低碳转型",
+  "text": "国家能源局近日发布数据显示，截至2025年底，全国可再生能源发电装机容量达到14.5亿千瓦，同比增长约18%。其中，风电装机容量约4.2亿千瓦，光伏发电装机容量约5.7亿千瓦。全年可再生能源发电量达2.8万亿千瓦时，占全社会用电量比重超过35%。为加快构建清洁低碳、安全高效的能源体系，我国持续完善能源绿色低碳转型体制机制，推动碳排放权交易市场扩围增效。2025年，全国碳排放强度较2020年下降超过18%，碳达峰碳中和目标被稳步推进。同时，政府工作报告提出，今年要推动发展方式绿色转型，加快建设新型能源体系，完善支持绿色发展政策，推进煤炭清洁高效利用和技术研发，加快新型电力系统建设，提升可再生能源消纳能力。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Bundesnetzagentur hat Entwarnung gegeben: Die Speicher seien voll genug. Was bedeutet \"Entwarnung geben\"?",
+    "opts": [
+     "A. warnen",
+     "B. beruhigen",
+     "C. alarmieren",
+     "D. informieren"
+    ],
+    "ans": 1,
+    "why": "Entwarnung geben 表示解除警报，让人放心，即 beruhigen。"
+   },
+   {
+    "q": "Im Vergleich ___ den Vorjahren ist der Gasspeicher-Füllstand niedrig.",
+    "opts": [
+     "A. mit",
+     "B. zu",
+     "C. gegen",
+     "D. von"
+    ],
+    "ans": 1,
+    "why": "固定搭配 im Vergleich zu。"
+   },
+   {
+    "q": "Die Agentur trat damit Bedenken entgegen, dass die Gasspeicher nicht ausreichen könnten. \"Bedenken entgegentreten\" bedeutet:",
+    "opts": [
+     "A. Bedenken äußern",
+     "B. Bedenken zerstreuen",
+     "C. Bedenken haben",
+     "D. Bedenken teilen"
+    ],
+    "ans": 1,
+    "why": "entgegentreten 表示反驳、消除顾虑，即 zerstreuen。"
+   },
+   {
+    "q": "Die installierte Leistung der erneuerbaren Energien in China lag Ende 2025 bei ___ Kilowatt.",
+    "opts": [
+     "A. 1,45 Milliarden",
+     "B. 1.45 Milliarden",
+     "C. 1,45 Billionen",
+     "D. 1.45 Billionen"
+    ],
+    "ans": 0,
+    "why": "德语中小数点用逗号，千位分隔用点或空格；14.5亿千瓦 = 1,45 Milliarden Kilowatt（10^9），Billionen 是万亿，错误。"
+   },
+   {
+    "q": "Die Gasspeicher ___ ausreichend gefüllt.",
+    "opts": [
+     "A. sind",
+     "B. haben",
+     "C. werden",
+     "D. sein"
+    ],
+    "ans": 0,
+    "why": "状态被动态 sein + Partizip II，表示“是充满的”状态。"
+   },
+   {
+    "q": "Der Iran-Krieg könnte zu spürbar höheren Gaspreisen führen. \"spürbar\" kann ersetzt werden durch:",
+    "opts": [
+     "A. unbedeutend",
+     "B. merklich",
+     "C. unmerklich",
+     "D. geringfügig"
+    ],
+    "ans": 1,
+    "why": "spürbar 意为“可感知的，明显的”，merklich 同义。"
+   },
+   {
+    "q": "Die Expertengruppe ___ sich mit einer Reform der Regelung bei Mietwucher.",
+    "opts": [
+     "A. beschäftigt",
+     "B. befasst",
+     "C. widmet",
+     "D. setzt"
+    ],
+    "ans": 1,
+    "why": "sich befassen mit 是固定搭配，表示“研究、处理”。"
+   },
+   {
+    "q": "Die Miete darf bei Neuvermietung höchstens um zehn Prozent ___ der ortsüblichen Vergleichsmiete liegen.",
+    "opts": [
+     "A. über",
+     "B. unter",
+     "C. von",
+     "D. bei"
+    ],
+    "ans": 0,
+    "why": "über der ortsüblichen Vergleichsmiete liegen 表示高于当地平均租金。"
+   },
+   {
+    "q": "Die Füllmengen lassen sich nicht direkt mit denen der Vergangenheit vergleichen. \"lassen sich vergleichen\" bedeutet:",
+    "opts": [
+     "A. können verglichen werden",
+     "B. müssen verglichen werden",
+     "C. sollen verglichen werden",
+     "D. dürfen verglichen werden"
+    ],
+    "ans": 0,
+    "why": "sich lassen + Infinitiv 表示被动可能性，相当于 können + Partizip II + werden。"
+   },
+   {
+    "q": "In dem Text bedeutet \"gefüllt\" am ehesten:",
+    "opts": [
+     "A. leer",
+     "B. voll",
+     "C. teilweise gefüllt",
+     "D. entleert"
+    ],
+    "ans": 1,
+    "why": "gefüllt 意为“充满的”，与 voll 同义。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte ___ der erneuerbaren Energien hat 1,45 Milliarden Kilowatt erreicht.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "installierte Leistung 是固定搭配，表示‘装机容量’，注意 Leistung 为阴性，此处用单数。"
+   },
+   {
+    "q": "Die Gasspeicher sind ausreichend ___.",
+    "ans": "gefüllt",
+    "hint": "充满的",
+    "why": "状态被动态 sein + Partizip II，gefüllt 表示‘被充满的’，强调状态而非过程。"
+   },
+   {
+    "q": "Die Behörde trat den Bedenken ___.",
+    "ans": "entgegen",
+    "hint": "反驳，打消顾虑",
+    "why": "Bedenken entgegentreten 是功能动词结构，entgegen 为副词，置于句末，注意第三格 Bedenken。"
+   },
+   {
+    "q": "Im ___ zu den Vorjahren ist der Füllstand niedrig.",
+    "ans": "Vergleich",
+    "hint": "与...相比",
+    "why": "固定搭配 im Vergleich zu，Vergleich 为阳性名词，首字母大写。"
+   },
+   {
+    "q": "Die Bundesnetzagentur hat ___ gegeben.",
+    "ans": "Entwarnung",
+    "hint": "解除警报",
+    "why": "Entwarnung geben 是功能动词结构，Entwarnung 为阴性，geben 用过去分词 gegeben。"
+   },
+   {
+    "q": "Die Gaspreise könnten einen Anstieg ___.",
+    "ans": "verzeichnen",
+    "hint": "出现增长",
+    "why": "einen Anstieg verzeichnen 是固定搭配，表示‘记录到增长’，verzeichnen 为及物动词。"
+   }
+  ]
+ },
+ "issue": 15
+}
