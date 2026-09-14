@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-14",
+ "theme": "Politik",
+ "coach": "当前最要紧的短板是汉译德几乎空白，且德译汉错译漏译严重，说明原文理解和目标语表达能力都有欠缺。今天的德译汉材料聚焦德国政治论辩，请注意准确传达引语中的虚拟式和专有名词；汉译德段落刻意包含数字和被动结构，务必先分析句子主干，再下笔。建议翻译时先圈出数字、单位、专名，逐句核对，避免漏译。",
+ "de2zh": {
+  "title": "\"Mit diesem Kanzler sind keine Wahlen mehr zu gewinnen\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/bab-6378.html",
+  "text": "In der CDU wächst die Kritik an Kanzler Merz: Clara von Nathusius, im Vorstand der Jungen Union, hält seine Tage im Amt für gezählt. Die CDU müsse sich nun entscheiden, wofür sie stehe, sagt sie im Bericht aus Berlin . Die Brandmauer hält sie für gescheitert. Spekulationen, Kritik und Gegenwind aus der eigenen Partei: Der Druck auf Bundeskanzler Friedrich Merz wird immer größer, die Debatte um seine Personalie ist in vollem Gange. Spätestens seit der herben Niederlage bei den Landtagswahlen in Sachsen-Anhalt tritt die Kritik aus den eigenen Reihen immer offener zutage. Für das schlechte Abschneiden seiner Partei wird der Kanzler und CDU-Chef mitverantwortlich gemacht. Seit Wochen wird daher über einen möglichen Kanzlertausch spekuliert. In diesen Abgesang stimmt auch die Schatzmeisterin der Jungen Union, Clara von Nathusius, ein. Die CDU habe ein massives Glaubwürdigkeitsproblem, sagt sie im Bericht aus Berlin . \"Das ist nicht nur an Friedrich Merz aufgehängt, aber auch. Und deswegen glaube ich leider, sind mit diesem Bundeskanzler keine Wahlen mehr zu gewinnen.\" Die Partei müsse einen inhaltlich anderen Kurs einschlagen."
+ },
+ "zh2de": {
+  "title": "德国联邦议院通过移民遣返法案",
+  "text": "德国联邦议院今日以 372 票赞成、256 票反对、12 票弃权通过了一项旨在加快遣返被拒绝庇护申请者的法案。该法案规定，对已被认定必须离境但仍滞留德国的人员，各州可将其安置于专门设立的出境中心，并延长其拘留期限。德国内政部长表示，此举将显著提高遣返效率，预计每年可多遣返约 1.5 万名应离境者。反对党则批评该法案侵犯基本权利，并警告其可能损害德国社会融合。与此同时，联邦政府还宣布将在未来四年内投入 20 亿欧元用于改善地方移民管理。政府发言人强调，德国始终坚持法治与人道原则，新法案的每一项措施都经过司法审查，以确保符合欧盟法律和德国宪法。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die CDU habe ein massives Glaubwürdigkeitsproblem. Welches Wort kann \"massives\" ersetzen?",
+    "opts": [
+     "enormes",
+     "kleines",
+     "unwichtiges",
+     "zufälliges"
+    ],
+    "ans": 0,
+    "why": "同义词替换，massiv 意为巨大的、严重的，enorm 与之相近。"
+   },
+   {
+    "q": "Die CDU wird ___ das schlechte Abschneiden mitverantwortlich gemacht.",
+    "opts": [
+     "für",
+     "an",
+     "zu",
+     "mit"
+    ],
+    "ans": 0,
+    "why": "mitverantwortlich für etw. sein/machen 是固定介词搭配，表示对某事负有共同责任。"
+   },
+   {
+    "q": "Die CDU muss einen anderen Kurs ___.",
+    "opts": [
+     "einschlagen",
+     "einnehmen",
+     "aufnehmen",
+     "verfolgen"
+    ],
+    "ans": 0,
+    "why": "einen Kurs einschlagen 是功能动词结构，意为采取某种方针路线。"
+   },
+   {
+    "q": "Die Maßnahmen, die von der Regierung ___ wurden, sind umstritten.",
+    "opts": [
+     "beschlossen",
+     "beschließen",
+     "zu beschließen",
+     "beschließend"
+    ],
+    "ans": 0,
+    "why": "关系从句中被动语态，werden + Partizip II，beschließen 的过去分词是 beschlossen。"
+   },
+   {
+    "q": "Die Zahl der ausreisepflichtigen Menschen liegt ___ 250.000.",
+    "opts": [
+     "bei",
+     "über",
+     "um",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "bei + Zahl liegen 表示数量为，是数字表达的常见搭配。"
+   },
+   {
+    "q": "Die CDU müsse sich nun entscheiden, wofür sie stehe. \"Wofür sie stehe\" bedeutet hier:",
+    "opts": [
+     "wofür sie eintritt",
+     "wogegen sie ist",
+     "wofür sie bezahlt",
+     "wohin sie geht"
+    ],
+    "ans": 0,
+    "why": "für etwas stehen 意为支持、代表某事物，与 für etwas eintreten 同义。"
+   },
+   {
+    "q": "Sondierungsgespräche mit der AfD schließt von Nathusius nicht ___.",
+    "opts": [
+     "aus",
+     "an",
+     "ab",
+     "ein"
+    ],
+    "ans": 0,
+    "why": "etw. ausschließen 与否定词连用，表示不排除某事，注意可分动词前缀 aus。"
+   },
+   {
+    "q": "Die Regierung muss endlich in die Gänge ___.",
+    "opts": [
+     "kommen",
+     "gehen",
+     "laufen",
+     "treten"
+    ],
+    "ans": 0,
+    "why": "in die Gänge kommen 是口语固定短语，意为开始行动起来。"
+   },
+   {
+    "q": "Bis Ende 2025 sollen alle Windkraftanlagen ___ sein.",
+    "opts": [
+     "installiert",
+     "installieren",
+     "zu installieren",
+     "installierende"
+    ],
+    "ans": 0,
+    "why": "sein + Partizip II 构成状态被动态，表示安装完毕的状态。"
+   },
+   {
+    "q": "Die Union tue gut daran, zusammenzustehen. \"Zusammenzustehen\" bedeutet hier:",
+    "opts": [
+     "zusammenzuhalten",
+     "zusammenzuarbeiten",
+     "zusammenzukommen",
+     "zusammenzuleben"
+    ],
+    "ans": 0,
+    "why": "zusammenstehen 意为团结一致，与 zusammenhalten 意思相近。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Kosten ___ sich auf 20 Millionen Euro.",
+    "ans": "belaufen",
+    "hint": "总计为",
+    "why": "sich auf etw. belaufen 是固定搭配，表示金额总计为，注意数字表达。"
+   },
+   {
+    "q": "Die Anlagen werden bis Ende des Jahres ___.",
+    "ans": "installiert",
+    "hint": "安装",
+    "why": "werden + Partizip II 构成过程被动态，installieren 的过去分词是 installiert。"
+   },
+   {
+    "q": "Die Kritik aus den eigenen Reihen tritt immer offener ___.",
+    "ans": "zutage",
+    "hint": "显现，公开",
+    "why": "zutage treten 是固定搭配，表示显现、公开，新闻中常用。"
+   },
+   {
+    "q": "Die CDU muss einen anderen Kurs ___.",
+    "ans": "einschlagen",
+    "hint": "采取（方针、路线）",
+    "why": "einen Kurs einschlagen 是功能动词结构，表示采取某种方针路线。"
+   },
+   {
+    "q": "Die Parteien riefen zur Zusammenarbeit ___.",
+    "ans": "auf",
+    "hint": "呼吁，号召",
+    "why": "zu etw. aufrufen 为可分动词，aufrufen 与 zu 搭配，表示呼吁。"
+   },
+   {
+    "q": "Die Bundesregierung will erneuerbare Energien weiter ___.",
+    "ans": "ausbauen",
+    "hint": "扩建，发展",
+    "why": "ausbauen 与 erneuerbare Energien 搭配，表示扩大可再生能源，针对能源词汇薄弱点。"
+   }
+  ]
+ },
+ "issue": 16
+}
