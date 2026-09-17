@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-17",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "你当前最要紧的短板是数字表达和日期结构（如“截至2025年底”“19.4亿千瓦”）以及被动/长定语的转换，汉译德基本空白。今天的德译汉材料特意选了含数字、被动和功能动词的制裁新闻，汉译德段落也埋入了同类结构。建议做德译汉时先逐句标出数字和单位再动笔，汉译德先把中文拆成短句，用简单主谓宾，再考虑用被动或介词短语合并，不要硬译长定语。",
+ "de2zh": {
+  "title": "US-Kongress stimmt für schärfere Russland-Sanktionen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/usa-russland-sanktionen-136.html",
+  "text": "Der US-Kongress hat deutlich verschärfte Sanktionen gegen Russland beschlossen. Neben direkten Strafmaßnahmen gegen russische Politiker und Firmen soll das Gesetz die russischen Öl- und Gas-Exporte eindämmen, mit denen Russland seinen Angriffskrieg gegen die Ukraine finanziert.\nDie Abgeordneten im Repräsentantenhaus stimmten mit einer überparteilichen Mehrheit von 262 zu 159 Stimmen für das Gesetz. Es geht damit zur Unterzeichnung an US-Präsident Donald Trump, der bereits seine Zustimmung angedeutet hatte. Der Senat hatte das Gesetz bereits im vergangenen Monat mit deutlicher Mehrheit verabschiedet .\nDas nach dem verstorbenen Senator Lindsey Graham benannte Gesetz gilt als wohl bedeutendster Vorstoß des US-Kongresses zur Unterstützung der Ukraine seit Trumps Rückkehr ins Weiße Haus. Graham, ein Vertrauter von Trump, hatte es maßgeblich vorangetrieben.\nMit dem Gesetz soll der US-Präsident ermächtigt werden, Zölle von bis zu 100 Prozent auf Importe aus den fünf größten Abnehmerländern russischen Öls oder Erdgases zu verhängen. Ausgenommen sind Länder, die weniger als 15 Prozent der russischen Erdgasexporte importieren und erhebliche Schritte unternommen haben, um diese Importe zu reduzieren.\nDie Sanktionsmaßnahmen zielen insbesondere darauf ab, Länder wie China und Indien vom Kauf russischer Energie abzuhalten. Kritiker befürchten dagegen, Trump könne die neuen Zollbefugnisse auch gegen Verbündete in Europa einsetzen und damit höhere Preise für US-Verbraucher verursachen."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成效显著",
+  "text": "截至2025年底，中国可再生能源累计装机容量达到19.4亿千瓦，同比增长25%，其中风电和光伏发电装机分别达到5.2亿千瓦和8.6亿千瓦。全年新开工规模创历史新高，清洁能源发电量占全社会用电量的比重提升至38%。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰、碳中和目标奠定了坚实基础。这些成就被国际社会广泛视为中国推动绿色低碳转型的重要成果。中国政府出台了一系列政策措施，加快构建清洁低碳、安全高效的能源体系，推动能源生产和消费革命。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Bis ___ 2025 sollen in China 19,4 Millionen Kilowatt installiert werden.",
+    "opts": [
+     "Ende",
+     "zum Ende",
+     "zum Ende von",
+     "das Ende"
+    ],
+    "ans": 0,
+    "why": "固定搭配“bis Ende + 年份”，学员曾误写“Bis zum Ende von 2025”，介词和冠词多余。"
+   },
+   {
+    "q": "Im Jahr 2025 wurden 19,4 ___ Kilowatt Strom aus Windkraft erzeugt.",
+    "opts": [
+     "Million",
+     "Millionen",
+     "Millionen von",
+     "Million von"
+    ],
+    "ans": 1,
+    "why": "数字大于1时用复数“Millionen”，且单位“Kilowatt”不缩写，学员曾误写“19.4 millionen Kwa”。"
+   },
+   {
+    "q": "Die ___ trägt in Deutschland immer mehr zur Stromversorgung bei.",
+    "opts": [
+     "Windenergie",
+     "Wind Energie",
+     "Windkraftenergie",
+     "Windstrom"
+    ],
+    "ans": 0,
+    "why": "复合词“Windenergie”为一个词，学员曾分开写成“Wind Energie”。"
+   },
+   {
+    "q": "Die Regierung hat Maßnahmen ___ Integration erneuerbarer Energien ergriffen.",
+    "opts": [
+     "für die",
+     "mit der",
+     "zur",
+     "bei der"
+    ],
+    "ans": 2,
+    "why": "固定搭配“Maßnahmen zur Integration ergreifen”，介词用“zu”，学员曾误用“mit der”。"
+   },
+   {
+    "q": "Das Gesetz ___ darauf ab, den Export von Öl zu drosseln.",
+    "opts": [
+     "zielt",
+     "richtet",
+     "weist",
+     "stellt"
+    ],
+    "ans": 0,
+    "why": "Funktionsverbgefüge „auf etw. abzielen“，新闻原句，表示“旨在”。"
+   },
+   {
+    "q": "Die US-Regierung hat neue Sanktionen ___ .",
+    "opts": [
+     "verhängt",
+     "getroffen",
+     "erlassen",
+     "beschlossen"
+    ],
+    "ans": 0,
+    "why": "固定搭配“Sanktionen verhängen”（实施制裁），动词选择需准确。"
+   },
+   {
+    "q": "Die Abgeordneten stimmten ___ einer Mehrheit von 262 zu 159 Stimmen für das Gesetz.",
+    "opts": [
+     "über",
+     "durch",
+     "mit",
+     "für"
+    ],
+    "ans": 2,
+    "why": "介词“mit”表示以某种票数通过，搭配“mit einer Mehrheit”。"
+   },
+   {
+    "q": "Das Gesetz soll die russischen Öl- und Gas-Exporte eindämmen. „eindämmen“ bedeutet ___ .",
+    "opts": [
+     "reduzieren",
+     "erhöhen",
+     "stoppen",
+     "verbieten"
+    ],
+    "ans": 0,
+    "why": "“eindämmen”意为“限制、减少”，同义词为“reduzieren”。"
+   },
+   {
+    "q": "Der US-Präsident soll durch das Gesetz ___ , Zölle von bis zu 100 Prozent zu verhängen.",
+    "opts": [
+     "ermächtigen",
+     "ermächtigt",
+     "ermächtigt werden",
+     "zu ermächtigen"
+    ],
+    "ans": 2,
+    "why": "被动态“ermächtigt werden”加带zu不定式，学员常错被动结构，需注意。"
+   },
+   {
+    "q": "Ausgenommen sind Länder, ___ weniger als 15 Prozent der russischen Erdgasexporte importieren.",
+    "opts": [
+     "welche",
+     "dass",
+     "die",
+     "denen"
+    ],
+    "ans": 2,
+    "why": "关系代词复数第一格“die”引导定语从句，学员长定语处理薄弱，需多练。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "___ Ende 2025 soll die installierte Leistung 19,4 Millionen Kilowatt erreichen.",
+    "ans": "Bis",
+    "hint": "截至2025年底",
+    "why": "固定表达“bis Ende + 年份”表示截止时间，学员曾误写为“Bis zum Ende von 2025”。"
+   },
+   {
+    "q": "Die installierte ___ der erneuerbaren Energien beträgt 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "“installierte Leistung”为固定术语，学员曾漏掉名词或误用分词。"
+   },
+   {
+    "q": "Das Gesetz ___ darauf ab, die russischen Energieexporte zu reduzieren.",
+    "ans": "zielt",
+    "hint": "旨在",
+    "why": "Funktionsverbgefüge „auf etw. abzielen“，新闻中出现，需掌握。"
+   },
+   {
+    "q": "Die Regierung hat die Preise ___ 40 Prozent erhöht.",
+    "ans": "um",
+    "hint": "提高了40%",
+    "why": "表示差额用介词“um”，不能省略。"
+   },
+   {
+    "q": "Die Abgeordneten haben ___ das Gesetz gestimmt.",
+    "ans": "für",
+    "hint": "投票赞成",
+    "why": "固定搭配“für etw. stimmen”。"
+   },
+   {
+    "q": "Strafmaßnahmen ___ russische Firmen sollen verschärft werden.",
+    "ans": "gegen",
+    "hint": "针对俄罗斯公司的制裁措施",
+    "why": "介词“gegen”表示针对对象，与“Maßnahmen”搭配。"
+   }
+  ]
+ },
+ "issue": 17
+}
