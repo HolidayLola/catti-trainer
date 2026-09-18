@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-18",
+ "theme": "Kultur",
+ "coach": "当前最要紧的短板是德译汉时的错译和漏译，特别是数字、专有名词和固定搭配的理解不准确；汉译德则基本空白，需要从基础语法和句型抓起。今天的材料（瑞典大选）句子结构清晰，适合练准理解与完整输出，注意不要跳译。建议逐句划出主谓宾和从句后先笔译，再对照原文检查漏译、错译，并将错误词汇整理进错题本反复复习。",
+ "de2zh": {
+  "title": "Knapper Sieg für Mitte-links-Lager",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
+  "text": "Der von Ulf Kristersson geführte konservativ-rechte Parteienblock musste bei der Wahl in Schweden eine Niederlage hinnehmen. Der Regierungschef trat zurück. Die bisherige Opposition steht mit Magdalena Andersson vor einer schwierigen Regierungsbildung.\nNach dem Sieg der Opposition bei der Parlamentswahl in Schweden ist der konservative Ministerpräsident Ulf Kristersson von seinem Amt zurückgetreten.\nAuf der Plattform X veröffentlichte Kristersson sein Rücktrittsgesuch an den Parlamentspräsidenten. Das Wahlergebnis mache die Bildung einer neuen Regierung kompliziert, \"da die unterschiedlichen Aussagen der Parteien vor dem Wahltag jegliche denkbare Regierungsbildung und Koalition behindern könnten\", hieß es in dem Brief.\nNun sei \"konstruktive Offenheit der Parteien\" nötig, schrieb Kristersson weiter. \"Es müssen Gespräche mit allen Parteien geführt werden, um Lösungen zu finden und die Voraussetzungen für eine stabile und handlungsfähige Regierung zu schaffen.\" Der Parlamentspräsident werde nun die nächsten Schritte zur Bildung einer neuen Regierung einleiten.\nBei der Wahl am Sonntag holten die vier Parteien, die die Sozialdemokratin Magdalena Andersson als mögliche Regierungschefin unterstützen, laut jetzt veröffentlichtem offiziellen Endergebnis eine knappe Mehrheit von 176 von 349 Mandaten. Die konservative Regierungskoalition von Kristersson kommt demnach auf 173 Sitze.\nDie Regierungsbildung dürfte sich für Andersson schwierig gestalten. Zu den möglichen Koalitionspartnern ihrer Sozialdemokraten zählen die Linken und Grünen sowie die liberale Zentrumspartei. Letztere hatte allerdings vorab erklärt, nicht mit den Linken regieren zu wollen. Möglich ist aber auch eine Minderheitsregierung."
+ },
+ "zh2de": {
+  "title": "中国加强非物质文化遗产保护 43个项目入选联合国名录",
+  "text": "近年来，中国不断加大非物质文化遗产保护力度。截至2025年底，中国共有43个项目被列入联合国教科文组织人类非物质文化遗产代表作名录，数量居世界第一。全国已建立非遗保护中心3000多个，各级非遗代表性传承人超过10万名。政府持续增加财政投入，支持对传统技艺、戏曲、民俗等项目的抢救性记录和传承。京剧作为中国国粹，已有200多年历史，深受国内外观众喜爱。许多剧院和院校开设京剧专业课程，培养青年演员，推动这一传统艺术在新时代焕发生机。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die ___ Leistung des Windparks beträgt 500 Megawatt.",
+    "opts": [
+     "installierte",
+     "integrierte",
+     "betriebene",
+     "erzeugte"
+    ],
+    "ans": 0,
+    "why": "考点：固定搭配 installierte Leistung（装机容量），学员曾错写为 'installiert e'。installiert 是过去分词作定语，修饰 Leistung，表示已安装的（容量）。"
+   },
+   {
+    "q": "Der Staat fördert den Ausbau der ___ Energien.",
+    "opts": [
+     "erneuerbaren",
+     "erneuernder",
+     "erneuerter",
+     "erneuernd"
+    ],
+    "ans": 0,
+    "why": "考点：形容词词尾变格及固定搭配 erneuerbare Energien（可再生能源）。此处为复数第三格，需加 -en。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix steigt ___ 45 Prozent.",
+    "opts": [
+     "auf",
+     "um",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。steigen auf + 数字表示增长到，如果表示增长了用 um。根据语境选 auf。"
+   },
+   {
+    "q": "Die Regierung hat eine Entscheidung ___ den Kohleausstieg getroffen.",
+    "opts": [
+     "über",
+     "zu",
+     "für",
+     "gegen"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构 eine Entscheidung über etwas treffen（就某事做出决定）。固定介词 über。"
+   },
+   {
+    "q": "Der Ministerpräsident ist von seinem Amt ___.",
+    "opts": [
+     "zurückgetreten",
+     "abgetreten",
+     "aufgegeben",
+     "verlassen"
+    ],
+    "ans": 0,
+    "why": "考点：动词辨析。zurücktreten 为不及物动词，意为辞职，且用 sein 构成完成时，符合句意。"
+   },
+   {
+    "q": "Die Opposition steht ___ einer schwierigen Regierungsbildung.",
+    "opts": [
+     "vor",
+     "an",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "考点：固定搭配 vor etwas stehen（面临某事）。"
+   },
+   {
+    "q": "Die Partei hat Gespräche ___ allen Parteien geführt.",
+    "opts": [
+     "mit",
+     "zu",
+     "über",
+     "für"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构 Gespräche mit jemandem führen（与某人进行会谈）。"
+   },
+   {
+    "q": "Die vier Parteien, ___ die Sozialdemokratin unterstützen, haben eine Mehrheit.",
+    "opts": [
+     "die",
+     "welche",
+     "denen",
+     "der"
+    ],
+    "ans": 0,
+    "why": "考点：关系代词。先行词为复数 die Parteien，在从句中作主语，用 die。"
+   },
+   {
+    "q": "Nachdem der Regierungschef zurückgetreten ___, leitete der Parlamentspräsident die nächsten Schritte ein.",
+    "opts": [
+     "war",
+     "hatte",
+     "ist",
+     "hat"
+    ],
+    "ans": 0,
+    "why": "考点：zurücktreten 的过去完成时助动词用 war（sein），且主句为过去时，从句动作先发生，需用过去完成时。"
+   },
+   {
+    "q": "Die CO2-Emissionen pro Einheit des BIP, auch als Kohlenstoffintensität bezeichnet, sollen bis 2030 deutlich ___.",
+    "opts": [
+     "sinken",
+     "senken",
+     "verringern",
+     "reduzieren"
+    ],
+    "ans": 0,
+    "why": "考点：不及物动词与及物动词辨析。sinken 为不及物，表示下降；其他为及物，需宾语。主语为 Emissionen，应选 sinken。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung hat ein Programm zur Förderung der ___ Energien aufgelegt.",
+    "ans": "erneuerbaren",
+    "hint": "可再生的",
+    "why": "固定搭配 erneuerbare Energien，此处为第二格复数，形容词词尾 -en。"
+   },
+   {
+    "q": "Die installierte ___ des Windparks wurde 2025 auf 500 Megawatt erhöht.",
+    "ans": "Leistung",
+    "hint": "装机容量/功率",
+    "why": "installierte Leistung 为固定搭配，表示装机容量，学员曾错误拼写。"
+   },
+   {
+    "q": "Der Ministerpräsident hat seinen ___ eingereicht.",
+    "ans": "Rücktritt",
+    "hint": "辞呈",
+    "why": "固定搭配 den Rücktritt einreichen（递交辞呈），名词 Rücktritt 大写。"
+   },
+   {
+    "q": "Die Partei steht vor einer ___ Regierungsbildung.",
+    "ans": "schwierigen",
+    "hint": "困难的",
+    "why": "形容词作定语，修饰阴性名词 Regierungsbildung，第三格，词尾 -en。"
+   },
+   {
+    "q": "Die Opposition führt ___ mit allen Parteien.",
+    "ans": "Gespräche",
+    "hint": "会谈",
+    "why": "功能动词结构 Gespräche führen（进行会谈），复数名词。"
+   },
+   {
+    "q": "Die Koalition verfügt über eine knappe ___ von 176 Sitzen.",
+    "ans": "Mehrheit",
+    "hint": "多数",
+    "why": "固定搭配 eine Mehrheit von ... Sitzen，表示席位数量的多数。"
+   }
+  ]
+ },
+ "issue": 18
+}
