@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-19",
+ "theme": "China-Themen",
+ "coach": "当前最要紧的短板是基础词汇和语法在真实语境中的运用能力严重不足，导致德译汉错译漏译比例极高，汉译德几乎无法成句。今天的材料重点训练可再生能源领域的数字表达、被动结构和功能动词搭配，这些正是你近期频繁失分的点。建议先逐句精读新闻片段，将每个数字、单位、动词搭配标注出来，再对照译文检查自己是否遗漏或误译，不要急于求成。",
+ "de2zh": {
+  "title": "Wirtschaft--People's Daily Online",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/209053/index.html",
+  "text": "Vor einigen Tagen hatte ich die Gelegenheit, die Landtagswahl in Sachsen-Anhalt aus nächster Nähe zu beobachten. Das Wahlergebnis entsprach im Grunde präzise den Prognosen der Demoskopen – mit einer bemerkenswerten Ausnahme: Die regierende CDU stürzte ab und blieb weit hinter den Erwartungen zurück. Die politische Gemengelage in Magdeburg präsentiert sich seither als einigermaßen verfahren.\nDas am Zusammenfluss des Jangtse und des Qingyi-Flusses gelegene Wuhu hat nicht nur die tief verwurzelte Kultur im Süden der Provinz Anhui bereichert, sondern auch eine blühende Industrie hervorgebracht.\n„Musik ist eine Sprache, die jeder versteht.“ Für den deutschen Organisten, Pädagogen und „Artist in Residence“ auf der Insel Gulangyu, Ludger Lohmann, ist dies kein abstraktes Konzept, sondern eine ganz konkrete Erfahrung, die er im Laufe seiner langjährigen Reisen zwischen Europa und China gesammelt hat.\nAm Abend des 23. Mai fand der erste Spieltag der regionalen Fußballliga für den Nordosten Chinas („Dongbei Super League“) mit parallelen Auftaktspielen in Shenyang, Changchun, Harbin und Hohhot statt."
+ },
+ "zh2de": {
+  "title": "中国加快能源绿色低碳转型",
+  "text": "截至2025年底，我国风电、光伏发电装机容量达到14.5亿千瓦，同比增长25.8%，其中风电装机容量约为5.2亿千瓦，光伏发电装机容量约为9.3亿千瓦。全年新开工规模创历史新高，新增装机容量超过3亿千瓦。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。随着可再生能源占比不断提高，传统化石能源消费比重逐步降低，能源结构绿色低碳转型步伐加快。国家能源局表示，将继续完善支持政策，推动新型储能规模化应用，保障电力系统安全稳定运行。位于沙漠、戈壁、荒漠地区的大型风电光伏基地项目已被纳入国家“十四五”规划，这些项目建成后将为中东部地区输送大量清洁电力。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windenergie ___ derzeit 5,2 Millionen Kilowatt.",
+    "opts": [
+     "beträgt",
+     "betrug",
+     "betragen",
+     "betrüge"
+    ],
+    "ans": 0,
+    "why": "考查 betragen 的现在时第三人称单数形式，学员曾错拼为 betraegt，此处正确为 beträgt。"
+   },
+   {
+    "q": "Im Jahr 2025 wurden in China insgesamt 19,4 Millionen Kilowatt Windenergieleistung ___.",
+    "opts": [
+     "installiert",
+     "installieren",
+     "installierte",
+     "installierten"
+    ],
+    "ans": 0,
+    "why": "考查被动语态中动词的过去分词形式，werden + Partizip II，installieren 的过去分词是 installiert。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das Stromnetz stellt eine große Herausforderung dar.",
+    "opts": [
+     "in",
+     "an",
+     "auf",
+     "für"
+    ],
+    "ans": 0,
+    "why": "固定搭配 Integration in + Akkusativ，表示融入电网。"
+   },
+   {
+    "q": "Die Regierung hat Maßnahmen zur Förderung der Windenergie ___.",
+    "opts": [
+     "ergriffen",
+     "genommen",
+     "gemacht",
+     "getroffen"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 Maßnahmen ergreifen，表示采取措施。"
+   },
+   {
+    "q": "Die CDU stürzte bei der Wahl ab und blieb weit hinter den Erwartungen ___.",
+    "opts": [
+     "zurück",
+     "vor",
+     "aus",
+     "ab"
+    ],
+    "ans": 0,
+    "why": "固定搭配 zurückbleiben hinter + Dativ，表示落后于期望。"
+   },
+   {
+    "q": "Das Wahlergebnis entsprach präzise den Prognosen der ___.",
+    "opts": [
+     "Demoskopen",
+     "Demoskopie",
+     "Demoskop",
+     "demoskopisch"
+    ],
+    "ans": 0,
+    "why": "Demoskopen 是 Demoskop 的复数，指民意调查者，符合上下文。"
+   },
+   {
+    "q": "Die Zahl der neu installierten Windkraftanlagen ___ im letzten Jahr deutlich gestiegen.",
+    "opts": [
+     "ist",
+     "hat",
+     "wird",
+     "war"
+    ],
+    "ans": 0,
+    "why": "steigen 表示上升，完成时用 sein 构成，现在完成时 ist gestiegen。"
+   },
+   {
+    "q": "Der erste Spieltag der regionalen Fußballliga ___ am Abend des 23. Mai statt.",
+    "opts": [
+     "fand",
+     "hatte",
+     "machte",
+     "gab"
+    ],
+    "ans": 0,
+    "why": "固定搭配 stattfinden，过去时 fand statt。"
+   },
+   {
+    "q": "Die Windenergie hat in China in den letzten Jahren einen enormen ___ erfahren.",
+    "opts": [
+     "Aufschwung",
+     "Abschwung",
+     "Umschwung",
+     "Rückschwung"
+    ],
+    "ans": 0,
+    "why": "Aufschwung 意为繁荣、高涨，符合语境。"
+   },
+   {
+    "q": "___ der Integration erneuerbarer Energien steigt der Anteil sauberer Energie.",
+    "opts": [
+     "Mit",
+     "Durch",
+     "Für",
+     "Bei"
+    ],
+    "ans": 0,
+    "why": "介词 Mit + Dativ 表示伴随，学员曾在类似结构中用错介词。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung hat ___ zur Förderung erneuerbarer Energien ergriffen.",
+    "ans": "Maßnahmen",
+    "hint": "措施",
+    "why": "固定搭配 Maßnahmen ergreifen，注意名词复数。"
+   },
+   {
+    "q": "Die Windenergieanlagen wurden im letzten Jahr in großer Zahl ___.",
+    "ans": "installiert",
+    "hint": "安装",
+    "why": "动词 installieren 的过去分词，用于被动语态。"
+   },
+   {
+    "q": "Die installierte Leistung der Windkraft ___ 5,2 Millionen Kilowatt.",
+    "ans": "beträgt",
+    "hint": "达到，为",
+    "why": "动词 betragen 的现在时第三人称单数，注意变位。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das Stromnetz ist eine Herausforderung.",
+    "ans": "in",
+    "hint": "融入",
+    "why": "介词 in 引导 Akkusativ，Integration in etw. (Akk.)。"
+   },
+   {
+    "q": "Die CDU stürzte bei der Wahl ab und blieb weit hinter den Erwartungen ___.",
+    "ans": "zurück",
+    "hint": "落后",
+    "why": "可分动词 zurückbleiben 的副词部分，与 hinter 搭配。"
+   },
+   {
+    "q": "Das am Zusammenfluss gelegene Wuhu hat eine blühende Industrie ___.",
+    "ans": "hervorgebracht",
+    "hint": "产生，创造",
+    "why": "动词 hervorbringen 的过去分词，与 haben 构成完成时。"
+   }
+  ]
+ },
+ "issue": 19
+}
