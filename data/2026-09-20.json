@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-20",
+ "theme": "Panorama",
+ "coach": "当前最要紧的短板是翻译准确性严重不足，错译、漏译占比极高，尤其是数字、单位换算和能源领域术语频繁出错。今天选取的北约新闻包含数字、被动结构和功能动词，可重点练习精准转换与长句拆分；词汇小卷中特意安排了针对你薄弱点的能源词汇重考。建议：翻译时先通读全段把握逻辑，对每个数字和单位务必核对换算，汉译德时注意被动语态和长定语的德语表达，做完后逐句对照原文和参考译文，标记并总结所有错译和漏译点。",
+ "de2zh": {
+  "title": "Wichtiger NATO-Posten für Generalinspekteur Breuer",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/breuer-nato-militaerausschuss-100.html",
+  "text": "Es ist einer der einflussreichsten Posten bei der NATO - und künftig hat ihn ein Deutscher inne: Generalinspekteur Breuer ist zum neuen Vorsitzenden des NATO-Militärausschusses gewählt worden. Er wird damit Berater von Generalsekretär Rutte.\nDer deutsche Generalinspekteur Carsten Breuer ist zum neuen Vorsitzenden des NATO-Militärausschusses gewählt worden. Deutschlands ranghöchster Soldat wurde bei einer Sitzung des Gremiums in Kopenhagen zum Nachfolger des italienischen Admirals Giuseppe Cavo Dragone bestimmt, wie die NATO mitteilte.\nBreuer setzte sich gegen die kanadische Generalstabschefin Jennie Carignan durch, die im Fall ihrer Wahl die erste Frau an der Spitze des Militärausschusses geworden wäre. Damit übernimmt im Sommer 2027 nach mehr als 20 Jahren wieder ein Deutscher die Aufgabe als wichtigster militärischer Berater des Generalsekretärs.\nBreuer dankte \"für das in mich gesetzte Vertrauen\". \"Die Unterstützung der Generalstabschefs unserer NATO-Verbündeten bedeutet mir viel. Im Bündnis liegen große Aufgaben vor uns - für unsere Sicherheit und den Frieden in Europa und darüber hinaus\", sagte er der Nachrichtenagentur dpa."
+ },
+ "zh2de": {
+  "title": "中国发布《新时代的中国国防》白皮书",
+  "text": "国务院新闻办公室今日发布《新时代的中国国防》白皮书。白皮书指出，中国始终不渝走和平发展道路，坚持防御性国防政策。2012年以来，中国国防费占国内生产总值比重平均为1.3%，远低于世界主要国家。中国军队积极参加联合国维和行动，累计派出维和人员4万余人次，是安理会常任理事国中派出维和人员最多的国家。中国还参与国际反恐、护航等合作，为维护世界和平稳定作出重要贡献。白皮书强调，中国国防和军队现代化建设不针对任何国家，也不受任何国家威胁，旨在维护国家主权、安全和发展利益。中国愿与各国军队加强交流合作，共同应对全球性安全挑战。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windkraftanlagen in China beträgt 19,4 Millionen ___.",
+    "opts": [
+     "Kilowatt",
+     "Kilowattstunden",
+     "Megawatt",
+     "Gigawatt"
+    ],
+    "ans": 0,
+    "why": "考点：数字单位搭配。表示装机容量应用“Kilowatt”（千瓦），学员曾将“万千瓦”误译为“Kwa”，需强化单位换算与德语表达。"
+   },
+   {
+    "q": "Mit der ___ erneuerbarer Energien ins Netz steigt der Anteil sauberer Stromerzeugung.",
+    "opts": [
+     "Integration",
+     "Installation",
+     "Inbetriebnahme",
+     "Erzeugung"
+    ],
+    "ans": 0,
+    "why": "考点：专业术语。“并网”固定搭配为“Integration ins Netz”，学员曾错译为“Mit der Integration erneuerbarer Energie”，混淆介词与名词搭配。"
+   },
+   {
+    "q": "Die chinesische Regierung strebt an, den CO2-Ausstoß bis 2030 seinen ___ erreichen zu lassen.",
+    "opts": [
+     "Höhepunkt",
+     "Tiefpunkt",
+     "Durchschnitt",
+     "Wendepunkt"
+    ],
+    "ans": 0,
+    "why": "考点：碳达峰相关词汇。“碳达峰”即达到排放峰值，应用“Höhepunkt”（峰值），学员曾漏译“碳达峰碳中和”相关表述。"
+   },
+   {
+    "q": "Die bis Ende 2025 ___ Windkraftleistung wird 1.200 Gigawatt überschreiten.",
+    "opts": [
+     "installierte",
+     "installierenden",
+     "zu installierende",
+     "installiert"
+    ],
+    "ans": 0,
+    "why": "考点：分词作定语。表示“已安装的”应用第二分词“installierte”，学员曾出现“die installiert e”的语法错误，需辨析分词与关系从句。"
+   },
+   {
+    "q": "Generalinspekteur Breuer hat künftig einen der einflussreichsten Posten bei der NATO ___.",
+    "opts": [
+     "inne",
+     "auf",
+     "an",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。“einen Posten innehaben”为固定搭配，意为“担任某职务”，此处需填“inne”。"
+   },
+   {
+    "q": "Breuer wurde bei einer Sitzung des Gremiums in Kopenhagen ___ Nachfolger des italienischen Admirals bestimmt.",
+    "opts": [
+     "zum",
+     "als",
+     "für",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。“zum Nachfolger bestimmt werden”表示“被确定为继任者”，介词固定为“zum”。"
+   },
+   {
+    "q": "Breuer setzte sich gegen die kanadische Generalstabschefin durch, ___ im Fall ihrer Wahl die erste Frau an der Spitze geworden wäre.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "welche"
+    ],
+    "ans": 0,
+    "why": "考点：关系代词。关系从句修饰“die kanadische Generalstabschefin”，阴性单数第一格，应用“die”。"
+   },
+   {
+    "q": "Der Vorsitzende des Militärausschusses gilt neben dem Saceur als einer der ___ Militärs der NATO.",
+    "opts": [
+     "mächtigsten",
+     "bedeutendsten",
+     "größten",
+     "stärksten"
+    ],
+    "ans": 1,
+    "why": "考点：同义词替换。“einflussreichsten”与“bedeutendsten”意思最接近，均表示“最有影响力的”。"
+   },
+   {
+    "q": "Über ihn werden Weisungen und Richtlinien des Militärausschusses an die strategischen Befehlshaber ___.",
+    "opts": [
+     "weitergeleitet",
+     "übergeben",
+     "verteilt",
+     "zugestellt"
+    ],
+    "ans": 0,
+    "why": "考点：动词辨析。“Weisungen weiterleiten”意为“传达指令”，为新闻原词，其他选项不匹配。"
+   },
+   {
+    "q": "Deutschland übernehme in fordernden Zeiten ___ in der Allianz.",
+    "opts": [
+     "Verantwortung",
+     "Aufgabe",
+     "Pflicht",
+     "Rolle"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词。“Verantwortung übernehmen”为固定搭配，表示“承担责任”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte ___ der Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "固定搭配“installierte Leistung”，学员曾误译数字单位，此处需掌握该术语。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer ___ an der Stromerzeugung steigt kontinuierlich.",
+    "ans": "Energien",
+    "hint": "可再生能源",
+    "why": "固定搭配“erneuerbare Energien”，是能源领域核心词汇，学员曾错译相关表达。"
+   },
+   {
+    "q": "Generalinspekteur Breuer wurde zum neuen Vorsitzenden des NATO-Militärausschusses ___.",
+    "ans": "gewählt",
+    "hint": "当选",
+    "why": "搭配“zum Vorsitzenden gewählt werden”，表示被选举担任主席。"
+   },
+   {
+    "q": "Deutschlands ranghöchster Soldat wurde bei einer Sitzung des Gremiums in Kopenhagen zum ___ des italienischen Admirals Giuseppe Cavo Dragone bestimmt.",
+    "ans": "Nachfolger",
+    "hint": "继任者",
+    "why": "搭配“zum Nachfolger bestimmt werden”，表示被确定为继任者。"
+   },
+   {
+    "q": "Breuer setzte sich gegen die kanadische Generalstabschefin ___.",
+    "ans": "durch",
+    "hint": "胜出",
+    "why": "固定搭配“sich gegen jn. durchsetzen”，意为战胜某人、胜出。"
+   },
+   {
+    "q": "Im Bündnis liegen große Aufgaben vor uns - für unsere Sicherheit und den Frieden in Europa und darüber ___.",
+    "ans": "hinaus",
+    "hint": "超出",
+    "why": "固定短语“darüber hinaus”，意为“此外、超出……范围”。"
+   }
+  ]
+ },
+ "issue": 20
+}
