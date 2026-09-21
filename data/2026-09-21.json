@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-21",
+ "theme": "Politik",
+ "coach": "当前最紧迫的短板是德译汉中的错译和漏译，尤其数字、专有名词和长句结构处理不当；汉译德几乎零分，说明基础表达和语法（分词定语、功能动词、介词搭配）严重薄弱。今天的选举新闻材料重点练数字百分比、党派名称的准确转述，并强化分词定语和功能动词结构。建议先做数字听写和复述，再逐句分析长句，标记功能动词并模仿造句，今日小卷中的相关题目要复盘错因。",
+ "de2zh": {
+  "title": "AfD vor SPD, Debakel für CDU",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/landtagswahlen/mecklenburg-vorpommern/2026/mecklenburg-vorpommern-landtagswahl-ergebnis-104.html",
+  "text": "Laut vorläufigem Ergebnis siegt die AfD in Mecklenburg-Vorpommern vor der SPD von Ministerpräsidentin Schwesig. Für die CDU endet der Wahlabend dramatisch, erstmals fliegt sie aus einem Landesparlament. Auch das BSW verpasst den Einzug.\nDie AfD hat die Landtagswahl in Mecklenburg-Vorpommern gewonnen - doch die zweitplatzierte SPD könnte in dem Bundesland weiterregieren. Laut vorläufigem Ergebnis kommt die AfD auf 38,2 Prozent der Stimmen. Die Partei um \"Ministerpräsidentenkandidat\" Leif-Erik Holm und Spitzenkandidat Enrico Schult konnte ihr Ergebnis von 2021 (16,7 Prozent) damit mehr als verdoppeln.\nDie SPD von Ministerpräsidentin Manuela Schwesig schneidet mit 35,5 Prozent überraschend stark ab. Zwar muss sie Verluste hinnehmen, im Jahr 2021 kam sie noch auf 39,6 Prozent. Dennoch ist die Erleichterung in der Partei groß - den in Umfragen deutlichen Rückstand zur AfD in den vergangenen Monaten konnte sie noch zu einem guten Teil aufholen.\nDramatisch fällt das Ergebnis für die CDU aus: Mit 4,9 Prozent verfehlt sie die Fünfprozenthürde und verpasst damit erstmals in einem Bundesland den Einzug in den Landtag. Spitzenkandidat Daniel Peters fuhr das schlechteste christdemokratische Ergebnis aller bundesdeutschen Landtagswahlen seit 1949 ein. Im Wahlkampf musste die Partei nicht nur gegen den negativen Bundestrend ankämpfen, sondern litt auch unter der Zuspitzung des Wahlkampfs auf das Duell Schwesig gegen die AfD. 2021 hatte die CDU noch 13,3 Prozent der Stimmen erhalten."
+ },
+ "zh2de": {
+  "title": "德国某州议会选举结果揭晓，社民党保住第二大党地位",
+  "text": "据州选举委员会公布的初步统计结果，在近日举行的某州议会选举中，德国选择党获得38.2%的选票，比上届选举的16.7%增加一倍以上，成为该州第一大党。社民党获得35.5%的选票，虽较上届的39.6%有所下降，但其表现明显好于选前民调，被党内视为一场成功的“追赶”。基民盟仅获得4.9%的选票，未能达到进入州议会所需的5%门槛，这是该党自1949年以来首次在州议会选举中未能获得席位。绿党获得5.7%的选票，左翼党获得6.5%的选票，均成功进入州议会。选举结果公布后，社民党籍州长表示将向所有民主政党发出组阁谈判邀请。分析人士认为，此次选举结果反映出民众对联邦政府政策的不满，并将对联邦层面的政治格局产生深远影响。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Das vorläufige Ergebnis der Landtagswahl wurde am Abend bekannt gegeben.",
+    "opts": [
+     "endgültige",
+     "vorübergehende",
+     "amtliche",
+     "vorherige"
+    ],
+    "ans": 1,
+    "why": "vorläufig 意为“初步的、暂时的”，与 vorübergehend 意思相近，都可表示非最终的、暂时的状态。endgültig 是反义词；amtlich 意为官方的；vorherige 意为之前的。"
+   },
+   {
+    "q": "Die CDU hat die Fünfprozenthürde um 0,1 Prozentpunkte ______.",
+    "opts": [
+     "verfehlt",
+     "erreicht",
+     "überschritten",
+     "gesteigert"
+    ],
+    "ans": 0,
+    "why": "动词 verfehlen 表示“未达到”，常与介词 um 搭配表示差距，即“差多少未达到”。其他选项不符合语境。"
+   },
+   {
+    "q": "Die neue Regierung will die Reform des Wahlrechts in ______ nehmen.",
+    "opts": [
+     "Angriff",
+     "Betracht",
+     "Kauf",
+     "Anspruch"
+    ],
+    "ans": 0,
+    "why": "固定搭配 in Angriff nehmen，意为“着手进行”，常用于表示开始处理某项任务或改革。其他选项如 in Betracht ziehen 表示考虑，in Kauf nehmen 表示容忍，in Anspruch nehmen 表示占用。"
+   },
+   {
+    "q": "Die von der AfD ______ Wähler fühlten sich von den etablierten Parteien nicht mehr vertreten.",
+    "opts": [
+     "angesprochenen",
+     "angesprochene",
+     "ansprechenden",
+     "ansprachen"
+    ],
+    "ans": 0,
+    "why": "此处需要第二分词作定语，修饰复数名词 Wähler，且前面有 von der AfD 表示动作发出者，因此用 angesprochenen（形容词强变化，复数第一格，词尾-en）。angesprochene 是单数阴性或复数弱变化；ansprechenden 是第一分词；ansprachen 是过去时动词。"
+   },
+   {
+    "q": "Für die CDU war das Wahlergebnis ein Debakel.",
+    "opts": [
+     "Triumph",
+     "Erfolg",
+     "Fiasko",
+     "Skandal"
+    ],
+    "ans": 2,
+    "why": "Debakel 意为“惨败、崩溃”，与 Fiasko 同义，都指重大失败。Triumph 和 Erfolg 是反义；Skandal 是丑闻，意思不同。"
+   },
+   {
+    "q": "Die Partei musste im Wahlkampf gegen den negativen Bundestrend ______.",
+    "opts": [
+     "ankämpfen",
+     "bekämpfen",
+     "verstoßen",
+     "auflehnen"
+    ],
+    "ans": 0,
+    "why": "ankämpfen gegen 是固定搭配，意为“与...抗争、对抗”。bekämpfen 是及物动词，直接接宾语，不需要介词；verstoßen gegen 表示违反；auflehnen gegen 表示反抗，但多用于抽象或具体反抗，这里 ankämpfen 更合适。"
+   },
+   {
+    "q": "Die SPD musste bei dieser Wahl Verluste ______.",
+    "opts": [
+     "hinnehmen",
+     "annehmen",
+     "aufnehmen",
+     "einnehmen"
+    ],
+    "ans": 0,
+    "why": "Verluste hinnehmen 是固定搭配，表示“承受损失”，指接受不利结果。annehmen 多指接受建议、条件等；aufnehmen 指接收、录制；einnehmen 指收入、服用或占领，均不符合。"
+   },
+   {
+    "q": "Die installierte Leistung der Windkraftanlagen beträgt 19,4 ______ Kilowatt.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionen von",
+     "Million von"
+    ],
+    "ans": 0,
+    "why": "在德语中，数字后接量词时，Million 用复数 Millionen，且不加 von，直接跟名词。19,4 Millionen Kilowatt 意为1940万千瓦。其他选项错误：Million 单数、Millionen von 不正确（应直接接名词）、Million von 语法错误。"
+   },
+   {
+    "q": "Die SPD konnte ihren Rückstand in den Umfragen noch aufholen.",
+    "opts": [
+     "verringern",
+     "vergrößern",
+     "ausbauen",
+     "beibehalten"
+    ],
+    "ans": 0,
+    "why": "aufholen 表示“追上、弥补差距”，与 verringern（缩小）意思接近，此处指缩小在民调中的落后幅度。vergrößern 是扩大，ausbauen 是扩建、加强，beibehalten 是保持，均不符。"
+   },
+   {
+    "q": "Bei der Landtagswahl ______ mehrere Parteien zur Wahl.",
+    "opts": [
+     "standen",
+     "stellten",
+     "traten",
+     "gingen"
+    ],
+    "ans": 0,
+    "why": "固定搭配 zur Wahl stehen，表示“参加选举、供选择”，主语是 Parteien，所以用 standen（过去时复数）。stellen 是及物动词，需要宾语；treten 常与 zu/in 搭配如 zur Wahl treten 也可表示参加竞选，但习惯上 zur Wahl stehen 更常见；gingen 不搭配。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die neue Regierung will die Reform des Wahlrechts in ______ nehmen.",
+    "ans": "Angriff",
+    "hint": "着手进行",
+    "why": "固定搭配 in Angriff nehmen，表示开始做某事，尤其用于计划、改革等。"
+   },
+   {
+    "q": "Die CDU hat die Fünfprozenthürde um 0,1 Prozentpunkte ______.",
+    "ans": "verfehlt",
+    "hint": "未达到",
+    "why": "verfehlen + A，固定搭配，表示差多少用 um...verfehlen。"
+   },
+   {
+    "q": "Die SPD musste bei dieser Wahl starke Verluste ______.",
+    "ans": "hinnehmen",
+    "hint": "承受，接受",
+    "why": "Verluste hinnehmen 固定搭配，表示遭受损失并接受现实。"
+   },
+   {
+    "q": "Die AfD kam auf 38,2 Prozent der Stimmen und wurde ______ Kraft im Landtag.",
+    "ans": "stärkste",
+    "hint": "最强",
+    "why": "形容词最高级作定语，stärkste Kraft 意为第一大党。"
+   },
+   {
+    "q": "Der Spitzenkandidat der Grünen ______ sich zuversichtlich, dass seine Partei in den Landtag einziehen wird.",
+    "ans": "äußerte",
+    "hint": "表示，表达",
+    "why": "sich äußern + zu/über 表示就某事发表看法，这里用äußerte sich zuversichtlich。"
+   },
+   {
+    "q": "Die Regierungsbildung könnte sich als schwierig ______, da keine Partei eine absolute Mehrheit hat.",
+    "ans": "erweisen",
+    "hint": "证明是，表明",
+    "why": "sich als ... erweisen 固定搭配，表示结果证明是...。"
+   }
+  ]
+ },
+ "issue": 21
+}
