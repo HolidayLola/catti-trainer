@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-23",
+ "theme": "Gesellschaft",
+ "coach": "你当前最突出的问题是基础词汇量不足和数字表达混乱，导致德译汉大量错译、漏译，汉译德几乎无法成句。今天的社会政策文本包含较多数字和政策术语，正好用来训练精确提取信息和数字转换。建议先精读原文并标注所有数字、专有名词和功能动词结构，再逐句翻译，完成后对照参考译文逐词核对，重点检查自已漏译的状语成分。",
+ "de2zh": {
+  "title": "Union und SPD wollen noch mal über Reformen verhandeln",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/union-spd-beratungen-reformen-100.html",
+  "text": "Die geplanten Reformen der Bundesregierung kommen noch einmal auf den Prüfstand. Am Abend will Kanzleramtschefin Warken mit Spitzenpolitikern von CDU, CSU und SPD etwa über das Thema Rente sprechen.\nVertreter der schwarz-roten Koalition kommen am Abend nach Informationen des ARD-Hauptstadtstudios zu Beratungen über ihren weiteren Reformkurs zusammen. Zunächst hatten der Spiegel und die Bild-Zeitung über das Treffen berichtet.\nTeilnehmen sollen demnach SPD-Chefin und Arbeitsministerin Bärbel Bas, Innenminister Alexander Dobrindt (CSU), Kanzleramtsministerin Nina Warken (CDU) sowie Staatssekretär Björn Böhning (SPD). Böhning vertritt Finanzminister und Vizekanzler Lars Klingbeil (SPD). Gesundheitsminister Carsten Linnemann (CDU) werde nach Angaben aus Koalitionskreisen später dazustoßen, berichtete der Spiegel .\nBei dem Treffen soll es insbesondere um die Themen Rente und Pflege gehen. Nach den schlechten Wahlergebnissen vor allem der CDU bei den jüngsten Landtagswahlen in Sachsen-Anhalt und Mecklenburg-Vorpommern sowie der Wahl in Berlin war die Diskussion darüber neu entfacht worden.\nSowohl die Oppositionsparteien im Bundestag als auch der Koalitionspartner SPD hatten eine Kurskorrektur gefordert . Es soll besprochen werden, welche Änderungen an den geplanten Reformen möglich sind. Konkrete Beschlüsse werden heute nicht erwartet.\nMit einem Strategiepapier, das dem ARD-Hauptstadtstudio vorliegt, hatten die Sozialdemokraten zuletzt den Druck auf die Union erhöht. Darin steht, dass es ein \"Weiter so\" nicht mehr geben könne."
+ },
+ "zh2de": {
+  "title": "我国基本养老保险覆盖面持续扩大",
+  "text": "截至2024年底，全国基本养老保险参保人数达到10.7亿人，比上年末增加约1300万人。其中，城镇职工基本养老保险参保人数为5.2亿人，城乡居民基本养老保险参保人数为5.5亿人。按照政府工作报告部署，今年将继续提高退休人员基本养老金水平，并完善城乡居民基础养老金正常调整机制。目前，全国31个省份均已建立城乡居民基本养老保险待遇确定和基础养老金正常调整机制，相关政策措施已被纳入“十四五”规划体系。专家指出，随着人口老龄化程度不断加深，多层次、多支柱养老保险体系建设亟待加快推进，以更好保障人民群众的老年生活。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Windkraftanlagen in China haben eine installierte Leistung von 19,4 Millionen ___, das entspricht 19,4 Gigawatt.",
+    "opts": [
+     "A. Kilowatt",
+     "B. Megawatt",
+     "C. Gigawatt",
+     "D. Terawatt"
+    ],
+    "ans": 0,
+    "why": "考察单位换算和词汇。19,4 Millionen Kilowatt = 19,4 Gigawatt，注意德语中Millionen + Kilowatt的写法，学员曾将kW误作Kwa，需强化单位表达。"
+   },
+   {
+    "q": "Der Anteil ___ Energien am Strommix ist im vergangenen Jahr weiter gestiegen.",
+    "opts": [
+     "A. erneuerbarer",
+     "B. erneuerbaren",
+     "C. erneuerbare",
+     "D. erneuerbarem"
+    ],
+    "ans": 0,
+    "why": "考察形容词词尾。Anteil后面接Genitiv，erneuerbarer Energien（可再生能源的占比），学员对形容词变格不熟，需巩固。"
+   },
+   {
+    "q": "Der nationale ___ für CO2-Zertifikate ist im vergangenen Jahr deutlich aktiver geworden.",
+    "opts": [
+     "A. Emissionshandel",
+     "B. Emissionsmarkt",
+     "C. Kohlenstoffmarkt",
+     "D. Zertifikatehandel"
+    ],
+    "ans": 0,
+    "why": "考察主题词汇。碳排放权交易市场德语固定表达为Emissionshandel，学员曾错译相关术语，需掌握。"
+   },
+   {
+    "q": "Um bis 2060 ___ zu erreichen, muss China den Ausbau erneuerbarer Energien beschleunigen.",
+    "opts": [
+     "A. Kohlenstoffneutralität",
+     "B. Kohlendioxidneutralität",
+     "C. Treibhausgasneutralität",
+     "D. Klimaneutralität"
+    ],
+    "ans": 0,
+    "why": "考察气候政策术语。中国官方常使用Kohlenstoffneutralität表示碳中和，学员对碳达峰碳中和相关词汇陌生，需记忆。"
+   },
+   {
+    "q": "Die geplanten Reformen kommen noch einmal auf den ___.",
+    "opts": [
+     "A. Prüfstand",
+     "B. Prüfung",
+     "C. Test",
+     "D. Plan"
+    ],
+    "ans": 0,
+    "why": "考察功能动词结构auf den Prüfstand kommen（接受审查），新闻中常见固定搭配。"
+   },
+   {
+    "q": "Die Koalitionspartner wollen heute Abend ___ die Rentenreform verhandeln.",
+    "opts": [
+     "A. über",
+     "B. für",
+     "C. um",
+     "D. an"
+    ],
+    "ans": 0,
+    "why": "考察介词搭配，verhandeln über + Akk表示就某事谈判。"
+   },
+   {
+    "q": "Die SPD hat zuletzt den Druck ___ die Union erhöht.",
+    "opts": [
+     "A. auf",
+     "B. gegen",
+     "C. zu",
+     "D. für"
+    ],
+    "ans": 0,
+    "why": "考察介词搭配，Druck auf jn ausüben/erhöhen，意为向某人施压。"
+   },
+   {
+    "q": "Nach den schlechten Wahlergebnissen, ___ die CDU stark getroffen haben, wurde die Diskussion neu entfacht.",
+    "opts": [
+     "A. die",
+     "B. denen",
+     "C. der",
+     "D. das"
+    ],
+    "ans": 0,
+    "why": "考察关系从句，先行词Wahlergebnissen是复数，在从句中作主语，用die。"
+   },
+   {
+    "q": "Das \"Nebeneinander von privater und gesetzlicher Krankenversicherung\" wird von vielen als ___ betrachtet.",
+    "opts": [
+     "A. Gerechtigkeitsproblem",
+     "B. Ungerechtigkeit",
+     "C. Fairnessfrage",
+     "D. Gleichheitsproblem"
+    ],
+    "ans": 0,
+    "why": "考察新闻中出现的主题词汇Gerechtigkeitsproblem，同义替换。"
+   },
+   {
+    "q": "Die Reform soll ___ Ende 2025 umgesetzt sein.",
+    "opts": [
+     "A. bis",
+     "B. seit",
+     "C. ab",
+     "D. vor"
+    ],
+    "ans": 0,
+    "why": "考察时间介词bis表示截止，学员曾误用Bis zum Ende von 2025，需强化。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung will den Ausbau erneuerbarer Energien weiter ___.",
+    "ans": "vorantreiben",
+    "hint": "推进",
+    "why": "固定搭配etwas vorantreiben，学员对可再生能源主题动词搭配不熟。"
+   },
+   {
+    "q": "Der nationale Emissionshandel hat im vergangenen Jahr deutlich an ___ gewonnen.",
+    "ans": "Dynamik",
+    "hint": "活跃度/动力",
+    "why": "固定搭配an Dynamik gewinnen，表示活跃度提升，与学员曾漏译的碳排放权交易市场活跃度相关。"
+   },
+   {
+    "q": "Die Opposition und die SPD hatten eine ___ des Reformkurses gefordert.",
+    "ans": "Kurskorrektur",
+    "hint": "路线修正",
+    "why": "新闻原文出现Kurskorrektur fordern，名动搭配。"
+   },
+   {
+    "q": "Die Pflegereform soll in der kommenden Woche im Kabinett ___ werden.",
+    "ans": "beraten",
+    "hint": "审议",
+    "why": "固定搭配im Kabinett beraten werden，被动结构。"
+   },
+   {
+    "q": "Die Sozialdemokraten haben zuletzt Druck auf die Union ___.",
+    "ans": "erhöht",
+    "hint": "施加（压力）",
+    "why": "功能动词结构Druck auf jn erhöhen。"
+   },
+   {
+    "q": "Die Unionsfraktion sicherte dem Kanzler weiterhin ihre ___ zu.",
+    "ans": "Unterstützung",
+    "hint": "支持",
+    "why": "搭配jm Unterstützung zusichern。"
+   }
+  ]
+ },
+ "issue": 22
+}
