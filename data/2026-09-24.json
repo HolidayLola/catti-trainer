@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-24",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最要紧的短板是信息忠实度：德译汉错译、漏译频发，尤其数字单位（Millionen/Milliarden）和能源政策术语常出硬伤；汉译德几乎零基础，需要从最常用的功能动词和被动结构补起。今天选用的 AI 科技新闻正好可练数字表达、分词定语和‘Maßnahmen ergreifen/treffen’等固定搭配。建议：先不做全文，只精读所给段落，用表格列出所有数字、专名、固定搭配，逐条核对词典，再口头复述中文，最后再做笔译，避免凭印象跳译。",
+ "de2zh": {
+  "title": "Tech-Bosse warnen UN-Sicherheitsrat vor KI",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/amerika/ki-un-sicherheitsrat-100.html",
+  "text": "Die Chefs der größten US-amerikanischen KI-Firmen OpenAI und Anthropic, Altman und Amodei, warnen weiter vor ihrer eigenen Technologie. Vor dem UN-Sicherheitsrat boten beide an, an stärkerer Regulierung mitzuwirken.\nUm den Anwesenden im UN-Sicherheitsrat klarzumachen, wie schnell sich Künstliche Intelligenz (KI) entwickelt, blickt OpenAI-Chef Sam Altman ziemlich genau drei Jahre zurück. Damals sei KI \"ganz ok\" beim Lösen von Grundschul-Matheaufgaben gewesen. Ein Jahr später konnte sie bereits mit Oberstufenschülern mithalten.\nVergangenen Sommer erreichte die KI von OpenAI das Niveau einer Goldmedaille bei einem der renommiertesten Mathematikwettbewerbe. Heute sei sie sogar in der Lage, sogenannte Millennium-Probleme zu lösen.\nDas Risiko, das Sam Altman sieht: \"KI könnte sich so schnell weiterentwickeln, dass kein Mensch mehr folgen oder eingreifen kann, wenn nötig.\" Außerdem sieht der Chef von OpenAI die Gefahr einer Machtkonzentration bei einigen wenigen Unternehmen oder Ländern.\nAuch Dario Amodei, Chef des KI-Unternehmens Anthropic, sieht diese Gefahren. Er warnt zusätzlich vor dem Missbrauch durch Terroristen, die mithilfe von KI biologische Waffen bauen könnten. \"Bei unsachgemäßem Umgang könnte Künstliche Intelligenz zum Risiko für die gesamte Menschheit werden\", warnt Amodei weiter."
+ },
+ "zh2de": {
+  "title": "中国发布新一代人工智能发展规划",
+  "text": "由国务院印发的《新一代人工智能发展规划》明确提出，到2025年人工智能核心产业规模超过4000亿元，带动相关产业规模超过5万亿元。规划强调，要加快人工智能深度应用，培育高端高效的智能经济，建设安全便捷的智能社会，并加强人工智能领域伦理治理，确保人工智能安全、可靠、可控。目前，中国人工智能企业数量已超过4000家，位居全球第二，在图像识别、语音识别等领域达到世界先进水平。专家指出，人工智能技术的快速发展既带来巨大机遇，也带来治理挑战，国际社会应加强合作，共同制定相关规则和标准。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Zahl der Elektroautos in China hat die Marke von 19,4 ___ überschritten.",
+    "opts": [
+     "Millionen",
+     "Milliarden",
+     "Tausend",
+     "Billionen"
+    ],
+    "ans": 0,
+    "why": "考点：数字单位辨析。中文常误将“19.4 millionen”写成错误形式，此处须用 Millionen（百万），Milliarden 为十亿，Billionen 为万亿。"
+   },
+   {
+    "q": "Die Regierung hat beschlossen, strengere ___ gegen den Missbrauch von KI zu ergreifen.",
+    "opts": [
+     "Maßnahmen",
+     "Vorkehrungen",
+     "Handlungen",
+     "Schritte"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。固定搭配 Maßnahmen ergreifen（采取措施）。"
+   },
+   {
+    "q": "Die Anlage soll ___ Ende 2025 in Betrieb genommen werden.",
+    "opts": [
+     "bis",
+     "ab",
+     "seit",
+     "nach"
+    ],
+    "ans": 0,
+    "why": "考点：时间介词搭配。表示“到……底”用 bis，不加冠词，即 bis Ende 2025。学员曾错写“Bis zum Ende von 2025”。"
+   },
+   {
+    "q": "Die Kosten für die Integration erneuerbarer Energien sind in den letzten Jahren ___ gesunken.",
+    "opts": [
+     "erheblich",
+     "geringfügig",
+     "unwesentlich",
+     "kaum"
+    ],
+    "ans": 0,
+    "why": "考点：程度副词同义选择。结合上下文，“erheblich”表示显著地，与“in den letzten Jahren”搭配合理，学员曾误用“betraegt”等词。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das bestehende Stromnetz stellt eine große technische Herausforderung dar.",
+    "opts": [
+     "Integration",
+     "Einführung",
+     "Anschluss",
+     "Verbindung"
+    ],
+    "ans": 0,
+    "why": "考点：名词搭配。固定搭配 die Integration von etw. in etw.，表示“并入、整合”。学员曾错译该搭配。"
+   },
+   {
+    "q": "Die neuen Vorschriften, die im vergangenen Jahr ___ worden sind, gelten ab sofort.",
+    "opts": [
+     "verabschiedet",
+     "verabschieden",
+     "zu verabschieden",
+     "verabschiedete"
+    ],
+    "ans": 0,
+    "why": "考点：被动语态完成时。werden + Partizip II，构成被动态。"
+   },
+   {
+    "q": "Die Bundesregierung hat ___ getroffen, um den Ausbau der erneuerbaren Energien zu beschleunigen.",
+    "opts": [
+     "Maßnahmen",
+     "Entscheidungen",
+     "Vorkehrungen",
+     "Regelungen"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。Maßnahmen treffen，与 ergreifen 同义，均表示采取行动。"
+   },
+   {
+    "q": "Der Ausstoß von Treibhausgasen muss deutlich reduziert werden. Welches Wort kann \"reduziert\" ersetzen?",
+    "opts": [
+     "verringert",
+     "erhöht",
+     "stabilisiert",
+     "ausgeglichen"
+    ],
+    "ans": 0,
+    "why": "考点：同义词替换。reduzieren = verringern（减少）。"
+   },
+   {
+    "q": "Die Bundesregierung setzt sich ___ eine stärkere internationale Regulierung von KI ein.",
+    "opts": [
+     "für",
+     "gegen",
+     "mit",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。sich für etw. einsetzen（致力于、支持）。"
+   },
+   {
+    "q": "Die von der Regierung ___ Maßnahmen zielen darauf ab, den CO2-Ausstoß zu senken.",
+    "opts": [
+     "ergriffenen",
+     "ergriffene",
+     "zu ergreifenden",
+     "ergreifenden"
+    ],
+    "ans": 0,
+    "why": "考点：分词定语词尾变化。die Maßnahmen 为复数，作定语的分词需加 -en，且为过去分词 ergriffen。学员曾写“installiert e”等类似错误。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Zahl der Beschäftigten in der Solarbranche ist auf 19,4 ___ gestiegen.",
+    "ans": "Millionen",
+    "hint": "百万",
+    "why": "数字单位搭配，训练 Millionen/Milliarden 的准确使用。"
+   },
+   {
+    "q": "Die Bundesregierung will strengere ___ gegen den Missbrauch von KI ergreifen.",
+    "ans": "Maßnahmen",
+    "hint": "措施",
+    "why": "功能动词固定搭配：Maßnahmen ergreifen。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das Stromnetz ist eine technische Herausforderung.",
+    "ans": "Integration",
+    "hint": "并入、整合",
+    "why": "名动搭配：die Integration von etw. in etw.。"
+   },
+   {
+    "q": "Bis ___ des Jahres 2025 sollen alle neuen Gebäude mit Solaranlagen ausgestattet sein.",
+    "ans": "Ende",
+    "hint": "年底",
+    "why": "固定表达 bis Ende des Jahres，注意不加冠词。"
+   },
+   {
+    "q": "Die KI-Unternehmen warnen vor der ___ von Macht bei einigen wenigen Konzernen.",
+    "ans": "Konzentration",
+    "hint": "集中",
+    "why": "名词搭配：Machtkonzentration，来自新闻主题词。"
+   },
+   {
+    "q": "Die Tech-Bosse fordern eine stärkere ___ von Künstlicher Intelligenz.",
+    "ans": "Regulierung",
+    "hint": "监管",
+    "why": "名词 Regulierung，来自新闻高频词。"
+   }
+  ]
+ },
+ "issue": 23
+}
