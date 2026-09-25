@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-25",
+ "theme": "Kultur",
+ "coach": "当前最要紧的短板是德译汉错译、漏译严重，汉译德几乎空白。今天的德译汉材料包含数字、专有名词和复杂从句，正好训练精准理解与完整转述；汉译德段落特意埋入数字和被动，补足表达短板。建议先逐句精读原文，标出所有数字和长句，翻译时先抓主干再补修饰，完成后对照原文查漏。",
+ "de2zh": {
+  "title": "Prunk und Pandas ",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/amerika/usa-china-trump-xi-pandas-100.html",
+  "text": "Trump sagte in seiner Begrüßungsrede, er werde mit Xi drängende Fragen besprechen. Dazu gehörten Sicherheit, Technologie und \"Superintelligenz\" - mit diesem Begriff bezeichnet der 80-Jährige die KI. Der US-Präsident erklärte, es werde in diesem Bereich Entscheidungen geben.\nBereits zu Beginn des Besuchs hatten die USA eine Verlängerung der Pause im Zollstreit angekündigt. Es stelle sich die Frage, ob dies vielleicht schon das wichtigste Ergebnis des Treffens sein werde, mutmaßte der frühere US-Diplomat und Chinaexperte Jeff Moon. Bislang biete die Zusammenkunft nämlich viel Prunk und Pomp, aber wenig Substanz.\nTrump hob in einer Ansprache seine persönliche Freundschaft mit Xi hervor. Er sagte, die beiden Mächte hätten im Handel Fortschritte erzielt. Als eine besondere Geste hatte Trump seinen Gast persönlich auf dem Rollfeld des Militärflughafens Joint Base Andrews bei Washington empfangen - eine äußerst seltene Geste bei US-Präsidenten.\nXi wiederum betonte, die Beziehung der beiden Staaten sollten ein Wettlauf sein, bei dem man sich gegenseitig einhole, und kein Kampf, bei dem es nur Gewinner und Verlierer gebe. Xi verwies dabei auf die griechische Geschichte. Er warnte, dass die USA und China die \"Thukydides-Falle\" vermeiden müssten.\nEr bezog sich dabei auf die These, dass es wie einst bei den griechischen Stadtstaaten Athen und Sparta oft zu einem Krieg kommen kann, wenn eine aufstrebende Macht eine etablierte Macht zu verdrängen droht."
+ },
+ "zh2de": {
+  "title": "中国大熊猫保护与文化交流成果显著",
+  "text": "中国高度重视大熊猫保护与国际合作。截至2025年底，中国已与20个国家的26个动物园开展大熊猫保护合作研究，共有58只大熊猫在海外旅居。大熊猫被广泛视为“友谊使者”，为增进中外人民友好情谊发挥了重要作用。近年来，中国还积极推动文化遗产保护，全国共有各级非遗代表性项目10万余项，其中国家级非遗代表性项目1557项。中国政府将继续深化与各国在文化领域的交流互鉴，推动中华文化走向世界。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die beiden Präsidenten bemühten sich, stabile Beziehungen zu ______.",
+    "opts": [
+     "demonstrieren",
+     "zeigen",
+     "vorführen",
+     "darstellen"
+    ],
+    "ans": 0,
+    "why": "demonstrieren 意为展示、表现，符合语境；zeigen 较口语化，vorführen 有演示之意，darstellen 表示呈现，但固定搭配为 Beziehungen demonstrieren。"
+   },
+   {
+    "q": "Das Projekt soll ______ Ende des Jahres 2025 abgeschlossen sein.",
+    "opts": [
+     "bis zum",
+     "bis",
+     "bis zu",
+     "bis an"
+    ],
+    "ans": 0,
+    "why": "bis zum Ende 为固定搭配，表示直到……末；学员曾错写为 bis zum Ende von 2025，此处强调正确介词。"
+   },
+   {
+    "q": "Die USA und China haben im Handel Fortschritte ______.",
+    "opts": [
+     "erzielt",
+     "gemacht",
+     "erreicht",
+     "bekommen"
+    ],
+    "ans": 0,
+    "why": "Fortschritte erzielen 是固定搭配，表示取得进展。"
+   },
+   {
+    "q": "Die Pause im Zollstreit ______ von den USA angekündigt.",
+    "opts": [
+     "wurde",
+     "ist",
+     "hat",
+     "wird"
+    ],
+    "ans": 0,
+    "why": "根据上下文应为过去时被动，wurde angekündigt。"
+   },
+   {
+    "q": "Die Stadt hat über zwei ______ Einwohner.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionenen",
+     "Millioner"
+    ],
+    "ans": 0,
+    "why": "Million 的复数为 Millionen，常与数字连用。"
+   },
+   {
+    "q": "Trump hob seine persönliche Freundschaft mit Xi ______.",
+    "opts": [
+     "hervor",
+     "heraus",
+     "hinauf",
+     "herab"
+    ],
+    "ans": 0,
+    "why": "hervorheben 为固定搭配，意为强调、突出。"
+   },
+   {
+    "q": "Die Beziehung der beiden Staaten sollte ein Wettlauf sein, ______ dem man sich gegenseitig einholt.",
+    "opts": [
+     "bei",
+     "in",
+     "mit",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "bei dem 引导关系从句，表示在……过程中。"
+   },
+   {
+    "q": "Xi kündigte an, China werde dem Zoo von Atlanta zwei Pandas ______.",
+    "opts": [
+     "überlassen",
+     "übergeben",
+     "überreichen",
+     "übertragen"
+    ],
+    "ans": 0,
+    "why": "überlassen 意为转让、留给，固定搭配 Pandas überlassen。"
+   },
+   {
+    "q": "Die ______ Fragen, die besprochen werden sollen, sind vielfältig.",
+    "opts": [
+     "drängenden",
+     "drängende",
+     "drängender",
+     "drängendem"
+    ],
+    "ans": 0,
+    "why": "drängenden 作形容词定语，修饰名词 Fragen，且为复数，根据冠词 die 应为弱变化 drängenden。"
+   },
+   {
+    "q": "Xi bezeichnete die Tiere als „______ der Freundschaft“.",
+    "opts": [
+     "Botschafter",
+     "Gesandte",
+     "Vertreter",
+     "Repräsentanten"
+    ],
+    "ans": 0,
+    "why": "Botschafter 意为大使，固定搭配 Botschafter der Freundschaft。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Anlage hat eine installierte ______ von 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "学员曾错写 installiert e，实为 installierte Leistung。"
+   },
+   {
+    "q": "Bis ______ 2025 soll das Projekt fertiggestellt werden.",
+    "ans": "Ende",
+    "hint": "到2025年底",
+    "why": "时间表达，学员混淆介词。"
+   },
+   {
+    "q": "Die beiden Länder haben große Fortschritte ______.",
+    "ans": "erzielt",
+    "hint": "取得进展",
+    "why": "固定搭配 Fortschritte erzielen。"
+   },
+   {
+    "q": "Xi verwies ______ die griechische Geschichte.",
+    "ans": "auf",
+    "hint": "提及",
+    "why": "verweisen auf 固定搭配。"
+   },
+   {
+    "q": "Die Pandas gelten als Botschafter ______ Freundschaft.",
+    "ans": "der",
+    "hint": "友谊的",
+    "why": "属格介词结构。"
+   },
+   {
+    "q": "Die USA und China wollen die „Thukydides-Falle“ ______.",
+    "ans": "vermeiden",
+    "hint": "避免",
+    "why": "动词搭配，vermeiden + Akk.。"
+   }
+  ]
+ },
+ "issue": 24
+}
