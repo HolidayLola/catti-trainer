@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-27",
+ "theme": "Panorama",
+ "coach": "学员当前最突出的问题是错译和漏译严重，汉译德几乎无从下手，说明基础词汇、语法和句子结构掌握不牢，尤其数字和固定搭配容易出错。今天选的住房抗议新闻信息密度适中，适合训练准确抓取信息并完整翻译；自拟的汉语段落特意包含复杂数字和被动、长定语，请重点练习数字转换和德语从句结构。建议先逐句笔译德译汉，对照原文检查每处数字、专名和动词搭配，再尝试汉译德，务必先求准确完整，再考虑表达地道。",
+ "de2zh": {
+  "title": "Zwangsräumung von 87-Jähriger löst Massenprotest aus",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/demonstration-mieten-madrid-100.html",
+  "text": "In Madrid haben Zehntausende Menschen für bezahlbaren Wohnraum und mehr Mieterschutz demonstriert. Auslöser war die Zwangsräumung der 87-Jährigen Maricarmen Abascal, die nach 70 Jahren aus ihrer Wohnung in der spanischen Hauptstadt vertrieben worden war. Der Protest stand unter dem Motto \"Ni una Maricarmen más\" (\"Keine weitere Maricarmen\").\nAbascal hatte die Spanier in einer vom Mieterschutzbund verbreiteten Videobotschaft zu Protesten aufgerufen. Wie viele ihrem Aufruf folgten, ist nicht ganz klar. Die Behörden gaben die Zahl der Teilnehmenden mit rund 25.000 an, die Organisatoren vom Verband \"Sindicato de Inquilinas\" sprachen von mehr als 300.000.\nDie Demonstranten machen sowohl die linke Zentralregierung von Pedro Sánchez als auch konservative Regionalregierungen wie jene von Isabel Díaz Ayuso in Madrid für die Wohnungsnot verantwortlich. Sie fordern unter anderem die automatische Verlängerung von Mietverträgen auf unbestimmte Zeit, einen besseren Schutz vor Zwangsräumungen, ein Einfrieren der Mieten sowie eine Reform des Mietrechts, die Zeitmietverträge und die Vermietung von Zimmern stärker reguliert.\nDer Fall der 87-Jährigen hatte in Spanien große Aufmerksamkeit ausgelöst. Sie war 1956 mit ihren Eltern in die Wohnung im Madrider Stadtteil Retiro eingezogen und hatte später den Mietvertrag übernommen. Nachdem das Gebäude an ein Immobilienunternehmen verkauft worden war, sollte sie ausziehen, weil ihr alter Mietvertrag beendet werden sollte. Nach Angaben des Mieterverbands wurde ihre Miete von 500 auf 2.650 Euro monatlich erhöht."
+ },
+ "zh2de": {
+  "title": "中国加快保障性租赁住房建设 缓解新市民青年人住房困难",
+  "text": "近年来，中国大力推进保障性租赁住房建设，着力解决新市民、青年人等群体的住房困难问题。据住房和城乡建设部统计，2024年全国已筹集保障性租赁住房213万套（间），完成年度目标任务的106.5%，同比增长18.3%。“十四五”期间，全国计划筹集保障性租赁住房870万套（间），预计到2025年底，近2000万新市民、青年人将受益。各地坚持房子是用来住的、不是用来炒的定位，不断完善以公租房、保障性租赁住房和共有产权住房为主体的住房保障体系。其中，人口净流入的大城市被列为重点发展地区，相关建设项目被纳入地方绩效考核范围，确保各项支持政策落实到位。此外，住房租赁市场秩序得到规范，租金涨幅被控制在合理区间，租房者的合法权益得到更好保障。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Mieten in Madrid sind in den letzten Jahren stark gestiegen.",
+    "opts": [
+     "angestiegen",
+     "gesunken",
+     "gefallen",
+     "geblieben"
+    ],
+    "ans": 0,
+    "why": "stark gestiegen 意为大幅上涨，angestiegen 是同义，表示上升；其他选项表示下降或不变。考点：同义词替换。"
+   },
+   {
+    "q": "Viele Menschen demonstrieren ___ bezahlbaren Wohnraum.",
+    "opts": [
+     "für",
+     "gegen",
+     "mit",
+     "über"
+    ],
+    "ans": 0,
+    "why": "demonstrieren für etw. 表示为某事示威，固定介词 für。考点：介词搭配。"
+   },
+   {
+    "q": "Die Regierung will Maßnahmen ___ , um die Wohnungsnot zu bekämpfen.",
+    "opts": [
+     "treffen",
+     "machen",
+     "nehmen",
+     "setzen"
+    ],
+    "ans": 0,
+    "why": "Maßnahmen treffen 是固定搭配，意为采取措施。考点：功能动词结构。"
+   },
+   {
+    "q": "Nachdem das Gebäude an ein Immobilienunternehmen verkauft worden war, ___ die Mieterin ausziehen.",
+    "opts": [
+     "muss",
+     "musste",
+     "hat müssen",
+     "hatte gemusst"
+    ],
+    "ans": 1,
+    "why": "主句表示过去发生的事，用过去时；müssen 的过去时为 musste。考点：时态辨析。"
+   },
+   {
+    "q": "Die installierte Leistung der Windenergieanlagen beträgt 19,4 ___ Kilowatt.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionen von",
+     "Million von"
+    ],
+    "ans": 0,
+    "why": "小数点后跟名词复数，19,4 Millionen 正确；Million 单数用于 1 Million，带小数则用复数。考点：数字表达。"
+   },
+   {
+    "q": "Die Windenergie ___ inzwischen einen erheblichen Anteil an der Stromerzeugung.",
+    "opts": [
+     "beträgt",
+     "trägt",
+     "hat",
+     "macht"
+    ],
+    "ans": 2,
+    "why": "einen Anteil an etw. haben 是固定搭配，意为占有一份；beträgt 直接接数字，不接 Anteil。考点：动词搭配。"
+   },
+   {
+    "q": "Mit der Integration erneuerbarer Energie ___ das Stromnetz müssen Speicherkapazitäten ausgebaut werden.",
+    "opts": [
+     "in",
+     "an",
+     "auf",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "Integration in etw. (Akk.) 表示融入某物，固定介词 in。考点：介词搭配。"
+   },
+   {
+    "q": "Die Demonstranten fordern ein Einfrieren der Mieten.",
+    "opts": [
+     "eine Erhöhung",
+     "eine Senkung",
+     "eine Aussetzung",
+     "eine Beibehaltung"
+    ],
+    "ans": 2,
+    "why": "Einfrieren 意为冻结，即停止上涨，Aussetzung 意为中止、暂停，语义接近。考点：同义词替换。"
+   },
+   {
+    "q": "___ die Mieten weiter steigen, werden immer mehr Menschen aus ihren Wohnungen verdrängt.",
+    "opts": [
+     "Wenn",
+     "Als",
+     "Wann",
+     "Ob"
+    ],
+    "ans": 0,
+    "why": "条件从句用 wenn 引导，表示如果；als 用于过去一次性事件，wann 是疑问词，ob 表示是否。考点：连词语法。"
+   },
+   {
+    "q": "Die Demonstranten haben ihren Forderungen Nachdruck ___.",
+    "opts": [
+     "verliehen",
+     "gegeben",
+     "gemacht",
+     "gesetzt"
+    ],
+    "ans": 0,
+    "why": "Nachdruck verleihen 是功能动词结构，表示强调、使更有力。考点：功能动词结构。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die neue Windkraftanlage wird nächste Woche in ___ genommen.",
+    "ans": "Betrieb",
+    "hint": "投入使用",
+    "why": "in Betrieb nehmen 是固定搭配，意为投入使用，名词 Betrieb 无冠词。"
+   },
+   {
+    "q": "Die erneuerbaren Energien ___ einen immer größeren Beitrag zur Stromversorgung.",
+    "ans": "leisten",
+    "hint": "做出贡献",
+    "why": "einen Beitrag leisten 是固定动名搭配，leisten 表示做出、提供。"
+   },
+   {
+    "q": "Die Regierung will Maßnahmen gegen die Wohnungsnot ___.",
+    "ans": "treffen",
+    "hint": "采取措施",
+    "why": "Maßnahmen treffen 是固定搭配，treffen 原意为遇见，此处为采取。"
+   },
+   {
+    "q": "Der Fall hat die Öffentlichkeit in ___ versetzt.",
+    "ans": "Aufregung",
+    "hint": "使公众激动",
+    "why": "in Aufregung versetzen 是功能动词结构，表示使处于激动状态。"
+   },
+   {
+    "q": "Die Mieten wurden von 500 auf 2.650 Euro monatlich ___.",
+    "ans": "erhöht",
+    "hint": "提高",
+    "why": "erhöhen 的过去分词，用于被动语态，表示被提高。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das Stromnetz stellt eine Herausforderung dar.",
+    "ans": "in",
+    "hint": "融入",
+    "why": "Integration in etw. (Akk.) 是固定介词搭配，表示融入某物。"
+   }
+  ]
+ },
+ "issue": 25
+}
