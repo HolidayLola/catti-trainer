@@ -1,0 +1,168 @@
+{
+ "date": "2026-09-30",
+ "theme": "Gesellschaft",
+ "coach": "学员近期德译汉得分极低（2/25），错译、漏译严重，数字与单位频繁出错，语法基础亦不稳固。今天材料为教育数据新闻，密集出现百分比、年份、比较结构，正好针对你的薄弱点进行强化。建议练习时先逐句精读，划出所有数字和比较表述，译后务必逐项核对，杜绝漏译、错译。同时重点复习介词搭配和功能动词结构，如 bei etw. liegen、auf den Weg bringen、eine Kommission einsetzen 等。",
+ "de2zh": {
+  "title": "Deutschland ist Spitzenreiter bei MINT-Abschlüssen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/bildung-oecd-studie-100.html",
+  "text": "Insgesamt steht Deutschland in Sachen Bildung recht gut da. Im Vergleich aller OECD-Länder führt die Bundesrepublik sogar bei Abschlüssen in MINT-Fächern. Allerdings ist auch der Anteil junger Menschen ohne Abschluss oder Ausbildung gestiegen.\nIn Deutschland erlangen mehr junge Menschen einen Hochschulabschluss oder einen höheren beruflichen Abschluss als noch vor zehn Jahren. Zu diesem Ergebnis kommt die Studie \"Bildung auf einen Blick 2026\" der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD). Im Vergleich aller 38 zur OECD gehörenden Staaten liegt Deutschland damit aber immer nur unter dem Durchschnitt.\nLaut der Studie liegt der Anteil bei 25- bis 34-Jährigen, die einen solchen Abschluss vorweisen können, in Deutschland bei mittlerweile 41 Prozent. Das bedeute ein Plus von elf Prozentpunkten gegenüber 2016. Insgesamt liegt der OECD-Durchschnitt aber bei 47 Prozent.\nSpitzenreiter ist Deutschland mit Blick auf alle OECD-Länder aber bei Abschlüssen in sogenannten MINT-Fächern, also in Mathematik, Informatik, Naturwissenschaften oder Technik. 34 Prozent der Hochqualifizierten mit in Deutschland erworbener Hochschulreife machen ihren Abschluss in einem dieser Fächer - der höchste Anteil im Ländervergleich, wo der Durchschnitt bei 23 Prozent liegt. Bei Studierenden aus dem Ausland, die ihren Abschluss in Deutschland machen, liegt der Anteil sogar bei 51 Prozent.\nInsgesamt ist die deutsche Bevölkerung im klassischen Erwerbsalter laut der Studie gut gebildet: 86 Prozent der 25- bis 64-Jährigen haben demnach mindestens eine berufliche Ausbildung oder die Fachhochschulreife. Damit kommt Deutschland wiederum über den Durchschnitt aller OECD-Länder, der bei 82 Prozent liegt."
+ },
+ "zh2de": {
+  "title": "我国职业教育发展取得显著成效",
+  "text": "近年来，我国高度重视职业教育，持续加大投入，深化产教融合、校企合作。2025年，全国职业院校在校生达2915万人，比上年增长3.2%；毕业生就业率连续三年保持在95%以上。中央财政安排现代职业教育质量提升计划资金312亿元，支持各地建设一批高水平实训基地。数字化教学资源覆盖率达到85%，有力促进了优质教育资源共享。专家指出，职业教育正成为培养技术技能人才、能工巧匠、大国工匠的重要途径，为经济社会高质量发展提供了有力支撑。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Frist für die Einreichung der Unterlagen läuft bis ___ 31. März 2026.",
+    "opts": [
+     "zum",
+     "zu",
+     "an",
+     "im"
+    ],
+    "ans": 0,
+    "why": "固定搭配 bis zum + 日期，表示“到……为止”。学员近期错例中有“Bis zum Ende von 2025”搭配错误，本题专门强化。"
+   },
+   {
+    "q": "Mit der Integration erneuerbarer Energien ins Stromnetz steigen die Anforderungen an die Netzstabilität. 划线词 Integration 的近义词是：",
+    "opts": [
+     "Einbindung",
+     "Ausgrenzung",
+     "Trennung",
+     "Abschaltung"
+    ],
+    "ans": 0,
+    "why": "Integration 意为“融合、并入”，Einbindung 是“纳入、融入”，二者语义相近。学员曾错译“Mit der Integration erneuerbarer Energie”，本题换语境重考该词。"
+   },
+   {
+    "q": "Die Bundesregierung hat einen Gesetzentwurf zur Pflegereform auf den Weg ___ .",
+    "opts": [
+     "gebracht",
+     "genommen",
+     "gelegt",
+     "gesetzt"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 ein Gesetz auf den Weg bringen，表示“提出法案”。bringen 的过去分词为 gebracht。"
+   },
+   {
+    "q": "34 Prozent der Hochqualifizierten ___ ihren Abschluss in einem MINT-Fach.",
+    "opts": [
+     "macht",
+     "machen",
+     "machst",
+     "machtet"
+    ],
+    "ans": 1,
+    "why": "主语是 34 Prozent der Hochqualifizierten，为复数概念，谓语动词用复数形式 machen。主谓一致是语法高频考点。"
+   },
+   {
+    "q": "Die Ausgaben für Bildung liegen in Deutschland knapp ___ dem OECD-Durchschnitt.",
+    "opts": [
+     "über",
+     "unter",
+     "bei",
+     "auf"
+    ],
+    "ans": 1,
+    "why": "unter dem Durchschnitt liegen 表示“低于平均水平”。介词 unter 表空间或数量上的“在……之下”。"
+   },
+   {
+    "q": "Im OECD-Vergleich führt Deutschland bei MINT-Abschlüssen. 划线词 führt 的近义词是：",
+    "opts": [
+     "liegt an der Spitze",
+     "steht hinten an",
+     "bleibt zurück",
+     "fällt ab"
+    ],
+    "ans": 0,
+    "why": "führen 在此上下文意为“领先”，与 an der Spitze liegen 同义。"
+   },
+   {
+    "q": "Die Regierung will eine unabhängige Expertenkommission ___ , um Vorschläge zu erarbeiten.",
+    "opts": [
+     "einsetzen",
+     "einstellen",
+     "aufstellen",
+     "ausstellen"
+    ],
+    "ans": 0,
+    "why": "eine Kommission einsetzen 是功能动词结构，表示“设立委员会”。einsetzen 有“任命、设立”之意。"
+   },
+   {
+    "q": "Die installierte Leistung der Photovoltaik in Deutschland ___ im Jahr 2025 rund 80 Gigawatt.",
+    "opts": [
+     "betrug",
+     "beträgt",
+     "betragen",
+     "betrüge"
+    ],
+    "ans": 0,
+    "why": "时间状语 im Jahr 2025 表示过去，动词 betragen 应用过去时 betrug。数字+单位是学员失分重灾区，本题强化。"
+   },
+   {
+    "q": "Viele junge Menschen stehen ___ Druck, einen hohen Bildungsabschluss zu erreichen.",
+    "opts": [
+     "unter",
+     "über",
+     "auf",
+     "mit"
+    ],
+    "ans": 0,
+    "why": "unter Druck stehen 是固定介词搭配，表示“处于压力之下”。"
+   },
+   {
+    "q": "Die OECD-Studie ___ zu dem Ergebnis, dass Deutschland bei MINT-Abschlüssen führend ist.",
+    "opts": [
+     "kommt",
+     "geht",
+     "steht",
+     "liegt"
+    ],
+    "ans": 0,
+    "why": "zu dem Ergebnis kommen 是固定功能动词结构，表示“得出结果”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Bundesregierung hat einen Gesetzentwurf auf den Weg ___ .",
+    "ans": "gebracht",
+    "hint": "提出（法案）",
+    "why": "ein Gesetz auf den Weg bringen 是典型功能动词结构，bringen 的过去分词为 gebracht。"
+   },
+   {
+    "q": "Die Opposition will die Regierung zwingen, endlich Maßnahmen ___ .",
+    "ans": "zu ergreifen",
+    "hint": "采取措施",
+    "why": "Maßnahmen ergreifen 是固定名动搭配，表示“采取措施”。"
+   },
+   {
+    "q": "Der Anteil der Hochqualifizierten in MINT-Fächern liegt ___ Deutschland bei 34 Prozent.",
+    "ans": "in",
+    "hint": "在德国",
+    "why": "表示地点“在德国”用介词 in。"
+   },
+   {
+    "q": "Die installierte Leistung der Windkraft ___ im Jahr 2025 etwa 70 Gigawatt.",
+    "ans": "betrug",
+    "hint": "为，达（过去时）",
+    "why": "betragen 表示“总计为”，过去时 betrug。数字表达是学员薄弱点。"
+   },
+   {
+    "q": "Viele junge Menschen stehen ___ Druck, eine gute Ausbildung zu absolvieren.",
+    "ans": "unter",
+    "hint": "处于压力下",
+    "why": "unter Druck stehen 固定搭配，介词 unter。"
+   },
+   {
+    "q": "Die Studie kommt ___ dem Ergebnis, dass Deutschland bei MINT-Abschlüssen führend ist.",
+    "ans": "zu",
+    "hint": "得出结果",
+    "why": "zu dem Ergebnis kommen 是功能动词结构，介词 zu 不可替换。"
+   }
+  ]
+ },
+ "issue": 26
+}
