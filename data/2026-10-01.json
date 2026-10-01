@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-01",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "你当前最突出的问题是错译和漏译严重，特别是数字、单位和长句结构，汉译德几乎零分。今天德译汉材料重点练数字（如20%、19.4亿千瓦）和长句拆解，务必逐词核对，避免跳译。汉译德先练习简单主谓宾句，再加入数字、被动和定语，每句写完后检查名词性属格和关系从句。建议每天精读一篇德语新闻，摘录功能动词和固定搭配，强化基础。",
+ "de2zh": {
+  "title": "Hegseth verschlankt US-Armee - neue Rolle für Musk",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/amerika/hegseth-entlaesst-offiziere-musk-untersucht-kriegsfuehrung-100.html",
+  "text": "Der US-Verteidigungsminister strukturiert weiter die Armee um: Künftig soll es 20 Prozent weniger Offiziere und Planstellen geben. Zudem kommt Elon Musk eine neue Rolle zu: Der Tech-Milliardär soll die künftige Kriegsführung erforschen.\nUS-Verteidigungsminister Pete Hegseth will die Armee drastisch verschlanken - das kündigte er in seiner jährlichen Rede vor der Militärspitze auf dem Militärstützpunkt Quantico südwestlich von Washington an. Er habe die Zahl der ranghöchsten Offiziere und der Planstellen \"um 20 Prozent\" verringert, so Hegseth weiter. Das ist doppelt so viel wie bisher angekündigt.\n\"Die Zahlentüftler sagen, wir haben zehn Prozent der Generäle und Admirale in den Streitkräften entlassen\", sagte Hegseth vor Soldaten. \"Außerdem haben wir die Gesamtzahl der Planstellen für Generäle und Admirale um weitere zehn Prozent verringert\", fügte er hinzu. Unter dem Strich stehe damit \"eine Reduzierung um 20 Prozent\" auf dem Papier.\nHegseth, der sich selbst \"Kriegsminister\" nennt, bestätigte damit zuvor bekannt gewordene Berichte von Medien. Nach Pentagon-Angaben von Ende Juli gab es zuletzt rund 850 Generäle und Admirale. Der Washington Post zufolge befehligen sie mehr als 1,3 Millionen Soldatinnen und Soldaten. Dazu kommen fast 800.000 weitere in der Nationalgarde und der Reserve."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展取得新进展 碳排放强度持续下降",
+  "text": "中国国家能源局近日公布的数据显示，2025年全国可再生能源新增装机容量达到3.6亿千瓦，同比增长18%。其中，风电新增装机9500万千瓦，太阳能发电新增装机2.1亿千瓦。截至2025年底，全国可再生能源装机总量达到19.4亿千瓦，占全国发电总装机的58%，比上年提高2.1个百分点。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。据悉，由生态环境部等部门联合印发的《全国碳排放权交易市场覆盖水泥、钢铁、电解铝行业工作方案》提出，2025年底前将新增重点排放单位约1500家，覆盖排放量约30亿吨。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windkraftanlage beträgt 3,5 ___ Kilowatt.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionen von",
+     "Millionen der"
+    ],
+    "ans": 0,
+    "why": "表示具体数字+百万时，Millionen为复数，直接加名词，不加介词。学员曾将“万千瓦”误写为“Kwa”，需注意单位表达。"
+   },
+   {
+    "q": "Die Maßnahmen, ___ die Regierung beschlossen hat, treten bald in Kraft.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "den"
+    ],
+    "ans": 0,
+    "why": "关系代词指代阴性复数名词Maßnahmen，在从句中作宾语，用die。学员语法薄弱，需强化关系从句。"
+   },
+   {
+    "q": "Der Verteidigungsminister hat eine Reduzierung der Planstellen ___.",
+    "opts": [
+     "vorgenommen",
+     "gemacht",
+     "getan",
+     "gehabt"
+    ],
+    "ans": 0,
+    "why": "Funktionsverbgefüge: eine Reduzierung vornehmen 表示“进行削减”，固定搭配。"
+   },
+   {
+    "q": "Die neuen Vorschriften ___ vom Parlament verabschiedet.",
+    "opts": [
+     "wurden",
+     "sind",
+     "haben",
+     "werden"
+    ],
+    "ans": 0,
+    "why": "过去时被动，werden+第二分词。学员错误较多，需巩固被动语态。"
+   },
+   {
+    "q": "Hegseth will die Armee drastisch ___.",
+    "opts": [
+     "verschlanken",
+     "vergrößern",
+     "verstärken",
+     "verändern"
+    ],
+    "ans": 0,
+    "why": "verschlanken 意为“瘦身、精简”，与上下文“20% weniger”对应，其他选项意思相反或不对。"
+   },
+   {
+    "q": "Er kündigte die Maßnahmen ___ seiner Rede an.",
+    "opts": [
+     "in",
+     "auf",
+     "bei",
+     "mit"
+    ],
+    "ans": 0,
+    "why": "in einer Rede 表示“在讲话中”，固定介词搭配。"
+   },
+   {
+    "q": "Die neue Rolle von Elon Musk soll darin bestehen, die Zukunft der Kriegsführung zu ___.",
+    "opts": [
+     "erforschen",
+     "finden",
+     "entdecken",
+     "prüfen"
+    ],
+    "ans": 0,
+    "why": "erforschen 意为“研究、探索”，与Zukunft der Kriegsführung搭配最合适。"
+   },
+   {
+    "q": "Fast ___ weitere Soldaten sind in der Nationalgarde.",
+    "opts": [
+     "800.000",
+     "800 Tausend",
+     "800 Tausende",
+     "800.000er"
+    ],
+    "ans": 0,
+    "why": "数字表达：德语中用点作千位分隔，800.000表示八十万，不加词尾。"
+   },
+   {
+    "q": "Die Treibhausgasemissionen müssen ___ werden.",
+    "opts": [
+     "reduziert",
+     "erhöht",
+     "beibehalten",
+     "gesteigert"
+    ],
+    "ans": 0,
+    "why": "reduzieren 表示“减少”，与环保语境匹配，且学员需掌握该词。"
+   },
+   {
+    "q": "Die CO2-Emissionen sind im Vergleich ___ dem Vorjahr gesunken.",
+    "opts": [
+     "zu",
+     "mit",
+     "gegenüber",
+     "von"
+    ],
+    "ans": 0,
+    "why": "im Vergleich zu 为固定搭配，表示“与...相比”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte ___ erneuerbarer Energien erreichte 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "固定搭配：installierte Leistung，表示“装机容量”，学员曾错译该词。"
+   },
+   {
+    "q": "Die Kohlenstoff___ pro BIP-Einheit ist kontinuierlich gesunken.",
+    "ans": "intensität",
+    "hint": "碳排放强度",
+    "why": "Kohlenstoffintensität 为专业术语，学员曾漏译相关表达，需掌握。"
+   },
+   {
+    "q": "Der Minister hat eine ___ der Planstellen vorgenommen.",
+    "ans": "Reduzierung",
+    "hint": "削减",
+    "why": "eine Reduzierung vornehmen 是Funktionsverbgefüge，名词与动词搭配。"
+   },
+   {
+    "q": "Die Zahl der Offiziere wurde um 20 ___ verringert.",
+    "ans": "Prozent",
+    "hint": "百分之",
+    "why": "um + Prozent 表示变化的幅度，注意数字+Prozent作单数。"
+   },
+   {
+    "q": "Der CO2-Ausstoß soll bis 2030 seinen ___ erreichen.",
+    "ans": "Höhepunkt",
+    "hint": "峰值",
+    "why": "den Höhepunkt erreichen 为固定搭配，表示“达到峰值”。"
+   },
+   {
+    "q": "Die neuen Umweltvorschriften treten am 1. Januar in ___.",
+    "ans": "Kraft",
+    "hint": "生效",
+    "why": "in Kraft treten 是固定搭配，表示法律、规定生效。"
+   }
+  ]
+ },
+ "issue": 27
+}
