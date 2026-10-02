@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-02",
+ "theme": "Kultur",
+ "coach": "当前最要紧的短板是翻译准确性不足，汉译德几乎空白，德译汉错译漏译严重，尤其数字、被动和长句处理不当。今天的材料侧重社会民生与政策讨论，包含大量百分比、态度表述和复杂从句，适合训练精准抓取信息和转换。建议先精读选段，划出所有数字、态度词和关系从句，逐句笔译，对照参考译文重点检查数字单位（Prozent/Viertel/Zweite 的转换）、被动语态（如 werden erklärt）和长句拆分，避免漏译。",
+ "de2zh": {
+  "title": "Drei Viertel der Deutschen spüren vor allem Belastungen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/deutschlandtrend/deutschlandtrend-oktober-110.html",
+  "text": "Wenn man die Deutschen offen fragt, was aus ihrer Sicht und im Vergleich mit anderen Ländern hier eher gut läuft, steht die soziale Sicherung an erster Stelle mit 17 Prozent der Nennungen; an zweiter Stelle folgt die medizinische Versorgung (14 Prozent). Danach folgen Demokratie, Freiheit, Rechtsstaat (9 Prozent) und Wohlstand (5 Prozent) sowie Sicherheit und Bildung (je 3 Prozent). Vier von zehn Befragten machen bei dieser Frage allerdings auch gar keine Nennung.\n\nDer deutsche Sozialstaat und das Gesundheitssystem gelten als Errungenschaften - aber die Deutschen attestieren ihnen Reformbedürftigkeit. Gleichzeitig trauen nur 17 Prozent der Bundesregierung zu, die sozialen Sicherungssysteme zukunftssicher zu machen. Wie das gelingen soll, darüber gehen die Meinungen auseinander: Jeder Zweite (50 Prozent) signalisiert, auch persönlich Einschnitte hinzunehmen, wenn deren Notwendigkeit verständlich erklärt wird.\n\nAber wo sollten diese Einschnitte erfolgen? Immerhin äußern mehr als drei Viertel (77 Prozent), immer mehr Belastungen zu spüren, obwohl die Bundesregierung Entlastungen versprochen habe. Und rund jeder Zweite fürchtet, seinen Lebensstandard künftig nicht halten zu können.\n\nWas wäre in dieser Lage der bessere Weg: trotzdem eher höhere Beiträge für die Sozialkassen und damit steigende Belastungen für die Bürger - oder Kürzungen der Leistungen, was wiederum die Sozialsysteme beschneidet, auf die die Deutschen positiv blicken?"
+ },
+ "zh2de": {
+  "title": "深化养老服务改革发展 提升民生保障水平",
+  "text": "截至2025年底，全国基本养老保险参保人数达10.7亿人，基本医疗保险参保率稳定在95%以上。为积极应对人口老龄化，国务院近日印发《关于深化养老服务改革发展的意见》，明确提出到2029年，覆盖城乡的养老服务网络基本建成，功能更加完善，多样化、多层次的养老服务供给格局加快形成。长期护理保险制度试点已扩展至49个城市，累计惠及1.8亿参保人员。通过政府主导、社会参与、市场运作相结合的方式，养老服务供给能力持续增强。同时，为减轻困难群众医疗负担，大病保险起付线降低50%，报销比例提高5个百分点。这些举措体现了以人民为中心的发展思想，旨在不断增强人民群众的获得感、幸福感、安全感。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Der Ausstoß von Treibhausgasen muss bis 2030 deutlich reduziert werden. Welches Wort ist synonym zu \"reduziert\"?",
+    "opts": [
+     "verringert",
+     "erhöht",
+     "stabilisiert",
+     "gemessen"
+    ],
+    "ans": 0,
+    "why": "考点：同义词替换。reduzieren 意为减少，与 verringern 同义；其他选项分别为增加、稳定、测量。"
+   },
+   {
+    "q": "Die Kohleverstromung soll bis 2030 schrittweise beendet werden. Welches Wort ist synonym zu \"beendet\"?",
+    "opts": [
+     "fortgesetzt",
+     "eingestellt",
+     "ausgeweitet",
+     "erneuert"
+    ],
+    "ans": 1,
+    "why": "考点：同义词替换。beenden 意为结束，与 einstellen（停止）同义；fortsetzen 继续，ausweiten 扩大，erneuern 更新。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix ist in den letzten Jahren erheblich gestiegen. Welches Wort ist synonym zu \"erheblich\"?",
+    "opts": [
+     "geringfügig",
+     "deutlich",
+     "kaum",
+     "unmerklich"
+    ],
+    "ans": 1,
+    "why": "考点：同义词替换。erheblich 意为显著地，与 deutlich 同义；geringfügig 轻微的，kaum 几乎不，unmerklich 难以察觉的。"
+   },
+   {
+    "q": "Viele Deutsche blicken positiv ___ das Gesundheitssystem, fordern aber Reformen.",
+    "opts": [
+     "auf",
+     "über",
+     "an",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。固定搭配 auf etw/jn blicken 表示看待；其他介词不符。"
+   },
+   {
+    "q": "Die Bundesregierung will bis 2030 ___ der Kohleverstromung aussteigen.",
+    "opts": [
+     "aus",
+     "von",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。固定搭配 aus etw (Dativ) aussteigen 表示退出；此处 der Kohleverstromung 为 Dativ，需 aus。"
+   },
+   {
+    "q": "Die Maßnahmen zur Senkung der Energiepreise sind ___ Sicht der meisten Bürger nicht weitgehend genug.",
+    "opts": [
+     "in",
+     "aus",
+     "nach",
+     "von"
+    ],
+    "ans": 1,
+    "why": "考点：介词搭配。固定搭配 aus Sicht + Genitiv 表示从...角度看。"
+   },
+   {
+    "q": "Viele Bürger nehmen die staatlichen Unterstützungsleistungen kaum noch ___.",
+    "opts": [
+     "in Anspruch",
+     "auf Anspruch",
+     "zu Anspruch",
+     "an Anspruch"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。etw in Anspruch nehmen 意为利用、使用。"
+   },
+   {
+    "q": "Die Expertenkommission wird verschiedene Reformmodelle ___ Betracht ziehen.",
+    "opts": [
+     "in",
+     "aus",
+     "bei",
+     "unter"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。etw in Betracht ziehen 意为考虑。"
+   },
+   {
+    "q": "Bis zum Ende von 2025 ___ die neue Anlage zur CO2-Abscheidung in Betrieb genommen worden sein.",
+    "opts": [
+     "soll",
+     "wird",
+     "hat",
+     "ist"
+    ],
+    "ans": 0,
+    "why": "考点：语法辨析。情态动词 sollen + Infinitiv Perfekt 表示按计划应已完成；其他选项语法不符或语义不对。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Stromverbrauch ___ im Jahr 2025 bei 45 Prozent gelegen.",
+    "opts": [
+     "hat",
+     "ist",
+     "wird",
+     "soll"
+    ],
+    "ans": 0,
+    "why": "考点：语法辨析。动词 liegen 的完成时助动词为 haben，构成 hat gelegen。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Bundesregierung muss konkrete Maßnahmen ___ die hohen Energiepreise ergreifen.",
+    "ans": "gegen",
+    "hint": "针对高能源价格采取措施",
+    "why": "固定搭配 Maßnahmen gegen etw ergreifen，gegen 表示针对。"
+   },
+   {
+    "q": "Der Ausstoß von Treibhausgasen soll bis 2030 deutlich ___ werden.",
+    "ans": "reduziert",
+    "hint": "减少温室气体排放",
+    "why": "动宾搭配 den Ausstoß reduzieren，被动形式 wird reduziert。"
+   },
+   {
+    "q": "Erneuerbare Energien tragen zur ___ des Klimawandels bei.",
+    "ans": "Bekämpfung",
+    "hint": "应对气候变化",
+    "why": "固定搭配 zur Bekämpfung von etw beitragen，此处 Genitiv 用 des Klimawandels。"
+   },
+   {
+    "q": "Der Anteil der Windenergie an der Stromerzeugung ___ im vergangenen Jahr bei 30 Prozent.",
+    "ans": "lag",
+    "hint": "占比为30%",
+    "why": "表示数值的固定结构 bei + Prozent liegen，过去时 lag。"
+   },
+   {
+    "q": "Die Bundesregierung hat versprochen, die Bürger finanziell zu ___.",
+    "ans": "entlasten",
+    "hint": "在经济上减轻负担",
+    "why": "动宾搭配 jdn finanziell entlasten。"
+   },
+   {
+    "q": "Viele Menschen fürchten, ihren Lebensstandard nicht mehr ___ zu können.",
+    "ans": "halten",
+    "hint": "无法保持生活水平",
+    "why": "固定搭配 den Lebensstandard halten。"
+   }
+  ]
+ },
+ "issue": 28
+}
