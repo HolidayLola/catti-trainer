@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-03",
+ "theme": "China-Themen",
+ "coach": "当前最要紧的短板是基础词汇与语法不牢，导致德译汉大量错译漏译、汉译德几乎无法成句，尤其数字单位、时间状语和功能动词结构反复出错。今天的德译汉材料重点练数字（40 der 41、19,4 Millionen）、长定语和功能动词；汉译德段落已埋入数字表达与被动结构，需格外注意。建议：逐句精读并圈出所有数字、介词搭配和功能动词，翻译后对照参考译法逐项订正，建立个人错题本，每天复习10个高频搭配。",
+ "de2zh": {
+  "title": "Wirtschaft--People's Daily Online",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/209053/index.html",
+  "text": "Der deutsche „Superwahlmonat“ September ist vorüber, und die von Bundeskanzler Merz geführte CDU sieht sich mit einer tiefgreifenden politischen Fragmentierung konfrontiert. Die Wahlergebnisse gleichen einer Zäsur: In Sachsen-Anhalt halbierten sich die christdemokratischen Stimmenanteile nahezu; während die Partei bei der vorangegangenen Wahl noch 40 der 41 Wahlkreise direkt für sich entscheiden konnte, blieb sie dieses Mal gänzlich ohne Direktmandat.\nDas am Zusammenfluss des Jangtse und des Qingyi-Flusses gelegene Wuhu hat nicht nur die tief verwurzelte Kultur im Süden der Provinz Anhui bereichert, sondern auch eine blühende Industrie hervorgebracht.\n„Musik ist eine Sprache, die jeder versteht.“ Für den deutschen Organisten, Pädagogen und „Artist in Residence“ auf der Insel Gulangyu, Ludger Lohmann, ist dies kein abstraktes Konzept, sondern eine ganz konkrete Erfahrung, die er im Laufe seiner langjährigen Reisen zwischen Europa und China gesammelt hat.\nAm Abend des 23. Mai fand der erste Spieltag der regionalen Fußballliga für den Nordosten Chinas („Dongbei Super League“) mit parallelen Auftaktspielen in Shenyang, Changchun, Harbin und Hohhot statt."
+ },
+ "zh2de": {
+  "title": "我国非物质文化遗产保护工作取得显著成效",
+  "text": "我国非物质文化遗产保护工作取得显著成效。近年来，国家级非遗代表性项目已达1557项，各级非遗代表性传承人超过9万名；京剧于2010年被列入联合国教科文组织人类非物质文化遗产代表作名录。目前，全国专业京剧院团数量增至80余家，中央财政2024年安排非遗保护资金约7.6亿元，重点支持非遗记录工程、传承人研修培训计划等项目。各地依托非遗工坊带动就业，累计建设非遗工坊2500余家，助力乡村振兴。今后将进一步健全非遗保护法律法规体系，推动非遗与旅游深度融合，让中华优秀传统文化在新时代绽放更加迷人的光彩。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windkraftanlagen liegt ___ 19,4 Millionen Kilowatt.",
+    "opts": [
+     "bei",
+     "auf",
+     "mit",
+     "für"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。表示数量、数值达到某一水平用 liegen bei + Dativ。学员曾将数字与单位搭配错误，需注意 bei 用于数值；auf 用于 sich belaufen auf，但这里动词是 liegen。"
+   },
+   {
+    "q": "___ Ende 2025 sollen alle neuen Windparks in Betrieb genommen werden.",
+    "opts": [
+     "Bis zum",
+     "Bis an",
+     "Bis auf",
+     "Bis in"
+    ],
+    "ans": 0,
+    "why": "考点：时间表达与介词搭配。固定搭配 bis zum Ende (+Genitiv) 表示到……结束为止。学员易误用 bis an/bis auf。"
+   },
+   {
+    "q": "Nach Abschluss der Bauarbeiten wurden die Anlagen offiziell ___.",
+    "opts": [
+     "in Betrieb genommen",
+     "in Betrieb gestellt",
+     "zum Betrieb gebracht",
+     "auf Betrieb gesetzt"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。固定搭配 etw. in Betrieb nehmen 表示将……投入运行。学员需积累此类 Funktionsverbgefüge，避免直译。"
+   },
+   {
+    "q": "Inzwischen ___ die installierte Windenergieleistung in der Region über 50 Millionen Kilowatt.",
+    "opts": [
+     "beläuft sich auf",
+     "macht aus",
+     "liegt vor",
+     "stellt dar"
+    ],
+    "ans": 0,
+    "why": "考点：同义词替换与动词搭配。sich belaufen auf + Akk. 表示总计达到，相当于 betragen。学员曾将 beträgt 误写为 betraegt，需强化正确表达及同义结构。"
+   },
+   {
+    "q": "Die Wahlergebnisse ___ eine tiefgreifende politische Fragmentierung deutlich.",
+    "opts": [
+     "bringen zum Ausdruck",
+     "kommen zum Tragen",
+     "stellen in Aussicht",
+     "halten in Schach"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。etw. deutlich zum Ausdruck bringen 表示清楚地表达/反映出……。选项 B 意为起作用，C 意为许诺，D 意为控制，均不符。"
+   },
+   {
+    "q": "Die CDU konnte bei der vorangegangenen Wahl noch 40 der 41 Wahlkreise direkt ___ sich entscheiden.",
+    "opts": [
+     "für",
+     "über",
+     "zu",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。sich für jdn./etw. entscheiden 表示决定支持某人/某事；此处 direkt für sich entscheiden 意为直接赢得选区。"
+   },
+   {
+    "q": "Die von Bundeskanzler Merz geführte CDU sieht sich ___ einer tiefgreifenden politischen Fragmentierung konfrontiert.",
+    "opts": [
+     "mit",
+     "vor",
+     "zu",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。sich konfrontiert sehen mit etw. 表示面临、面对……。学员介词搭配易错，需重点记忆。"
+   },
+   {
+    "q": "Das am Zusammenfluss des Jangtse und des Qingyi-Flusses gelegene Wuhu hat eine blühende Industrie ___.",
+    "opts": [
+     "hervorgebracht",
+     "hergestellt",
+     "herbeigeführt",
+     "herangezogen"
+    ],
+    "ans": 0,
+    "why": "考点：动词辨析。hervorbringen 表示产生、造就（常指文化、经济成果），与 Industrie 搭配；herstellen 指生产制造，herbeiführen 指引起（多为负面），heranziehen 指培养或拉近。"
+   },
+   {
+    "q": "Musik ist eine Sprache, ___ jeder versteht.",
+    "opts": [
+     "die",
+     "das",
+     "was",
+     "wer"
+    ],
+    "ans": 0,
+    "why": "考点：关系代词。先行词 eine Sprache 为阴性，在从句中作宾语，用 die。"
+   },
+   {
+    "q": "Im Laufe seiner langjährigen Reisen ___ Europa und China hat er viele Erfahrungen gesammelt.",
+    "opts": [
+     "zwischen",
+     "unter",
+     "in",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。zwischen A und B 表示在两地之间；文中指往返于欧洲与中国之间。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die erneuerbaren Energien ___ einen wichtigen Beitrag zum Klimaschutz.",
+    "ans": "leisten",
+    "hint": "作出重要贡献",
+    "why": "固定搭配 einen Beitrag leisten，表示作出贡献，不能用 machen。学员此前在功能动词结构中失分，需强化。"
+   },
+   {
+    "q": "Die installierte Leistung soll sich bis 2025 ___ 100 Millionen Kilowatt erhöhen.",
+    "ans": "auf",
+    "hint": "提高到",
+    "why": "sich erhöhen auf + Akk. 表示增加到某一数值；若表示增加了用 um。学员数字表达与介词搭配常错。"
+   },
+   {
+    "q": "Die CDU ___ weit hinter den Erwartungen zurück.",
+    "ans": "blieb",
+    "hint": "远低于预期",
+    "why": "固定搭配 hinter den Erwartungen zurückbleiben，表示未达到预期，此处用一般过去时 blieb。"
+   },
+   {
+    "q": "Wuhu hat die tief verwurzelte Kultur im Süden der Provinz Anhui ___.",
+    "ans": "bereichert",
+    "hint": "丰富了",
+    "why": "动词 bereichern 与 Kultur 搭配，表示使文化更加丰富，此处用第二分词。"
+   },
+   {
+    "q": "Er hat viele Erfahrungen im ___ seiner langjährigen Reisen gesammelt.",
+    "ans": "Laufe",
+    "hint": "在……过程中",
+    "why": "固定搭配 im Laufe + Gen.，表示在……期间/过程中。"
+   },
+   {
+    "q": "Der erste Spieltag fand mit parallelen ___ in vier Städten statt.",
+    "ans": "Auftaktspielen",
+    "hint": "揭幕赛",
+    "why": "复合词 Auftaktspiel (揭幕战)，此处用复数，mit 搭配。注意首字母大写。"
+   }
+  ]
+ },
+ "issue": 29
+}
