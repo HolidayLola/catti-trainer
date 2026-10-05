@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-05",
+ "theme": "Politik",
+ "coach": "当前最要紧的短板是错译和漏译，尤其数字和能源类术语频繁出错，汉译德几乎空白。今天材料以政治新闻为载体，重点练习数字表达、直接/间接引语和功能动词，同时复习可再生能源相关词汇。建议先逐句精读德译汉，对照原文找出漏译点，再动手做汉译德时先列数字和动词搭配，不要整句硬翻。",
+ "de2zh": {
+  "title": "Ukraine-Hilfen \"notwendig für die Stabilität Europas\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/merz-kiew-ukraine-russland-100.html",
+  "text": "Kanzler Merz hat bei seinem Besuch in Kiew erneut Russland zu einem Ende des Krieges aufgefordert. Im Bericht aus Berlin sagte er, für die Stabilität Europas seien weitere Hilfen für die Ukraine wichtig - genau wie eine zuverlässige Bundesregierung.\nBundeskanzler Friedrich Merz hat bei seinem Besuch in der Ukraine weitere Hilfen für das Land zugesagt. Zu Begründung sagte er im Bericht aus Berlin , diese Unterstützung sei \"notwendig für die gesamte politische Stabilität Europas. Und daran müssten wir Deutsche eigentlich das größte Interesse haben.\"\nDenn Russland führe nicht nur Krieg gegen die Ukraine, sondern gegen Europa und auch gegen Deutschland. Der Drohnenvorfall am 4. August \"war ein bewaffneter Angriff auf den Flughafen von Leipzig ausschließlich von Russland kommend\", sagte Merz.\nSein heutiger Besuch habe ihm erneut gezeigt, wie sinnlos und brutal der russische Angriffskrieg sei. \"An einem friedlichen Sonntag wird hier mitten während meines Besuches eine Brücke bombardiert in Kiew und eine Woche vorher die Akademie der Wissenschaften.\" Erneut rief der den russischen Machthaber Wladimir Putin auf, die Kämpfe einzustellen.\nMerz hatte am Nachmittag \"sehr konkrete Hilfen\" für die Ukraine angekündigt. Unter den Militärhilfen von rund einer Milliarde Euro sind Mittel für die Abwehr schneller russischer Jet-Drohnen sowie für Satellitentechnik und Abwehrraketen. Weitere 350 Millionen Euro sind demnach für Infrastruktur und Energie vorgesehen."
+ },
+ "zh2de": {
+  "title": "中德深化可再生能源合作",
+  "text": "中德两国在可再生能源领域合作不断深化。2025年，中国新增风电装机容量达到4300万千瓦，同比增长18%；光伏发电新增装机容量为1.2亿千瓦，创历史新高。全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降。德国企业积极参与中国绿色转型，双方在氢能、储能等领域签署多项合作协议，总金额超过50亿欧元。中国政府表示，将继续扩大高水平对外开放，为包括德国在内的各国企业提供公平竞争的营商环境。这些举措不仅被视为实现碳达峰碳中和目标的重要支撑，也为全球应对气候变化作出积极贡献。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Kapazität der Windenergie ___ 4300 Megawatt.",
+    "opts": [
+     "beträgt",
+     "betrifft",
+     "besteht",
+     "beruht"
+    ],
+    "ans": 0,
+    "why": "betragen 意为“总计为，达到”，常用于数值表达；betrifft 是 betreffen“涉及”，besteht 是 bestehen“存在”，beruht 是 beruhen“基于”，均不符合。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energie ___ das Stromnetz ist eine große Herausforderung.",
+    "opts": [
+     "in",
+     "an",
+     "auf",
+     "für"
+    ],
+    "ans": 0,
+    "why": "固定搭配 Integration in + Akk.，表示“并入、融入电网”；an/auf/für 均不用于该搭配。"
+   },
+   {
+    "q": "Die Regierung hat ___ zur Reduzierung der CO2-Emissionen ergriffen.",
+    "opts": [
+     "Maßnahmen",
+     "Schritte",
+     "Methoden",
+     "Wege"
+    ],
+    "ans": 0,
+    "why": "Funktionsverbgefüge „Maßnahmen ergreifen“ = 采取措施；Schritte 常与 unternehmen 搭配，Methoden/Wege 语义不符。"
+   },
+   {
+    "q": "Bis zum Ende von 2025 ___ die installierte Kapazität 500 Gigawatt erreicht haben.",
+    "opts": [
+     "wird",
+     "hat",
+     "ist",
+     "soll"
+    ],
+    "ans": 0,
+    "why": "表示将来完成时，用 werden + Infinitiv Perfekt；hat/ist 构成现在完成时，但主语是 die Kapazität，助动词应为 hat，但此处无过去分词 erreicht gehabt？错误；soll 表示应该，语义不对。正确答案 wird。"
+   },
+   {
+    "q": "Der Kanzler hat der Ukraine weitere Hilfen ___.",
+    "opts": [
+     "zugesagt",
+     "abgelehnt",
+     "verweigert",
+     "bestritten"
+    ],
+    "ans": 0,
+    "why": "zusagen = 答应，承诺给予；abgelehnt/verweigert 表示拒绝，bestritten 表示否认，均与语境相反。"
+   },
+   {
+    "q": "Die Unterstützung ist notwendig ___ die Stabilität Europas.",
+    "opts": [
+     "für",
+     "zu",
+     "auf",
+     "an"
+    ],
+    "ans": 0,
+    "why": "notwendig für + Akk. 是固定搭配，意为“对……是必要的”。"
+   },
+   {
+    "q": "Es kommt ___ in die Bemühungen um ein Ende des Krieges.",
+    "opts": [
+     "Bewegung",
+     "Ruhe",
+     "Ordnung",
+     "Klarheit"
+    ],
+    "ans": 0,
+    "why": "Funktionsverbgefüge „in Bewegung kommen“ = 开始动起来，有进展；其他选项不构成此搭配。"
+   },
+   {
+    "q": "Merz sagte, Russland ___ nicht nur Krieg gegen die Ukraine, sondern gegen Europa.",
+    "opts": [
+     "führe",
+     "führt",
+     "führte",
+     "geführt"
+    ],
+    "ans": 0,
+    "why": "间接引语使用第一虚拟式（Konjunktiv I）；führt 是直陈式现在时，führte 是过去时/第二虚拟式，geführt 是第二分词。"
+   },
+   {
+    "q": "Die Gespräche sollen bis Ende Oktober ___.",
+    "opts": [
+     "stattfinden",
+     "durchführen",
+     "abhalten",
+     "organisieren"
+    ],
+    "ans": 0,
+    "why": "stattfinden 是不及物动词，表示“举行”，主语为事；durchführen/abhalten/organisieren 为及物动词，需宾语或被动。"
+   },
+   {
+    "q": "Die Ukraine muss selbst ___ ihr eigenes Schicksal entscheiden.",
+    "opts": [
+     "über",
+     "für",
+     "auf",
+     "an"
+    ],
+    "ans": 0,
+    "why": "entscheiden über + Akk. 表示“对……作出决定”；für 表示赞成，auf/an 不搭配。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Regierung hat ___ zur Reduzierung der CO2-Emissionen ergriffen.",
+    "ans": "Maßnahmen",
+    "hint": "采取措施",
+    "why": "Funktionsverbgefüge „Maßnahmen ergreifen“，注意 ergreifen 与 Maßnahmen 搭配，而非 treffen（treffen 与 Entscheidung/Vereinbarung 搭配）。"
+   },
+   {
+    "q": "Die installierte Kapazität der Windenergie ___ 2025 bei 4300 Megawatt.",
+    "ans": "liegt",
+    "hint": "为，处于",
+    "why": "固定搭配 „liegen bei + 数值“，表示数量、数值为……；学员常误用 beträgt 但 beträgt 直接加数值，不加 bei。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energie ___ das Stromnetz schreitet voran.",
+    "ans": "in",
+    "hint": "并入",
+    "why": "Integration in + Akk.，介词 in 表示融入方向。"
+   },
+   {
+    "q": "Der Kanzler hat die Ukraine zu einem Ende des Krieges ___.",
+    "ans": "aufgefordert",
+    "hint": "敦促",
+    "why": "动词搭配 „jemanden zu etwas auffordern“，要求介词 zu。"
+   },
+   {
+    "q": "Die Unterstützung ist ___ die Stabilität Europas notwendig.",
+    "ans": "für",
+    "hint": "对于",
+    "why": "notwendig für + Akk. 固定搭配。"
+   },
+   {
+    "q": "Die Gespräche sollen nicht über die Köpfe der Europäer ___ geführt werden.",
+    "ans": "hinweg",
+    "hint": "越过，不顾",
+    "why": "固定短语 „über die Köpfe hinweg“，意为绕过、不顾某人的意见。"
+   }
+  ]
+ },
+ "issue": 30
+}
