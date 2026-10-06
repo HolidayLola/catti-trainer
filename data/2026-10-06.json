@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-06",
+ "theme": "Wirtschaft",
+ "coach": "学员近期德译汉和汉译德失分严重，最突出的短板是原文理解不准确导致大量错译、漏译，数字和术语转换频繁出错。今天的材料聚焦水环境政策，训练时应重点抓数字（80%、2025/2027、金额）、机构名和法律条文，标出后再译。建议：先逐句精读并圈出数字、日期、固定搭配，再用中文复述句子大意，最后对照原文逐项核查，尤其检查是否漏译新能源、碳排放等核心术语。",
+ "de2zh": {
+  "title": "Pharmafirmen sollen für Wasserreinigung zahlen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/schneider-pharmafirmen-zahlungen-medikamentenrueckstaende-100.html",
+  "text": "Wer bezahlt für die Beseitigung von Medikamenten- und Kosmetikarückständen im Wasser? Der Umweltminister will die Hersteller zur Kasse bitten. Auch Rechenzentren sollen mehr für Wasser zahlen.\nBundesumweltminister Carsten Schneider (SPD) will verantwortliche Branchen für Wasserverschmutzungen stärker zur Kasse bitten. \"Wer unser Wasser verschmutzt, muss auch für die Reinigung aufkommen\", sagte Schneider zum Auftakt der Konferenz \"Zukunft=Wasser\" im Bundesumweltministerium.\nIn den Abwässern befänden sich zunehmend Medikamentenrückstände und andere Mikroschadstoffe, weshalb Milliardenbeträge in den Ausbau einer \"vierten Reinigungsstufe in Kläranlagen\" investiert werden müssten. Pharmafirmen sollten in Zukunft für die Reinigung des Wassers zur Kasse gebeten werden, so Schneider.\nSchneider erklärte: \"Das muss fair finanziert sein, nicht von den Bürgerinnen und Bürgern, sondern vom Verursacher.\" Es gebe dagegen großen Lobbydruck. Die Ende 2024 verabschiedete EU- Kommunalabwasserrichtlinie ist seit Anfang 2025 in Kraft und muss bis Ende Juli 2027 in deutsches Recht umgesetzt werden.\nSie sieht unter anderem eine zusätzliche, vierte Reinigungsstufe zur Entfernung von Mikroschadstoffen vor. Pharma- und Kosmetikhersteller sollen demnach mindestens 80 Prozent der anfallenden Kosten tragen."
+ },
+ "zh2de": {
+  "title": "中国深入推进水污染防治 建立污染者付费机制",
+  "text": "近年来，中国持续加大水污染防治力度。官方数据显示，2025年全国地表水优良水质断面比例达到85%，劣Ⅴ类水体基本消除。政府工作报告提出，要完善污染者付费机制，制药、化工等行业企业被要求承担治污成本。生态环境部表示，中央财政已累计投入超过1200亿元支持城镇污水处理设施建设，新增污水处理能力约5000万吨/日。各地加快补齐环境基础设施短板，严格环境执法，确保企业达标排放。下一步，中国将进一步完善法律法规，强化监督管理，确保各项措施落地见效。同时，中国积极参与全球环境治理，推动绿色低碳发展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Bis Ende 2025 ___ die neuen Wasseraufbereitungsanlagen in allen Klärwerken ___.",
+    "opts": [
+     "werden ... installiert",
+     "sind ... installiert",
+     "haben ... installiert",
+     "wurden ... installiert"
+    ],
+    "ans": 0,
+    "why": "考点：将来时被动（werden + Partizip II）。时间状语 bis Ende 2025 指将来，需用 werden ... installiert，对应学员曾误用“die installiert e”的结构错误。"
+   },
+   {
+    "q": "Die Investitionen belaufen sich auf 19,4 ___ Euro.",
+    "opts": [
+     "Million",
+     "Millionen",
+     "Millionen von",
+     "Million von"
+    ],
+    "ans": 1,
+    "why": "考点：数字与名词搭配。19,4 Millionen Euro 中 Millionen 为复数名词，不带 von。学员曾将 Millionen 误写为 millionen，需注意大小写。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix ___ inzwischen über 50 Prozent.",
+    "opts": [
+     "liegt",
+     "beträgt",
+     "erreicht",
+     "steigt"
+    ],
+    "ans": 1,
+    "why": "考点：动词与比例搭配。betragen 后接具体数值，表示“总计为”，此处最准确；erreichen 强调达到某目标，steigen 强调增长，liegen 需加 bei。"
+   },
+   {
+    "q": "In der Region wird vor allem auf ___ gesetzt, um die Klimaziele zu erreichen.",
+    "opts": [
+     "Kohleenergie",
+     "Atomenergie",
+     "Windenergie",
+     "Wasserenergie"
+    ],
+    "ans": 2,
+    "why": "考点：主题词场/同义词替换。根据 Klimaziele 和 erneuerbare 语境，应选 Windenergie；学员曾在翻译中混淆风能相关词汇。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das bestehende Netz stellt eine große Herausforderung dar.",
+    "opts": [
+     "Installierung",
+     "Investition",
+     "Information",
+     "Integration"
+    ],
+    "ans": 3,
+    "why": "考点：名词搭配。Integration in + Akk. 表示“并入/整合”，学员曾漏译该词。"
+   },
+   {
+    "q": "Der Ausstoß von Kohlendioxid pro Einheit des Bruttoinlandsprodukts wird als ___ bezeichnet.",
+    "opts": [
+     "Kohlenstoffemissionshandel",
+     "Kohlenstoffneutralität",
+     "Kohlenstoffemissionsintensität",
+     "Kohlenstoffsenke"
+    ],
+    "ans": 2,
+    "why": "考点：专业术语。“碳排放强度”即单位GDP的CO₂排放量，对应 Kohlenstoffemissionsintensität；学员曾漏译该术语。"
+   },
+   {
+    "q": "China hat sich verpflichtet, vor 2030 den ___ zu erreichen und bis 2060 klimaneutral zu werden.",
+    "opts": [
+     "Kohlenstoffhandel",
+     "Kohlenstoffpeak",
+     "Kohlenstoffmarkt",
+     "Kohlenstoffzertifikat"
+    ],
+    "ans": 1,
+    "why": "考点：专业术语。“碳达峰”对应 Kohlenstoffpeak（或 CO₂-Peak），学员在翻译中曾涉及碳达峰碳中和相关句子。"
+   },
+   {
+    "q": "Die Regierung will die Verursacher der Wasserverschmutzung zur ___ bitten.",
+    "opts": [
+     "Rechenschaft",
+     "Kasse",
+     "Verantwortung",
+     "Zahlung"
+    ],
+    "ans": 1,
+    "why": "考点：功能动词结构。jn. zur Kasse bitten 为固定短语，意为“要求某人付款”，源自新闻。"
+   },
+   {
+    "q": "Die EU-Richtlinie muss bis Ende Juli 2027 ___ deutsches Recht umgesetzt werden.",
+    "opts": [
+     "zu",
+     "in",
+     "nach",
+     "auf"
+    ],
+    "ans": 1,
+    "why": "考点：介词搭配。in deutsches Recht umsetzen 表示“转化为德国法律”，固定介词 in。"
+   },
+   {
+    "q": "Die Hersteller müssen für die Kosten der Wasserreinigung ___.",
+    "opts": [
+     "ankommen",
+     "einkommen",
+     "mitkommen",
+     "aufkommen"
+    ],
+    "ans": 3,
+    "why": "考点：功能动词/介词搭配。für etw. aufkommen 意为“承担……费用”，新闻中多次出现。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die neue Wasseraufbereitungsanlage soll bis Ende 2027 ___ werden.",
+    "ans": "installiert",
+    "hint": "安装",
+    "why": "被动语态，installiert werden；针对学员曾误写 installiert e 的结构错误。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das Stromnetz erfordert zusätzliche Investitionen.",
+    "ans": "Integration",
+    "hint": "并网/整合",
+    "why": "名动搭配 Integration in + Akk.；针对学员漏译该词。"
+   },
+   {
+    "q": "Die Regierung will die Verursacher der Wasserverschmutzung zur ___ bitten.",
+    "ans": "Kasse",
+    "hint": "要求其承担费用",
+    "why": "固定短语 jn. zur Kasse bitten。"
+   },
+   {
+    "q": "Wer das Wasser verschmutzt, muss für die Reinigung ___.",
+    "ans": "aufkommen",
+    "hint": "承担费用",
+    "why": "aufkommen für + Akk. 固定搭配。"
+   },
+   {
+    "q": "Die EU-Richtlinie ist seit Anfang 2025 in ___.",
+    "ans": "Kraft",
+    "hint": "生效",
+    "why": "in Kraft sein/treten 固定搭配。"
+   },
+   {
+    "q": "Die Pharma- und Kosmetikhersteller sollen mindestens 80 Prozent der anfallenden Kosten ___.",
+    "ans": "tragen",
+    "hint": "承担",
+    "why": "Kosten tragen 名动搭配。"
+   }
+  ]
+ },
+ "issue": 31
+}
