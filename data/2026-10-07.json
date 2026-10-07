@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-07",
+ "theme": "Gesellschaft",
+ "coach": "当前最要紧的短板是词汇基础薄弱和数字/单位表达混乱，导致错译漏译严重。今天材料语言平实但含有数字和专名，适合逐句精读，重点攻克数字、功能动词和分词定语。建议：先标出文中所有数字和专名逐个查证，翻译时逐句对照不跳译，整理错题本重点复习 ausmachen、eine Antwort geben、bis zum Ende 等搭配。",
+ "de2zh": {
+  "title": "\"Uns wird nicht zugehört\"",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/schuelerproteste-frankreich-grossdemo-100.html",
+  "text": "Die Protestwelle junger Menschen in Frankreich für bessere Lernbedingungen an Schulen hat einen neuen Höhepunkt erreicht. Laut Innenministerium beteiligten sich 256.000 Menschen an Demos, allein 56.000 in Paris.\nKurz bevor sich der Demonstrationszug in Gang setzt, stimmen die Protestierenden die französische Nationalhymne an, Version Schülerproteste: \"Aux armes, lycéens\" - \"Zu den Waffen, Schüler\".\nDer martialische Text der Nationalhymne passt allerdings nicht wirklich zur Stimmung auf der Place de la République im Herzen von Paris. Denn die ist entschlossen, aber bisher friedlich. Khalil und Esperanza gehen in Massy südlich von Paris zur Schule. Sie fordern vor allem mehr Geld im Schulsystem.\n\"Ich bin gekommen, um gegen Stellenstreichungen bei Lehrkräften zu protestieren\", sagt Khalil. \"Es heißt, die würden gestrichen, weil es in Zukunft aus demografischen Gründen weniger Schüler geben wird. Aber damit soll doch bloß Geld gespart werden. Und das führt dazu, dass in manchen Klassen bis zu 35 Schüler sitzen. Das sind keine Bedingungen, um zu lernen.\""
+ },
+ "zh2de": {
+  "title": "我国教育事业发展取得新成就",
+  "text": "2025年，全国教育经费总投入达6.5万亿元，比上年增长8.2%。各级各类学校共有52.5万所，在校生2.9亿人，学前教育毛入园率、九年义务教育巩固率、高中阶段毛入学率分别达到91.8%、95.9%、93.5%。为促进城乡教育均衡发展，中央财政安排专项资金，支持中西部地区改善办学条件，新建、改扩建中小学校舍约3200万平方米，惠及学生近1200万人。同时，职业教育适应性进一步增强，产教融合、校企合作深入推进，技术技能人才培养规模持续扩大。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der neuen Solaranlage beträgt 19,4 Millionen ___.",
+    "opts": [
+     "Kilowatt",
+     "Kilowattstunden",
+     "Watt",
+     "Megawatt"
+    ],
+    "ans": 0,
+    "why": "功率单位应为 Kilowatt（千瓦），19,4 Millionen Kilowatt 即 19,4 Gigawatt。Kilowattstunden 是能量单位，Watt 太小，Megawatt 是百万瓦，但 19,4 Millionen Megawatt 不合逻辑。学员曾将 Kilowatt 误写为 Kwa，需强化单位表达。"
+   },
+   {
+    "q": "Die erneuerbaren Energien ___ inzwischen einen Anteil von über 50 Prozent an der deutschen Stromerzeugung aus.",
+    "opts": [
+     "machen",
+     "nehmen",
+     "tragen",
+     "haben"
+    ],
+    "ans": 0,
+    "why": "固定搭配 einen Anteil ausmachen 表示“占...比例”。betragen 不与 Anteil 连用，需注意功能动词结构。"
+   },
+   {
+    "q": "Die Bauarbeiten sollen ___ Ende des Jahres abgeschlossen sein.",
+    "opts": [
+     "bis zum",
+     "bis zu",
+     "bis an",
+     "bis auf"
+    ],
+    "ans": 0,
+    "why": "bis zum Ende 是固定介词搭配，表示“到...结束时”。学员曾误写 Bis zum Ende von 2025，注意 von 多余。"
+   },
+   {
+    "q": "Die im vergangenen Jahr ___ Windkraftanlagen speisen bereits Strom ins Netz.",
+    "opts": [
+     "installierten",
+     "installierte",
+     "installierter",
+     "installiertem"
+    ],
+    "ans": 0,
+    "why": "分词作定语，需与 Windkraftanlagen（复数、阴性、第一格，前面有定冠词 die）保持一致，用弱变化 installierten。学员曾出现 die installiert e 的错误，需强化分词变位。"
+   },
+   {
+    "q": "Die Demonstranten fordern mehr Investitionen in das Bildungssystem. Welches Wort kann \"fordern\" hier ersetzen?",
+    "opts": [
+     "verlangen",
+     "benötigen",
+     "anbieten",
+     "vermeiden"
+    ],
+    "ans": 0,
+    "why": "fordern 与 verlangen 同义，意为“要求”。benötigen 需要，anbieten 提供，vermeiden 避免，均不符。"
+   },
+   {
+    "q": "Viele junge Menschen protestieren ___ bessere Lernbedingungen.",
+    "opts": [
+     "für",
+     "gegen",
+     "um",
+     "über"
+    ],
+    "ans": 0,
+    "why": "protestieren für 表示“为...而抗议”，gegen 表示“反对...”。此处为更好的学习条件，用 für。"
+   },
+   {
+    "q": "Die Regierung hat auf die Forderungen der Schüler bisher keine angemessene Antwort ___.",
+    "opts": [
+     "gegeben",
+     "gemacht",
+     "getan",
+     "gestellt"
+    ],
+    "ans": 0,
+    "why": "eine Antwort geben 是固定搭配，意为“给出答复”。不能说 eine Antwort machen。"
+   },
+   {
+    "q": "Die Schüler sagen, ___ die Lernbedingungen unzureichend sind.",
+    "opts": [
+     "dass",
+     "weil",
+     "obwohl",
+     "damit"
+    ],
+    "ans": 0,
+    "why": "sagen 后接 dass 从句，表示陈述内容。weil 表原因，obwohl 表让步，damit 表目的，逻辑不符。"
+   },
+   {
+    "q": "Die Proteste haben einen friedlichen Verlauf genommen. Welches Wort ist synonym zu \"friedlich\"?",
+    "opts": [
+     "gewalttätig",
+     "ruhig",
+     "chaotisch",
+     "aggressiv"
+    ],
+    "ans": 1,
+    "why": "friedlich 意为“和平的、平静的”，ruhig 最接近。gewalttätig 暴力的，chaotisch 混乱的，aggressiv 侵略性的，均反义或偏离。"
+   },
+   {
+    "q": "Die Schüler solidarisieren sich ___ den benachteiligten Jugendlichen.",
+    "opts": [
+     "mit",
+     "für",
+     "gegen",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "sich solidarisieren mit 是固定介词搭配，表示“与...团结一致”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Anlage hat eine installierte Leistung von 19,4 Millionen ___.",
+    "ans": "Kilowatt",
+    "hint": "功率单位",
+    "why": "学员曾将 Kilowatt 误写为 Kwa，注意正确全称和单位符号 kW。"
+   },
+   {
+    "q": "Die Windenergie ___ inzwischen einen Anteil von 30 Prozent an der Stromerzeugung aus.",
+    "ans": "macht",
+    "hint": "占...比例",
+    "why": "einen Anteil ausmachen 是固定搭配，不可用 betragen。"
+   },
+   {
+    "q": "Viele Schüler protestieren ___ bessere Lernbedingungen.",
+    "ans": "für",
+    "hint": "为...而抗议",
+    "why": "protestieren für 表示支持，gegen 表示反对。"
+   },
+   {
+    "q": "Die Regierung hat auf die Forderungen keine angemessene ___ gegeben.",
+    "ans": "Antwort",
+    "hint": "答复",
+    "why": "eine Antwort geben 固定搭配。"
+   },
+   {
+    "q": "Die Demonstrationen nahmen einen ___ Verlauf.",
+    "ans": "friedlichen",
+    "hint": "和平的",
+    "why": "friedlicher Verlauf 是常见形容词名词搭配。"
+   },
+   {
+    "q": "Die Schüler fordern einen ___ für das Bildungssystem.",
+    "ans": "Notfallplan",
+    "hint": "应急计划",
+    "why": "新闻中出现的复合词，注意记诵。"
+   }
+  ]
+ },
+ "issue": 32
+}
