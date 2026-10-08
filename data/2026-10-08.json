@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-08",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最要紧的短板是汉译德基础准确性和信息完整性，近期漏译、错译频发。今天的材料是科技新闻，重点练习数字、单位、被动语态和固定搭配；汉译德时先逐项列出信息点，确保不遗漏，再组织德语表达。建议从短句开始，每写完一句检查主谓一致、时态和介词搭配，尤其注意类似“beträgt”“installiert”等易错词。",
+ "de2zh": {
+  "title": "Chemie-Nobelpreis für Franzosen und Japaner",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/wissen/forschung/chemie-nobelpreis-fuer-kagan-und-soai-100.html",
+  "text": "\"Henri Kagan und Kenso Soai haben eine Lösung für ein über ein Jahrhundert altes chemisches Rätsel geliefert: wie Homochiralität spontan entstehen kann\", erklärte der Vorsitzende des Nobelkomitees für Chemie, Heiner Linke.\nViele Moleküle wie Aminosäuren existieren als zwei Varianten, die sich wie Spiegelbilder zueinander verhalten - vergleichbar der linken und rechten menschlichen Hand. Die beiden Varianten, die sogenannte L- und R-Form, weisen völlig unterschiedliche Eigenschaften auf.\nIn der Natur dominiert meist eine der beiden Varianten. An Andockstellen etwa von menschlichen Zellen passt eine Variante eines Moleküls perfekt - wie ein Schlüssel in ein Schloss. Der andere, seitenverkehrte Schlüssel passt dagegen nicht und kann das Schloss sogar beschädigen.\nViele moderne Medikamente werden gezielt als ein einzelnes sogenanntes Enantiomer entwickelt, das eine gewünschte Wirkung hat. Die andere Variante, die unwirksam oder toxisch sein kann, wird dagegen vermieden. Bedeutung hatte das Phänomen unter anderem beim Contergan-Skandal der 1960er-Jahre: Während die eine Form des Contergan-Wirkstoffs Thalidomid Entzündungen hemmt, führt sein Spiegelbild zu Missbildungen bei ungeborenen Kindern."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成就",
+  "text": "中国政府高度重视生态文明建设，将碳达峰、碳中和纳入经济社会发展全局。截至2025年底，全国可再生能源发电装机容量达到14.5亿千瓦，其中风电、光伏发电装机容量均创历史新高。全年新开工重大能源项目规模创历史新高，为经济高质量发展提供有力支撑。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。在科技创新方面，中国在人工合成淀粉、二氧化碳制汽油等领域取得重大突破，这些成果为绿色低碳转型提供了新路径。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die neue Solaranlage wurde im letzten Jahr auf dem Dach ___.",
+    "opts": [
+     "installiert",
+     "installierte",
+     "zu installieren",
+     "installieren"
+    ],
+    "ans": 0,
+    "why": "被动语态，werden + Partizip II，主语是Anlage被安装。"
+   },
+   {
+    "q": "___ Ende des Jahres 2025 erreichte die installierte Leistung 14,5 Milliarden Kilowatt.",
+    "opts": [
+     "Bis",
+     "Seit",
+     "Ab",
+     "Für"
+    ],
+    "ans": 0,
+    "why": "固定搭配“bis zum Ende”表示“到……底为止”，注意介词和冠词。"
+   },
+   {
+    "q": "Die Windenergie ___ inzwischen 19,4 Millionen Kilowatt.",
+    "opts": [
+     "beträgt",
+     "betragen",
+     "betrug",
+     "betragen haben"
+    ],
+    "ans": 0,
+    "why": "betragen意为“总计为”，主语是Die Windenergie，第三人称单数现在时，正确拼写为beträgt。"
+   },
+   {
+    "q": "Die Wissenschaftler wurden für ihre Entdeckungen ___.",
+    "opts": [
+     "geehrt",
+     "bestraft",
+     "kritisiert",
+     "vergessen"
+    ],
+    "ans": 0,
+    "why": "“ausgezeichnet”与“geehrt”同义，表示“表彰、嘉奖”。"
+   },
+   {
+    "q": "Die Forscher haben eine Lösung für das Problem ___.",
+    "opts": [
+     "geliefert",
+     "gemacht",
+     "genommen",
+     "gebracht"
+    ],
+    "ans": 0,
+    "why": "功能动词结构“eine Lösung liefern”表示“提供解决方案”。"
+   },
+   {
+    "q": "___ Contergan-Skandal der 1960er-Jahre zeigte sich die Bedeutung der Enantiomere.",
+    "opts": [
+     "Beim",
+     "Im",
+     "Am",
+     "Zum"
+    ],
+    "ans": 0,
+    "why": "“bei dem”缩写为“beim”，表示“在……事件中”。"
+   },
+   {
+    "q": "Das Medikament, ___ als Enantiomer entwickelt wurde, hat eine gewünschte Wirkung.",
+    "opts": [
+     "das",
+     "die",
+     "der",
+     "den"
+    ],
+    "ans": 0,
+    "why": "关系代词指代中性名词das Medikament，且在从句中作主语，用das。"
+   },
+   {
+    "q": "Die toxische Variante des Wirkstoffs muss ___ werden.",
+    "opts": [
+     "vermieden",
+     "vermehrt",
+     "vermindert",
+     "vermisst"
+    ],
+    "ans": 0,
+    "why": "“vermeiden”意为“避免”，与其同义的选项是“vermieden”，这里是被动态。"
+   },
+   {
+    "q": "Die Forschung ___ einen wichtigen Beitrag zur Medikamentenentwicklung.",
+    "opts": [
+     "leistet",
+     "macht",
+     "tut",
+     "gibt"
+    ],
+    "ans": 0,
+    "why": "功能动词结构“einen Beitrag leisten”表示“作出贡献”。"
+   },
+   {
+    "q": "___ der Integration erneuerbarer Energien ergeben sich neue Herausforderungen.",
+    "opts": [
+     "Mit",
+     "Bei",
+     "Durch",
+     "Für"
+    ],
+    "ans": 0,
+    "why": "“mit der Integration”表示“随着……的整合”，固定搭配。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die neue Windkraftanlage wurde im vergangenen Jahr ___.",
+    "ans": "installiert",
+    "hint": "安装",
+    "why": "被动语态，installieren的过去分词，注意词尾。"
+   },
+   {
+    "q": "Die installierte Leistung ___ 14,5 Milliarden Kilowatt.",
+    "ans": "beträgt",
+    "hint": "总计为",
+    "why": "betragen的第三人称单数现在时，正确拼写。"
+   },
+   {
+    "q": "Mit der ___ erneuerbarer Energien steigt der Anteil sauberer Energie.",
+    "ans": "Integration",
+    "hint": "整合",
+    "why": "固定搭配“mit der Integration”表示“随着……的整合”。"
+   },
+   {
+    "q": "Die Wissenschaftler haben eine Lösung für das Rätsel ___.",
+    "ans": "geliefert",
+    "hint": "提供",
+    "why": "Funktionsverbgefüge “eine Lösung liefern”。"
+   },
+   {
+    "q": "Sie haben eine wichtige Entdeckung ___.",
+    "ans": "gemacht",
+    "hint": "做出",
+    "why": "名动搭配“eine Entdeckung machen”。"
+   },
+   {
+    "q": "Die zwei Varianten sind vergleichbar ___ linken und rechten Hand.",
+    "ans": "mit",
+    "hint": "与……相比",
+    "why": "形容词vergleichbar要求介词mit。"
+   }
+  ]
+ },
+ "issue": 33
+}
