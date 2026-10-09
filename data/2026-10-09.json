@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-09",
+ "theme": "Kultur",
+ "coach": "当前最突出的问题是基础理解与转换能力薄弱，尤其数字、介词搭配和功能动词结构错误频繁，导致严重失分。今天练习的文学奖新闻中有较多文化类术语和长句，正好训练你抓主干、准确处理定语和数字的能力。建议先精读原文，划出所有数字、介词短语和功能动词结构，逐句口译后再动笔，并严格核对是否漏译。",
+ "de2zh": {
+  "title": "Literaturnobelpreis geht an Kanadierin Anne Carson",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/kultur/literatur-nobelpreis-116.html",
+  "text": "Der Literaturnobelpreis 2026 geht an Anne Carson aus Kanada. Das teilte die Schwedische Akademie in Stockholm mit. Schon in der Vergangenheit galt Carson als Favoritin auf den Preis.\n\nAnne Carson aus Kanada ist mit dem Nobelpreis für Literatur ausgezeichnet worden. Sie wird nach Angaben der Schwedischen Akademie geehrt für ihr \"kühnes und einfallsreiches Gesamtwerk\" mit verspielten Dialogen in klassischer Tradition. Dadurch seien neue Formen für Gegenwartsliteratur entstanden.\n\nIngrid Carlberg, permanente Sekretärin der Schwedischen Akademie, sagte, sie habe Carson gerade in Island erreicht. Sie sei dabei gewesen, dem Wind zuzuhören und sei sehr bewegt gewesen. \"Sie war sehr überrascht\", sagte Carlberg.\n\nAnne Carson ist eine kanadische Autorin, Dichterin, Essayistin und Übersetzerin. Sie wurde 1950 in Toronto geboren. Sie gilt als eine der eigenwilligsten und renommiertesten zeitgenössischen Schriftstellerinnen. Die 76-Jährige ist für die unkonventionelle Verbindung verschiedener literarischer Formen bekannt. In ihren Werken verschränkt sie klassische Philologie, Lyrik, Essay, Übersetzung, Erzählung und dramatische Formen.\n\nCarson verbindet die Stoffe der Antike mit der Moderne, lässt Figuren wie Sokrates oder Antigone zum Beispiel in Filmszenarien auftauchen und untersucht, wie sie sich im Scheinwerferlicht der Jetztzeit verhalten würden. Oder sie bringt Denker wie den antiken Rhetoriker Longinus mit dem Maler Michelangelo und dem Regisseur Michelangelo Antonioni ins Gespräch."
+ },
+ "zh2de": {
+  "title": "中国非物质文化遗产保护取得新进展",
+  "text": "截至2025年底，中国共有国家级非物质文化遗产代表性项目1557项，国家级非物质文化遗产代表性传承人3068名，其中42个项目被列入联合国教科文组织人类非物质文化遗产代表作名录，数量居世界第一。过去五年，中央财政累计投入非遗保护资金46.8亿元，支持开展了非遗记录工程、传统工艺振兴计划等一系列重点项目。京剧、昆曲等传统艺术通过“进校园”“云演出”等创新传播方式焕发新的生机，观众群体年轻化趋势明显。与此同时，全国文化及相关产业增加值从2019年的4.1万亿元增长到2024年的5.4万亿元，占国内生产总值比重从4.3%提升至4.59%，文化产业已成为国民经济重要支柱。专家指出，非遗保护不但需要政府加大投入，还需要社会各界广泛参与，让优秀传统文化在当代生活中得到传承与发展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Autorin gilt als eine der ____ zeitgenössischen Schriftstellerinnen.",
+    "opts": [
+     "bekanntesten",
+     "umstrittensten",
+     "jüngsten",
+     "unbekanntesten"
+    ],
+    "ans": 0,
+    "why": "同义词替换：renommiert意为著名的，故bekanntesten最合适。考查学员对形容词词义辨析及原文词汇理解。"
+   },
+   {
+    "q": "Sie wird für ihr \"kühnes und einfallsreiches Gesamtwerk\" geehrt. Das Wort \"kühn\" bedeutet hier ____.",
+    "opts": [
+     "mutig",
+     "vorsichtig",
+     "traditionell",
+     "langweilig"
+    ],
+    "ans": 0,
+    "why": "同义词替换：kühn表示大胆的，mutig同义。考查学员对文学评论词汇的理解。"
+   },
+   {
+    "q": "Carson verbindet die Stoffe der Antike ____ der Moderne.",
+    "opts": [
+     "mit",
+     "zu",
+     "auf",
+     "gegen"
+    ],
+    "ans": 0,
+    "why": "介词搭配：etw. mit etw. verbinden为固定搭配，表示将...与...结合。学员档案显示介词搭配错误较多，此题针对性训练。"
+   },
+   {
+    "q": "In ihren Werken ____ sie klassische Philologie, Lyrik, Essay und Übersetzung miteinander.",
+    "opts": [
+     "bringt",
+     "verschränkt",
+     "stellt",
+     "legt"
+    ],
+    "ans": 1,
+    "why": "功能动词结构/动词辨析：verschränken表示使交织、融合，与原文一致。学员常混淆动词搭配，此题训练准确用词。"
+   },
+   {
+    "q": "Die Schriftstellerin, ____ Bücher in viele Sprachen übersetzt wurden, ist weltweit bekannt.",
+    "opts": [
+     "deren",
+     "dessen",
+     "die",
+     "derer"
+    ],
+    "ans": 0,
+    "why": "语法辨析：关系从句第二格，指代阴性名词die Schriftstellerin，故用deren。学员档案中关系从句失分严重，此题针对性训练。"
+   },
+   {
+    "q": "Das Preisgeld ____ zwölf Millionen Schwedische Kronen.",
+    "opts": [
+     "beträgt",
+     "beläuft",
+     "zählt",
+     "macht"
+    ],
+    "ans": 0,
+    "why": "数字表达：betragen表示总计为，用于金额、数量。学员在数字翻译中常错，此题强化数字动词用法。"
+   },
+   {
+    "q": "Sie gilt ____ eine der eigenwilligsten Schriftstellerinnen.",
+    "opts": [
+     "als",
+     "für",
+     "wie",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "介词搭配：gelten als为固定搭配，表示被视为。学员介词搭配错误多，此题训练。"
+   },
+   {
+    "q": "Die Akademie ____ ihre Entscheidung am Donnerstag bekannt.",
+    "opts": [
+     "gibt",
+     "macht",
+     "stellt",
+     "teilt"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：bekannt geben为固定搭配，表示公布。可分动词用法，学员可能漏用或错用。"
+   },
+   {
+    "q": "____ sie den Preis erhielt, war sie sehr überrascht.",
+    "opts": [
+     "Als",
+     "Nachdem",
+     "Wenn",
+     "Während"
+    ],
+    "ans": 0,
+    "why": "语法辨析：时间从句，一次性动作用als，且主从句时态一致。学员在时间连词使用上易混淆。"
+   },
+   {
+    "q": "Das Nobelkomitee ____ in der Regel das Lebenswerk eines Schriftstellers.",
+    "opts": [
+     "ehrt",
+     "belohnt",
+     "bezahlt",
+     "kritisiert"
+    ],
+    "ans": 0,
+    "why": "同义词替换：ehren表示尊敬、表彰，与原文geehrt同义。考查词汇量。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Verleihung des Nobelpreises ____ am 10. Dezember statt.",
+    "ans": "findet",
+    "hint": "举行",
+    "why": "stattfinden为不可分功能动词，表示活动举行。学员档案显示功能动词结构错误多，此题强化。"
+   },
+   {
+    "q": "Sie ist bekannt ____ ihre unkonventionelle Verbindung verschiedener literarischer Formen.",
+    "ans": "für",
+    "hint": "以...闻名",
+    "why": "bekannt für为固定介词搭配，学员易与mit混淆。"
+   },
+   {
+    "q": "Das Preisgeld ____ sich auf umgerechnet 1,06 Millionen Euro.",
+    "ans": "beläuft",
+    "hint": "总计为",
+    "why": "sich belaufen auf为固定搭配，表示金额总计，学员数字表达常错，需掌握。"
+   },
+   {
+    "q": "In ihren Werken ____ sie klassische Philologie mit modernen Formen.",
+    "ans": "verschränkt",
+    "hint": "使...交织",
+    "why": "verschränken为及物动词，表示交叉结合，学员可能用错动词。"
+   },
+   {
+    "q": "Die Schwedische Akademie hat ihre Entscheidung ____ gegeben.",
+    "ans": "bekannt",
+    "hint": "公布",
+    "why": "bekannt geben为固定搭配，表示公布，可分动词，学员易漏用。"
+   },
+   {
+    "q": "Der Nobelpreis wird ____ 10. Dezember in Stockholm überreicht.",
+    "ans": "am",
+    "hint": "在...日期",
+    "why": "具体日期前用an dem缩合为am，学员常误用in或um。"
+   }
+  ]
+ },
+ "issue": 34
+}
