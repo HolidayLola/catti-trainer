@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-17",
+ "theme": "China-Themen",
+ "coach": "当前最要紧的短板是词汇准确性和数字/单位表达，错译漏译严重，汉译德几乎未得分。今天的材料针对能源气候类文本，重点练习数字单位、功能动词、介词搭配和被动语态。建议：每天精读一篇同类短文，划出所有数字、单位、功能动词和固定搭配，整理到错题本，并尝试用德语复述主要内容。",
+ "de2zh": {
+  "title": "Kultur--People's Daily Online",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/209054/index.html",
+  "text": "Der deutsche „Superwahlmonat“ September ist vorüber, und die von Bundeskanzler Merz geführte CDU sieht sich mit einer tiefgreifenden politischen Fragmentierung konfrontiert. Die Wahlergebnisse gleichen einer Zäsur: In Sachsen-Anhalt halbierten sich die christdemokratischen Stimmenanteile nahezu; während die Partei bei der vorangegangenen Wahl noch 40 der 41 Wahlkreise direkt für sich entscheiden konnte, blieb sie dieses Mal gänzlich ohne Direktmandat.\nDas am Zusammenfluss des Jangtse und des Qingyi-Flusses gelegene Wuhu hat nicht nur die tief verwurzelte Kultur im Süden der Provinz Anhui bereichert, sondern auch eine blühende Industrie hervorgebracht.\n„Musik ist eine Sprache, die jeder versteht.“ Für den deutschen Organisten, Pädagogen und „Artist in Residence“ auf der Insel Gulangyu, Ludger Lohmann, ist dies kein abstraktes Konzept, sondern eine ganz konkrete Erfahrung, die er im Laufe seiner langjährigen Reisen zwischen Europa und China gesammelt hat.\nAm Abend des 23. Mai fand der erste Spieltag der regionalen Fußballliga für den Nordosten Chinas („Dongbei Super League“) mit parallelen Auftaktspielen in Shenyang, Changchun, Harbin und Hohhot statt."
+ },
+ "zh2de": {
+  "title": "中国非物质文化遗产保护取得新进展",
+  "text": "截至2025年底，中国共有43个项目列入联合国教科文组织非物质文化遗产名录，位居世界第一。近年来，中国政府持续加大保护力度，出台多项政策措施，推动非遗融入现代生活。据统计，全国已建成非遗工坊2500余家，带动就业超过50万人。京剧、昆曲等传统艺术通过数字化手段焕发新生，吸引大量年轻观众。与此同时，中国与“一带一路”沿线国家开展广泛文化交流，年均举办文化活动约3000场，参与人数累计超过1亿人次。这些举措不仅增强了文化自信，也为世界文明多样性作出了积极贡献。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windenergie ___ im vergangenen Jahr 520 Gigawatt.",
+    "opts": [
+     "betrug",
+     "belief",
+     "erreichte",
+     "erzielte"
+    ],
+    "ans": 0,
+    "why": "betragen表示“总计为”，主语通常是数值，宾语是数量；sich belaufen auf需反身且带介词，此处belief缺少sich和auf；erreichen主语通常是人或事物达到目标；erzielen常搭配Ergebnis/Fortschritt。故选betrug。"
+   },
+   {
+    "q": "___ Ende des Jahres 2025 sollen alle neuen Gebäude in China nach grünen Standards errichtet werden.",
+    "opts": [
+     "Bis zum",
+     "Bis an",
+     "Bis zu",
+     "Bis auf"
+    ],
+    "ans": 0,
+    "why": "bis zum表示“直到”，zum是zu dem的缩合，后接名词；bis an表示“直到紧挨着”；bis zu后接数量或地点名词原形；bis auf表示“除...之外”。固定搭配bis zum Ende，故选A。"
+   },
+   {
+    "q": "Die chinesische Regierung ___ große Anstrengungen, um die CO2-Emissionen zu reduzieren.",
+    "opts": [
+     "unternimmt",
+     "macht",
+     "trifft",
+     "leistet"
+    ],
+    "ans": 0,
+    "why": "固定搭配Anstrengungen unternehmen，表示“做出努力”。其他选项：macht不与Anstrengungen搭配；trifft常搭配Maßnahmen/Vereinbarungen；leistet常搭配Beitrag/Widerstand。故选unternimmt。"
+   },
+   {
+    "q": "Die Provinz Anhui, ___ viele historische Stätten beherbergt, zieht jedes Jahr Millionen Touristen an.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "den"
+    ],
+    "ans": 0,
+    "why": "关系代词指代die Provinz，阴性，在从句中作主语，第一格，所以用die。故选A。"
+   },
+   {
+    "q": "Die neu installierte Photovoltaik-Leistung belief sich auf 19,4 Millionen ___.",
+    "opts": [
+     "Kilowatt",
+     "Kilowattstunden",
+     "Megawatt",
+     "Gigawatt"
+    ],
+    "ans": 0,
+    "why": "Leistung（功率）的单位是Kilowatt，不是Kilowattstunden（电能）。19,4 Millionen Kilowatt = 19,4 GW，德语中常用“Millionen Kilowatt”表达。故选Kilowatt。"
+   },
+   {
+    "q": "___ der Integration erneuerbarer Energien in das Stromnetz steigen die Anforderungen an die Netzstabilität.",
+    "opts": [
+     "Mit",
+     "Durch",
+     "Bei",
+     "In"
+    ],
+    "ans": 0,
+    "why": "mit der Integration表示“随着...的整合”，固定搭配，强调伴随；durch强调通过某种手段；bei强调在...情况下；in表示在...里面。故选Mit。"
+   },
+   {
+    "q": "Die Regierung ___ dem Umweltschutz einen hohen Stellenwert ___.",
+    "opts": [
+     "misst...bei",
+     "legt...an",
+     "stellt...dar",
+     "nimmt...auf"
+    ],
+    "ans": 0,
+    "why": "固定结构einem Ding einen hohen Stellenwert beimessen，表示“赋予某事高度重要性”。其他选项不符合搭配。故选misst...bei。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Stromverbrauch ___ inzwischen 35 Prozent.",
+    "opts": [
+     "beträgt",
+     "erreicht",
+     "macht aus",
+     "beläuft sich"
+    ],
+    "ans": 0,
+    "why": "betragen后直接接百分比，表示“总计为”，主语是Anteil；erreichen主语通常是人或过程；machen aus需主语是人；sich belaufen auf需要介词auf。故选beträgt。"
+   },
+   {
+    "q": "Die neuen Klimaziele ___ von der chinesischen Regierung im letzten Jahr festgelegt.",
+    "opts": [
+     "wurden",
+     "haben",
+     "sind",
+     "werden"
+    ],
+    "ans": 0,
+    "why": "被动语态过去时，werden+Partizip II，主语Ziele复数，所以wurden。haben不是被动，sind是状态被动，werden现在时。故选wurden。"
+   },
+   {
+    "q": "China hat sich verpflichtet, ___ 2060 klimaneutral zu sein.",
+    "opts": [
+     "bis",
+     "ab",
+     "seit",
+     "für"
+    ],
+    "ans": 0,
+    "why": "bis 2060表示“到2060年为止”；ab表示“从...起”；seit表示“自从”；für表示“为了”。故选bis。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die chinesische Regierung hat sich zum Ziel gesetzt, die CO2-Emissionen bis 2030 zu ___.",
+    "ans": "reduzieren",
+    "hint": "减少",
+    "why": "固定搭配Emissionen reduzieren/senken，表示减少排放，注意动词语域。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Stromverbrauch ___ inzwischen 35 Prozent.",
+    "ans": "beträgt",
+    "hint": "总计为",
+    "why": "betragen+百分比，表示“总计为”，主语是Anteil，注意动词变位第三人称单数。"
+   },
+   {
+    "q": "Die Regierung ___ Maßnahmen zur Förderung der Elektromobilität.",
+    "ans": "ergreift",
+    "hint": "采取",
+    "why": "Maßnahmen ergreifen/treffen 是固定搭配，表示“采取措施”。"
+   },
+   {
+    "q": "China hat große Fortschritte bei der Integration erneuerbarer Energien ___.",
+    "ans": "erzielt",
+    "hint": "取得",
+    "why": "Fortschritte erzielen 固定搭配，表示取得进步。"
+   },
+   {
+    "q": "Die Windenergie hat sich zu einer wichtigen Säule der Energieversorgung ___.",
+    "ans": "entwickelt",
+    "hint": "发展成",
+    "why": "sich zu etw. entwickeln 固定搭配，表示发展成为。"
+   },
+   {
+    "q": "Das Land strebt an, bis 2060 Klimaneutralität zu ___.",
+    "ans": "erreichen",
+    "hint": "达到",
+    "why": "Klimaneutralität erreichen 固定搭配，表示实现气候中和。"
+   }
+  ]
+ },
+ "issue": 36
+}
