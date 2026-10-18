@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-18",
+ "theme": "Panorama",
+ "coach": "你当前最突出的短板是德译汉时错译、漏译过多，尤其是数字、单位、能源类固定表达；汉译德几乎空白，语法和搭配错误频发。今天选文紧扣能源与制裁议题，重点训练你数字表达（如19,4 Millionen Kilowatt）、功能动词结构（auf Eis legen, in Kraft treten）和分词定语（installierten）。建议先精读passage，逐句画出数字、固定搭配和从句结构，再用中文复述，最后对照原文查漏译，尤其注意今日小卷中重考你的易错点。",
+ "de2zh": {
+  "title": "Selenskyj kritisiert Aussetzung von US-Sanktionen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/ukraine-usa-sanktionen-100.html",
+  "text": "Der ukrainische Staatschef Wolodymyr Selenskyj hat die Aussetzung der neuen US-Sanktionen gegen Russland kritisiert. Eine Lockerung des Drucks auf Russland und finanzielle Belohnungen seien für Kremlchef Wladimir Putin nur Ansporn, weiter zuzuschlagen, teilte Selenskyj bei Telegram mit.\nZuvor hatte US-Präsident Donald Trump die in einem neuen Sanktionspaket gegen Russland vorgesehenen Zölle kurz vor ihrem Inkrafttreten auf Eis gelegt. Zuletzt hatte Trump zudem - ungeachtet bestehender Sanktionen - mit Putin Diesellieferungen aus Russland vereinbart und damit die Kritik Selenskyjs auf sich gezogen.\nTrump habe sich zu dem Schritt entschlossen, nur einen Tag nachdem Moskau einen der massivsten Schläge gegen die ukrainische Energieinfrastruktur ausgeführt habe, klagte Selenskyj. \"Mehr als 15 wichtige Anlagen zur Stromerzeugung und -übertragung in verschiedenen Regionen der Ukraine wurden angegriffen.\" Moskau habe seine Angriffe ausgeweitet und versuche die Ressourcen des Landes zu zerschlagen.\nLaut ukrainischen Behörden gab es bei den Angriffen Tote und Verletzte. Hunderttausende Menschen waren demnach ohne Strom und Heizung. \"Russland versucht, in der Ukraine kurz vor dem Winter einen Blackout herbeizuführen\", sagte Selenskyj. \"Es braucht Druck, um dies zu stoppen.\" Das US-Sanktionspaket \"hätte enorm helfen können\", betonte der ukrainische Staatschef. Und das könne es noch immer, wenn die USA es wieder einsetzen würden."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成效显著",
+  "text": "近年来，中国加快能源结构绿色转型，可再生能源发展取得显著成效。据国家能源局发布的数据，截至2024年底，全国可再生能源装机容量达到14.5亿千瓦，占全部发电装机容量的比重超过50%，历史性超过火电装机。其中，风电和光伏发电装机合计达到12亿千瓦，提前六年实现2030年目标。与此同时，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定坚实基础。国家能源局表示，下一步将推动新型储能规模化应用，完善电力市场机制，保障能源安全稳定供应。此外，全国新开工规模创历史新高，能源投资保持较快增长，为经济高质量发展提供有力支撑。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die US-Regierung hat die geplanten Sanktionen gegen Russland ausgesetzt. Das Wort \"ausgesetzt\" bedeutet hier am ehesten:",
+    "opts": [
+     "verschärft",
+     "suspendiert",
+     "eingeführt",
+     "verlängert"
+    ],
+    "ans": 1,
+    "why": "aussetzen 意为“暂停、中止”，与 suspendieren 同义；其他选项意思不符。考点：同义词替换，政治高频词。"
+   },
+   {
+    "q": "Der Angriff auf die Energieinfrastruktur hat einen massiven Schlag gegen die Ukraine bedeutet. \"massiven\" 可替换为:",
+    "opts": [
+     "geringen",
+     "schweren",
+     "leichten",
+     "schnellen"
+    ],
+    "ans": 1,
+    "why": "massiv 在此表示“巨大的、严重的”，与 schwer 同义。考点：形容词同义替换。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das bestehende Stromnetz ist eine große technische Herausforderung.",
+    "opts": [
+     "Integration",
+     "Integrierung",
+     "Einbindung",
+     "Einbeziehung"
+    ],
+    "ans": 0,
+    "why": "常用名词 Integration 表示“并入、整合”，固定搭配 die Integration in + Akk.；其他选项虽意思接近但不常用于此。考点：名词搭配，针对学员曾错译 Mit der Integration。"
+   },
+   {
+    "q": "Die installierte Leistung der neuen Windkraftanlagen beträgt 19,4 Millionen Kilowatt. Das entspricht 19,4 ___.",
+    "opts": [
+     "Millionen Kilowatt",
+     "Million Kilowatt",
+     "Millionen Kilowatts",
+     "Million Kilowatts"
+    ],
+    "ans": 0,
+    "why": "数字 19,4 后接 Millionen（复数）和 Kilowatt（单位不变），注意 nicht “Million” 或 “Kilowatts”。考点：数字与单位搭配，针对学员曾错 19.4 millionen Kwa。"
+   },
+   {
+    "q": "Inzwischen ___ die Windenergie einen Anteil von über 30 Prozent am Strommix.",
+    "opts": [
+     "beträgt",
+     "betraegt",
+     "betragen",
+     "betrug"
+    ],
+    "ans": 0,
+    "why": "主语 die Windenergie 单数，现在时第三人称单数 beträgt；betraegt 是错误拼写。考点：动词变位，针对学员曾误写 betraegt。"
+   },
+   {
+    "q": "Die im vergangenen Jahr ___ Windkraftanlagen haben eine Gesamtleistung von 19,4 Millionen Kilowatt.",
+    "opts": [
+     "installierten",
+     "installierte",
+     "installierter",
+     "installiertes"
+    ],
+    "ans": 0,
+    "why": "此处为定冠词 die 后的形容词弱变化，复数名词 Windkraftanlagen 前用 installierten。考点：分词作定语变格，针对学员曾错 die installiert e。"
+   },
+   {
+    "q": "Die Regierung hat die Sanktionen ___ Eis gelegt.",
+    "opts": [
+     "auf",
+     "in",
+     "an",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "固定搭配 etw. auf Eis legen，意为“搁置、暂停”。考点：介词搭配。"
+   },
+   {
+    "q": "Der Angriff richtete sich ___ die Energieinfrastruktur.",
+    "opts": [
+     "gegen",
+     "für",
+     "auf",
+     "über"
+    ],
+    "ans": 0,
+    "why": "sich richten gegen 表示“针对、指向”。考点：介词搭配。"
+   },
+   {
+    "q": "Die neuen Sanktionen sollten ursprünglich heute ___ Kraft treten.",
+    "opts": [
+     "in",
+     "im",
+     "zu",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "in Kraft treten 是固定功能动词结构，意为“生效”。考点：Funktionsverbgefüge。"
+   },
+   {
+    "q": "Der ukrainische Präsident hat scharfe Kritik ___ der US-Entscheidung geübt.",
+    "opts": [
+     "an",
+     "über",
+     "gegen",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "Kritik üben an + Dat. 是固定搭配，意为“对……提出批评”。考点：功能动词结构。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die ___ der neuen Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "固定搭配 installierte Leistung，注意 Leistung 为名词，学员曾错写为 Kwa 或漏译。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien in das Stromnetz ___ eine große Herausforderung dar.",
+    "ans": "stellt",
+    "hint": "构成，意味着",
+    "why": "固定结构 etw. stellt eine Herausforderung dar，学员曾错译 Mit der Integration。"
+   },
+   {
+    "q": "Die im ganzen Jahr neu begonnenen Projekte erreichten ein ___.",
+    "ans": "Rekordhoch",
+    "hint": "历史新高",
+    "why": "固定搭配 ein Rekordhoch erreichen，对应“创历史新高”，学员曾漏译此句。"
+   },
+   {
+    "q": "Die US-Regierung hat die Sanktionen vorerst ___ Eis gelegt.",
+    "ans": "auf",
+    "hint": "搁置",
+    "why": "固定搭配 etw. auf Eis legen，此处填介词 auf。"
+   },
+   {
+    "q": "Die USA versuchen, Russland weiter unter Druck zu ___.",
+    "ans": "setzen",
+    "hint": "施加压力",
+    "why": "固定搭配 jdn. unter Druck setzen。"
+   },
+   {
+    "q": "Das neue Sanktionspaket sollte ursprünglich heute in ___ treten.",
+    "ans": "Kraft",
+    "hint": "生效",
+    "why": "固定搭配 in Kraft treten，名词 Kraft 大写。"
+   }
+  ]
+ },
+ "issue": 37
+}
