@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-19",
+ "theme": "Politik",
+ "coach": "最要紧短板：德译汉错译、漏译占比极高（错译21次、漏译15次），尤其能源类术语和数字单位常出错；汉译德几乎零分，说明基础句子构建和关键词汇提取能力严重不足。今天的德译汉材料（俄乌冲突中的能源设施遇袭）重点训练客观叙述、数字和长句拆分，汉译德段落专门复现你漏译过的“新开工规模”“碳排放强度”等表述。建议：精读时逐句划出主语、谓语、宾语，数字务必写全单位（如1.015 Drohnen 是“1015架”而非“1.015架”），汉译德先列出信息点再组句，禁止跳译。",
+ "de2zh": {
+  "title": "Russland meldet Drohnenangriffe in St. Petersburg",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-angriffe-st-petersburg-100.html",
+  "text": "Die Ukraine hat in St. Petersburg nach russischen Angaben erneut Ölanlagen und ein Logistikzentrum angegriffen. Behörden zufolge kam dabei ein Mensch ums Leben. Auch die Ukraine meldet massiven Beschuss ihrer Energieanlagen und Tote.\nBei einem ukrainischen Drohnenangriff in der Region St. Petersburg ist nach russischen Behördenangaben ein Mensch getötet worden. 15 weitere Personen wurden verletzt, erklärte Gouverneur Alexander Beglow.\nDen Angaben zufolge brachen an einem Ölterminal im Hafen, einem Öllager und in mehreren Industriehallen Feuer aus. Auch ein Logistikzentrum des russischen Online-Händlers Ozon brannte demnach. Das Internetunternehmen VK meldete, sein Rechenzentrum sei ebenfalls von Drohnen angegriffen worden, der Betrieb laufe aber weiter.\nBehörden zufolge wurden in der Region 126 Drohnen abgeschossen. Trümmer seien jedoch auf Wohnhäuser, Autos und Stromleitungen gestürzt und hätten Stromausfälle verursacht. Der Flughafen St. Petersburg setzte laut der Nachrichtenagentur Tass zeitweise seinen Betrieb aus.\nDas genaue Ausmaß der Schäden ist noch unklar. Nach Angaben des Verteidigungsministeriums in Moskau schoss die russische Flugabwehr in der Nacht insgesamt 1.015 ukrainische Drohnen über verschiedenen Regionen des Landes ab."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成效显著",
+  "text": "国家能源局最新数据显示，截至今年9月底，全国风电、光伏发电装机容量达到12.6亿千瓦，同比增长21.3%。前三季度，全国可再生能源新增装机1.9亿千瓦，占全部新增装机的78%。与此同时，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降。今年前三季度，全国单位国内生产总值二氧化碳排放同比下降3.8%，为力争2030年前实现碳达峰、2060年前实现碳中和奠定了坚实基础。此外，全年新开工规模创历史新高，其中沙漠、戈壁、荒漠地区大型风电光伏基地项目加快推进。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Bundesregierung will die Energiewende vorantreiben und hat dafür zahlreiche ___ ergriffen.",
+    "opts": [
+     "Maßnahmen",
+     "Mittel",
+     "Wege",
+     "Schritte"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。固定搭配“Maßnahmen ergreifen”表示采取措施。学员语法薄弱，需牢记固定搭配。"
+   },
+   {
+    "q": "Die CO2-Emissionen sind in Deutschland seit 1990 deutlich ___.",
+    "opts": [
+     "gestiegen",
+     "gesunken",
+     "geblieben",
+     "geschwankt"
+    ],
+    "ans": 1,
+    "why": "考点：动词辨析及常识。seit 1990 表示从1990年至今，结合德国减排趋势，应为下降；且与 sein 连用需用不及物动词的过去分词 gesunken。针对学员曾错译“碳排放强度持续下降”。"
+   },
+   {
+    "q": "Die chinesische Regierung strebt ___ Klimaneutralität bis 2060.",
+    "opts": [
+     "nach",
+     "für",
+     "an",
+     "um"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。streben nach + Dativ 表示追求某目标。学员易混用介词。"
+   },
+   {
+    "q": "Bis ___ Ende des Jahres 2025 sollen alle neuen Anlagen ans Netz gehen.",
+    "opts": [
+     "am",
+     "zum",
+     "dem",
+     "das"
+    ],
+    "ans": 1,
+    "why": "考点：介词固定搭配。bis zum Ende 为固定结构，zum = zu dem。针对学员语法错误“Bis zum Ende von 2025, die installiert e”。"
+   },
+   {
+    "q": "Der Ausbau erneuerbarer Energien leistet einen wichtigen Beitrag ___ Klimaschutz.",
+    "opts": [
+     "zum",
+     "für den",
+     "an den",
+     "in den"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构。einen Beitrag zu etwas leisten 固定搭配，介词为 zu + Dativ。"
+   },
+   {
+    "q": "Die installierte Leistung der Photovoltaikanlagen hat einen neuen Höchststand ___.",
+    "opts": [
+     "erreicht",
+     "erhalten",
+     "bekommen",
+     "gekommen"
+    ],
+    "ans": 0,
+    "why": "考点：固定搭配。einen Höchststand erreichen 表示达到最高值。针对学员曾错译“installierte Leistung”。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das bestehende Stromnetz erfordert erhebliche Investitionen.",
+    "opts": [
+     "in",
+     "an",
+     "über",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "考点：介词搭配。Integration in + Akkusativ 表示融入。针对学员错译“Mit der Integration erneuerbarer Energie”。"
+   },
+   {
+    "q": "___ die Klimaziele erreicht werden, müssen die Emissionen drastisch reduziert werden.",
+    "opts": [
+     "Damit",
+     "Weil",
+     "Obwohl",
+     "Wenn"
+    ],
+    "ans": 0,
+    "why": "考点：从句连接词。damit 引导目的从句，动词置于句末；逻辑语义表目的。考查语法辨析。"
+   },
+   {
+    "q": "Die Windenergie hat in den letzten Jahren stark ___ Bedeutung gewonnen.",
+    "opts": [
+     "an",
+     "mit",
+     "für",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "考点：固定搭配。an Bedeutung gewinnen 表示重要性增加。针对学员曾错译“Inzwischen betraegt die Wind Energie und”。"
+   },
+   {
+    "q": "Die Zahl der neu installierten Windkraftanlagen ist im Vergleich zum Vorjahr um 20 Prozent ___.",
+    "opts": [
+     "gestiegen",
+     "gesteigert",
+     "erhöht",
+     "vermehrt"
+    ],
+    "ans": 0,
+    "why": "考点：动词辨析及完成时。steigen 为不及物动词，与 sein 构成完成时；其他选项多为及物或语义不符。考查数字变化表达。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte ___ der neuen Windparks beträgt 1,9 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "装机容量/功率",
+    "why": "installierte Leistung 为固定搭配，学员曾错译该词组。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Stromverbrauch ___ bei 42 Prozent.",
+    "ans": "liegt",
+    "hint": "为/处于",
+    "why": "bei einem Wert liegen 表示数值水平，该结构在新闻中高频。"
+   },
+   {
+    "q": "Die Regierung hat sich verpflichtet, die CO2-Emissionen bis 2030 um 65 Prozent zu ___ gegenüber 1990.",
+    "ans": "senken",
+    "hint": "降低",
+    "why": "Emissionen senken/reduzieren 为动名搭配，学员在碳排放语境中常漏译。"
+   },
+   {
+    "q": "Der Ausbau der Windenergie leistet einen wichtigen Beitrag ___ Klimaschutz.",
+    "ans": "zum",
+    "hint": "对于",
+    "why": "Beitrag zu + Dativ leisten，功能动词结构。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das Stromnetz stellt eine technische Herausforderung dar.",
+    "ans": "in",
+    "hint": "到...之中",
+    "why": "Integration in + Akkusativ，介词搭配，针对学员此前错译。"
+   },
+   {
+    "q": "Die chinesische Regierung will bis 2060 CO2-Neutralität ___.",
+    "ans": "erreichen",
+    "hint": "实现",
+    "why": "ein Ziel erreichen 固定搭配，碳中和 erreichen。"
+   }
+  ]
+ },
+ "issue": 38
+}
