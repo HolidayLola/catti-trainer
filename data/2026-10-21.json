@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-21",
+ "theme": "Gesellschaft",
+ "coach": "当前最要紧的短板是错译和漏译严重，汉译德几乎零分，暴露出词汇基础薄弱、数字和单位表达不熟、长句结构把握不准。今天的材料针对投资主题，重点练习数字与金额的准确翻译、投资相关词汇（Investitionszusagen, Milliardenhöhe, fließen in)以及长句的切分和理解。建议先精读 passage，逐句翻译并对照原文，特别关注 19,4 Millionen Kilowatt 这类数字单位转换，以及分词定语 die im vergangenen Jahr installierten Windkraftanlagen 的结构，再完成 drills 巩固。",
+ "de2zh": {
+  "title": "Merz wirbt um Kapital - und meldet erste Zusagen ",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/investitionsgipfel-114.html",
+  "text": "Der Investitionsgipfel in Berlin soll mehr Kapital nach Deutschland locken. Kanzler Merz und Wirtschaftsministerin Reiche sprechen bereits von ersten Zusagen: Unternehmen sollen milliardenschwere Investitionen angekündigt haben.\nBundeskanzler Friedrich Merz zufolge gibt es Investitionszusagen in Milliardenhöhe in die deutsche Wirtschaft. Der Kanzler sprach bei der Konferenz \"Invest in Germany\" von Zusagen in Höhe von insgesamt 800 Milliarden Euro bis 2028, die von mehreren Unternehmen in deutsche Wirtschaftsstandorte fließen sollen.\nBundeswirtschaftsministerin Katherina Reiche sprach ebenfalls von Investitionszusagen in Milliardenhöhe. Im Deutschlandfunk betonte sie, es gebe Zusagen von 228 Milliarden Euro. Bei dieser Summe seien nur Projekte mit einem Volumen von mehr als 100 Millionen Euro enthalten. In welchem zeitlichen Rahmen und in welchem Zusammenhang die Zusagen genau stehen, blieb zunächst offen.\nAmazon kündigte auf dem Gipfel bereits konkrete Investitionen an. Das US-Unternehmen will demnach im kommenden Jahr rund 16 Milliarden Euro in Deutschland investieren. Das Geld soll unter anderem in den Ausbau von Rechenzentren für den Cloud-Anbieter AWS und die Modernisierung der Logistikstandorte fließen."
+ },
+ "zh2de": {
+  "title": "中国持续优化营商环境 外商直接投资稳步增长",
+  "text": "2025年，中国实际使用外资金额达1.2万亿元人民币，同比增长6.8%，新设外商投资企业6.5万家，创历史新高。为进一步扩大高水平对外开放，中国政府出台了一系列旨在优化外商投资环境、保障外资企业国民待遇的政策措施，这些措施被广泛认为有助于增强外资企业在华长期发展的信心。同时，国家发展改革委表示，将稳步推进制造业、服务业等领域开放，鼓励外资参与先进制造业、高新技术产业以及绿色低碳转型项目，推动形成更大范围、更宽领域、更深层次的对外开放格局。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windkraftanlagen beträgt insgesamt 19,4 ___ Kilowatt.",
+    "opts": [
+     "A. Millionen",
+     "B. Million",
+     "C. Millionen von",
+     "D. Million von"
+    ],
+    "ans": 0,
+    "why": "Million 在数词后作定语时用复数 Millionen，不加介词，表示“1940万千瓦”。"
+   },
+   {
+    "q": "Der Anteil der ___ an der Stromerzeugung ___ inzwischen über 30 Prozent.",
+    "opts": [
+     "A. Windenergie / beträgt",
+     "B. Windenergie / betragen",
+     "C. Windenenergie / beträgt",
+     "D. Windenergie / beträgt sich"
+    ],
+    "ans": 0,
+    "why": "Windenergie 拼写正确，beträgt 为第三人称单数，不加 sich。"
+   },
+   {
+    "q": "Die ___ erneuerbarer Energien in das Stromnetz stellt eine große Herausforderung dar.",
+    "opts": [
+     "A. Integration",
+     "B. Integrierung",
+     "C. Integrieren",
+     "D. Integriertheit"
+    ],
+    "ans": 0,
+    "why": "固定名词 Integration，表示“并网”。"
+   },
+   {
+    "q": "Die im vergangenen Jahr ___ Windkraftanlagen haben eine Gesamtleistung von 500 Megawatt.",
+    "opts": [
+     "A. installierten",
+     "B. installierte",
+     "C. installierter",
+     "D. installiert"
+    ],
+    "ans": 0,
+    "why": "过去分词 installiert 作定语，复数第一格加词尾 -en，表示“去年安装的风力发电设备”。"
+   },
+   {
+    "q": "Der Kanzler sprach von Zusagen in Höhe von insgesamt 800 Milliarden Euro. Welches Wort kann \"Zusagen\" ersetzen?",
+    "opts": [
+     "A. Versprechen",
+     "B. Absagen",
+     "C. Ankündigungen",
+     "D. Vereinbarungen"
+    ],
+    "ans": 0,
+    "why": "Zusagen 意为承诺，Versprechen 是承诺，可替换。"
+   },
+   {
+    "q": "Deutschland bietet Investoren Zugang ___ einem der weltweit größten Binnenmärkte.",
+    "opts": [
+     "A. zu",
+     "B. an",
+     "C. auf",
+     "D. in"
+    ],
+    "ans": 0,
+    "why": "Zugang zu etwas 固定搭配，表示“进入……的通道”。"
+   },
+   {
+    "q": "Der Gipfel ___ den Zweck, mehr Kapital nach Deutschland zu locken.",
+    "opts": [
+     "A. dient",
+     "B. verfolgt",
+     "C. hat",
+     "D. erfüllt"
+    ],
+    "ans": 1,
+    "why": "den Zweck verfolgen 是功能动词结构，意为“旨在”。"
+   },
+   {
+    "q": "Das Geld soll unter anderem in den Ausbau von Rechenzentren ___ .",
+    "opts": [
+     "A. fließen",
+     "B. fließt",
+     "C. geflossen",
+     "D. fließend"
+    ],
+    "ans": 0,
+    "why": "soll + 动词原形，表示“应该流入”。"
+   },
+   {
+    "q": "Merz nutzte den Gipfel, um die Stärken Deutschlands hervorzuheben. Welches Wort kann \"hervorzuheben\" ersetzen?",
+    "opts": [
+     "A. zu betonen",
+     "B. zu verbergen",
+     "C. zu kritisieren",
+     "D. zu ignorieren"
+    ],
+    "ans": 0,
+    "why": "hervorheben = betonen 强调。"
+   },
+   {
+    "q": "Die Unternehmen investieren ___ Milliardenhöhe in deutsche Standorte.",
+    "opts": [
+     "A. in",
+     "B. mit",
+     "C. von",
+     "D. auf"
+    ],
+    "ans": 0,
+    "why": "in Milliardenhöhe 固定搭配，表示“以十亿计”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte Leistung der Windkraftanlagen beträgt 19,4 ___ Kilowatt.",
+    "ans": "Millionen",
+    "hint": "百万",
+    "why": "Million 在数词后作定语时用复数 Millionen，不加介词，表示'1940万千瓦'。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer ___ an der Stromerzeugung steigt stetig.",
+    "ans": "Energien",
+    "hint": "能源（复数）",
+    "why": "erneuerbare Energien 是固定复数表达，表示可再生能源，不能误用单数 Energie。"
+   },
+   {
+    "q": "Die ___ der Windenergie in das Stromnetz erfordert erhebliche Investitionen.",
+    "ans": "Integration",
+    "hint": "并网，融合",
+    "why": "Integration 是名词，表示并网，与介词 in 搭配。"
+   },
+   {
+    "q": "Die im letzten Jahr ___ Anlagen haben eine Gesamtleistung von 500 Megawatt.",
+    "ans": "installierten",
+    "hint": "安装的（过去分词作定语）",
+    "why": "过去分词 installiert 作定语，复数第一格加词尾 -en，注意变位。"
+   },
+   {
+    "q": "Die Unternehmen haben Investitionszusagen in Milliardenhöhe ___.",
+    "ans": "angekündigt",
+    "hint": "宣布，承诺",
+    "why": "Investitionszusagen ankündigen 是常见搭配，表示宣布投资承诺。"
+   },
+   {
+    "q": "Deutschland bietet Investoren eine einzigartige Kombination aus industrieller Exzellenz, technologischer Innovation und ___ zu einem der weltweit größten Binnenmärkte.",
+    "ans": "Zugang",
+    "hint": "进入，通道",
+    "why": "Zugang zu etwas 固定搭配，表示'进入……的通道'。"
+   }
+  ]
+ },
+ "issue": 39
+}
