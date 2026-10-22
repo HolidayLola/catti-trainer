@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-22",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最要紧的短板是词汇量不足、数字与单位错译严重，汉译德无法成句。今天的材料虽为医学新闻，但刻意加入了能源环境专项练习，针对漏译和错译，要求先精读原文，逐词查证，尤其注意数字和固定搭配。具体建议：德译汉时遇到数字和单位务必换算准确，先写草稿再核对；汉译德时先梳理中文主干，避免漏译，并强制自己使用一次被动和一次长定语。",
+ "de2zh": {
+  "title": "Papst Leo braucht keine weitere Behandlung",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/papst-leo-lungenkrebs-100.html",
+  "text": "Erst vor wenigen Tagen war Leo XIV. wegen eines Karzinoms ein Teil seiner Lunge entfernt worden. Nun gibt es aus dem Vatikan gute Nachrichten: Der Tumor sei lokal begrenzt gewesen, eine weitere Therapie sei nicht nötig.\n\nPapst Leo muss sich seinen Ärzten zufolge nach seiner Lungenkrebs-Operation keiner weiteren Behandlung unterziehen. Das teilte der Vatikan am Abend mit.\n\nGewebeuntersuchungen hätten die Diagnose eines Lungenkarzinoms zwar bestätigt, erklärten der Chefchirurg Stefano Margaritora und der Leibarztes des Papstes, Luigi Carbone. Der Tumor sei aber lokal begrenzt geblieben. \"Eine anschließende onkologische Beurteilung hat bestätigt, dass keine weitere Therapie erforderlich ist.\"\n\nBeim Papst war vergangene Woche Dienstag der untere Lappen seines rechten Lungenflügels entfernt worden , wo sich ein bösartiger Tumor befand. Bereits am Samstag wurde er bereits wieder aus dem Krankenhaus entlassen. Tags darauf hielt er das Mittagsgebet auf dem Petersplatz und kündigte an, seine Amtsgeschäfte Schritt für Schritt wieder aufzunehmen.\n\nIm kommenden Monat ist für den Papst eine fast zweiwöchige Reise nach Südamerika geplant. Dabei will er auch Peru besuchen, wo er vor seiner Zeit im Vatikan viele Jahre als Missionar und Bischof tätig war."
+ },
+ "zh2de": {
+  "title": "中国卫生健康事业取得新进展",
+  "text": "近年来，中国坚持以人民健康为中心，全面推进健康中国建设。截至2025年底，全国医疗卫生机构总数达107.8万个，比上年增加1.2万个；全年新开工规模创历史新高。同时，绿色医疗理念加速落地，医疗机构碳排放强度持续下降，全国碳排放权交易市场活跃度明显提升，为实现碳达峰碳中和目标作出积极贡献。此外，国家持续加大基层医疗投入，远程医疗和人工智能辅助诊断等新技术被广泛应用，推动优质医疗资源下沉。专家指出，这些举措不仅提升了医疗服务可及性，也为全球卫生治理提供了中国方案。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die behandelnden Ärzte betonten, dass der Tumor örtlich ___ sei.",
+    "opts": [
+     "eingeschränkt",
+     "ausgeweitet",
+     "verbreitet",
+     "verschlimmert"
+    ],
+    "ans": 0,
+    "why": "同义词替换：eingeschränkt 与 begrenzt 同义，表示“局限的”，符合语境。"
+   },
+   {
+    "q": "Der Patient musste sich einer Operation ___, um den Tumor zu entfernen.",
+    "opts": [
+     "unterziehen",
+     "unterstellen",
+     "unterwerfen",
+     "unternehmen"
+    ],
+    "ans": 0,
+    "why": "固定搭配：sich einer Operation unterziehen 意为“接受手术”，其他动词不搭配。"
+   },
+   {
+    "q": "Die Ärzte ___ die Diagnose Lungenkrebs.",
+    "opts": [
+     "stellten",
+     "machten",
+     "taten",
+     "gaben"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：eine Diagnose stellen 是固定搭配，意为“作出诊断”。"
+   },
+   {
+    "q": "Die installierte Leistung ___ Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "opts": [
+     "an",
+     "von",
+     "für",
+     "mit"
+    ],
+    "ans": 1,
+    "why": "介词搭配：die Leistung von + Dativ 表示所属，意为“风力发电设备的装机容量”。"
+   },
+   {
+    "q": "Erneuerbare Energien werden auch als ___ Energien bezeichnet.",
+    "opts": [
+     "regenerative",
+     "fossile",
+     "konventionelle",
+     "nukleare"
+    ],
+    "ans": 0,
+    "why": "同义词替换：regenerative Energien 是 erneuerbare Energien 的同义表达，意为“可再生能源”。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das bestehende Stromnetz ist eine technische Herausforderung.",
+    "opts": [
+     "in",
+     "an",
+     "auf",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "介词搭配：Integration in + Akkusativ 表示“并入”，固定用法。"
+   },
+   {
+    "q": "Die Zahl der neu errichteten Anlagen stieg im Vergleich zum Vorjahr ___ 25 Prozent.",
+    "opts": [
+     "um",
+     "auf",
+     "mit",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "语法辨析：表示增长幅度用 um，增长到用 auf；此处指增长了25%，故用 um。"
+   },
+   {
+    "q": "Die Regierung will einen wichtigen Beitrag ___ Klimaschutz leisten.",
+    "opts": [
+     "zum",
+     "für",
+     "an",
+     "über"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：einen Beitrag zu etwas leisten，zu dem 缩写为 zum。"
+   },
+   {
+    "q": "Eine anschließende onkologische Beurteilung bestätigte den Befund. Das Wort „anschließend“ bedeutet hier ___.",
+    "opts": [
+     "nachfolgend",
+     "vorherig",
+     "gleichzeitig",
+     "sofortig"
+    ],
+    "ans": 0,
+    "why": "同义词替换：anschließend 意为“随后的”，与 nachfolgend 同义。"
+   },
+   {
+    "q": "Der Vatikan teilte mit, ___ keine weitere Therapie erforderlich sei.",
+    "opts": [
+     "dass",
+     "weil",
+     "ob",
+     "wenn"
+    ],
+    "ans": 0,
+    "why": "语法辨析：mitteilen 后接 dass 引导的宾语从句，表示“告知……”。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die ___ Leistung der Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "ans": "installierte",
+    "hint": "装机容量",
+    "why": "固定搭配：installierte Leistung（装机容量），源自学员此前错译 19.4 millionen Kwa，此处纠正数字表达与专业术语。"
+   },
+   {
+    "q": "Die neuen Projekte ___ einen wichtigen Beitrag zum Klimaschutz.",
+    "ans": "leisten",
+    "hint": "作出重要贡献",
+    "why": "Funktionsverbgefüge：einen Beitrag leisten（作出贡献），学员漏译过类似表述，需强化。"
+   },
+   {
+    "q": "Der Arzt ___ die Diagnose Lungenkrebs.",
+    "ans": "stellte",
+    "hint": "作出诊断",
+    "why": "名动搭配：eine Diagnose stellen（作出诊断），新闻中出现 die Diagnose bestätigen，此处换用 stellen。"
+   },
+   {
+    "q": "Der Patient muss sich einer Operation ___.",
+    "ans": "unterziehen",
+    "hint": "接受手术",
+    "why": "固定搭配：sich einer Operation unterziehen（接受手术），新闻中 gleichartig。"
+   },
+   {
+    "q": "Die Kohlenstoffemissionen sollen bis 2030 deutlich ___ werden.",
+    "ans": "reduziert",
+    "hint": "显著减少",
+    "why": "被动结构：reduziert werden，针对学员漏译/错译碳排放相关表述，并练习被动。"
+   },
+   {
+    "q": "Die Integration erneuerbarer Energien ___ das Stromnetz ist eine große Herausforderung.",
+    "ans": "in",
+    "hint": "并入电网",
+    "why": "介词搭配：Integration in + Akk（并入），学员曾错用 Mit der Integration，需纠正。"
+   }
+  ]
+ },
+ "issue": 40
+}
