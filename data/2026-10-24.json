@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-24",
+ "theme": "China-Themen",
+ "coach": "当前最要紧的短板是基础词汇拼写和数字单位表达混乱，导致德译汉错译、漏译严重，汉译德基本无法成句。今天的材料针对可再生能源领域，刻意强化数字、时间状语和被动结构，正是你的薄弱环节。建议：精读德语原文，逐句核对数字和单位，将固定搭配（如 bis Ende、im Laufe、einen Einschnitt darstellen）抄写并造句，翻译后务必回译检查是否漏译。",
+ "de2zh": {
+  "title": "Wirtschaft--People's Daily Online",
+  "source": "人民网德语版",
+  "url": "http://german.people.com.cn/209053/index.html",
+  "text": "Der deutsche „Superwahlmonat“ September ist vorüber, und die von Bundeskanzler Merz geführte CDU sieht sich mit einer tiefgreifenden politischen Fragmentierung konfrontiert. Die Wahlergebnisse gleichen einer Zäsur: In Sachsen-Anhalt halbierten sich die christdemokratischen Stimmenanteile nahezu; während die Partei bei der vorangegangenen Wahl noch 40 der 41 Wahlkreise direkt für sich entscheiden konnte, blieb sie dieses Mal gänzlich ohne Direktmandat.\nDas am Zusammenfluss des Jangtse und des Qingyi-Flusses gelegene Wuhu hat nicht nur die tief verwurzelte Kultur im Süden der Provinz Anhui bereichert, sondern auch eine blühende Industrie hervorgebracht.\n„Musik ist eine Sprache, die jeder versteht.“ Für den deutschen Organisten, Pädagogen und „Artist in Residence“ auf der Insel Gulangyu, Ludger Lohmann, ist dies kein abstraktes Konzept, sondern eine ganz konkrete Erfahrung, die er im Laufe seiner langjährigen Reisen zwischen Europa und China gesammelt hat.\nAm Abend des 23. Mai fand der erste Spieltag der regionalen Fußballliga für den Nordosten Chinas („Dongbei Super League“) mit parallelen Auftaktspielen in Shenyang, Changchun, Harbin und Hohhot statt."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展成效显著",
+  "text": "截至2025年底，中国可再生能源装机容量达到19.4亿千瓦，同比增长12.3%。全年新开工规模创历史新高，其中风电和光伏发电新增装机占全国新增装机的比重超过80%。全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。近年来，中国在可再生能源领域取得的显著成就，得到了国际社会的广泛认可。这些成绩的取得，得益于一系列政策措施的落实，也为全球绿色低碳转型作出了积极贡献。下一步，中国将继续完善能源绿色低碳转型体制机制，加快构建清洁低碳、安全高效的能源体系。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die neu installierte Leistung beträgt 19,4 ___.",
+    "opts": [
+     "Millionen Kilowatt",
+     "Million Kilowatt",
+     "Millionen Kilowattstunden",
+     "Millionen kW"
+    ],
+    "ans": 0,
+    "why": "数字单位表达：Millionen 用复数，Kilowatt 为功率单位；Kwa 是错误拼写，Kilowattstunden 是能量单位。"
+   },
+   {
+    "q": "___ Ende 2025 soll die Anlage in Betrieb gehen.",
+    "opts": [
+     "Bis zum",
+     "Bis",
+     "Zum",
+     "Am"
+    ],
+    "ans": 1,
+    "why": "时间介词搭配：bis 后直接加时间（如 Ende 2025），无需冠词；bis zum 用于 bis zum Ende des Jahres 等结构。"
+   },
+   {
+    "q": "Der Ausbau der ___ schreitet rasch voran.",
+    "opts": [
+     "Wind Energie",
+     "Windenergie",
+     "Windkraftenergie",
+     "Windenergieanlage"
+    ],
+    "ans": 1,
+    "why": "复合词拼写：Windenergie 为固定复合词，不可分开；Windenergieanlage 指风力发电设备。"
+   },
+   {
+    "q": "Die Integration ___ in das Stromnetz ist eine technische Herausforderung.",
+    "opts": [
+     "erneuerbarer Energie",
+     "erneuerbaren Energien",
+     "erneuerbarer Energien",
+     "erneuerbare Energien"
+    ],
+    "ans": 2,
+    "why": "语法：Integration 后接 Genitiv，erneuerbare Energien 的 Genitiv Plural 为 erneuerbarer Energien。"
+   },
+   {
+    "q": "Die Partei sieht sich mit einer tiefgreifenden politischen Fragmentierung konfrontiert. Das Wort tiefgreifend bedeutet hier ___.",
+    "opts": [
+     "oberflächlich",
+     "tiefgehend",
+     "geringfügig",
+     "kurzfristig"
+    ],
+    "ans": 1,
+    "why": "同义词替换：tiefgreifend = tief gehend, weitreichend，意为深刻的、深远的。"
+   },
+   {
+    "q": "Die Stadt liegt ___ Zusammenfluss zweier Flüsse.",
+    "opts": [
+     "am",
+     "im",
+     "beim",
+     "auf dem"
+    ],
+    "ans": 0,
+    "why": "介词搭配：am Zusammenfluss (an dem Zusammenfluss)，位于河流交汇处。"
+   },
+   {
+    "q": "Das Wahlergebnis ___ einen tiefen Einschnitt in der politischen Landschaft dar.",
+    "opts": [
+     "stellt",
+     "macht",
+     "gibt",
+     "leistet"
+    ],
+    "ans": 0,
+    "why": "功能动词结构：einen Einschnitt darstellen，意为构成一个转折点。"
+   },
+   {
+    "q": "___ Laufe seiner Reisen hat er viel erlebt.",
+    "opts": [
+     "Im",
+     "Am",
+     "Beim",
+     "Zum"
+    ],
+    "ans": 0,
+    "why": "固定搭配：im Laufe + Genitiv，意为在……过程中。"
+   },
+   {
+    "q": "Die Auftaktspiele der Liga fanden in mehreren Städten statt. Auftaktspiele bedeutet ___.",
+    "opts": [
+     "Endspiele",
+     "Eröffnungsspiele",
+     "Wiederholungsspiele",
+     "Freundschaftsspiele"
+    ],
+    "ans": 1,
+    "why": "同义词替换：Auftaktspiele = Eröffnungsspiele，开幕赛。"
+   },
+   {
+    "q": "Die vorangegangene Wahl ___ von der Partei gewonnen.",
+    "opts": [
+     "wurde",
+     "hat",
+     "ist",
+     "wird"
+    ],
+    "ans": 0,
+    "why": "语法：被动过去时，werden + Partizip II，主语是 die Wahl，所以 wurde gewonnen。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte Leistung erneuerbarer Energien beträgt 19,4 Millionen ___.",
+    "ans": "Kilowatt",
+    "hint": "千瓦",
+    "why": "计量单位搭配：Leistung 用 Kilowatt，注意单数；Millionen 后接名词通常用单数。"
+   },
+   {
+    "q": "Der Ausbau der ___ soll bis 2030 weiter vorangetrieben werden.",
+    "ans": "Windenergie",
+    "hint": "风能",
+    "why": "复合词：Windenergie 为固定复合词，不能写成 Wind Energie。"
+   },
+   {
+    "q": "Die Integration erneuerbarer ___ in das Stromnetz erfordert Investitionen.",
+    "ans": "Energien",
+    "hint": "可再生能源（复数）",
+    "why": "Genitiv Plural：erneuerbare Energien 在 Integration 后作定语，需变为 erneuerbarer Energien，空格填 Energien，前面有 erneuerbarer。"
+   },
+   {
+    "q": "Bis ___ 2025 soll das Projekt abgeschlossen sein.",
+    "ans": "Ende",
+    "hint": "到2025年底",
+    "why": "固定表达：bis Ende 2025，Ende 首字母大写，无冠词。"
+   },
+   {
+    "q": "Die Wahlergebnisse ___ einen tiefen Einschnitt in der politischen Landschaft dar.",
+    "ans": "stellen",
+    "hint": "构成/意味着",
+    "why": "Funktionsverbgefüge: einen Einschnitt darstellen，动词为 stellen，与 dar 构成框形结构。"
+   },
+   {
+    "q": "Die Stadt liegt am ___ des Jangtse und des Qingyi-Flusses.",
+    "ans": "Zusammenfluss",
+    "hint": "交汇处",
+    "why": "介词搭配：am Zusammenfluss，固定搭配，表示位于两河交汇处。"
+   }
+  ]
+ },
+ "issue": 41
+}
