@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-25",
+ "theme": "Panorama",
+ "coach": "你目前最要紧的短板是基础词汇和语法掌握不牢，导致大量错译、漏译，尤其是数字、动词变位和介词搭配。今天的德译汉材料包含较多数字和具体事件描述，请逐句精读，先标出所有数字和被动结构，再动手翻译，务必做到不漏译。汉译德段落中刻意埋入了数字和被动句，翻译时先写出数字的德语表达（如 42,7万 = 427.000），注意单位搭配。建议今天完成后，把文中所有数字和动词变位单独抄写并朗读，强化记忆。",
+ "de2zh": {
+  "title": "Hunderttausende bei Demos - neue Unruhen",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/frankreich-vorbereitung-ausschreitungen-100.html",
+  "text": "Eine Woche nach den schweren Ausschreitungen in Frankreich haben heute landesweit mehr als 400.000 Menschen demonstriert. Nach einem friedlichen Beginn kam es am Abend zu Zusammenstößen mit der Polizei. Fast 1.000 Menschen wurden festgenommen. Nach Angaben des französischen Innenministeriums haben heute rund 410.000 Menschen an landesweiten Protesten teilgenommen. 110.000 davon demonstrierten in der Hauptstadt Paris. Der von Gewerkschaften organisierte Aufmarsch war zuvor von den Behörden an den Rand der Stadt verlegt worden. Der Gewerkschaftsverband CGT sprach Medienberichten zufolge landesweit von etwa 800.000 Teilnehmern. Während zunächst keine größeren Zwischenfälle gemeldet wurden, kam es am späten Nachmittag und Abend zu ersten Unruhen. Bilder aus Paris zeigten Wolken von Tränengas sowie den Einsatz von Wasserwerfern, in Fernsehaufnahmen waren Knallgeräusche zu hören. Auch in Städten wie Lyon, Bordeaux und Marseille wurde Tränengas eingesetzt. Medien berichteten von Zusammenstößen mit der Polizei. In der Stadt Nantes im Nordwesten Frankreichs seien Beschädigungen und Plünderungen in einem Geschäft gemeldet worden, teilte die zuständige Präfektur mit. Die Sicherheitskräfte hätten sechs Personen festgenommen. Auch andernorts wurden Berichten zufolge Plünderungen beobachtet. In Toulouse erlitt ein Mann laut Medien bei Zusammenstößen mit der Polizei schwere Verletzungen an der Hand."
+ },
+ "zh2de": {
+  "title": "中国加强社会治安综合治理",
+  "text": "今年以来，中国公安机关坚持以人民为中心的发展思想，持续开展社会治安整治专项行动。全国共侦破各类刑事案件42.7万起，同比下降8.3%；查处治安案件185.6万起，其中多发性侵财案件得到有效遏制。人民群众的安全感和满意度明显提升，全国群众安全感调查结果显示，2024年安全感达到98.2%，比上一年提高0.5个百分点。针对电信网络诈骗等新型犯罪，有关部门加强协同联动，一批重大案件被成功侦破，涉案资金被依法冻结。中国政府将继续完善社会治安防控体系，推动更高水平的平安中国建设，为经济社会发展创造安全稳定的社会环境。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windenergie beträgt inzwischen 19,4 ___ Kilowatt.",
+    "opts": [
+     "Millionen",
+     "Million",
+     "Millionen von",
+     "Millionen der"
+    ],
+    "ans": 0,
+    "why": "考点：大数字与计量单位搭配。19,4 Millionen Kilowatt 中 Millionen 用复数，单位 Kilowatt 不变。学员曾将 19.4 millionen Kwa 错写成不完整形式。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien ___ inzwischen über 50 Prozent.",
+    "opts": [
+     "beträgt",
+     "betraegt",
+     "betragt",
+     "beträgt sich"
+    ],
+    "ans": 0,
+    "why": "考点：betragen 的现在时第三人称单数变位为 beträgt，字母 ä 不能写成 ae；且 betragen 为及物动词，不加 sich。学员曾写 'betraegt'。"
+   },
+   {
+    "q": "Die Integration ___ erneuerbarer Energien in das Stromnetz erfordert neue Speichertechnologien.",
+    "opts": [
+     "von",
+     "aus",
+     "in",
+     "durch"
+    ],
+    "ans": 0,
+    "why": "考点：名词 Integration 表示“……的并入”时，后接 von + Dativ。学员在翻译中漏掉或错用介词。"
+   },
+   {
+    "q": "Alle Anlagen, ___ installierte Leistung über 100 Kilowatt liegt, müssen registriert werden.",
+    "opts": [
+     "deren",
+     "dessen",
+     "die",
+     "denen"
+    ],
+    "ans": 0,
+    "why": "考点：关系从句中表示所属关系，Anlagen 为复数，用 deren。学员曾写出 'die installiert e' 残缺结构，混淆关系代词。"
+   },
+   {
+    "q": "Die Polizei ___ fast 1.000 Menschen fest.",
+    "opts": [
+     "nahm",
+     "machte",
+     "hielt",
+     "stellte"
+    ],
+    "ans": 0,
+    "why": "考点：可分动词 festnehmen 的过去时形式 nahm ... fest。festnehmen 表示逮捕，与新闻主题相关。"
+   },
+   {
+    "q": "In mehreren Städten wurden Versammlungsverbote ___.",
+    "opts": [
+     "erlassen",
+     "gegeben",
+     "gemacht",
+     "verordnet"
+    ],
+    "ans": 0,
+    "why": "考点：功能动词结构 ein Verbot erlassen（颁布禁令）。erlassen 为固定搭配，其他选项不符合搭配习惯。"
+   },
+   {
+    "q": "Die Menschen gingen ___ die hohen Lebenshaltungskosten auf die Straße.",
+    "opts": [
+     "gegen",
+     "für",
+     "über",
+     "auf"
+    ],
+    "ans": 0,
+    "why": "考点：介词 gegen 表示“反对”，与 demonstrieren/auf die Straße gehen 搭配。此处需用 gegen。"
+   },
+   {
+    "q": "In der Stadt Nantes ___ Plünderungen gemeldet.",
+    "opts": [
+     "wurden",
+     "waren",
+     "haben",
+     "sind"
+    ],
+    "ans": 0,
+    "why": "考点：被动语态过去时：wurden + Partizip II。主语 Plünderungen 为复数，助动词用 wurden。"
+   },
+   {
+    "q": "Die genehmigten Protestzüge seien zunächst gut ___, sagte der Minister.",
+    "opts": [
+     "verlaufen",
+     "gegangen",
+     "gefahren",
+     "gelaufen"
+    ],
+    "ans": 0,
+    "why": "考点：固定搭配 gut verlaufen（进展顺利）。verlaufen 表示过程进行，其他动词不搭配。"
+   },
+   {
+    "q": "Die Ausgangssperren gelten ___ zum Ende der Woche.",
+    "opts": [
+     "bis",
+     "bis zu",
+     "bis an",
+     "bis auf"
+    ],
+    "ans": 0,
+    "why": "考点：时间表达 bis zum Ende + Genitiv，bis 后直接加 zum，不能加 zu。学员曾写 'Bis zum Ende von 2025, die installiert e'，对 bis 用法掌握不牢。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Anlage hat eine Leistung von 19,4 ___ Kilowatt.",
+    "ans": "Millionen",
+    "hint": "19.4百万千瓦",
+    "why": "德语中 19,4 Millionen Kilowatt，Millionen 用复数，表示数量。学员曾将数字和单位写错。"
+   },
+   {
+    "q": "Die Integration ___ erneuerbaren Energien in das Netz ist eine technische Herausforderung.",
+    "ans": "von",
+    "hint": "可再生能源的并网",
+    "why": "名词 Integration 后接 von 表示所属，固定搭配 die Integration von etwas in etwas。"
+   },
+   {
+    "q": "Der Anteil der Windenergie ___ inzwischen 30 Prozent.",
+    "ans": "beträgt",
+    "hint": "占比达到30%",
+    "why": "动词 betragen 第三人称单数现在时为 beträgt，注意 ä 的拼写。"
+   },
+   {
+    "q": "Die Polizei hat mehrere Personen ___.",
+    "ans": "festgenommen",
+    "hint": "逮捕了数人",
+    "why": "可分动词 festnehmen 的过去分词 festgenommen，与 haben 构成完成时。"
+   },
+   {
+    "q": "In mehreren Städten wurden Versammlungsverbote ___.",
+    "ans": "erlassen",
+    "hint": "颁布集会禁令",
+    "why": "功能动词结构 ein Verbot erlassen，erlassen 意为颁布、发布。"
+   },
+   {
+    "q": "Die Menschen protestierten ___ die hohen Lebenshaltungskosten.",
+    "ans": "gegen",
+    "hint": "抗议高昂的生活成本",
+    "why": "protestieren gegen etwas 固定介词搭配，表示反对。"
+   }
+  ]
+ },
+ "issue": 42
+}
