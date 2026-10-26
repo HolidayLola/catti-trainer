@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-26",
+ "theme": "Politik",
+ "coach": "当前最要紧的短板是错译和漏译严重，基础语法和词汇不过关，尤其数字和单位表达混乱。今天的材料聚焦能源政策与经济议题，包含大量数字、固定搭配和虚拟式，正好针对你的弱点。建议练习时先逐句划出主谓宾，再处理定语和数字，确保每个数字和单位都准确转换，不要跳译或漏译。汉译德时先写简单句，保证语法正确，再逐步增加修饰成分。",
+ "de2zh": {
+  "title": "Union und SPD bei Stromsteuer-Debatte weiter weit auseinander",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/bericht-aus-berlin-stromsteuer-100.html",
+  "text": "Anders sieht dies allerdings Bundesfinanzminister und SPD-Chef Lars Klingbeil. Auch er ist zwar grundsätzlich für eine solche Entlastung, fragt aber, wie das gegenfinanziert werden soll . Denn dem Haushalt würden durch die Steuersenkung am Ende wohl bis zu sechs Milliarden Euro fehlen. \"Wir können nichts versprechen, was man am Ende nicht halten kann\", stellt Klingbeil klar.\nIm Bericht aus Berlin macht Sachsens Ministerpräsident Michael Kretschmer die schwarz-rote Koalition im Bund für das Finanzierungsdilemma verantwortlich: \"Man sieht eben, wie schwierig das ist, wenn man den Anfang einer Regierungszeit verstolpert. Das ist passiert\", sagte der CDU-Politiker. Die großen Themen wie etwa die Deregulierung seien nicht angegangen worden - daher brauche man nun so viel Geld.\nKretschmer verwies auf die gemeinsame Forderung der Ministerpräsidenten nach günstigerem Strom. \"Wir haben gesagt: Wenn wir wirtschaftliche Leistungsfähigkeit erhalten wollen, muss dieser Schritt kommen.\" Daher müsse man jetzt zum Beispiel über den Zertifikatehandel oder über die von Wirtschaftsministerin Katherina Reiche im sogenannten Netzpaket vorgeschlagenen Maßnahmen reden. Deutschland verliere sonst den Anschluss.\nDafür brauche es einen parteiübergreifenden Ansatz. \"Jeder muss etwas geben.\" Aber jeder müsse dann auch etwas zurückbekommen. Die Bundesregierung täte gut daran, auf die Ländervertreter zu hören. \"Wir haben in vielen Punkten immer wieder früher erkannt, was notwendig ist. Wir haben Recht behalten\", so Kretschmer. Die Steuermehreinnahmen 2027 gäben Finanzminister Klingbeil auch den notwendigen Spielraum für die Senkung der Stromsteuer."
+ },
+ "zh2de": {
+  "title": "中国持续推进能源价格改革与减税降费",
+  "text": "国家发展改革委日前表示，2027年我国将实施新一轮降成本措施，重点降低企业用能成本。其中，工商业电价在去年基础上平均下调0.05元/千瓦时，预计全年为企业减负超过6000亿元。同时，全国碳排放权交易市场将扩大覆盖行业范围，碳排放强度持续下降，助力实现碳达峰碳中和目标。为支持小微企业和个体工商户发展，现行税收优惠政策将延长至2028年底，预计每年减税规模达1.2万亿元。此外，政府将加强对高耗能行业的节能监察，推动绿色低碳转型。上述政策措施的落实，将为稳定宏观经济大盘、促进高质量发展提供有力支撑。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windenergieanlagen hat sich in den letzten Jahren verdreifacht. Was bedeutet \"installierte Leistung\"?",
+    "opts": [
+     "装机容量",
+     "安装功率",
+     "设备数量",
+     "发电量"
+    ],
+    "ans": 0,
+    "why": "能源术语，installierte Leistung 指装机容量，是固定表达。"
+   },
+   {
+    "q": "Die Stromerzeugung aus erneuerbaren Energien beträgt 19,4 Millionen Kilowattstunden. Welche Schreibweise ist korrekt?",
+    "opts": [
+     "19,4 Mio. kWh",
+     "19.400 kWh",
+     "19,4 GWh",
+     "194.000 MWh"
+    ],
+    "ans": 0,
+    "why": "数字和单位表达，Millionen Kilowattstunden 缩写为 Mio. kWh。"
+   },
+   {
+    "q": "Die Regierung will die Bürger entlasten. Welches Wort ist ein Synonym für \"entlasten\"?",
+    "opts": [
+     "belasten",
+     "befreien",
+     "erleichtern",
+     "unterstützen"
+    ],
+    "ans": 2,
+    "why": "entlasten 意为减轻负担，同义词 erleichtern。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien ___ Strommix ist deutlich gestiegen.",
+    "opts": [
+     "am",
+     "im",
+     "beim",
+     "zum"
+    ],
+    "ans": 0,
+    "why": "固定搭配 Anteil an etw. (Dativ)，am Strommix。"
+   },
+   {
+    "q": "Die Koalition streitet ___ die Finanzierung der Stromsteuersenkung.",
+    "opts": [
+     "über",
+     "um",
+     "für",
+     "gegen"
+    ],
+    "ans": 0,
+    "why": "streiten über + Akk. 表示就某事争论。"
+   },
+   {
+    "q": "Die Steuersenkung führt ___ Mindereinnahmen von sechs Milliarden Euro.",
+    "opts": [
+     "zu",
+     "auf",
+     "für",
+     "bei"
+    ],
+    "ans": 0,
+    "why": "führen zu + Dativ 是固定搭配，导致。"
+   },
+   {
+    "q": "Die Parteien haben sich für eine Senkung der Stromsteuer ___.",
+    "opts": [
+     "ausgesprochen",
+     "gesprochen",
+     "entschieden",
+     "gekämpft"
+    ],
+    "ans": 0,
+    "why": "sich für etw. aussprechen 表示赞成某事。"
+   },
+   {
+    "q": "Der Ministerpräsident ___ die Koalition für das Finanzierungsdilemma verantwortlich.",
+    "opts": [
+     "macht",
+     "stellt",
+     "hält",
+     "erklärt"
+    ],
+    "ans": 0,
+    "why": "jdn. für etw. verantwortlich machen 是功能动词结构。"
+   },
+   {
+    "q": "Die von der Regierung ___ Maßnahmen zur Senkung der Stromsteuer sind umstritten.",
+    "opts": [
+     "vorschlagen",
+     "vorgeschlagenen",
+     "vorschlagenden",
+     "zu vorschlagen"
+    ],
+    "ans": 1,
+    "why": "第二分词作定语，vorgeschlagenen 修饰 Maßnahmen。"
+   },
+   {
+    "q": "Die Steuermehreinnahmen 2027 ___ den notwendigen Spielraum für die Senkung der Stromsteuer.",
+    "opts": [
+     "geben",
+     "gäben",
+     "gab",
+     "gibt"
+    ],
+    "ans": 1,
+    "why": "虚拟式 gäben 表示可能性，与新闻原文一致。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die installierte ___ der Windenergieanlagen beträgt 3 Gigawatt.",
+    "ans": "Leistung",
+    "hint": "装机容量",
+    "why": "固定搭配 installierte Leistung。"
+   },
+   {
+    "q": "Die Stromerzeugung aus erneuerbaren Energien erreichte 19,4 Millionen ___.",
+    "ans": "Kilowattstunden",
+    "hint": "千瓦时",
+    "why": "单位搭配，Stromerzeugung in Kilowattstunden。"
+   },
+   {
+    "q": "Die Regierung plant eine Senkung der ___, um Unternehmen zu entlasten.",
+    "ans": "Stromsteuer",
+    "hint": "电力税",
+    "why": "名词搭配，Senkung der Stromsteuer。"
+   },
+   {
+    "q": "Die Opposition fordert eine ___ der Stromsteuer über eine Übergewinnsteuer.",
+    "ans": "Gegenfinanzierung",
+    "hint": "融资/资金筹措",
+    "why": "动词 gegenfinanzieren 的名词形式，固定搭配。"
+   },
+   {
+    "q": "Die schwarz-rote Koalition muss einen parteiübergreifenden ___ finden.",
+    "ans": "Ansatz",
+    "hint": "方案/方法",
+    "why": "固定搭配 einen Ansatz finden。"
+   },
+   {
+    "q": "Der Minister machte die Koalition für das Finanzierungsdilemma ___.",
+    "ans": "verantwortlich",
+    "hint": "负有责任的",
+    "why": "功能动词结构 jdn. für etw. verantwortlich machen。"
+   }
+  ]
+ },
+ "issue": 43
+}
