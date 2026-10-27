@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-27",
+ "theme": "Wirtschaft",
+ "coach": "当前最要紧的短板是基础语法与数字表达：德译汉漏译、错译严重，汉译德几乎无法成句，尤其数字单位（如 Millionen/Kilowatt）和分词定语（installierte）反复出错。今天的材料聚焦经济新闻，重点练数字转换、功能动词和关系从句。建议先逐句朗读 passage 段，标出所有数字、单位、功能动词，再动笔翻译；汉译德时先列出关键数字和动词原形，检查时态、变位及介词搭配。",
+ "de2zh": {
+  "title": "Von \"erheblichem Störgefühl\" bis Rücktrittsforderung",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/audi-kritik-doellner-trump-100.html",
+  "text": "Der baden-württembergische Ministerpräsident Cem Özdemir sagte, dass sich der Audi-Chef für den Wahlkampf des US-Präsidenten einspannen lasse, hinterlasse bei ihm ein \"erhebliches Störgefühl\". In Baden-Württemberg liegt das Audi-Werk Neckarsulm, das als gefährdet gilt. \"Wer viel Geld in Georgia investiert, muss auch sagen, wie es in Neckarsulm weitergehen kann\", so der Grünen-Politiker Özdemir.\nDöllner war am Samstag bei einer Wahlkampfveranstaltung der US-Republikaner an der Seite von Präsident Donald Trump aufgetreten. Die VW-Tochter will in Georgia ihr erstes Werk in den USA bauen, die Investition soll 4,2 Milliarden Dollar (3,6 Milliarden Euro) betragen. Laut Unternehmen werden etwa 4.500 Arbeitsplätze geschaffen.\nEine Audi-Sprecherin erklärte, eine Delegation von Audi sei in Georgia gewesen, um die Gespräche und Verhandlungen über das geplante Werk weiter voranzubringen. Im Rahmen dieser Gespräche sei das Unternehmen gebeten worden, die Pläne gemeinsam mit dem US-Präsidenten vorzustellen.\nDie Entscheidung, dieser Einladung zu folgen, sei im Interesse des Unternehmens getroffen worden. \"Gleichzeitig sehen wir, dass der Rahmen der Ankündigung als politisches Signal wahrgenommen wurde. Das nehmen wir sehr ernst.\""
+ },
+ "zh2de": {
+  "title": "我国新能源汽车产业保持高速增长",
+  "text": "2024年，我国新能源汽车产销量分别达到1288.8万辆和1286.6万辆，同比分别增长34.4%和35.5%，连续十年位居全球第一。新能源汽车出口量首次突破200万辆，同比增长67.1%，成为拉动外贸增长的重要力量。与此同时，动力电池、驱动电机等关键零部件企业加快海外布局，在欧洲、东南亚等地投资建厂。据工业和信息化部统计，截至2024年底，全国已累计建成充电基础设施超过1200万台，为新能源汽车推广提供了有力保障。从企业看，比亚迪、蔚来、小鹏等品牌加快国际化步伐，多款车型在欧洲市场获得认可。国务院办公厅日前印发《新能源汽车产业发展规划（2025—2030年）》，提出到2030年新能源汽车销量占比达到40%以上。专家指出，新能源汽车产业的快速发展不仅带动了上下游产业链协同进步，也为实现碳达峰、碳中和目标作出了积极贡献。下一步，有关部门将继续完善政策体系，支持企业技术创新和国际合作，推动新能源汽车产业高质量发展。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die Audi-Sprecherin erklärte, das Unternehmen stelle die konzerneigenen Verhaltensrichtlinien nicht ______.",
+    "opts": [
+     "in Frage",
+     "in Zweifel",
+     "zur Debatte",
+     "auf die Probe"
+    ],
+    "ans": 0,
+    "why": "固定结构 etw. in Frage stellen（对某事提出质疑）。此处表示奥迪不质疑自己的行为准则，其他选项搭配不当。"
+   },
+   {
+    "q": "Die Kritik ______ dem Auftritt von Audi-Chef Döllner reißt nicht ab.",
+    "opts": [
+     "an",
+     "über",
+     "gegen",
+     "zu"
+    ],
+    "ans": 0,
+    "why": "Kritik an etw./jdm. üben 是固定搭配，an 表示批评的对象。其他介词不符合德语习惯。"
+   },
+   {
+    "q": "Die Entscheidung, der Einladung zu folgen, sei im Interesse des Unternehmens getroffen worden. Was bedeutet 'im Interesse' hier?",
+    "opts": [
+     "zum Vorteil",
+     "gegen den Willen",
+     "ohne Bedeutung",
+     "aus Zufall"
+    ],
+    "ans": 0,
+    "why": "im Interesse + Gen. 表示“符合……的利益”，相当于 zum Vorteil。其他选项语义相反或无关。"
+   },
+   {
+    "q": "Die ______ Leistung der neuen Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "opts": [
+     "installierte",
+     "installierende",
+     "zu installierende",
+     "installiert gewesene"
+    ],
+    "ans": 0,
+    "why": "installiert 的过去分词作形容词，表示“已安装的”，die installierte Leistung 为固定术语，意为“装机容量”。其他形式不符合德语分词用法。"
+   },
+   {
+    "q": "Die Windenergieanlagen haben eine Gesamtleistung von 19,4 Millionen ______.",
+    "opts": [
+     "Kilowatt",
+     "Kilowatts",
+     "Kilowatten",
+     "Kilowattstunden"
+    ],
+    "ans": 0,
+    "why": "Kilowatt 是功率单位，复数形式不变；Kilowattstunden 是能量单位，此处指功率，故用 Kilowatt。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix ist von 40 Prozent ______ 45 Prozent gestiegen.",
+    "opts": [
+     "auf",
+     "um",
+     "über",
+     "bis"
+    ],
+    "ans": 0,
+    "why": "von ... auf ... steigen 表示从某值上升到某值，auf 引出终点值；um 表示增加幅度，此处有 von，故用 auf。"
+   },
+   {
+    "q": "Die Bundesregierung will den Ausbau der erneuerbaren Energien weiter ______.",
+    "opts": [
+     "vorantreiben",
+     "voranbringen",
+     "vornehmen",
+     "durchführen"
+    ],
+    "ans": 0,
+    "why": "den Ausbau vorantreiben 是常见动宾搭配，意为“推进扩建”；voranbringen 虽可，但不如 vorantreiben 常用且固定。"
+   },
+   {
+    "q": "Die Investition, ______ 4,2 Milliarden Dollar beträgt, soll in Georgia getätigt werden.",
+    "opts": [
+     "die",
+     "der",
+     "das",
+     "den"
+    ],
+    "ans": 0,
+    "why": "关系代词指代 die Investition，在从句中作主语，故用第一格 die。此题针对学员关系从句易错。"
+   },
+   {
+    "q": "Laut Unternehmen werden etwa 4.500 Arbeitsplätze ______.",
+    "opts": [
+     "geschaffen",
+     "gemacht",
+     "getan",
+     "geleistet"
+    ],
+    "ans": 0,
+    "why": "Arbeitsplätze schaffen 是固定搭配，意为“创造就业岗位”。其他动词不与 Arbeitsplätze 搭配。"
+   },
+   {
+    "q": "SPD-Generalsekretär Klüssendorf forderte Konsequenzen ______ dem Mutterkonzern VW.",
+    "opts": [
+     "von",
+     "für",
+     "gegen",
+     "an"
+    ],
+    "ans": 0,
+    "why": "Konsequenzen von jdm. fordern 表示“要求某人承担后果”，von 引出被要求方。其他介词不适用。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Das Unternehmen stellt die Verhaltensrichtlinien nicht ______ ______.",
+    "ans": "in Frage",
+    "hint": "对……提出质疑",
+    "why": "etw. in Frage stellen 是固定功能动词结构，意为质疑。注意三格形式 in Frage。"
+   },
+   {
+    "q": "Die Audi-Sprecherin erklärte, man nehme die Kritik sehr ______.",
+    "ans": "ernst",
+    "hint": "认真对待",
+    "why": "etw. ernst nehmen 为固定搭配，意为认真对待某事。"
+   },
+   {
+    "q": "Die Investition soll 4,2 Milliarden Dollar ______.",
+    "ans": "betragen",
+    "hint": "总计为",
+    "why": "betragen 表示金额/数量总计为，是数据表达的常用动词。"
+   },
+   {
+    "q": "Die ______ Leistung der Windkraftanlagen beträgt 19,4 Millionen Kilowatt.",
+    "ans": "installierte",
+    "hint": "已安装的（装机）",
+    "why": "installierte Leistung 为专业术语，指装机容量。installiert 是过去分词作形容词。"
+   },
+   {
+    "q": "Der Anteil erneuerbarer Energien am Strommix ist auf 45 Prozent ______.",
+    "ans": "gestiegen",
+    "hint": "上升到",
+    "why": "auf ... Prozent steigen 表示上升到某百分比；steigen 的过去分词 gestiegen。"
+   },
+   {
+    "q": "Die Regierung will den Ausbau der erneuerbaren Energien weiter ______.",
+    "ans": "vorantreiben",
+    "hint": "推进",
+    "why": "den Ausbau vorantreiben 是固定动宾搭配，意为推进扩建。"
+   }
+  ]
+ },
+ "issue": 44
+}
