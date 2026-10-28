@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "theme": "Gesellschaft",
+ "coach": "你目前的短板集中在数字、被动句和分词定语的准确理解与转换上，汉译德几乎零分说明基础语法和词汇运用有严重漏洞。今天的材料包含大量数字、被动和分词结构，请逐句划出这些成分并核对翻译，尤其注意不要漏译。具体建议：德译汉时先标出所有数字、被动句和分词定语，译后回查；汉译德时先写简单句再合并，确保每个信息点都译出，再润色长句。",
+ "de2zh": {
+  "title": "Atommüll-Endlager - weitere Bundesländer sind raus",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/inland/innenpolitik/endlagersuche-atommuell-100.html",
+  "text": "Die Suche nach einem Endlager für den hochradioaktiven Atommüll in Deutschland wird konkreter. Die zuständigen Fachleute haben die geeigneten Gebiete weiter eingegrenzt - auf weniger als fünf Prozent der Landesfläche.\nAuf der Suche nach einem Endlager für den Müll aus deutschen Atomkraftwerken haben die zuständigen Fachleute die deutsche Landesfläche auf nun weniger als fünf Prozent eingegrenzt. In diesen Gebieten hält die Bundesgesellschaft für Endlagerung (BGE) laut einer Pressemitteilung die geologischen Bedingungen grundsätzlich für geeignet.\nDamit ist nun die gesamte Landesfläche in Bearbeitung oder bewertet. Die Bundesländer Rheinland-Pfalz, Hessen, Berlin, Sachsen, Hamburg und das Saarland sind dabei nicht mehr Teil der laufenden Suche. Zunächst hatten Nachrichtenagenturen Hamburg nicht gelistet. Ein Pressesprecher der Behörde bestätigte jedoch inzwischen, dass Hamburg nicht mehr in Betracht gezogen wird. Das letzte Wort für die Auswahl des Standortes hat aber der Bundestag.\n2020 hatte die bundeseigene Gesellschaft zunächst in einem Bericht 90 solcher Gebiete ausgewiesen, bei denen eine weitere Prüfung lohnen könnte. Dies waren knapp 54 Prozent der Fläche Deutschlands.\nDas Saarland war den Angaben zufolge bereits 2020 herausgefallen, Rheinland-Pfalz schied 2025 aus, in diesem Jahr neu aussortiert wurden Sachsen, Hamburg, Berlin und Hessen.\nDie übrigen Gebiete werden im weiteren Verfahren weiter eingegrenzt. Die Ergebnisse werden auf der Internetseite der BGE als interaktive Karte veröffentlicht."
+ },
+ "zh2de": {
+  "title": "中国加快养老服务体系建设",
+  "text": "截至2025年底，中国60岁及以上老年人口已达3.1亿，占总人口的22%。为应对人口老龄化，国务院印发《关于加快发展养老服务的意见》，提出到2030年，养老服务床位总量达到1000万张以上，护理型床位占比不低于60%。各地通过新建、改建、扩建等方式，增加普惠性养老服务供给，同时对符合条件的养老机构给予税费减免和运营补贴。此外，长期护理保险制度试点已扩大至49个城市，累计惠及超过1.8亿人。全国统一的老年人能力评估标准和照护需求认定办法正在加紧制定，预计明年出台。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die ständige Reserve soll in den kommenden Jahren ___ insgesamt 30.000 Kräfte anwachsen.",
+    "opts": [
+     "auf",
+     "um",
+     "bis",
+     "über"
+    ],
+    "ans": 0,
+    "why": "固定搭配 auf ... anwachsen，表示“增长到”，介词 auf 后接目标数量，数字表达中的常见介词。"
+   },
+   {
+    "q": "Ein neues Koordinationszentrum für Abschiebungen ___ von Frontex eingerichtet.",
+    "opts": [
+     "wird",
+     "hat",
+     "ist",
+     "soll"
+    ],
+    "ans": 0,
+    "why": "被动句，助动词 werden 与第二分词 eingerichtet 构成现在时被动，表示“被设立”。"
+   },
+   {
+    "q": "Die von der EU-Kommission ___ Vorschläge müssen vom Europaparlament gebilligt werden.",
+    "opts": [
+     "vorgeschlagenen",
+     "vorschlagenden",
+     "vorgeschlagene",
+     "zu vorschlagen"
+    ],
+    "ans": 0,
+    "why": "分词定语：第二分词 vorgeschlagen 作形容词，与定冠词后的复数名词 Vorschläge 一致，采用弱变化词尾 -en。"
+   },
+   {
+    "q": "Die Kosten sollen sich auf rund zwölf Milliarden Euro ___; derzeit sind es sechs Milliarden.",
+    "opts": [
+     "steigen",
+     "belaufen",
+     "betragen",
+     "erhöhen"
+    ],
+    "ans": 1,
+    "why": "反身动词 sich belaufen auf 表示“总计为”，是数字表达中的固定结构；betragen 虽也表示总计，但不带 sich，且多用于官方统计。"
+   },
+   {
+    "q": "In dem Papier heißt es, Frontex werde das gesamte Spektrum des Rückkehrprozesses abdecken. Das Wort 'abdecken' bedeutet hier ___.",
+    "opts": [
+     "verdecken",
+     "umfassen",
+     "schützen",
+     "verbergen"
+    ],
+    "ans": 1,
+    "why": "abdecken 在此语境中意为“涵盖、包括”，与 umfassen 同义，表示覆盖全部范围。"
+   },
+   {
+    "q": "Die EU-Kommission will Frontex eine größere Rolle bei Abschiebungen ___ lassen.",
+    "opts": [
+     "spielen",
+     "machen",
+     "geben",
+     "nehmen"
+    ],
+    "ans": 0,
+    "why": "固定搭配 eine Rolle spielen，在 lassen 后接不带 zu 的不定式，故填动词原形 spielen。"
+   },
+   {
+    "q": "Die Suche nach einem Endlager ___ den hochradioaktiven Atommüll wird konkreter.",
+    "opts": [
+     "nach",
+     "für",
+     "über",
+     "um"
+    ],
+    "ans": 1,
+    "why": "Endlager für etw. 是固定介词搭配，表示“用于某物的最终储存库”，此处 für 后接 Atommüll。"
+   },
+   {
+    "q": "In Deutschland stellt Frontex speziell geschultes Personal für Abschiebeflüge ___.",
+    "opts": [
+     "zur Verfügung",
+     "zur Verteilung",
+     "zur Diskussion",
+     "zur Wahl"
+    ],
+    "ans": 0,
+    "why": "功能动词结构 zur Verfügung stellen，表示“提供、供……使用”，名词 Verfügung 固定大写。"
+   },
+   {
+    "q": "Das letzte Wort bei der Auswahl des Standortes hat der Bundestag. 'Das letzte Wort haben' bedeutet ___.",
+    "opts": [
+     "die Entscheidungsgewalt",
+     "das Schlusswort",
+     "die letzte Warnung",
+     "das letzte Gebet"
+    ],
+    "ans": 0,
+    "why": "习语 das letzte Wort haben 意为拥有最终决定权，选项 A 最准确地表达此义。"
+   },
+   {
+    "q": "Bis spätestens 2050 soll ein Lager für rund 27.000 Kubikmeter hochradioaktiven Atommüll gefunden werden, der in mehr als 60 Jahren Atomkraft ___ ist.",
+    "opts": [
+     "angefallen",
+     "gefallen",
+     "aufgefallen",
+     "abgefallen"
+    ],
+    "ans": 0,
+    "why": "anfallen 的第二分词 angefallen，表示“产生、积累”，此处指核废料在多年运行中产生。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die ständige Reserve soll auf insgesamt 30.000 Kräfte ___.",
+    "ans": "anwachsen",
+    "hint": "增长到",
+    "why": "固定搭配 auf ... anwachsen，介词 auf 后接目标数量，soll 后接动词原形。"
+   },
+   {
+    "q": "Die Vorschläge müssen noch vom Europaparlament und vom Rat ___ werden.",
+    "ans": "gebilligt",
+    "hint": "批准",
+    "why": "被动语态，动词 billigen 的第二分词 gebilligt，与 werden 构成被动。"
+   },
+   {
+    "q": "Frontex soll künftig eine größere Rolle bei Abschiebungen ___.",
+    "ans": "spielen",
+    "hint": "扮演角色，发挥作用",
+    "why": "固定搭配 eine Rolle spielen，Rolle 与 spielen 搭配，soll 后接动词原形。"
+   },
+   {
+    "q": "Die Bundesgesellschaft für Endlagerung hält die geologischen Bedingungen grundsätzlich für ___.",
+    "ans": "geeignet",
+    "hint": "合适的",
+    "why": "halten für + Adj. 是固定结构，表示“认为……是……的”，此处填形容词 geeignet。"
+   },
+   {
+    "q": "Die Suche nach einem Endlager ___ den hochradioaktiven Atommüll wird konkreter.",
+    "ans": "für",
+    "hint": "对于，用于",
+    "why": "介词 für 表示用途，Endlager für etw. 固定搭配，后接名词。"
+   },
+   {
+    "q": "Frontex stellt speziell geschultes Personal für Abschiebeflüge zur ___.",
+    "ans": "Verfügung",
+    "hint": "提供",
+    "why": "功能动词结构 zur Verfügung stellen，名词 Verfügung 固定大写，表示“提供”。"
+   }
+  ]
+ },
+ "issue": 45
+}
