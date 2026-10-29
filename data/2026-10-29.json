@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-29",
+ "theme": "Umwelt/Wissenschaft",
+ "coach": "当前最要紧的短板是错译和漏译严重，尤其对能源领域专业词汇和数字表达不熟，语法基础薄弱。今天德译汉材料聚焦事故因果链，训练你抓主干、不跳译；汉译德段落刻意埋入数字和被动结构，需逐字核对。建议先划出每句主谓宾，翻译后回译检查，并整理功能动词和介词搭配清单。",
+ "de2zh": {
+  "title": "Wie konnte es zu dem schweren Zugunglück kommen?",
+  "source": "Tagesschau",
+  "url": "https://www.tagesschau.de/ausland/europa/zugunglueck-spanien-144.html",
+  "text": "Ein Zug steht, ein weiterer fährt mit hoher Geschwindigkeit auf. Bei dem schweren Zugunglück in Spanien starben mindestens 68 Menschen. Es gibt erste Erkenntnisse zur Unglücksursache: Offenbar spielte menschliches Versagen eine Rolle.\nSpaniens Bahnnetz für Hochgeschwindigkeitszüge gilt als eines der modernsten der Welt. Dennoch hat sich zum zweiten Mal innerhalb eines Jahres ein schweres Bahnunglück ereignet. Mindestens 68 Menschen starben am Mittwochmorgen, als ein Zug auf einen weiteren stehenden auffuhr - offenbar mit hoher Geschwindigkeit. Spanische Medien berichten von mehr als 100 Kilometern pro Stunde.\nWährend die mehr als 100 Verletzten versorgt werden, hat die Suche nach den Ursachen begonnen. Klar ist, am Anfang der Tragödie stand ein technischer Defekt.\nErsten Erkenntnissen zufolge war in der Region Kastilien-La Mancha das automatische Sicherungssystem ausgefallen. Das computergesteuerte System reguliert, welche Züge auf der Fernstrecke Madrid-Sevilla stoppen oder abbremsen, wenn der Abstand zwischen zwei Zügen zu gering wird.\nDas automatische System fiel laut Verkehrsminister Óscar Puente um 8.30 Uhr aus. Daraufhin seien alle Züge auf dem 63 Kilometer langen Streckenabschnitt zum Stehen gekommen. Die Mitarbeitenden in der Leitstelle in Madrid übernahmen daraufhin die Kontrolle."
+ },
+ "zh2de": {
+  "title": "中国可再生能源发展取得新突破",
+  "text": "2025年，中国可再生能源发展势头强劲。截至12月底，全国风电、光伏发电装机容量达到1.2太瓦，同比增长18%。其中，全年新开工规模创历史新高，新增装机容量达到300吉瓦。此外，全国碳排放权交易市场活跃度明显提升，碳排放强度持续下降，为实现碳达峰碳中和目标奠定了坚实基础。这些成就被外界视为中国履行气候承诺的重要体现。通过大规模建设风光基地和推进智能电网改造，清洁能源消纳能力显著增强。展望未来，中国将继续推动能源结构优化，加快建设新型能源体系，为全球气候治理作出更大贡献。"
+ },
+ "drills": {
+  "mcq": [
+   {
+    "q": "Die installierte Leistung der Windkraft in China beträgt 19,4 ______ Kilowatt.",
+    "opts": [
+     "Million",
+     "Millionen",
+     "Million von",
+     "Millionen von"
+    ],
+    "ans": 1,
+    "why": "数字大于1时，Million 用复数形式 Millionen，且后面直接跟名词，不加 von。考点：数字与单位名词的搭配。"
+   },
+   {
+    "q": "Die ______ aus erneuerbaren Quellen hat sich in den letzten Jahren verdoppelt.",
+    "opts": [
+     "Energiegewinnung",
+     "Energie Gewinnung",
+     "Energie-gewinnung",
+     "Energiegewinnungs"
+    ],
+    "ans": 0,
+    "why": "德语复合词 Energiegewinnung 连写，表示能源生产。考点：复合名词构成，避免分写或加连字符。"
+   },
+   {
+    "q": "Die Investitionen in erneuerbare Energien haben im letzten Jahr einen neuen ______ erreicht.",
+    "opts": [
+     "Rekord",
+     "Höchststand",
+     "Spitze",
+     "Gipfel"
+    ],
+    "ans": 1,
+    "why": "固定搭配 einen Höchststand erreichen 表示创历史新高。考点：功能动词结构。"
+   },
+   {
+    "q": "Die Bundesregierung setzt ______ den Ausbau der erneuerbaren Energien.",
+    "opts": [
+     "auf",
+     "für",
+     "an",
+     "über"
+    ],
+    "ans": 0,
+    "why": "setzen auf + Akkusativ 表示信赖、指望。考点：介词搭配。"
+   },
+   {
+    "q": "Die neuen Maßnahmen ______ von der Regierung beschlossen.",
+    "opts": [
+     "werden",
+     "wurden",
+     "sind",
+     "haben"
+    ],
+    "ans": 1,
+    "why": "被动语态过去时，用 wurden + Partizip II。考点：被动语态时态。"
+   },
+   {
+    "q": "Das automatische Sicherungssystem ist gestern Morgen ______.",
+    "opts": [
+     "ausgefallen",
+     "ausfiel",
+     "ausfallend",
+     "ausgefallt"
+    ],
+    "ans": 0,
+    "why": "ausfallen 的过去分词 ausgefallen，表示发生故障。考点：不规则动词分词。"
+   },
+   {
+    "q": "Offenbar spielte ______ eine Rolle bei dem Unfall.",
+    "opts": [
+     "menschliches Versagen",
+     "menschliche Fehler",
+     "menschliche Schuld",
+     "menschliches Versäumnis"
+    ],
+    "ans": 0,
+    "why": "menschliches Versagen 是固定表达，表示人为失误。考点：同义词辨析，固定搭配。"
+   },
+   {
+    "q": "Bei Nebel müssen Züge ______ Sicht fahren.",
+    "opts": [
+     "auf",
+     "mit",
+     "nach",
+     "in"
+    ],
+    "ans": 0,
+    "why": "auf Sicht fahren 是铁路术语，表示目视行车。考点：介词固定搭配。"
+   },
+   {
+    "q": "Die Mitarbeitenden in der Leitstelle ______ die Kontrolle.",
+    "opts": [
+     "übernahmen",
+     "nahmen",
+     "holten",
+     "brachten"
+    ],
+    "ans": 0,
+    "why": "die Kontrolle übernehmen 是功能动词结构，表示接管控制。考点：功能动词。"
+   },
+   {
+    "q": "Der Zug, ______ auf den stehenden Zug auffuhr, war mit hoher Geschwindigkeit unterwegs.",
+    "opts": [
+     "der",
+     "den",
+     "dem",
+     "die"
+    ],
+    "ans": 0,
+    "why": "关系代词 der 指代阳性名词 Zug，在从句中作主语。考点：关系从句。"
+   }
+  ],
+  "colloc": [
+   {
+    "q": "Die Integration erneuerbarer Energien ______ das Stromnetz ist eine große Herausforderung.",
+    "ans": "in",
+    "hint": "并入",
+    "why": "Integration in + Akkusativ，表示融入、并入。"
+   },
+   {
+    "q": "Die Anlage hat eine ______ von 19,4 Millionen Kilowatt.",
+    "ans": "Leistung",
+    "hint": "功率",
+    "why": "eine Leistung von + 数字，表示功率为...。"
+   },
+   {
+    "q": "Nach dem Stromausfall kamen alle Züge ______ Stehen.",
+    "ans": "zum",
+    "hint": "停下",
+    "why": "zum Stehen kommen 是功能动词结构，表示停止。"
+   },
+   {
+    "q": "Der Mitarbeiter gab die ______ zur Weiterfahrt.",
+    "ans": "Freigabe",
+    "hint": "放行许可",
+    "why": "die Freigabe geben 表示给予放行许可。"
+   },
+   {
+    "q": "Die beiden Züge befanden sich ______ demselben Gleis.",
+    "ans": "auf",
+    "hint": "在...上",
+    "why": "auf demselben Gleis 表示在同一轨道上。"
+   },
+   {
+    "q": "China will einen größeren ______ zum globalen Klimaschutz leisten.",
+    "ans": "Beitrag",
+    "hint": "贡献",
+    "why": "einen Beitrag leisten 是固定搭配，表示做出贡献。"
+   }
+  ]
+ },
+ "issue": 46
+}
